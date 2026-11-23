@@ -194,3 +194,14 @@ def test_discover_lever_validation():
     from collector.discover import _looks_like
     assert _looks_like("Blue Owl Capital", "Blue Owl Capital is an asset management firm... trading, portfolio, markets")
     assert not _looks_like("Blue Owl Capital", "Blue is a design studio hiring designers")
+
+
+def test_trading_associate_experience():
+    keep = classify({"title": "Equity Trading Associate", "location": "New York, NY", "company": "x",
+                     "description": "3+ years of relevant experience on a trading desk"})
+    assert keep["keep"] and "asks-3yrs" in keep["flags"]
+    drop = classify({"title": "Equity Research Associate", "location": "New York, NY", "company": "x",
+                     "description": "3+ years of relevant experience"})
+    assert not drop["keep"]
+    ib = classify({"title": "Investment Banking Analyst, Capital Markets", "location": "New York, NY", "company": "x", "description": ""})
+    assert ib["keep"]

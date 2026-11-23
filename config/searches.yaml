@@ -31,6 +31,15 @@ terms:
   - "new analyst program 2027"
   - "graduate trader"
   - "junior trader"
+  - "equity trading associate"
+  - "sales trading associate"
+  - "equity trading assistant"
+  # Priority 1 - investment banking / capital markets (moved up 2026-11-23)
+  - "investment banking analyst"
+  - "capital markets analyst"
+  - "equity capital markets analyst"
+  - "debt capital markets analyst"
+  - "leveraged finance analyst"
   # Priority 2
   - "derivatives analyst"
   - "options trader entry level"
@@ -46,6 +55,8 @@ terms:
 
 trading_terms:
   - "trading analyst"
+  - "equity trading associate"
+  - "investment banking analyst"
   - "sales and trading analyst"
   - "trading assistant"
   - "junior trader"

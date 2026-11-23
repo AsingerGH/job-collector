@@ -118,8 +118,12 @@ def classify(job: dict) -> dict:
     y = min_years(desc)
     if y is not None:
         out["min_years"] = y
-        if y >= 3 and not is_intern:
+        trading_assoc = bool(re.search(r"(trad\w*|sales[- ]trad\w*|desk).*(associate|assistant)|(associate|assistant).*(trad\w*|desk)", title, re.I))
+        limit = 4 if trading_assoc else 3     # equity trading associate/assistant roles may ask up to 3 years
+        if y >= limit and not is_intern:
             return {**out, "keep": False, "reason": "experience"}
+        if y == 3:
+            out["flags"].append("asks-3yrs")
         if y == 2:
             out["flags"].append("asks-2yrs")
     if re.search(r"\bassociate\b", title, re.I):
