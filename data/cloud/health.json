@@ -1,55 +1,42 @@
 {
  "runner": "cloud",
- "run_at": "2026-11-23T21:55:44.065682+00:00",
- "minutes": 13.6,
- "raw": 1754,
- "kept": 458,
- "live": 184,
- "new_today": 184,
+ "run_at": "2026-11-23T23:10:59.198800+00:00",
+ "minutes": 7.6,
+ "raw": 2352,
+ "kept": 221,
+ "live": 190,
+ "new_today": 190,
  "filter_reasons": {
-  "experience": 21,
-  "ok": 458,
-  "seniority": 229,
-  "location": 329,
-  "function": 663,
-  "internship-wrong-year": 54
+  "location": 1170,
+  "function": 736,
+  "experience": 27,
+  "ok": 221,
+  "seniority": 184,
+  "internship-wrong-year": 14
  },
  "boards": {
   "indeed": {
    "ok": 41,
    "errors": 0,
    "rows": 227,
-   "last_error": ""
-  },
-  "google": {
-   "ok": 0,
-   "errors": 41,
-   "rows": 0,
-   "last_error": "no job data returned"
-  },
-  "zip_recruiter": {
-   "ok": 0,
-   "errors": 41,
-   "rows": 0,
-   "last_error": "response status code 403 (blocked: use a proxy)"
-  },
-  "glassdoor": {
-   "ok": 0,
-   "errors": 41,
-   "rows": 0,
-   "last_error": "response status code 403 (blocked: use a proxy)"
+   "last_error": "",
+   "skipped": 0
   },
   "linkedin": {
-   "ok": 31,
-   "errors": 10,
-   "rows": 978,
-   "last_error": "response status code 429 (blocked: use a proxy)"
+   "ok": 8,
+   "errors": 5,
+   "rows": 240,
+   "last_error": "response status code 429 (blocked: use a proxy)",
+   "skipped": 28
   }
  },
- "ats_ok": 9,
+ "ats_ok": 28,
  "ats_failed": {
   "M&T Bank": "POST https://mtb.wd5.myworkdayjobs.com/wday/cxs/mtb/Campus/jobs failed: HTTP 429 for https://mtb.wd5.myworkdayjobs.com/wday/cxs/mtb/Campus/jobs",
-  "Federal Reserve Bank of New York": "POST https://rb.wd5.myworkdayjobs.com/wday/cxs/rb/FRS/jobs failed: HTTP 429 for https://rb.wd5.myworkdayjobs.com/wday/cxs/rb/FRS/jobs",
-  "PJT Partners": "POST https://pjtpartners.wd1.myworkdayjobs.com/wday/cxs/pjtpartners/Students/jobs failed: HTTP 429 for https://pjtpartners.wd1.myworkdayjobs.com/wday/cxs/pjtpartners/Students/jobs"
+  "Northern Trust": "POST https://ntrs.wd1.myworkdayjobs.com/wday/cxs/ntrs/northerntrust/jobs failed: HTTP 429 for https://ntrs.wd1.myworkdayjobs.com/wday/cxs/ntrs/northerntrust/jobs",
+  "PJT Partners": "POST https://pjtpartners.wd1.myworkdayjobs.com/wday/cxs/pjtpartners/Students/jobs failed: HTTP 429 for https://pjtpartners.wd1.myworkdayjobs.com/wday/cxs/pjtpartners/Students/jobs",
+  "Nasdaq": "POST https://nasdaq.wd1.myworkdayjobs.com/wday/cxs/nasdaq/Global_External_Site/jobs failed: HTTP 429 for https://nasdaq.wd1.myworkdayjobs.com/wday/cxs/nasdaq/Global_External_Site/jobs",
+  "BBVA": "POST https://bbva.wd3.myworkdayjobs.com/wday/cxs/bbva/bbva/jobs failed: HTTP 429 for https://bbva.wd3.myworkdayjobs.com/wday/cxs/bbva/bbva/jobs",
+  "Federal Reserve Bank of New York": "POST https://rb.wd5.myworkdayjobs.com/wday/cxs/rb/FRS/jobs failed: HTTP 429 for https://rb.wd5.myworkdayjobs.com/wday/cxs/rb/FRS/jobs"
  }
 }
