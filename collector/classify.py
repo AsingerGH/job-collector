@@ -37,6 +37,20 @@ IRRELEVANT_TITLE = re.compile(
     r"insurance|claims|nurse|driver|warehouse|retail|financial advisor|wealth advisor|"
     r"product manager|project manager|business analyst|\bqa\b|\btest)", re.I)
 
+# never relevant, even if the title also says "trading" (e.g. "Electronic Trading Engineer")
+HARD_EXCLUDE = re.compile(
+    r"(engineer|developer|research scientist|researcher|ph\.?d|\bqr\b|data analyst|data scien|"
+    r"procurement|investor relations|corporate access|instructor|surveillance|system support|"
+    r"consult|\bmba\b|post-?training|"
+    r"sales (associate|assistant|coordinator|support|representative)|inside sales|ad sales|"
+    r"entry level sales|seasonal|part-?time|store|beauty|retail|representative|market development|"
+    r"\bremote\b|expert|\bevp\b|merchandis|architect|product owner|business intelligence|\bbi\b|"
+    r"compensation analyst|sponsorship|tickets|people,? engagement|\btemp\b|marketing|healthcare|clinical)", re.I)
+IB_ASSOCIATE = re.compile(r"(investment bank\w*.*\bassociate\b|\bassociate\b.*investment bank)", re.I)
+RECRUITER = re.compile(r"(robert half|selby jennings|mission staffing|alexander chapman|atlantic group|"
+                       r"career launch|initio capital|hunter bond|oxford knight|harrington starr|"
+                       r"stack\s?search|beacon hill|kforce|aston carter|turing|afterquery)", re.I)
+
 # phrases that override an IRRELEVANT_TITLE hit (e.g. "Trading Assistant")
 KEEP_ANYWAY = re.compile(r"(trading assistant|sales trader|trading analyst|electronic trading|"
                          r"execution services|sales & trading|sales and trading)", re.I)
@@ -79,6 +93,10 @@ def classify(job: dict) -> dict:
     is_intern = bool(INTERN.search(text) or re.search(r"\bintern", commitment, re.I))
     out["track"] = "internship" if is_intern else "fulltime"
 
+    if HARD_EXCLUDE.search(title) or IB_ASSOCIATE.search(title):
+        return {**out, "keep": False, "reason": "function"}
+    if RECRUITER.search(job.get("company", "") or ""):
+        out["flags"].append("recruiter-or-gig-posting")
     if IRRELEVANT_TITLE.search(title) and not KEEP_ANYWAY.search(title):
         return {**out, "keep": False, "reason": "function"}
     if not RELEVANT.search(title) and not RELEVANT.search(desc[:1500]):

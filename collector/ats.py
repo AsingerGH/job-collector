@@ -15,7 +15,7 @@ from typing import Callable
 
 from .util import get_json, parse_date, post_json, strip_html
 
-WORKDAY_TERMS = ["analyst", "trading", "trader", "markets", "sales", "graduate", "intern", "program"]
+WORKDAY_TERMS = ["analyst", "trading", "markets", "sales", "intern"]
 
 
 # ---------------------------------------------------------------- Greenhouse
@@ -124,9 +124,9 @@ def workday(c: dict) -> list[dict]:
     seen: dict[str, dict] = {}
     terms = c.get("terms") or WORKDAY_TERMS
     for term in terms:
-        for page in range(int(c.get("max_pages", 4))):
+        for page in range(int(c.get("max_pages", 3))):
             data = post_json(f"{base}/jobs", {"appliedFacets": {}, "limit": 20,
-                                               "offset": page * 20, "searchText": term})
+                                               "offset": page * 20, "searchText": term}, retries=4)
             posts = data.get("jobPostings") or []
             for j in posts:
                 path = j.get("externalPath")
@@ -146,12 +146,14 @@ def workday(c: dict) -> list[dict]:
                 }
             if len(posts) < 20:
                 break
-            time.sleep(0.3)
+            time.sleep(1.0)
+        time.sleep(1.0)
     return list(seen.values())
 
 
 def workday_detail(job: dict) -> str:
-    d = get_json(job["_detail"]).get("jobPostingInfo") or {}
+    time.sleep(0.5)
+    d = get_json(job["_detail"], retries=4).get("jobPostingInfo") or {}
     extra = []
     if d.get("location"):
         job["location"] = "; ".join([d["location"]] + list(d.get("additionalLocations") or []))

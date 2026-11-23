@@ -221,6 +221,12 @@ def main(argv=None) -> int:
     state = json.loads(state_p.read_text()) if state_p.exists() else {}
     run_day = today()
     started = datetime.now(timezone.utc)
+    # re-screen what's already stored, so filter improvements also clean up earlier runs
+    for k in [k for k, r in state.get("jobs", {}).items() if r.get("status") == "live"
+              and not classify({"title": r["title"], "location": r.get("location", ""),
+                                "description": r.get("description", ""), "company": r["company"],
+                                "job_type": "internship" if r.get("track") == "internship" else ""})["keep"]]:
+        del state["jobs"][k]
 
     raw: list[dict] = []
     ats_health, board_health = {}, {}

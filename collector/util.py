@@ -42,7 +42,8 @@ def _request(method, url, *, retries=2, **kw):
             r = session().request(method, url, **kw)
             if r.status_code == 429 or r.status_code >= 500:
                 last = RuntimeError(f"HTTP {r.status_code} for {url}")
-                time.sleep(2 * (attempt + 1))
+                wait = r.headers.get("Retry-After")
+                time.sleep(min(60, int(wait)) if wait and wait.isdigit() else (8 * (attempt + 1) if r.status_code == 429 else 2 * (attempt + 1)))
                 continue
             r.raise_for_status()
             return r.json()

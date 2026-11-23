@@ -165,3 +165,32 @@ def test_boards_wrapper(monkeypatch):
     assert rows[0]["location"] == "New York, NY" and rows[0]["date_posted"] == "2026-11-22"
     assert rows[0]["salary"].startswith("100,000-120,000") and health["linkedin"]["ok"] == 1
     assert classify(rows[0])["keep"]
+
+
+@pytest.mark.parametrize("title,company,keep", [
+    ("Sales Associate - Spirit", "Spirit Halloween", False),
+    ("Client Sales Assistant - Wealth Management", "Fincadia", False),
+    ("Electronic Trading Engineer", "Virtu Financial", False),
+    ("Quantitative Researcher - Delta One", "DRW", False),
+    ("PhD Graduate Quantitative Researcher", "Flow Traders", False),
+    ("Investment Banking Associate - Tech & Services", "Baird", False),
+    ("2027 Investment Banking Full-Time MBA Associate", "William Blair", False),
+    ("Remote Financial Trading Specialist", "Turing", False),
+    ("Field Execution Representative", "CELSIUS", False),
+    ("Quantitative Trader - Entry Level 2027", "Belvedere Trading", True),
+    ("Floor Trader- SOFR", "Akuna Capital", True),
+    ("Repo Trading Analyst", "BBVA", True),
+    ("Trading Assistant", "Robert Half", True),
+])
+def test_tightened_filter(title, company, keep):
+    loc = "Chicago, IL" if company in ("Belvedere Trading", "Akuna Capital") else "New York, NY"
+    c = classify({"title": title, "company": company, "location": loc, "description": ""})
+    assert c["keep"] is keep, c
+    if company == "Robert Half":
+        assert "recruiter-or-gig-posting" in c["flags"]
+
+
+def test_discover_lever_validation():
+    from collector.discover import _looks_like
+    assert _looks_like("Blue Owl Capital", "Blue Owl Capital is an asset management firm... trading, portfolio, markets")
+    assert not _looks_like("Blue Owl Capital", "Blue is a design studio hiring designers")

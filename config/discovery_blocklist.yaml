@@ -1,0 +1,13 @@
+# Firms discovery must never auto-add (wrong-company matches, retail, staffing/gig sites).
+# Watchlist firms listed here are only blocked from AUTOMATIC feed guesses; add a correct feed
+# by hand in build_companies.py if you find one.
+- Apollo
+- Blue Owl Capital
+- Eagle Seven
+- Maven Securities
+- Suitsupply
+- SPACE 519
+- Turing
+- Robert Half
+- Charles River Associates
+- D.A. Davidson Companies

@@ -22,6 +22,7 @@ from pathlib import Path
 import yaml
 
 from . import ats
+from .classify import RECRUITER
 from .collect import ROOT, load_yaml
 from .util import norm_company, session
 
@@ -54,6 +55,16 @@ def slugs(name: str) -> list[str]:
     return out
 
 
+FINANCE = re.compile(r"\b(trading|trader|investment|securities|hedge fund|asset management|capital markets|"
+                     r"portfolio|markets|bank|brokerage|derivatives|fixed income|equities)\b", re.I)
+
+
+def _looks_like(company: str, text: str) -> bool:
+    """Postings must mention the firm's full name and read like a finance employer."""
+    name = norm_company(company)
+    return bool(name) and name in norm_company(text) and len(FINANCE.findall(text)) >= 3
+
+
 def _name_ok(board_name: str, company: str) -> bool:
     a, b = set(norm_company(board_name).split()), set(norm_company(company).split())
     return bool(a & b)
@@ -67,10 +78,15 @@ def try_spec(spec: dict, company: str) -> int:
             meta = _quick("GET", f"https://{host}/v1/boards/{spec['token']}")
             if not _name_ok(meta.get("name", ""), company):
                 return 0
-        if spec["ats"] == "lever":
-            return len(_quick("GET", f"https://api.lever.co/v0/postings/{spec['token']}?mode=json&limit=5"))
-        if spec["ats"] == "ashby":
-            return len(_quick("GET", f"https://api.ashbyhq.com/posting-api/job-board/{spec['token']}").get("jobs", []))
+        if spec["ats"] in ("lever", "ashby"):
+            # these APIs don't return the board owner's name, so check the postings themselves
+            if spec["ats"] == "lever":
+                posts = _quick("GET", f"https://api.lever.co/v0/postings/{spec['token']}?mode=json&limit=8")
+                text = " ".join((p.get("descriptionPlain") or "") + " " + (p.get("additionalPlain") or "") for p in posts)
+            else:
+                posts = _quick("GET", f"https://api.ashbyhq.com/posting-api/job-board/{spec['token']}").get("jobs", [])[:8]
+                text = " ".join(p.get("descriptionPlain") or "" for p in posts)
+            return len(posts) if _looks_like(company, text) else 0
         if spec["ats"] == "workday":
             t, dc, site = spec["tenant"], spec["dc"], spec["site"]
             d = _quick("POST", f"https://{t}.{dc}.myworkdayjobs.com/wday/cxs/{t}/{site}/jobs",
@@ -133,9 +149,12 @@ def main(argv=None):
     args = ap.parse_args(argv)
 
     companies = load_yaml(ROOT / "config/companies.yaml") or []
+    blocked = {norm_company(n) for n in (load_yaml(ROOT / "config/discovery_blocklist.yaml") or [])}
     disc_p = ROOT / "config/discovered.yaml"
     discovered = {d["name"]: d for d in (load_yaml(disc_p) or [])}
+    discovered = {n: d for n, d in discovered.items() if norm_company(n) not in blocked}
     todo = [c for c in companies if c.get("ats") == "unknown" and not c.get("exclude")
+            and norm_company(c["name"]) not in blocked
             and c["name"] not in discovered and (not args.name or c["name"] in args.name)]
 
     if args.add_unmatched:
@@ -144,7 +163,8 @@ def main(argv=None):
             p = ROOT / "data" / runner / "unmatched_companies.json"
             if p.exists():
                 for n, cnt in json.loads(p.read_text()).items():
-                    if cnt >= args.min_unmatched and norm_company(n) not in known:
+                    if (cnt >= args.min_unmatched and norm_company(n) not in known
+                            and norm_company(n) not in blocked and not RECRUITER.search(n)):
                         todo.append({"name": n, "tier": 2, "segment": "auto-discovered", "ats": "unknown"})
                         known.add(norm_company(n))
 

@@ -57,7 +57,7 @@ trading_terms:
 runners:
   cloud:                       # GitHub Actions (datacenter IP)
     ats: true
-    sites: ["indeed", "google", "zip_recruiter", "glassdoor", "linkedin"]
+    sites: ["indeed", "linkedin"]   # google / zip_recruiter / glassdoor block GitHub's servers (tested 2026-11-23)
     results_per_search: 30
     linkedin_descriptions: false   # keep LinkedIn traffic light from the cloud
     sleep_between: 2
@@ -68,5 +68,5 @@ runners:
     hours_old: 48               # runs twice a day, so 2 days of overlap is plenty
     results_per_search: 25
     linkedin_descriptions: false   # opening every LinkedIn page took hours; the daily review opens only the promising ones
-    sleep_between: 4
-    sleep_after_error: 45
+    sleep_between: 7               # LinkedIn started refusing (429) after ~28 searches at 4s spacing
+    sleep_after_error: 60

@@ -14,13 +14,17 @@ def search_boards(cfg: dict, runner: dict, log) -> tuple[list[dict], dict]:
     sites = runner.get("sites", ["indeed"])
     hours_old = int(runner.get("hours_old", cfg.get("hours_old", 72)))
     per = int(runner.get("results_per_search", 40))
-    health: dict[str, dict] = {s: {"ok": 0, "errors": 0, "rows": 0, "last_error": ""} for s in sites}
+    health: dict[str, dict] = {s: {"ok": 0, "errors": 0, "rows": 0, "last_error": "", "skipped": 0} for s in sites}
+    streak = {s: 0 for s in sites}   # consecutive blocks; after 3 we stop hitting that site this run
     rows: list[dict] = []
 
     for loc in cfg["locations"]:
         terms = cfg["terms"] if loc.get("all_terms", True) else cfg.get("trading_terms", cfg["terms"])
         for term in terms:
             for site in sites:
+                if streak[site] >= 3:
+                    health[site]["skipped"] += 1
+                    continue
                 try:
                     df = scrape_jobs(
                         site_name=[site],
@@ -38,6 +42,7 @@ def search_boards(cfg: dict, runner: dict, log) -> tuple[list[dict], dict]:
                 except Exception as e:  # one bad site/term must not kill the run
                     health[site]["errors"] += 1
                     health[site]["last_error"] = str(e)[:300]
+                    streak[site] += 1
                     log(f"  ! {site} '{term}' @ {loc['name']}: {e}")
                     time.sleep(runner.get("sleep_after_error", 20))
                     continue
@@ -45,9 +50,14 @@ def search_boards(cfg: dict, runner: dict, log) -> tuple[list[dict], dict]:
                 if errs:
                     health[site]["errors"] += 1
                     health[site]["last_error"] = str(errs.get(site, errs))[:300]
+                    streak[site] += 1
                     log(f"  ! {site} '{term}' @ {loc['name']}: {health[site]['last_error']}")
-                else:
-                    health[site]["ok"] += 1
+                    if streak[site] >= 3:
+                        log(f"  ! {site}: blocked 3 times in a row, skipping it for the rest of this run")
+                    time.sleep(runner.get("sleep_after_error", 20))
+                    continue
+                streak[site] = 0
+                health[site]["ok"] += 1
                 n = 0
                 for r in df.to_dict("records") if df is not None else []:
                     url = r.get("job_url_direct") or r.get("job_url") or ""
