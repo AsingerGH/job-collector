@@ -17,7 +17,7 @@ permissions:
 
 concurrency:
   group: collect
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   collect:
@@ -31,13 +31,17 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - run: python -m pytest -q
-      - name: Discover company job feeds
-        if: github.event.schedule == '41 8 * * 0' || inputs.discover
-        run: python -m collector.discover --add-unmatched
       - name: Collect
         if: github.event.schedule != '41 8 * * 0'
+        timeout-minutes: 40
         run: python -m collector.collect --runner cloud
+      - name: Discover company job feeds
+        if: github.event.schedule == '41 8 * * 0' || inputs.discover
+        timeout-minutes: 25
+        continue-on-error: true
+        run: python -m collector.discover --add-unmatched --budget-min 20
       - name: Commit results
+        if: always()
         run: |
           git config user.name "job-collector-bot"
           git config user.email "actions@users.noreply.github.com"

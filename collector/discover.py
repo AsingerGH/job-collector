@@ -15,17 +15,27 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 import yaml
 
 from . import ats
 from .collect import ROOT, load_yaml
-from .util import get_json, norm_company, post_json
+from .util import norm_company, session
 
-DCS = ["wd1", "wd5", "wd3", "wd12", "wd10", "wd2", "wd103", "wd501"]
-WD_SITES = ["External", "Careers", "External_Careers", "ExternalCareers", "careers", "Campus",
-            "{T}", "{T}Careers", "{T}_Careers", "{T}_External", "Global", "jobs", "Students"]
+# Kept deliberately small: every probe is a network round-trip, and the run has a time budget.
+DCS = ["wd1", "wd5", "wd3", "wd12"]
+WD_SITES = ["External", "Careers", "{T}", "{T}Careers", "External_Careers", "Campus"]
+
+
+def _quick(method, url, **kw):
+    """One fast attempt, no retries/sleeps: probes are expected to fail most of the time."""
+    r = session().request(method, url, timeout=6, **kw)
+    if r.status_code != 200:
+        raise RuntimeError(r.status_code)
+    return r.json()
 
 
 def slugs(name: str) -> list[str]:
@@ -54,11 +64,20 @@ def try_spec(spec: dict, company: str) -> int:
     try:
         if spec["ats"] == "greenhouse":
             host = "boards-api.eu.greenhouse.io" if spec.get("region") == "eu" else "boards-api.greenhouse.io"
-            meta = get_json(f"https://{host}/v1/boards/{spec['token']}", retries=0)
+            meta = _quick("GET", f"https://{host}/v1/boards/{spec['token']}")
             if not _name_ok(meta.get("name", ""), company):
                 return 0
+        if spec["ats"] == "lever":
+            return len(_quick("GET", f"https://api.lever.co/v0/postings/{spec['token']}?mode=json&limit=5"))
+        if spec["ats"] == "ashby":
+            return len(_quick("GET", f"https://api.ashbyhq.com/posting-api/job-board/{spec['token']}").get("jobs", []))
+        if spec["ats"] == "workday":
+            t, dc, site = spec["tenant"], spec["dc"], spec["site"]
+            d = _quick("POST", f"https://{t}.{dc}.myworkdayjobs.com/wday/cxs/{t}/{site}/jobs",
+                       json={"appliedFacets": {}, "limit": 1, "offset": 0, "searchText": ""})
+            return 1 if "jobPostings" in d else 0
         jobs = ats.FETCHERS[spec["ats"]]({"name": company, **spec, "max_pages": 1, "terms": ["analyst"]})
-        return len(jobs) or (1 if spec["ats"] == "workday" else 0)  # a valid empty Workday search still proves the site
+        return len(jobs)
     except Exception:
         return 0
 
@@ -68,9 +87,11 @@ def probe_workday(tenant: str) -> dict | None:
         for s in WD_SITES:
             site = s.replace("{T}", tenant)
             try:
-                d = post_json(f"https://{tenant}.{dc}.myworkdayjobs.com/wday/cxs/{tenant}/{site}/jobs",
-                              {"appliedFacets": {}, "limit": 1, "offset": 0, "searchText": ""}, retries=0, timeout=10)
-            except Exception:
+                d = _quick("POST", f"https://{tenant}.{dc}.myworkdayjobs.com/wday/cxs/{tenant}/{site}/jobs",
+                           json={"appliedFacets": {}, "limit": 1, "offset": 0, "searchText": ""})
+            except Exception as e:
+                if "NameResolution" in str(e) or "getaddrinfo" in str(e):
+                    break  # tenant doesn't exist on this dc at all; skip its other site names
                 continue
             if isinstance(d, dict) and "jobPostings" in d:
                 return {"ats": "workday", "tenant": tenant, "dc": dc, "site": site}
@@ -96,7 +117,7 @@ def discover(company: dict) -> dict | None:
             spec = {"ats": "greenhouse", "token": slug, "region": "eu"}
             if try_spec(spec, name):
                 return spec
-    for slug in slugs(name)[:3]:
+    for slug in slugs(name)[:1]:
         found = probe_workday(slug)
         if found:
             return found
@@ -108,6 +129,7 @@ def main(argv=None):
     ap.add_argument("--name", nargs="*")
     ap.add_argument("--add-unmatched", action="store_true")
     ap.add_argument("--min-unmatched", type=int, default=2)
+    ap.add_argument("--budget-min", type=float, default=20, help="stop after this many minutes; the rest resume next run")
     args = ap.parse_args(argv)
 
     companies = load_yaml(ROOT / "config/companies.yaml") or []
@@ -126,16 +148,29 @@ def main(argv=None):
                         todo.append({"name": n, "tier": 2, "segment": "auto-discovered", "ats": "unknown"})
                         known.add(norm_company(n))
 
-    print(f"Probing {len(todo)} companies")
-    misses = []
-    for c in todo:
-        spec = discover(c)
-        if spec:
-            discovered[c["name"]] = {"name": c["name"], **spec, **({"auto": True} if c.get("segment") == "auto-discovered" else {})}
-            print(f"  + {c['name']}: {spec}")
-        else:
-            misses.append(c["name"])
-            print(f"  - {c['name']}: no public feed found")
+    # tier 1 first, so the companies that matter most are probed before the budget runs out
+    todo.sort(key=lambda c: c.get("tier", 2))
+    print(f"Probing {len(todo)} companies (budget {args.budget_min} min)", flush=True)
+    misses, deadline = [], time.time() + args.budget_min * 60
+    with ThreadPoolExecutor(max_workers=12) as ex:
+        futs = {ex.submit(discover, c): c for c in todo}
+        for f in as_completed(futs):
+            c = futs[f]
+            try:
+                spec = f.result(timeout=max(1, deadline - time.time()))
+            except Exception:
+                spec = None
+            if spec:
+                discovered[c["name"]] = {"name": c["name"], **spec, **({"auto": True} if c.get("segment") == "auto-discovered" else {})}
+                print(f"  + {c['name']}: {spec}", flush=True)
+            else:
+                misses.append(c["name"])
+                print(f"  - {c['name']}: no public feed found", flush=True)
+            if time.time() > deadline:
+                print("Time budget reached; remaining companies will be probed next run.", flush=True)
+                for g in futs:
+                    g.cancel()
+                break
     disc_p.write_text(yaml.safe_dump(sorted(discovered.values(), key=lambda d: d["name"]), sort_keys=False, allow_unicode=True))
     (ROOT / "data" / "discovery_misses.json").write_text(json.dumps(misses, indent=1))
     print(f"Found {len(todo) - len(misses)}/{len(todo)}. Misses are covered by job boards + email alerts.")

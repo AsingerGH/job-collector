@@ -64,8 +64,9 @@ runners:
     sleep_after_error: 15
   laptop:                      # Andrew's Windows laptop (home IP, LinkedIn is happier here)
     ats: false                 # cloud already covers company job systems
-    sites: ["linkedin", "indeed"]
-    results_per_search: 50
-    linkedin_descriptions: true
-    sleep_between: 6
-    sleep_after_error: 60
+    sites: ["linkedin"]        # Indeed works fine from the cloud
+    hours_old: 48               # runs twice a day, so 2 days of overlap is plenty
+    results_per_search: 25
+    linkedin_descriptions: false   # opening every LinkedIn page took hours; the daily review opens only the promising ones
+    sleep_between: 4
+    sleep_after_error: 45
