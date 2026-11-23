@@ -209,10 +209,16 @@ def main(argv=None) -> int:
     ap.add_argument("--skip-boards", action="store_true")
     ap.add_argument("--skip-ats", action="store_true")
     ap.add_argument("--only", nargs="*", help="limit ATS pass to these company names")
+    ap.add_argument("--hours-old", type=int, default=0, help="one-off override of the job-board look-back window (e.g. 720 = 30 days)")
+    ap.add_argument("--results", type=int, default=0, help="one-off override of results per board search")
     args = ap.parse_args(argv)
 
     cfg = load_yaml(ROOT / "config/searches.yaml")
-    runner = cfg["runners"][args.runner]
+    runner = dict(cfg["runners"][args.runner])
+    if args.hours_old:
+        runner["hours_old"] = args.hours_old
+    if args.results:
+        runner["results_per_search"] = args.results
     companies = load_companies()
     cidx = company_index(companies)
     out_dir = ROOT / "data" / args.runner
