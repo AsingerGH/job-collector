@@ -62,7 +62,7 @@ runners:
     linkedin_descriptions: false   # keep LinkedIn traffic light from the cloud
     sleep_between: 2
     sleep_after_error: 15
-  mac:                         # Andrew's Mac (home IP, LinkedIn is happier here)
+  laptop:                      # Andrew's Windows laptop (home IP, LinkedIn is happier here)
     ats: false                 # cloud already covers company job systems
     sites: ["linkedin", "indeed"]
     results_per_search: 50

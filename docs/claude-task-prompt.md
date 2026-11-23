@@ -10,8 +10,8 @@ STATE: tracker https://claude.ai/artifact/MC378gukrN8XCMm6WMPU9m and its databas
 
 STEP 1 — Pull collector output
 - `git clone --depth 1 https://github.com/<OWNER>/job-collector.git /tmp/jc`
-- Read /tmp/jc/data/cloud/health.json and /tmp/jc/data/mac/health.json. If cloud run_at is more than 30 hours old, or ats_ok fell by more than a third against the companies with a known feed, add one warning line to the final message ("Collector issue: …").
-- Load data/cloud/jobs.json + data/mac/jobs.json (merge on `id`) and data/*/closed.json.
+- Read /tmp/jc/data/cloud/health.json and /tmp/jc/data/laptop/health.json. If cloud run_at is more than 30 hours old, or ats_ok fell by more than a third against the companies with a known feed, add one warning line to the final message ("Collector issue: …").
+- Load data/cloud/jobs.json + data/laptop/jobs.json (merge on `id`) and data/*/closed.json.
 
 STEP 2 — Pull email alerts
 - Gmail search `label:job-alerts newer_than:2d`. Extract each posting (company, title, location, link) from Handshake, LinkedIn, eFinancialCareers and Indeed alert emails. Drop anything already in the collector output (same company + similar title) or already in the tracker.

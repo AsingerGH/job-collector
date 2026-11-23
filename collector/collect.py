@@ -1,7 +1,7 @@
 """Main entry point.
 
   python -m collector.collect --runner cloud      # GitHub Actions
-  python -m collector.collect --runner mac        # Andrew's Mac (LinkedIn-heavy)
+  python -m collector.collect --runner laptop     # Andrew's Windows laptop (LinkedIn-heavy)
   python -m collector.collect --runner cloud --skip-boards --only "Point72"
 
 Writes to data/<runner>/:

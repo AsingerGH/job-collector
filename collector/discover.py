@@ -118,7 +118,7 @@ def main(argv=None):
 
     if args.add_unmatched:
         known = {norm_company(c["name"]) for c in companies}
-        for runner in ("cloud", "mac"):
+        for runner in ("cloud", "laptop"):
             p = ROOT / "data" / runner / "unmatched_companies.json"
             if p.exists():
                 for n, cnt in json.loads(p.read_text()).items():

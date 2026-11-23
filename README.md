@@ -21,13 +21,22 @@ The daily Claude task reads `data/*/jobs.json`, scores roles against the profile
 3. In the repo: **Settings → Actions → General → Workflow permissions → "Read and write permissions"**, then Save.
 4. **Actions tab → collect-jobs → Run workflow**, and tick "Run feed discovery too" for the first run. It takes about 30–60 min. Then open `data/cloud/health.json` to see which sources worked.
 
-### 2. Mac (5 min), for LinkedIn from your home internet
-```bash
-cd ~ && git clone https://github.com/<you>/job-collector.git && cd job-collector
-bash mac/install.sh          # creates a Python env + a launchd job (7:05 AM / 7:05 PM)
-./mac/run.sh && tail -30 ~/Library/Logs/job-collector.log   # test run
+### 2. Windows laptop (10 min), for LinkedIn from your home internet
+Open **PowerShell** (Start menu → type "PowerShell") and run these one at a time:
+```powershell
+winget install Python.Python.3.12      # skip if `py --version` already works
+winget install Git.Git                 # skip if `git --version` already works
+# close and reopen PowerShell after installing, then:
+cd $HOME
+git clone https://github.com/<you>/job-collector.git
+cd job-collector
+powershell -ExecutionPolicy Bypass -File laptop\install.ps1     # Python env + Windows Task Scheduler job (7:05 AM / 7:05 PM)
+powershell -ExecutionPolicy Bypass -File laptop\run.ps1         # test run (takes 10-30 min)
+Get-Content "$env:LOCALAPPDATA\job-collector.log" -Tail 40      # should end with "pushed"
 ```
-`git push` must work from the Mac. The easiest way is to install GitHub Desktop once and sign in, or run `gh auth login`.
+- The first `git clone` or push opens a GitHub sign-in window. Sign in once, and Windows remembers it.
+- The laptop only runs it while it's on. If it was asleep at 7:05, the run starts once it wakes. The cloud collector runs every day no matter what, so a missed laptop run only means lighter LinkedIn coverage that day.
+- To check or remove it: open **Task Scheduler** and find **JobCollector**.
 
 ### 3. Job-alerts Gmail (15 min)
 1. Create a new Gmail address (e.g. `andrew.jobalerts@gmail.com`).
@@ -50,11 +59,11 @@ bash mac/install.sh          # creates a Python env + a launchd job (7:05 AM / 7
 ## Day-to-day
 - **Add a company**: add a line in `config/build_companies.py`, then run `python config/build_companies.py`. Discovery finds its job feed on Sunday, or run the workflow with discovery ticked.
 - **Change searches**: edit `config/searches.yaml`.
-- **Check the plumbing**: `data/cloud/health.json` and `data/mac/health.json` list every source that failed, with the error.
+- **Check the plumbing**: `data/cloud/health.json` and `data/laptop/health.json` list every source that failed, with the error.
 - `data/discovery_misses.json` lists firms with no public feed. They're covered by the job boards and email alerts instead.
 - Tests: `python -m pytest -q`.
 
 ## Known limits
-- LinkedIn throttles scraping and sometimes blocks cloud servers. That's why LinkedIn runs mainly from the Mac, with email alerts as backup.
+- LinkedIn throttles scraping and sometimes blocks cloud servers. That's why LinkedIn runs mainly from your laptop, with email alerts as backup.
 - Goldman (higher.gs.com), Jefferies (tal.net), and iCIMS sites have no public feed. They're caught through LinkedIn/Indeed listings and email alerts.
 - Some feed addresses in `companies.yaml` are marked `hint`. Those are unconfirmed guesses, and discovery tests each one before it's used.
