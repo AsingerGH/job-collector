@@ -1,0 +1,71 @@
+# Job-board searches (JobSpy). Edit freely; the Claude task can also tune these.
+hours_old: 72                # only pull postings from the last 3 days (daily runs overlap safely)
+board_stale_days: 7          # a board-only posting unseen for 7 days is marked stale
+max_posting_age_days: 45     # older postings are flagged "old-posting" for Claude to double-check
+
+locations:
+  - name: "New York, NY"
+    distance: 10
+  - name: "Jersey City, NJ"
+    distance: 5
+    all_terms: false          # trading terms only (most JC hits are ops/tech)
+  - name: "Chicago, IL"
+    distance: 10
+    all_terms: false
+
+terms:
+  # Priority 1 - equities / FI / electronic trading
+  - "trading analyst"
+  - "sales and trading analyst"
+  - "equity trading analyst"
+  - "sales trader"
+  - "trading assistant"
+  - "electronic trading analyst"
+  - "execution services analyst"
+  - "fixed income trading analyst"
+  - "rates trading analyst"
+  - "credit trading analyst"
+  - "global markets analyst"
+  - "markets full time analyst 2027"
+  - "2027 full time analyst"
+  - "new analyst program 2027"
+  - "graduate trader"
+  - "junior trader"
+  # Priority 2
+  - "derivatives analyst"
+  - "options trader entry level"
+  - "commodities analyst"
+  # Priority 3 (Claude keeps only excellent fits)
+  - "equity research associate"
+  - "investment banking analyst 2027"
+  - "corporate banking analyst"
+  # Summer 2027 internship track
+  - "summer 2027 sales and trading internship"
+  - "summer 2027 analyst internship markets"
+  - "2027 summer trading intern"
+
+trading_terms:
+  - "trading analyst"
+  - "sales and trading analyst"
+  - "trading assistant"
+  - "junior trader"
+  - "graduate trader"
+  - "global markets analyst"
+  - "2027 full time analyst"
+  - "summer 2027 trading internship"
+
+runners:
+  cloud:                       # GitHub Actions (datacenter IP)
+    ats: true
+    sites: ["indeed", "google", "zip_recruiter", "glassdoor", "linkedin"]
+    results_per_search: 30
+    linkedin_descriptions: false   # keep LinkedIn traffic light from the cloud
+    sleep_between: 2
+    sleep_after_error: 15
+  mac:                         # Andrew's Mac (home IP, LinkedIn is happier here)
+    ats: false                 # cloud already covers company job systems
+    sites: ["linkedin", "indeed"]
+    results_per_search: 50
+    linkedin_descriptions: true
+    sleep_between: 6
+    sleep_after_error: 60
