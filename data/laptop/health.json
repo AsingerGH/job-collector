@@ -1,0 +1,26 @@
+{
+ "runner": "laptop",
+ "run_at": "2026-11-23T22:05:30.795505+00:00",
+ "minutes": 9.5,
+ "raw": 793,
+ "kept": 270,
+ "live": 73,
+ "new_today": 73,
+ "filter_reasons": {
+  "ok": 270,
+  "function": 351,
+  "internship-wrong-year": 66,
+  "seniority": 88,
+  "location": 18
+ },
+ "boards": {
+  "linkedin": {
+   "ok": 28,
+   "errors": 13,
+   "rows": 793,
+   "last_error": "response status code 429 (blocked: use a proxy)"
+  }
+ },
+ "ats_ok": 0,
+ "ats_failed": {}
+}

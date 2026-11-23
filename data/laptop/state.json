@@ -1,0 +1,1744 @@
+{
+ "jobs": {
+  "5361141aba0af25e": {
+   "id": "5361141aba0af25e",
+   "company": "American Century Investments",
+   "title": "Asset-Backed Securities Analyst/Trader",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4424763746"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4424763746",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "38ca3e2a97ee63cd": {
+   "id": "38ca3e2a97ee63cd",
+   "company": "Scotiabank",
+   "title": "Associate, Commodity/FX Derivatives Quant - New York, NY",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4440623468"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 2,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4440623468",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "f11a2f664e87e9d4": {
+   "id": "f11a2f664e87e9d4",
+   "company": "DTG Finance & Capital Markets",
+   "title": "Equities Intraday QR",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4471669165"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York City Metropolitan Area",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4471669165",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "58f6de4d6fc024c7": {
+   "id": "58f6de4d6fc024c7",
+   "company": "BBVA",
+   "title": "Repo Trading Associate",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4492608845"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 2,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4492608845",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "eace040f422999f8": {
+   "id": "eace040f422999f8",
+   "company": "Atlantic Group",
+   "title": "Trade Analyst",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4493913529"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4493913529",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "7064619c3b583f58": {
+   "id": "7064619c3b583f58",
+   "company": "Robert Half",
+   "title": "Counterparty Credit Analyst - Hedge Fund",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4493659067"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4493659067",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "3c314a63b09705d9": {
+   "id": "3c314a63b09705d9",
+   "company": "Paragon Alpha - Hedge Fund Talent Business",
+   "title": "Equity Risk Analyst",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4484091622"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York City Metropolitan Area",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4484091622",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "4d0743470cb196ad": {
+   "id": "4d0743470cb196ad",
+   "company": "CVC Marathon",
+   "title": "Fixed Income Global Trade Support",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4432838110"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4432838110",
+   "date_posted": "2026-11-22",
+   "age_days": 1
+  },
+  "a2c53d0a601eed73": {
+   "id": "a2c53d0a601eed73",
+   "company": "GTS",
+   "title": "Quantitative Researcher, International ETFs",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4458424947"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 2,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4458424947",
+   "date_posted": "2026-11-22",
+   "age_days": 1
+  },
+  "fbe1a19663b480fa": {
+   "id": "fbe1a19663b480fa",
+   "company": "New York Life",
+   "title": "2027 New York Life Investment Management - Investment Research & Analysis Internship",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4459867790"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "internship-not-summer"
+   ],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "internship",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4459867790",
+   "date_posted": "2026-11-22",
+   "age_days": 1
+  },
+  "95fb3cc3c46e65bc": {
+   "id": "95fb3cc3c46e65bc",
+   "company": "J.P. Morgan",
+   "title": "Securitized Products Group - ABS Banking - Analyst",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4477658386"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 1,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4477658386",
+   "date_posted": "2026-11-22",
+   "age_days": 1
+  },
+  "bcadb7cf40b7f854": {
+   "id": "bcadb7cf40b7f854",
+   "company": "D.A. Davidson Companies",
+   "title": "Investment Banking Analyst, Capital Markets",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4493907482"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4493907482",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "2637f4b6c76d6f35": {
+   "id": "2637f4b6c76d6f35",
+   "company": "J.P. Morgan",
+   "title": "International Payments Associate - Commercial Bank",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4460809223"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 1,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4460809223",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "5a50629295352745": {
+   "id": "5a50629295352745",
+   "company": "UBS",
+   "title": "Equity Research Associate - US Semis & Semiconductor Equipment",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4493766337"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 1,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4493766337",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "ed0aa0f99aa60f7a": {
+   "id": "ed0aa0f99aa60f7a",
+   "company": "Paragon Alpha - Hedge Fund Talent Business",
+   "title": "Long/Short Equity Risk Analyst",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4484078918"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4484078918",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "13e09c311085421c": {
+   "id": "13e09c311085421c",
+   "company": "Turing",
+   "title": "Remote Finance & Research Analyst",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4493743847"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York City Metropolitan Area",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4493743847",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "61fe2dc33c27056c": {
+   "id": "61fe2dc33c27056c",
+   "company": "Jefferies",
+   "title": "Equity Research Associate - US Chemicals",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4441288493"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 1,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4441288493",
+   "date_posted": "2026-11-22",
+   "age_days": 1
+  },
+  "8996e91272f2d87e": {
+   "id": "8996e91272f2d87e",
+   "company": "Pasona N A, Inc.",
+   "title": "Equity Research Analyst",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4477872613"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4477872613",
+   "date_posted": "2026-11-22",
+   "age_days": 1
+  },
+  "8dab9d110ddb9d4d": {
+   "id": "8dab9d110ddb9d4d",
+   "company": "Basic Resources, Inc.",
+   "title": "Sales Assistant",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4463382451"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4463382451",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "e173bcd0c03f1044": {
+   "id": "e173bcd0c03f1044",
+   "company": "PVH Legwear",
+   "title": "Sales Assistant",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4480135901"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4480135901",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "4163882c42ac800f": {
+   "id": "4163882c42ac800f",
+   "company": "Fourth Floor",
+   "title": "Sales Assistant",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4494050865"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4494050865",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "8dc2e2e9aa87a4dd": {
+   "id": "8dc2e2e9aa87a4dd",
+   "company": "Great American Media",
+   "title": "Ad Sales Assistant, General Rate Ad Sales",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4461918022"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4461918022",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "8a519ddbc113302d": {
+   "id": "8a519ddbc113302d",
+   "company": "Fincadia Capital",
+   "title": "Client Sales Assistant - Wealth Management",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4492849122"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4492849122",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "297ed319e5d37f24": {
+   "id": "297ed319e5d37f24",
+   "company": "Designer Brands",
+   "title": "Sales Coordinator",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4493657787"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4493657787",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "023dfc0c0d51e231": {
+   "id": "023dfc0c0d51e231",
+   "company": "Suitsupply",
+   "title": "Sales Support",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4439997124"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4439997124",
+   "date_posted": "2026-11-22",
+   "age_days": 1
+  },
+  "7f60dfb2fb5ad1ed": {
+   "id": "7f60dfb2fb5ad1ed",
+   "company": "Virtu Financial",
+   "title": "Electronic Trading Engineer",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4477867574"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 1,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4477867574",
+   "date_posted": "2026-11-22",
+   "age_days": 1
+  },
+  "5f9912d168345762": {
+   "id": "5f9912d168345762",
+   "company": "Ally",
+   "title": "Lender Finance - Structured Credit Analyst",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4494063769"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4494063769",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "bbc5770b2842b52e": {
+   "id": "bbc5770b2842b52e",
+   "company": "Blue Owl Capital",
+   "title": "Alternative Credit, Credit Secondaries – Analyst / Associate",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4479096291"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4479096291",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "f4497aca03d16a98": {
+   "id": "f4497aca03d16a98",
+   "company": "Alexander Chapman",
+   "title": "Credit Secondaries Associate",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4493909295"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "New York City Metropolitan Area",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4493909295",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "b70a2543a81293ff": {
+   "id": "b70a2543a81293ff",
+   "company": "Charles River Associates",
+   "title": "(2028 Bachelor's/Master's graduates) Economics Consulting Analyst/Associate Intern (Summer 2027)",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4458974531"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "internship",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4458974531",
+   "date_posted": "2026-11-22",
+   "age_days": 1
+  },
+  "b302e7a888732c02": {
+   "id": "b302e7a888732c02",
+   "company": "Point72",
+   "title": "Fundamental Researcher - Canvas",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4209870978"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 1,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4209870978",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "a5c10c0e59be439f": {
+   "id": "a5c10c0e59be439f",
+   "company": "Charles River Associates",
+   "title": "(2027 Bachelor's/Master's graduates) Management Advisory Analyst/Associate",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4439913950"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4439913950",
+   "date_posted": "2026-11-22",
+   "age_days": 1
+  },
+  "160c9213a5c6b6e6": {
+   "id": "160c9213a5c6b6e6",
+   "company": "Notified",
+   "title": "Associate, Institutional Research",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4494023475"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4494023475",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "3d86498dd01a14f6": {
+   "id": "3d86498dd01a14f6",
+   "company": "CHEManager International",
+   "title": "COORDINATED ENTRY RESEARCH ANALYST",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4494032276"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4494032276",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "80de9e37e9257eff": {
+   "id": "80de9e37e9257eff",
+   "company": "Fifth Avenue Co.",
+   "title": "Entry Level Sales",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4494021894"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4494021894",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "cc7b1804ee1ff395": {
+   "id": "cc7b1804ee1ff395",
+   "company": "CELSIUS",
+   "title": "Field Execution Representative",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4493658317"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4493658317",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "7ea96bdbd35af62b": {
+   "id": "7ea96bdbd35af62b",
+   "company": "Spirit Halloween",
+   "title": "Sales Associate - Spirit",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4448496493"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "Brooklyn, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4448496493",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "b4bfb0529121e52b": {
+   "id": "b4bfb0529121e52b",
+   "company": "Marco International Corporation",
+   "title": "Commodity Trader",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4494059724"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4494059724",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "016dabb96c444bc2": {
+   "id": "016dabb96c444bc2",
+   "company": "CosmoProf Beauty",
+   "title": "Sales Associate - CosmoProf Store # 66144",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4062565763"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "Brooklyn, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4062565763",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "9c10578fd76cfd6e": {
+   "id": "9c10578fd76cfd6e",
+   "company": "West Elm",
+   "title": "Sales Associate, Occasional, Williamsburg Brooklyn - West Elm",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4469520048"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "Brooklyn, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4469520048",
+   "date_posted": "2026-11-22",
+   "age_days": 1
+  },
+  "648866e54d60c96b": {
+   "id": "648866e54d60c96b",
+   "company": "U.S. Bank",
+   "title": "Derivative Counterparty Risk Analyst",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4483123979"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 2,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4483123979",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "af27c66f622d81ce": {
+   "id": "af27c66f622d81ce",
+   "company": "DC Advisory",
+   "title": "Investment Banking - Generalist/EdTech - Associate",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4493695774"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4493695774",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "ebc1144bc801d755": {
+   "id": "ebc1144bc801d755",
+   "company": "AfterQuery Experts",
+   "title": "Private Equity Analyst",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4492379317"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4492379317",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "3e88b258c68e0316": {
+   "id": "3e88b258c68e0316",
+   "company": "Mission Staffing",
+   "title": "Private Equity Finance Associate",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4492084681"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "New York City Metropolitan Area",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4492084681",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "6c4cb2022370c4c3": {
+   "id": "6c4cb2022370c4c3",
+   "company": "RBC Capital Markets",
+   "title": "2027 Capital Markets, Global Investment Banking Summer Associate",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4460585783"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "internship",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 1,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4460585783",
+   "date_posted": "2026-11-22",
+   "age_days": 1
+  },
+  "7334a138b4657ccf": {
+   "id": "7334a138b4657ccf",
+   "company": "Playfly Sports",
+   "title": "Research & Insights Intern",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4494010924"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "internship-not-summer"
+   ],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "internship",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4494010924",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "a1165757c5ac8eb0": {
+   "id": "a1165757c5ac8eb0",
+   "company": "New York Life Investment Management",
+   "title": "2027 New York Life Investment Management - Investments and Market Data Internship",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4466039782"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "internship-not-summer"
+   ],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "internship",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4466039782",
+   "date_posted": "2026-11-22",
+   "age_days": 1
+  },
+  "2a0b2126abb13d8f": {
+   "id": "2a0b2126abb13d8f",
+   "company": "Capstone Investment Advisors",
+   "title": "Summer 2027 - Execution Tech Internship",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4476851031"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "internship",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4476851031",
+   "date_posted": "2026-11-22",
+   "age_days": 1
+  },
+  "1063c72b689b0394": {
+   "id": "1063c72b689b0394",
+   "company": "Cantor Fitzgerald",
+   "title": "2027 Internship Program: Investment Banking (Real Estate)",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4494041100"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "internship-not-summer"
+   ],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "internship",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 1,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4494041100",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "44eaf12bb7674834": {
+   "id": "44eaf12bb7674834",
+   "company": "Edgehog Trading",
+   "title": "Evening / Overnight Trader",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4494051663"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "Chicago, IL, USA",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4494051663",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "232a319ffcaf7fe6": {
+   "id": "232a319ffcaf7fe6",
+   "company": "Akuna Capital",
+   "title": "Quantitative Researcher - Prediction Markets",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4408077959"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "Chicago, IL, USA",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 2,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4408077959",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "da8f9233d03bdef6": {
+   "id": "da8f9233d03bdef6",
+   "company": "Belvedere Trading",
+   "title": "Quantitative Trading Intern - Summer 2027",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4449218287"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "Chicago, IL, USA",
+   "loc_bucket": "Chicago",
+   "track": "internship",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 2,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4449218287",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "dafab807b4923a56": {
+   "id": "dafab807b4923a56",
+   "company": "Turing",
+   "title": "Remote Financial Trading Specialist",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4493744849"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "Chicago, IL, USA",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4493744849",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "70250ab952377f34": {
+   "id": "70250ab952377f34",
+   "company": "CME Group",
+   "title": "Client Development & Sales Intern - Summer 2027",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4493685552"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "Chicago, IL, USA",
+   "loc_bucket": "Chicago",
+   "track": "internship",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 2,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4493685552",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "55b2f8e05ac7d6f8": {
+   "id": "55b2f8e05ac7d6f8",
+   "company": "IMC Trading",
+   "title": "Quantitative Researcher – Futures",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4381841096"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "Chicago, IL, USA",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 2,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4381841096",
+   "date_posted": "2026-11-22",
+   "age_days": 1
+  },
+  "3165cb99269dcdd7": {
+   "id": "3165cb99269dcdd7",
+   "company": "Peak6",
+   "title": "Trading Internship for Women Summer 2027",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4451811912"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "Chicago, IL, USA",
+   "loc_bucket": "Chicago",
+   "track": "internship",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 2,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4451811912",
+   "date_posted": "2026-11-22",
+   "age_days": 1
+  },
+  "e64e991ab90b476f": {
+   "id": "e64e991ab90b476f",
+   "company": "Charles River Associates",
+   "title": "(2028 Bachelor's/Master's graduates) Economics Consulting Analyst/Associate Intern (Summer 2027)",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4458978473"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "Chicago, IL, USA",
+   "loc_bucket": "Chicago",
+   "track": "internship",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4458978473",
+   "date_posted": "2026-11-22",
+   "age_days": 1
+  },
+  "f7407ec4f08b3d0f": {
+   "id": "f7407ec4f08b3d0f",
+   "company": "RWE",
+   "title": "Structured Finance Associate",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4469244145"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "Chicago, IL, USA",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4469244145",
+   "date_posted": "2026-11-22",
+   "age_days": 1
+  },
+  "10b0da035b714869": {
+   "id": "10b0da035b714869",
+   "company": "Guggenheim Securities",
+   "title": "Associate - Investment Banking, Industrials",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4450643004"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "Chicago, IL, USA",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 2,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4450643004",
+   "date_posted": "2026-11-22",
+   "age_days": 1
+  },
+  "70d1f8d47d1a5dda": {
+   "id": "70d1f8d47d1a5dda",
+   "company": "Suitsupply",
+   "title": "Sales Support",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4468011455"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "Chicago, IL, USA",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4468011455",
+   "date_posted": "2026-11-22",
+   "age_days": 1
+  },
+  "d6ee258a39fcdca6": {
+   "id": "d6ee258a39fcdca6",
+   "company": "Akuna Capital",
+   "title": "Floor Trader- SOFR",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4491538023"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "Chicago, IL, USA",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 2,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4491538023",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "6b9d016b2ec591e7": {
+   "id": "6b9d016b2ec591e7",
+   "company": "SPACE 519",
+   "title": "Sales Associate",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4494027024"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "Chicago, IL, USA",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4494027024",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "649e8f47a9a94d53": {
+   "id": "649e8f47a9a94d53",
+   "company": "Sally Beauty",
+   "title": "Beauty Advisor (Inside Sales) Sally Beauty 02756",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4062753724"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "Chicago, IL, USA",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4062753724",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "edb35ebb2bca9fc8": {
+   "id": "edb35ebb2bca9fc8",
+   "company": "Northern Trust",
+   "title": "Trader, Brokerage",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4458920350"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "Chicago, IL, USA",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 2,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4458920350",
+   "date_posted": "2026-11-22",
+   "age_days": 1
+  },
+  "5c4928d0837caf5a": {
+   "id": "5c4928d0837caf5a",
+   "company": "ALO",
+   "title": "Seasonal Sales Associate (Part-Time) -  Michigan Ave",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4459601842"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "Chicago, IL, USA",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4459601842",
+   "date_posted": "2026-11-22",
+   "age_days": 1
+  },
+  "76c28e3ed49bc109": {
+   "id": "76c28e3ed49bc109",
+   "company": "The TJX Companies, Inc.",
+   "title": "Seasonal Sales Associate",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4493104571"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "Chicago, IL, USA",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4493104571",
+   "date_posted": "2026-11-21",
+   "age_days": 2
+  },
+  "ec3272ae5114ebd7": {
+   "id": "ec3272ae5114ebd7",
+   "company": "Sazerac Company",
+   "title": "Market Development Representative",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4450002545"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "Chicago, IL, USA",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4450002545",
+   "date_posted": "2026-11-22",
+   "age_days": 1
+  },
+  "5d5c84ac058af882": {
+   "id": "5d5c84ac058af882",
+   "company": "Baird",
+   "title": "Investment Banking Associate - Tech & Services",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4467836045"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "Chicago, IL, USA",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 2,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4467836045",
+   "date_posted": "2026-11-22",
+   "age_days": 1
+  },
+  "4df2a047cb51d76e": {
+   "id": "4df2a047cb51d76e",
+   "company": "William Blair",
+   "title": "2027 Investment Banking Full-Time MBA Associate",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4438016907"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "Chicago, IL, USA",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 1,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4438016907",
+   "date_posted": "2026-11-22",
+   "age_days": 1
+  },
+  "9a428b3a6f1fef70": {
+   "id": "9a428b3a6f1fef70",
+   "company": "U.S. Bank",
+   "title": "Derivative Counterparty Risk Analyst",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4483137651"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "Chicago, IL, USA",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 2,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4483137651",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "5c508a245a39f92b": {
+   "id": "5c508a245a39f92b",
+   "company": "UL Solutions",
+   "title": "2027 Campus Full Time: Finance Development Program Associate",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4466913971"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "Chicago, IL, USA",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4466913971",
+   "date_posted": "2026-11-22",
+   "age_days": 1
+  },
+  "eb8a223987a0dd08": {
+   "id": "eb8a223987a0dd08",
+   "company": "William Blair",
+   "title": "Investment Banking Associate - Industrial Growth Products (Energy/Energy Transition)",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4438406641"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "Chicago, IL, USA",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 1,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4438406641",
+   "date_posted": "2026-11-22",
+   "age_days": 1
+  },
+  "cb28f2e19c1373b8": {
+   "id": "cb28f2e19c1373b8",
+   "company": "Constellation",
+   "title": "2027 Summer Gas Sales Support Intern (Kennett Square, PA)",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4484590308"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "Chicago, IL, USA",
+   "loc_bucket": "Chicago",
+   "track": "internship",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4484590308",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  }
+ },
+ "last_run": "2026-11-23T22:05:30.795505+00:00"
+}
