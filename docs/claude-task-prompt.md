@@ -1,5 +1,8 @@
 # Daily Claude task — version 2 (switch to this once the collector repo + Gmail are live)
 
+Schedule: twice a day, ~7:37 AM and ~6:37 PM Central (after each collector run). Both runs use this same prompt;
+the evening run should finish in a fraction of the time because most roles are already on the board.
+
 Changes from the current web-sweep task: the task stops doing the scraping and reads the collector's output (company job feeds + JobSpy) and the alert emails. Web search is used only to verify leads and fill gaps.
 
 ---
@@ -28,9 +31,15 @@ STEP 4 — Write to the tracker (same doc rules as before)
 - In collector closed.json, or not seen anywhere for 7+ days: status "expired". Never touch myStatus/myNote. Never delete a doc with a myStatus.
 - set runs/<today>-review and update meta/state (lastCloudRun, lastCollectorRun = health run_at, lastSummary).
 
-STEP 5 — Fill coverage gaps (≤ 15 searches)
+STEP 4b — Network, calendar, prep (all optional extras: if a tool is missing, skip that part and say so in one line of the final message)
+- Network: read the `contacts` collection (Andrew's people: name, company, pastCompanies, how). For each role you add or keep, note matches (contact works there now, or used to). The board shows these itself; you only mention them in the final message, e.g. "· you know Ryan (ex-StoneX)". Never contact anyone.
+- Calendar: for live roles with a stated deadline, composite ≥ 3.5, and myStatus not "not_interested"/"applied", create ONE all-day Google Calendar event on the deadline titled "Apply: <Company> — <Title>" with the posting URL in the description and a popup reminder 3 days before. Store the returned id as calendarEventId on the job doc and never create a second event for a doc that already has one. If the deadline changes, update that event. If the role expires or Andrew marks it applied/not_interested, delete the event and clear calendarEventId.
+- Application prep: for each NEW role with composite ≥ 4.0 (and for any role Andrew marks "saved" that has none yet), write to the job doc: whyNote (2 sentences, in Andrew's voice, why this desk/firm — tied to something specific in the JD) and prepBullets (2–3 resume bullets rewritten from his real experience in meta/profile to match the JD's language; never invent experience, numbers, or skills he doesn't have).
+
+STEP 5 — Fill coverage gaps (≤ 15 searches; morning run only)
 - For up to 5 tier-1 companies whose feed is unknown (see /tmp/jc/data/discovery_misses.json), WebSearch `site:myworkdayjobs.com <company>`, `<company> greenhouse jobs`, etc. If you find a feed URL, record it on that company's tracker doc (careersUrl, ats) and list it in the final message under "Feeds found" so Andrew can add it.
 
 STEP 6 — Final message (becomes Andrew's email + phone notification)
-- Deadlines within 7 days first, then the best new full-time roles as "Company — Title (Location) · score · why", then "Internship:" lines, then any collector warning. Up to 10 lines. End with the tracker URL.
+- Deadlines within 7 days first, then the best new full-time roles as "Company — Title (Location) · score · why" (append "· you know <name>" when a contact matches), then "Internship:" lines, then any collector warning. Up to 10 lines. End with the tracker URL.
+- Evening run: only mention roles first seen since the morning run; if none, exactly "No new matches today."
 - Nothing new, nothing urgent, no warnings → exactly "No new matches today."
