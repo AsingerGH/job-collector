@@ -1,0 +1,115 @@
+- name: Akuna Capital
+  ats: greenhouse
+  token: akunacapital
+- name: Apollo
+  ats: ashby
+  token: apollo
+- name: BBVA
+  ats: workday
+  tenant: bbva
+  dc: wd3
+  site: bbva
+- name: Blue Owl Capital
+  ats: lever
+  token: blue
+  auto: true
+- name: Capstone Investment Advisors
+  ats: greenhouse
+  token: capstoneinvestmentadvisors
+  auto: true
+- name: Charles River Associates
+  ats: greenhouse
+  token: charlesriverassociates
+  auto: true
+- name: D.A. Davidson
+  ats: lever
+  token: dadavidson
+- name: D.A. Davidson Companies
+  ats: lever
+  token: dadavidson
+  auto: true
+- name: Eagle Seven
+  ats: ashby
+  token: eagle
+  auto: true
+- name: ExodusPoint
+  ats: greenhouse
+  token: exoduspoint
+- name: FalconX
+  ats: greenhouse
+  token: falconx
+- name: Galaxy
+  ats: greenhouse
+  token: galaxy
+- name: IEX Group
+  ats: greenhouse
+  token: iex
+- name: IMC Trading
+  ats: greenhouse
+  token: imc
+- name: J.P. Morgan
+  ats: oracle
+  host: jpmc.fa.oraclecloud.com
+  site: CX_1001
+- name: Jane Street
+  ats: greenhouse
+  token: janestreet
+- name: Jump Trading
+  ats: greenhouse
+  token: jumptrading
+- name: Lincoln International
+  ats: greenhouse
+  token: lincolninternational
+  auto: true
+- name: Maven Securities
+  ats: ashby
+  token: maven
+- name: Nasdaq
+  ats: workday
+  tenant: nasdaq
+  dc: wd1
+  site: Global_External_Site
+- name: Northern Trust
+  ats: workday
+  tenant: ntrs
+  dc: wd1
+  site: northerntrust
+- name: Old Mission Capital
+  ats: ashby
+  token: old-mission-capital
+- name: Pharo Management
+  ats: greenhouse
+  token: pharomanagement
+- name: Robert Half
+  ats: workday
+  tenant: roberthalf
+  dc: wd1
+  site: roberthalfCareers
+  auto: true
+- name: SPACE 519
+  ats: greenhouse
+  token: space
+  auto: true
+- name: Seaport Global
+  ats: lever
+  token: seaportglobal
+- name: Squarepoint Capital
+  ats: greenhouse
+  token: squarepointcapital
+- name: Suitsupply
+  ats: greenhouse
+  token: suitsupply
+  auto: true
+- name: Tower Research Capital
+  ats: greenhouse
+  token: towerresearchcapital
+- name: Turing
+  ats: greenhouse
+  token: turing
+  auto: true
+- name: Vatic Labs
+  ats: greenhouse
+  token: vaticlabs
+- name: William Blair
+  ats: greenhouse
+  token: williamblair
