@@ -205,3 +205,20 @@ def test_trading_associate_experience():
     assert not drop["keep"]
     ib = classify({"title": "Investment Banking Analyst, Capital Markets", "location": "New York, NY", "company": "x", "description": ""})
     assert ib["keep"]
+
+
+def test_linkedin_empty_results_count_as_blocks(monkeypatch):
+    import pandas as pd
+    import jobspy
+    from collector import boards
+    calls = []
+
+    def fake(**kw):
+        calls.append(kw["search_term"])
+        df = pd.DataFrame([])
+        df.attrs = {"errors": {}}
+        return df
+    monkeypatch.setattr(jobspy, "scrape_jobs", fake)
+    cfg = {"locations": [{"name": "New York, NY"}], "terms": [f"t{i}" for i in range(10)]}
+    rows, health = boards.search_boards(cfg, {"sites": ["linkedin"], "sleep_between": 0, "sleep_after_error": 0}, print)
+    assert len(calls) == 3 and health["linkedin"]["skipped"] == 7

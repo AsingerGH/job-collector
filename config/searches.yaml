@@ -80,5 +80,20 @@ runners:
     hours_old: 48               # runs twice a day, so 2 days of overlap is plenty
     results_per_search: 25
     linkedin_descriptions: false   # opening every LinkedIn page took hours; the daily review opens only the promising ones
-    sleep_between: 7               # LinkedIn started refusing (429) after ~28 searches at 4s spacing
-    sleep_after_error: 60
+    sleep_between: 12              # LinkedIn throttled the home connection after a heavy first day (2026-11-23)
+    sleep_after_error: 30
+    terms:                         # shorter list for LinkedIn: highest-priority phrases only (cloud covers the rest via Indeed)
+      - "trading analyst"
+      - "sales and trading analyst"
+      - "equity trading assistant"
+      - "equity trading associate"
+      - "sales trader"
+      - "electronic trading analyst"
+      - "fixed income trading analyst"
+      - "global markets analyst"
+      - "2027 full time analyst"
+      - "investment banking analyst"
+      - "capital markets analyst"
+      - "junior trader"
+      - "summer 2027 sales and trading internship"
+      - "summer 2027 investment banking internship"

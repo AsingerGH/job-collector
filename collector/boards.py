@@ -19,7 +19,8 @@ def search_boards(cfg: dict, runner: dict, log) -> tuple[list[dict], dict]:
     rows: list[dict] = []
 
     for loc in cfg["locations"]:
-        terms = cfg["terms"] if loc.get("all_terms", True) else cfg.get("trading_terms", cfg["terms"])
+        all_terms = runner.get("terms") or cfg["terms"]          # a runner may use a shorter list (laptop)
+        terms = all_terms if loc.get("all_terms", True) else [t for t in cfg.get("trading_terms", all_terms) if t in all_terms] or all_terms[:6]
         for term in terms:
             for site in sites:
                 if streak[site] >= 3:
@@ -56,7 +57,6 @@ def search_boards(cfg: dict, runner: dict, log) -> tuple[list[dict], dict]:
                         log(f"  ! {site}: blocked 3 times in a row, skipping it for the rest of this run")
                     time.sleep(runner.get("sleep_after_error", 20))
                     continue
-                streak[site] = 0
                 health[site]["ok"] += 1
                 n = 0
                 for r in df.to_dict("records") if df is not None else []:
@@ -78,6 +78,14 @@ def search_boards(cfg: dict, runner: dict, log) -> tuple[list[dict], dict]:
                     })
                     n += 1
                 health[site]["rows"] += n
+                if n == 0 and site == "linkedin":
+                    # LinkedIn often answers a throttled request with an empty page instead of an error
+                    streak[site] += 1
+                    health[site]["empty"] = health[site].get("empty", 0) + 1
+                    if streak[site] >= 3:
+                        log(f"  ! {site}: 3 blocked/empty results in a row, skipping it for the rest of this run")
+                elif n > 0:
+                    streak[site] = 0
                 time.sleep(float(runner.get("sleep_between", 4 if site == "linkedin" else 1.5)))
     return rows, health
 
