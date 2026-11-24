@@ -1,0 +1,314 @@
+- name: Citi
+  ats: workday
+  tenant: citi
+  dc: wd5
+  site: '2'
+  verified: 2026-11-24 probe
+  terms: &id001
+  - analyst new york
+  - trading new york
+  - markets new york
+  - sales new york
+  - intern new york
+  - analyst chicago
+  max_pages: 3
+- name: Wells Fargo
+  ats: workday
+  tenant: wf
+  dc: wd1
+  site: WellsFargoJobs
+  verified: 2026-11-24 probe
+  terms: *id001
+  max_pages: 3
+- name: State Street
+  ats: workday
+  tenant: statestreet
+  dc: wd1
+  site: Global
+  verified: 2026-11-24 probe
+  terms: *id001
+  max_pages: 3
+- name: Barclays
+  ats: workday
+  tenant: barclays
+  dc: wd3
+  site: External_Career_Site_Barclays
+  verified: 2026-11-24 probe
+  terms: *id001
+  max_pages: 3
+- name: Deutsche Bank
+  ats: workday
+  tenant: db
+  dc: wd3
+  site: DBWebsite
+  verified: 2026-11-24 probe
+  terms: *id001
+  max_pages: 3
+- name: Santander US Capital Markets
+  ats: workday
+  tenant: santander
+  dc: wd3
+  site: SantanderCareers
+  verified: 2026-11-24 probe
+  terms: *id001
+  max_pages: 3
+- name: Mizuho
+  ats: workday
+  tenant: mizuho
+  dc: wd1
+  site: mizuhoamericas
+  verified: 2026-11-24 probe
+- name: MUFG
+  ats: workday
+  tenant: mufgub
+  dc: wd3
+  site: MUFG-Careers
+  verified: 2026-11-24 probe
+  terms: *id001
+  max_pages: 3
+- name: RBC Capital Markets
+  ats: workday
+  tenant: rbc
+  dc: wd3
+  site: RBCGLOBAL1
+  verified: 2026-11-24 probe
+  terms: *id001
+  max_pages: 3
+- name: TD Securities
+  ats: workday
+  tenant: td
+  dc: wd3
+  site: TD_Bank_Careers
+  verified: 2026-11-24 probe
+  terms: *id001
+  max_pages: 3
+- name: BMO Capital Markets
+  ats: workday
+  tenant: bmo
+  dc: wd3
+  site: External
+  verified: 2026-11-24 probe
+- name: CIBC Capital Markets
+  ats: workday
+  tenant: cibc
+  dc: wd3
+  site: search
+  verified: 2026-11-24 probe
+  terms: *id001
+  max_pages: 3
+- name: Truist Securities
+  ats: workday
+  tenant: truist
+  dc: wd1
+  site: Careers
+  verified: 2026-11-24 probe
+  terms: *id001
+  max_pages: 3
+- name: PNC
+  ats: workday
+  tenant: pnc
+  dc: wd5
+  site: External
+  verified: 2026-11-24 probe
+  terms: *id001
+  max_pages: 3
+- name: U.S. Bank
+  ats: workday
+  tenant: usbank
+  dc: wd1
+  site: US_Bank_Careers
+  verified: 2026-11-24 probe
+  terms: *id001
+  max_pages: 3
+- name: Capital One
+  ats: workday
+  tenant: capitalone
+  dc: wd12
+  site: Capital_One
+  verified: 2026-11-24 probe
+  terms: *id001
+  max_pages: 3
+- name: Raymond James
+  ats: workday
+  tenant: raymondjames
+  dc: wd1
+  site: RaymondJamesCareers
+  verified: 2026-11-24 probe
+- name: Guggenheim Securities
+  ats: workday
+  tenant: guggenheim
+  dc: wd1
+  site: Guggenheim_Careers
+  verified: 2026-11-24 probe
+- name: Moelis & Company
+  ats: workday
+  tenant: moelis
+  dc: wd1
+  site: Experienced-Hires
+  verified: 2026-11-24 probe
+- name: Houlihan Lokey
+  ats: workday
+  tenant: hl
+  dc: wd1
+  site: Campus
+  verified: 2026-11-24 probe
+- name: Northland Capital Markets
+  ats: workday
+  tenant: firstnational
+  dc: wd12
+  site: northlandcareers
+  verified: 2026-11-24 probe
+- name: Cboe Global Markets
+  ats: workday
+  tenant: cboe
+  dc: wd1
+  site: External_Career_CBOE
+  verified: 2026-11-24 probe
+- name: CME Group
+  ats: workday
+  tenant: cmegroup
+  dc: wd1
+  site: cme_careers
+  verified: 2026-11-24 probe
+- name: Jain Global
+  ats: workday
+  tenant: jainglobal
+  dc: wd5
+  site: LinkedInCareerSite
+  verified: 2026-11-24 probe
+- name: BlackRock
+  ats: workday
+  tenant: blackrock
+  dc: wd1
+  site: BlackRock_Professional
+  verified: 2026-11-24 probe
+- name: Neuberger Berman
+  ats: workday
+  tenant: nb
+  dc: wd1
+  site: NBcareers
+  verified: 2026-11-24 probe
+- name: Nuveen
+  ats: workday
+  tenant: tiaa
+  dc: wd1
+  site: Search
+  verified: 2026-11-24 probe
+- name: PGIM
+  ats: workday
+  tenant: pru
+  dc: wd5
+  site: Careers
+  verified: 2026-11-24 probe
+- name: Invesco
+  ats: workday
+  tenant: invesco
+  dc: wd1
+  site: IVZ
+  verified: 2026-11-24 probe
+- name: Franklin Templeton
+  ats: workday
+  tenant: franklintempleton
+  dc: wd5
+  site: Primary-External-1
+  verified: 2026-11-24 probe
+- name: Apollo
+  ats: workday
+  tenant: athene
+  dc: wd5
+  site: Apollo_Careers
+  verified: 2026-11-24 probe
+- name: Blackstone
+  ats: workday
+  tenant: blackstone
+  dc: wd1
+  site: Blackstone_Careers
+  verified: 2026-11-24 probe
+- name: Freepoint Commodities
+  ats: workday
+  tenant: freepoint
+  dc: wd12
+  site: Freepoint_Commodities
+  verified: 2026-11-24 probe
+- name: Trafigura
+  ats: workday
+  tenant: trafigura
+  dc: wd3
+  site: TrafiguraCareerSite
+  verified: 2026-11-24 probe
+- name: Morgan Stanley
+  ats: eightfold
+  host: morganstanley.eightfold.ai
+  domain: morganstanley.com
+  terms:
+  - analyst
+  - trading
+  - trader
+  - markets
+  - sales
+  - intern
+  - associate
+- name: Millennium
+  ats: eightfold
+  host: career.mlp.com
+  domain: mlp.com
+- name: Citizens JMP
+  ats: oracle
+  host: hcgn.fa.us2.oraclecloud.com
+  site: CX_1
+- name: Lazard
+  ats: oracle
+  host: icbpjb.fa.ocs.oraclecloud.com
+  site:
+  - LazardProfessionalCareers
+  - LazardStudentCareers
+- name: Five Rings
+  ats: greenhouse
+  token: fiveringsllc
+- name: Headlands Technologies
+  ats: greenhouse
+  token: headlandstechnologiesllc
+- name: Tudor Investment
+  ats: greenhouse
+  token: tudorgroup
+- name: Vitol
+  ats: smartrecruiters
+  token: Vitol
+- name: Bank of America
+  ats: sitemap
+  sitemap: https://careers.bankofamerica.com/sitemap.xml
+  require: new-york|chicago|jersey-city|hoboken
+  max_detail: 200
+- name: ING
+  ats: sitemap
+  sitemap: https://careers.ing.com/en/sitemap.xml
+  max_detail: 60
+- name: Standard Chartered
+  ats: sitemap
+  sitemap: https://jobs.standardchartered.com/sitemap.xml
+  require: new-york
+  max_detail: 60
+- name: Brevan Howard
+  ats: sitemap
+  sitemap: https://careers.brevanhoward.com/gb/en/sitemap.xml
+  slug_filter: false
+  max_detail: 60
+- name: Baird
+  ats: sitemap
+  sitemap: https://www.bairdcareers.com/sitemap.xml
+  max_detail: 60
+- name: Stifel
+  ats: icims
+  host: careers-stifel.icims.com
+  max_detail: 120
+- name: Susquehanna (SIG)
+  ats: icims
+  host: careers-sig.icims.com
+  max_detail: 120
+- name: Intercontinental Exchange
+  ats: icims
+  host: careers-ice.icims.com
+  max_detail: 120
+- name: Optiver
+  ats: greenhouse
+  token: optiverus

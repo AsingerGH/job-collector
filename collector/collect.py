@@ -41,9 +41,13 @@ def load_yaml(p: Path):
 def load_companies() -> list[dict]:
     base = load_yaml(ROOT / "config/companies.yaml") or []
     disc = {d["name"]: d for d in (load_yaml(ROOT / "config/discovered.yaml") or [])}
+    # hand-verified readers (config/readers.yaml) win over auto-discovery
+    readers = {d["name"]: d for d in (load_yaml(ROOT / "config/readers.yaml") or [])}
     out = []
     for c in base:
-        if c.get("ats") in (None, "", "unknown") and c["name"] in disc:
+        if c["name"] in readers:
+            c = {**c, **{k: v for k, v in readers[c["name"]].items() if k != "name"}}
+        elif c.get("ats") in (None, "", "unknown") and c["name"] in disc:
             c = {**c, **{k: v for k, v in disc[c["name"]].items() if k != "name"}}
         out.append(c)
     names = {c["name"] for c in base}
@@ -66,9 +70,9 @@ def job_key(company: str, title: str, bucket: str | None, cidx: dict) -> str:
 
 
 # ------------------------------------------------------------------ ATS pass
-def run_ats(companies, only, log, types=None) -> tuple[list[dict], dict]:
+def run_ats(companies, only, log, types=None, skip=()) -> tuple[list[dict], dict]:
     targets = [c for c in companies if c.get("ats") in ats.FETCHERS and (not only or c["name"] in only)
-               and (not types or c.get("ats") in types)]
+               and (not types or c.get("ats") in types) and c["name"] not in skip]
     health = {}
     rows: list[dict] = []
     log(f"ATS: fetching {len(targets)} company boards")
@@ -78,8 +82,13 @@ def run_ats(companies, only, log, types=None) -> tuple[list[dict], dict]:
         jobs = ats.FETCHERS[c["ats"]](c)
         return c, jobs, time.time() - t0
 
-    with ThreadPoolExecutor(max_workers=6) as ex:
-        futs = {ex.submit(work, c): c for c in targets}
+    # Workday calls are paced through one lock, so give them their own small pool and let
+    # every other job system run in parallel alongside.
+    wd = sorted((c for c in targets if c.get("ats") == "workday"), key=lambda c: c.get("tier", 2))
+    other = [c for c in targets if c.get("ats") != "workday"]
+    with ThreadPoolExecutor(max_workers=6) as ex, ThreadPoolExecutor(max_workers=2) as wx:
+        futs = {ex.submit(work, c): c for c in other}
+        futs.update({wx.submit(work, c): c for c in wd})
         for f in as_completed(futs):
             c = futs[f]
             try:
@@ -89,6 +98,9 @@ def run_ats(companies, only, log, types=None) -> tuple[list[dict], dict]:
                 log(f"  ! {c['name']} ({c['ats']}): {e}")
                 continue
             health[c["name"]] = {"ok": True, "ats": c["ats"], "total": len(jobs), "secs": round(dt, 1)}
+            if c["ats"] in ("sitemap", "icims"):
+                health[c["name"]]["live_urls"] = getattr(jobs, "live_urls", [])
+                health[c["name"]]["total"] = len(getattr(jobs, "live_urls", []))
             for j in jobs:
                 j["source"] = c["ats"]
                 j["tier"] = c.get("tier", 2)
@@ -160,6 +172,8 @@ def merge(state: dict, kept: list[dict], ats_health: dict, cidx: dict, cfg: dict
             rec["date_posted"] = dp
         if j.get("salary"):
             rec["salary"] = j["salary"]
+        if j.get("deadline"):
+            rec["deadline"] = j["deadline"]
         if len(j.get("description") or "") > len(rec.get("description") or ""):
             rec["description"] = (j.get("description") or "")[:6000]
         rec["flags"] = sorted(set(rec["flags"]) | set(j.get("flags", [])))
@@ -167,6 +181,14 @@ def merge(state: dict, kept: list[dict], ats_health: dict, cidx: dict, cfg: dict
             rec["min_years"] = j["min_years"]
 
     ok_companies = {norm_company(n) for n, h in ats_health.items() if h.get("ok")}
+    # Only these readers return a firm's COMPLETE list of open jobs; a job missing from them
+    # really closed. Search-based readers (Workday/Eightfold/Oracle keyword searches) and
+    # capped sitemap reads can miss a live job, so for those we check the sitemap's full URL
+    # list when we have it, and otherwise wait 7 days unseen before calling a job stale.
+    complete = {norm_company(n) for n, h in ats_health.items()
+                if h.get("ok") and h.get("ats") in ("greenhouse", "lever", "ashby", "smartrecruiters")}
+    sitemap_live = {norm_company(n): set(h.get("live_urls") or []) for n, h in ats_health.items()
+                    if h.get("ok") and h.get("ats") in ("sitemap", "icims")}
     stale_days = int(cfg.get("board_stale_days", 7))
     max_age = int(cfg.get("max_posting_age_days", 45))
     for k, rec in jobs.items():
@@ -176,10 +198,13 @@ def merge(state: dict, kept: list[dict], ats_health: dict, cidx: dict, cfg: dict
             continue
         on_ats = any(s in ats.FETCHERS for s in rec["sources"])
         cn = norm_company(rec["company"])
-        if on_ats and cn in ok_companies:
+        if on_ats and cn in complete:
             # company feed loaded fine and the req is gone -> it closed
             rec["status"], rec["closed_on"], rec["closed_why"] = "closed", t, "removed from company job system"
-        elif not on_ats and rec.get("last_seen", t) < (run_day - timedelta(days=stale_days)).isoformat():
+        elif on_ats and cn in sitemap_live and sitemap_live[cn] and any(
+                u and u not in sitemap_live[cn] for src, u in (rec.get("urls") or {}).items() if src in ("sitemap", "icims")):
+            rec["status"], rec["closed_on"], rec["closed_why"] = "closed", t, "removed from company careers site"
+        elif rec.get("last_seen", t) < (run_day - timedelta(days=stale_days)).isoformat():
             rec["status"], rec["closed_on"], rec["closed_why"] = "stale", t, f"not seen on any board for {stale_days}+ days"
 
     # prune
@@ -201,6 +226,27 @@ def _age_flags(rec, run_day, max_age, ok_companies, cidx):
         # firm's own job system loaded fine but this board posting isn't on it -> likely a stale mirror
         flags.add("absent-from-company-site")
     rec["flags"] = sorted(flags)
+
+
+def coverage(companies, ats_health, live, cidx) -> dict:
+    """Per watchlist firm: how we read it, whether that worked this run, and live roles in the pool."""
+    live_by = {}
+    for r in live:
+        c = cidx.get(norm_company(r.get("company", "")))
+        if c:
+            live_by[c["name"]] = live_by.get(c["name"], 0) + 1
+    out = {}
+    for c in companies:
+        if c.get("exclude"):
+            continue
+        h = ats_health.get(c["name"])
+        method = c.get("ats") if c.get("ats") in ats.FETCHERS else "boards-only"
+        out[c["name"]] = {"tier": c.get("tier", 2), "method": method,
+                          "ok": (h or {}).get("ok") if h else None,
+                          "open_roles_read": (h or {}).get("total"),
+                          "error": ((h or {}).get("error") or "")[:120],
+                          "live_in_pool": live_by.get(c["name"], 0)}
+    return out
 
 
 # --------------------------------------------------------------------- main
@@ -244,13 +290,31 @@ def main(argv=None) -> int:
 
     raw: list[dict] = []
     ats_health, board_health = {}, {}
+    ats.WD_SPACING = float(runner.get("workday_spacing", ats.WD_SPACING))
+    if runner.get("workday_budget_min"):
+        ats.WD_DEADLINE[0] = time.time() + 60 * float(runner["workday_budget_min"])
     if not args.skip_ats and runner.get("ats", True):
-        rows, ats_health = run_ats(companies, args.only, log, runner.get("ats_types"))
+        rows, ats_health = run_ats(companies, args.only, log, runner.get("ats_types"), runner.get("ats_skip") or ())
         raw += rows
     if not args.skip_boards and runner.get("sites"):
         from .boards import search_boards
+        if runner.get("company_searches"):
+            # firms we still can't read directly get searched on the boards by name
+            runner["company_list"] = [(c["name"], c.get("aliases") or []) for c in companies
+                                      if c.get("tier", 2) <= int(runner.get("company_search_max_tier", 2))
+                                      and c.get("ats") not in ats.FETCHERS and not c.get("exclude")]
+            log(f"Company-targeted board searches for {len(runner['company_list'])} firms with no readable job system")
         rows, board_health = search_boards(cfg, runner, log)
         raw += rows
+
+    programs = {}
+    pp = load_yaml(ROOT / "config/program_pages.yaml") or []
+    if pp and runner.get("program_pages", True):
+        from .programs import check as check_programs
+        programs = check_programs(pp, state.get("programs", {}))
+        state["programs"] = programs
+        log(f"Program pages: {sum(1 for p in programs.values() if p.get('ok'))}/{len(pp)} read, "
+            f"{sum(1 for p in programs.values() if p.get('status') == 'open')} look open")
 
     kept, reasons = [], {}
     excluded = {norm_company(n) for c in companies if c.get("exclude")
@@ -303,6 +367,8 @@ def main(argv=None) -> int:
         "filter_reasons": reasons, "boards": board_health,
         "ats_ok": sum(1 for h in ats_health.values() if h["ok"]),
         "ats_failed": {n: h["error"] for n, h in ats_health.items() if not h["ok"]},
+        "coverage": coverage(companies, ats_health, live, cidx),
+        "program_pages": programs,
     })
     log(f"Done: {len(live)} live, {sum(1 for r in live if r['first_seen']==run_day.isoformat())} new today")
     return 0

@@ -117,17 +117,55 @@ def smartrecruiters_detail(job: dict) -> str:
 
 
 # ------------------------------------------------------------------- Workday
+# Workday answers bursts from cloud IPs with HTTP 429. Calls paced ~2.5 s apart worked
+# from GitHub Actions in the 2026-11-24 probe, so every Workday request in a run goes
+# through one shared pacing lock.
+import threading as _threading
+_WD_LOCK = _threading.Lock()
+_WD_LAST = [0.0]
+WD_SPACING = 1.5
+
+
+WD_DEADLINE = [0.0]   # set by the collector: no new Workday tenant starts after this time
+
+
+def _wd_post(url, payload, headers):
+    """POST with pacing; a 429 gets two long cool-downs before we give up on the tenant."""
+    for attempt in range(2):
+        _wd_pace()
+        try:
+            return post_json(url, payload, retries=0, headers=headers)
+        except RuntimeError as e:
+            if "429" not in str(e) or attempt == 1:
+                raise
+            time.sleep(20)
+
+
+def _wd_pace():
+    with _WD_LOCK:
+        wait = _WD_LAST[0] + WD_SPACING - time.time()
+        if wait > 0:
+            time.sleep(wait)
+        _WD_LAST[0] = time.time()
+
+
 def workday(c: dict) -> list[dict]:
     """Uses Workday's public CXS JSON API, the same one the careers page itself calls."""
     tenant, dc, site = c["tenant"], c["dc"], c["site"]
     base = f"https://{tenant}.{dc}.myworkdayjobs.com/wday/cxs/{tenant}/{site}"
     seen: dict[str, dict] = {}
+    if WD_DEADLINE[0] and time.time() > WD_DEADLINE[0]:
+        raise RuntimeError("skipped: Workday time budget for this run used up")
     terms = c.get("terms") or WORKDAY_TERMS
+    t0 = time.time()
+    budget = float(c.get("budget_secs", 300))   # one slow tenant must not stall the whole run
     for term in terms:
+        if time.time() - t0 > budget:
+            break
         for page in range(int(c.get("max_pages", 3))):
-            data = post_json(f"{base}/jobs", {"appliedFacets": {}, "limit": 20,
-                                               "offset": page * 20, "searchText": term}, retries=4,
-                             headers={"Origin": f"https://{tenant}.{dc}.myworkdayjobs.com",
+            data = _wd_post(f"{base}/jobs", {"appliedFacets": {}, "limit": 20,
+                                              "offset": page * 20, "searchText": term},
+                            headers={"Origin": f"https://{tenant}.{dc}.myworkdayjobs.com",
                                       "Referer": f"https://{tenant}.{dc}.myworkdayjobs.com/en-US/{site}"})
             posts = data.get("jobPostings") or []
             for j in posts:
@@ -148,13 +186,11 @@ def workday(c: dict) -> list[dict]:
                 }
             if len(posts) < 20:
                 break
-            time.sleep(1.0)
-        time.sleep(1.0)
     return list(seen.values())
 
 
 def workday_detail(job: dict) -> str:
-    time.sleep(0.5)
+    _wd_pace()
     d = get_json(job["_detail"], retries=4).get("jobPostingInfo") or {}
     extra = []
     if d.get("location"):
@@ -197,7 +233,15 @@ def eightfold(c: dict) -> list[dict]:
 
 # ---------------------------------------------- Oracle Cloud HCM (e.g. J.P. Morgan)
 def oracle(c: dict) -> list[dict]:
-    host, site = c["host"], c["site"]
+    sites = c["site"] if isinstance(c["site"], list) else [c["site"]]
+    out = []
+    for site in sites:
+        out += _oracle_site(c, site)
+    return out
+
+
+def _oracle_site(c: dict, site: str) -> list[dict]:
+    host = c["host"]
     seen = {}
     for term in c.get("terms") or ["analyst", "trading", "markets", "intern"]:
         for offset in range(0, 150, 25):
@@ -235,7 +279,11 @@ def oracle_detail(job: dict) -> str:
                        ("ExternalDescriptionStr", "ExternalResponsibilitiesStr", "ExternalQualificationsStr") if d.get(k))
 
 
+from .generic import icims as _icims, sitemap as _sitemap  # noqa: E402
+
 FETCHERS: dict[str, Callable[[dict], list[dict]]] = {
+    "sitemap": _sitemap,
+    "icims": _icims,
     "greenhouse": greenhouse,
     "lever": lever,
     "ashby": ashby,

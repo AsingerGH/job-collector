@@ -108,9 +108,17 @@ def test_merge_lifecycle():
     # day 1: Workday feed FAILED -> must NOT close
     collect.merge(st, [], {"Bank": {"ok": False}}, cidx, cfg, d0 + timedelta(days=1))
     assert rec["status"] == "live"
-    # day 2: feed OK and req missing -> closed
-    collect.merge(st, [], {"Bank": {"ok": True}}, cidx, cfg, d0 + timedelta(days=2))
-    assert rec["status"] == "closed"
+    # day 2: Workday is a keyword search (can miss a live job), so one miss doesn't close it
+    collect.merge(st, [], {"Bank": {"ok": True, "ats": "workday"}}, cidx, cfg, d0 + timedelta(days=2))
+    assert rec["status"] == "live"
+    # ...but 7+ days unseen anywhere does
+    collect.merge(st, [], {"Bank": {"ok": True, "ats": "workday"}}, cidx, cfg, d0 + timedelta(days=9))
+    assert rec["status"] == "stale"
+    # a complete feed (Greenhouse) closes on the first miss
+    st2 = {}
+    collect.merge(st2, [_mk("greenhouse", url="https://gh/x")], {"Bank": {"ok": True, "ats": "greenhouse"}}, cidx, cfg, d0)
+    collect.merge(st2, [], {"Bank": {"ok": True, "ats": "greenhouse"}}, cidx, cfg, d0 + timedelta(days=1))
+    assert next(iter(st2["jobs"].values()))["status"] == "closed"
 
 
 def test_board_only_goes_stale_and_absent_flag():
@@ -237,3 +245,40 @@ def test_linkedin_empty_results_count_as_blocks(monkeypatch):
 ])
 def test_junk_titles(title, keep):
     assert classify({"title": title, "location": "New York, NY", "company": "x", "description": ""})["keep"] is keep
+
+
+# ---------------------------------------------------------------- generic readers (2026-11-24)
+def test_sitemap_reader_reads_jobposting_and_filters(monkeypatch):
+    from collector import generic
+    sm = ("<urlset><url><loc>https://x.com/job/new-york/equity-trading-analyst/1/11</loc><lastmod>2026-11-20</lastmod></url>"
+          "<url><loc>https://x.com/job/tampa/equity-trading-analyst/1/12</loc></url>"
+          "<url><loc>https://x.com/job/new-york/software-engineer/1/13</loc></url></urlset>")
+    page = ('<script type="application/ld+json">{"@type":"JobPosting","title":"Equity Trading Analyst",'
+            '"datePosted":"2026-11-20","validThrough":"2026-12-15","description":"<p>Desk</p>",'
+            '"jobLocation":{"address":{"addressLocality":"New York","addressRegion":"NY"}}}</script>')
+    monkeypatch.setattr(generic, "_get", lambda u, timeout=25: sm if u.endswith(".xml") else page)
+    jobs = generic.sitemap({"name": "X", "sitemap": "https://x.com/sitemap.xml"})
+    assert [j["title"] for j in jobs] == ["Equity Trading Analyst"]
+    assert jobs[0]["location"] == "New York, NY" and jobs[0]["deadline"] == "2026-12-15"
+
+
+def test_sitemap_index_is_followed(monkeypatch):
+    from collector import generic
+    idx = "<sitemapindex><sitemap><loc>https://x.com/jobs-sitemap.xml</loc></sitemap></sitemapindex>"
+    sm = "<urlset><url><loc>https://x.com/jobs/123-trading-analyst</loc></url></urlset>"
+    monkeypatch.setattr(generic, "_get", lambda u, timeout=25: idx if u.endswith("/sitemap.xml") else sm)
+    assert generic.sitemap_urls("https://x.com/sitemap.xml") == [("https://x.com/jobs/123-trading-analyst", "")]
+
+
+def test_program_page_status(monkeypatch):
+    from collector import programs
+
+    class R:
+        def __init__(self, t): self.text = t
+        def raise_for_status(self): pass
+
+    class S:
+        def get(self, u, timeout=25): return R("<p>Applications are now closed for 2027.</p>")
+    monkeypatch.setattr(programs, "session", lambda: S())
+    out = programs.check([{"name": "P", "url": "https://p"}], {"P": {"hash": "x", "status": "open"}})
+    assert out["P"]["status"] == "closed" and out["P"]["status_changed"]

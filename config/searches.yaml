@@ -78,15 +78,24 @@ runners:
     linkedin_descriptions: false   # keep LinkedIn traffic light from the cloud
     sleep_between: 2
     sleep_after_error: 15
+    workday_spacing: 3.0            # Workday rate-limits cloud IPs; one request every 3 s worked in the 2026-11-24 probe
+    workday_budget_min: 20          # tenants not started within 20 min are left to the laptop run
+    ats_skip: ["Morgan Stanley"]    # its Eightfold API refuses cloud IPs (403); the laptop reads it
+    company_searches: true          # search Indeed by firm name for watchlist firms we can't read directly
+    company_sites: ["indeed"]
+    company_words: ["analyst", "trading"]
+    company_search_max_tier: 2
   laptop:                      # Andrew's Windows laptop (home IP, LinkedIn is happier here)
     ats: true
-    ats_types: ["workday"]     # Workday blocks GitHub's servers (HTTP 429, 2026-11-23); home internet gets through
+    ats_types: ["workday", "eightfold"]   # Workday throttles and Eightfold (Morgan Stanley) blocks GitHub's servers; home internet gets through
+    workday_spacing: 1.5
     sites: ["linkedin"]        # Indeed works fine from the cloud
     hours_old: 48               # runs twice a day, so 2 days of overlap is plenty
     results_per_search: 25
     linkedin_descriptions: false   # opening every LinkedIn page took hours; the daily review opens only the promising ones
     sleep_between: 12              # LinkedIn throttled the home connection after a heavy first day (2026-11-23)
     sleep_after_error: 30
+    program_pages: false           # the cloud run watches program pages
     terms:                         # shorter list for LinkedIn: highest-priority phrases only (cloud covers the rest via Indeed)
       - "trading analyst"
       - "sales and trading analyst"

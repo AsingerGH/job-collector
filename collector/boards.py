@@ -87,6 +87,55 @@ def search_boards(cfg: dict, runner: dict, log) -> tuple[list[dict], dict]:
                 elif n > 0:
                     streak[site] = 0
                 time.sleep(float(runner.get("sleep_between", 4 if site == "linkedin" else 1.5)))
+
+    # Company-targeted searches: for watchlist firms whose own job system we can't read,
+    # search the boards by firm name so their roles don't depend on matching a title keyword.
+    firms = runner.get("company_list") or []
+    csites = [s for s in runner.get("company_sites", ["indeed"]) if s in sites]
+    if firms and csites:
+        from .util import norm_company
+        cloc = cfg["locations"][0]["name"]
+        for site in csites:
+            health[site].setdefault("company_searches", 0)
+            for firm, aliases in firms:
+                if streak[site] >= 3:
+                    break
+                keys = {norm_company(a) for a in [firm, *aliases]}
+                for word in runner.get("company_words", ["analyst", "trading"]):
+                    try:
+                        df = scrape_jobs(site_name=[site], search_term=f"{firm} {word}", location=cloc,
+                                         distance=15, results_wanted=int(runner.get("company_results", 25)),
+                                         hours_old=hours_old, country_indeed="USA",
+                                         fetch_description=False, description_format="markdown", verbose=0)
+                    except Exception as e:
+                        health[site]["errors"] += 1
+                        health[site]["last_error"] = str(e)[:300]
+                        streak[site] += 1
+                        time.sleep(runner.get("sleep_after_error", 20))
+                        continue
+                    health[site]["company_searches"] += 1
+                    n = 0
+                    for r in df.to_dict("records") if df is not None else []:
+                        co = str(r.get("company") or "")
+                        nc = norm_company(co)
+                        if not nc or not any(k and (k == nc or k in nc or nc in k) for k in keys):
+                            continue          # board returned some other firm's job
+                        url = r.get("job_url_direct") or r.get("job_url") or ""
+                        if not url or not r.get("title"):
+                            continue
+                        rows.append({
+                            "company": co, "title": str(r.get("title") or ""),
+                            "location": _loc(r.get("location")), "url": str(r.get("job_url") or url),
+                            "url_direct": str(r.get("job_url_direct") or ""),
+                            "date_posted": parse_date(r.get("date_posted")),
+                            "description": str(r.get("description") or "")[:8000],
+                            "job_type": _jt(r.get("job_type")), "salary": _salary(r),
+                            "source": site, "search": f"company:{firm}",
+                        })
+                        n += 1
+                    health[site]["rows"] += n
+                    streak[site] = 0
+                    time.sleep(float(runner.get("sleep_between", 1.5)))
     return rows, health
 
 

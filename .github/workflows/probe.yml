@@ -1,0 +1,25 @@
+name: probe-careers
+on:
+  push:
+    branches: [probe]
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -r requirements.txt
+      - name: trial collector run (company job systems only)
+        run: bash tools/trial2.sh > data/trial2_out.txt 2>&1 || true
+      - name: commit results
+        run: |
+          git config user.name "probe-bot"; git config user.email "probe-bot@users.noreply.github.com"
+          true
+          git checkout -- data/cloud || true
+          git add data/trial2*
+          git commit -m "trial2 results [skip ci]" || exit 0
+          git push
