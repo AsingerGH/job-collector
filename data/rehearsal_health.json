@@ -1,75 +1,22 @@
 {
  "runner": "cloud",
- "run_at": "2026-11-24T17:26:05.185477+00:00",
- "minutes": 26.7,
- "raw": 5137,
- "kept": 855,
- "live": 570,
- "new_today": 177,
+ "run_at": "2026-11-24T17:54:27.096264+00:00",
+ "minutes": 0.4,
+ "raw": 623,
+ "kept": 44,
+ "live": 485,
+ "new_today": 92,
  "filter_reasons": {
-  "ok": 862,
-  "experience": 88,
-  "function": 1526,
-  "location": 2074,
-  "seniority": 562,
-  "internship-wrong-year": 25
+  "internship-wrong-year": 8,
+  "ok": 44,
+  "seniority": 41,
+  "function": 56,
+  "experience": 15,
+  "location": 459
  },
- "boards": {
-  "indeed": {
-   "ok": 51,
-   "errors": 0,
-   "rows": 1833,
-   "last_error": "",
-   "skipped": 0,
-   "company_searches": 158
-  },
-  "linkedin": {
-   "ok": 3,
-   "errors": 6,
-   "rows": 150,
-   "last_error": "response status code 429 (blocked: use a proxy)",
-   "skipped": 42
-  }
- },
- "ats_ok": 48,
- "ats_failed": {
-  "Barclays": "POST https://barclays.wd3.myworkdayjobs.com/wday/cxs/barclays/External_Career_Site_Barclays/jobs failed: HTTP 429 for https://barclays.wd3.myworkdayjobs.com/wday/cxs/barclays/External_Career_Site_Barclays/jobs",
-  "Citi": "POST https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/jobs failed: HTTP 429 for https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/jobs",
-  "Deutsche Bank": "POST https://db.wd3.myworkdayjobs.com/wday/cxs/db/DBWebsite/jobs failed: HTTP 429 for https://db.wd3.myworkdayjobs.com/wday/cxs/db/DBWebsite/jobs",
-  "RBC Capital Markets": "POST https://rbc.wd3.myworkdayjobs.com/wday/cxs/rbc/RBCGLOBAL1/jobs failed: HTTP 429 for https://rbc.wd3.myworkdayjobs.com/wday/cxs/rbc/RBCGLOBAL1/jobs",
-  "Mizuho": "POST https://mizuho.wd1.myworkdayjobs.com/wday/cxs/mizuho/mizuhoamericas/jobs failed: HTTP 429 for https://mizuho.wd1.myworkdayjobs.com/wday/cxs/mizuho/mizuhoamericas/jobs",
-  "TD Securities": "POST https://td.wd3.myworkdayjobs.com/wday/cxs/td/TD_Bank_Careers/jobs failed: HTTP 429 for https://td.wd3.myworkdayjobs.com/wday/cxs/td/TD_Bank_Careers/jobs",
-  "BMO Capital Markets": "POST https://bmo.wd3.myworkdayjobs.com/wday/cxs/bmo/External/jobs failed: HTTP 429 for https://bmo.wd3.myworkdayjobs.com/wday/cxs/bmo/External/jobs",
-  "Moelis & Company": "POST https://moelis.wd1.myworkdayjobs.com/wday/cxs/moelis/Experienced-Hires/jobs failed: HTTP 429 for https://moelis.wd1.myworkdayjobs.com/wday/cxs/moelis/Experienced-Hires/jobs",
-  "PNC": "POST https://pnc.wd5.myworkdayjobs.com/wday/cxs/pnc/External/jobs failed: HTTP 429 for https://pnc.wd5.myworkdayjobs.com/wday/cxs/pnc/External/jobs",
-  "State Street": "POST https://statestreet.wd1.myworkdayjobs.com/wday/cxs/statestreet/Global/jobs failed: HTTP 429 for https://statestreet.wd1.myworkdayjobs.com/wday/cxs/statestreet/Global/jobs",
-  "Santander US Capital Markets": "POST https://santander.wd3.myworkdayjobs.com/wday/cxs/santander/SantanderCareers/jobs failed: HTTP 429 for https://santander.wd3.myworkdayjobs.com/wday/cxs/santander/SantanderCareers/jobs",
-  "BBVA": "POST https://bbva.wd3.myworkdayjobs.com/wday/cxs/bbva/bbva/jobs failed: HTTP 429 for https://bbva.wd3.myworkdayjobs.com/wday/cxs/bbva/bbva/jobs",
-  "MUFG": "POST https://mufgub.wd3.myworkdayjobs.com/wday/cxs/mufgub/MUFG-Careers/jobs failed: HTTP 429 for https://mufgub.wd3.myworkdayjobs.com/wday/cxs/mufgub/MUFG-Careers/jobs",
-  "CIBC Capital Markets": "POST https://cibc.wd3.myworkdayjobs.com/wday/cxs/cibc/search/jobs failed: HTTP 429 for https://cibc.wd3.myworkdayjobs.com/wday/cxs/cibc/search/jobs",
-  "U.S. Bank": "POST https://usbank.wd1.myworkdayjobs.com/wday/cxs/usbank/US_Bank_Careers/jobs failed: HTTP 429 for https://usbank.wd1.myworkdayjobs.com/wday/cxs/usbank/US_Bank_Careers/jobs",
-  "Capital One": "POST https://capitalone.wd12.myworkdayjobs.com/wday/cxs/capitalone/Capital_One/jobs failed: HTTP 429 for https://capitalone.wd12.myworkdayjobs.com/wday/cxs/capitalone/Capital_One/jobs",
-  "M&T Bank": "POST https://mtb.wd5.myworkdayjobs.com/wday/cxs/mtb/Campus/jobs failed: HTTP 429 for https://mtb.wd5.myworkdayjobs.com/wday/cxs/mtb/Campus/jobs",
-  "Northern Trust": "POST https://ntrs.wd1.myworkdayjobs.com/wday/cxs/ntrs/northerntrust/jobs failed: HTTP 429 for https://ntrs.wd1.myworkdayjobs.com/wday/cxs/ntrs/northerntrust/jobs",
-  "Raymond James": "POST https://raymondjames.wd1.myworkdayjobs.com/wday/cxs/raymondjames/RaymondJamesCareers/jobs failed: HTTP 429 for https://raymondjames.wd1.myworkdayjobs.com/wday/cxs/raymondjames/RaymondJamesCareers/jobs",
-  "PJT Partners": "POST https://pjtpartners.wd1.myworkdayjobs.com/wday/cxs/pjtpartners/Students/jobs failed: HTTP 429 for https://pjtpartners.wd1.myworkdayjobs.com/wday/cxs/pjtpartners/Students/jobs",
-  "Houlihan Lokey": "POST https://hl.wd1.myworkdayjobs.com/wday/cxs/hl/Campus/jobs failed: HTTP 429 for https://hl.wd1.myworkdayjobs.com/wday/cxs/hl/Campus/jobs",
-  "Northland Capital Markets": "POST https://firstnational.wd12.myworkdayjobs.com/wday/cxs/firstnational/northlandcareers/jobs failed: HTTP 429 for https://firstnational.wd12.myworkdayjobs.com/wday/cxs/firstnational/northlandcareers/jobs",
-  "Nasdaq": "POST https://nasdaq.wd1.myworkdayjobs.com/wday/cxs/nasdaq/Global_External_Site/jobs failed: HTTP 429 for https://nasdaq.wd1.myworkdayjobs.com/wday/cxs/nasdaq/Global_External_Site/jobs",
-  "Cboe Global Markets": "POST https://cboe.wd1.myworkdayjobs.com/wday/cxs/cboe/External_Career_CBOE/jobs failed: HTTP 429 for https://cboe.wd1.myworkdayjobs.com/wday/cxs/cboe/External_Career_CBOE/jobs",
-  "CME Group": "POST https://cmegroup.wd1.myworkdayjobs.com/wday/cxs/cmegroup/cme_careers/jobs failed: HTTP 429 for https://cmegroup.wd1.myworkdayjobs.com/wday/cxs/cmegroup/cme_careers/jobs",
-  "Jain Global": "POST https://jainglobal.wd5.myworkdayjobs.com/wday/cxs/jainglobal/LinkedInCareerSite/jobs failed: HTTP 429 for https://jainglobal.wd5.myworkdayjobs.com/wday/cxs/jainglobal/LinkedInCareerSite/jobs",
-  "Federal Reserve Bank of New York": "POST https://rb.wd5.myworkdayjobs.com/wday/cxs/rb/FRS/jobs failed: HTTP 429 for https://rb.wd5.myworkdayjobs.com/wday/cxs/rb/FRS/jobs",
-  "Neuberger Berman": "POST https://nb.wd1.myworkdayjobs.com/wday/cxs/nb/NBcareers/jobs failed: HTTP 429 for https://nb.wd1.myworkdayjobs.com/wday/cxs/nb/NBcareers/jobs",
-  "Nuveen": "POST https://tiaa.wd1.myworkdayjobs.com/wday/cxs/tiaa/Search/jobs failed: HTTP 429 for https://tiaa.wd1.myworkdayjobs.com/wday/cxs/tiaa/Search/jobs",
-  "PGIM": "POST https://pru.wd5.myworkdayjobs.com/wday/cxs/pru/Careers/jobs failed: HTTP 429 for https://pru.wd5.myworkdayjobs.com/wday/cxs/pru/Careers/jobs",
-  "Invesco": "POST https://invesco.wd1.myworkdayjobs.com/wday/cxs/invesco/IVZ/jobs failed: HTTP 429 for https://invesco.wd1.myworkdayjobs.com/wday/cxs/invesco/IVZ/jobs",
-  "Franklin Templeton": "POST https://franklintempleton.wd5.myworkdayjobs.com/wday/cxs/franklintempleton/Primary-External-1/jobs failed: HTTP 429 for https://franklintempleton.wd5.myworkdayjobs.com/wday/cxs/franklintempleton/Primary-External-1/jobs",
-  "Apollo": "POST https://athene.wd5.myworkdayjobs.com/wday/cxs/athene/Apollo_Careers/jobs failed: HTTP 429 for https://athene.wd5.myworkdayjobs.com/wday/cxs/athene/Apollo_Careers/jobs",
-  "Blackstone": "POST https://blackstone.wd1.myworkdayjobs.com/wday/cxs/blackstone/Blackstone_Careers/jobs failed: HTTP 429 for https://blackstone.wd1.myworkdayjobs.com/wday/cxs/blackstone/Blackstone_Careers/jobs",
-  "Freepoint Commodities": "POST https://freepoint.wd12.myworkdayjobs.com/wday/cxs/freepoint/Freepoint_Commodities/jobs failed: HTTP 429 for https://freepoint.wd12.myworkdayjobs.com/wday/cxs/freepoint/Freepoint_Commodities/jobs",
-  "Trafigura": "POST https://trafigura.wd3.myworkdayjobs.com/wday/cxs/trafigura/TrafiguraCareerSite/jobs failed: HTTP 429 for https://trafigura.wd3.myworkdayjobs.com/wday/cxs/trafigura/TrafiguraCareerSite/jobs"
- },
+ "boards": {},
+ "ats_ok": 10,
+ "ats_failed": {},
  "coverage": {
   "Goldman Sachs": {
    "tier": 1,
@@ -85,37 +32,37 @@
    "ok": null,
    "open_roles_read": null,
    "error": "",
-   "live_in_pool": 12
+   "live_in_pool": 11
   },
   "J.P. Morgan": {
    "tier": 1,
    "method": "oracle",
-   "ok": true,
-   "open_roles_read": 415,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
-   "live_in_pool": 28
+   "live_in_pool": 23
   },
   "Bank of America": {
    "tier": 1,
    "method": "sitemap",
-   "ok": true,
-   "open_roles_read": 2114,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
-   "live_in_pool": 22
+   "live_in_pool": 1
   },
   "Citi": {
    "tier": 1,
-   "method": "workday",
-   "ok": false,
-   "open_roles_read": null,
-   "error": "POST https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/jobs failed: HTTP 429 for https://citi.wd5.myworkdayjobs.com/wda",
-   "live_in_pool": 9
+   "method": "sitemap",
+   "ok": true,
+   "open_roles_read": 3139,
+   "error": "",
+   "live_in_pool": 30
   },
   "Wells Fargo": {
    "tier": 1,
    "method": "workday",
-   "ok": true,
-   "open_roles_read": 74,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
    "live_in_pool": 3
   },
@@ -129,27 +76,27 @@
   },
   "State Street": {
    "tier": 2,
-   "method": "workday",
-   "ok": false,
-   "open_roles_read": null,
-   "error": "POST https://statestreet.wd1.myworkdayjobs.com/wday/cxs/statestreet/Global/jobs failed: HTTP 429 for https://statestreet",
+   "method": "sitemap",
+   "ok": true,
+   "open_roles_read": 977,
+   "error": "",
    "live_in_pool": 0
   },
   "Barclays": {
    "tier": 1,
-   "method": "workday",
-   "ok": false,
-   "open_roles_read": null,
-   "error": "POST https://barclays.wd3.myworkdayjobs.com/wday/cxs/barclays/External_Career_Site_Barclays/jobs failed: HTTP 429 for ht",
-   "live_in_pool": 1
+   "method": "sitemap",
+   "ok": true,
+   "open_roles_read": 634,
+   "error": "",
+   "live_in_pool": 6
   },
   "Deutsche Bank": {
    "tier": 1,
    "method": "workday",
-   "ok": false,
+   "ok": null,
    "open_roles_read": null,
-   "error": "POST https://db.wd3.myworkdayjobs.com/wday/cxs/db/DBWebsite/jobs failed: HTTP 429 for https://db.wd3.myworkdayjobs.com/w",
-   "live_in_pool": 5
+   "error": "",
+   "live_in_pool": 4
   },
   "UBS": {
    "tier": 1,
@@ -157,7 +104,7 @@
    "ok": null,
    "open_roles_read": null,
    "error": "",
-   "live_in_pool": 5
+   "live_in_pool": 2
   },
   "BNP Paribas": {
    "tier": 1,
@@ -173,7 +120,7 @@
    "ok": null,
    "open_roles_read": null,
    "error": "",
-   "live_in_pool": 8
+   "live_in_pool": 4
   },
   "Natixis": {
    "tier": 2,
@@ -202,24 +149,24 @@
   "Santander US Capital Markets": {
    "tier": 2,
    "method": "workday",
-   "ok": false,
+   "ok": null,
    "open_roles_read": null,
-   "error": "POST https://santander.wd3.myworkdayjobs.com/wday/cxs/santander/SantanderCareers/jobs failed: HTTP 429 for https://santa",
+   "error": "",
    "live_in_pool": 4
   },
   "BBVA": {
    "tier": 2,
    "method": "workday",
-   "ok": false,
+   "ok": null,
    "open_roles_read": null,
-   "error": "POST https://bbva.wd3.myworkdayjobs.com/wday/cxs/bbva/bbva/jobs failed: HTTP 429 for https://bbva.wd3.myworkdayjobs.com/",
-   "live_in_pool": 4
+   "error": "",
+   "live_in_pool": 3
   },
   "ING": {
    "tier": 2,
    "method": "sitemap",
-   "ok": true,
-   "open_roles_read": 614,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
    "live_in_pool": 0
   },
@@ -234,18 +181,18 @@
   "Mizuho": {
    "tier": 1,
    "method": "workday",
-   "ok": false,
+   "ok": null,
    "open_roles_read": null,
-   "error": "POST https://mizuho.wd1.myworkdayjobs.com/wday/cxs/mizuho/mizuhoamericas/jobs failed: HTTP 429 for https://mizuho.wd1.my",
+   "error": "",
    "live_in_pool": 6
   },
   "MUFG": {
    "tier": 2,
    "method": "workday",
-   "ok": false,
+   "ok": null,
    "open_roles_read": null,
-   "error": "POST https://mufgub.wd3.myworkdayjobs.com/wday/cxs/mufgub/MUFG-Careers/jobs failed: HTTP 429 for https://mufgub.wd3.mywo",
-   "live_in_pool": 8
+   "error": "",
+   "live_in_pool": 7
   },
   "SMBC Nikko": {
    "tier": 2,
@@ -253,7 +200,7 @@
    "ok": null,
    "open_roles_read": null,
    "error": "",
-   "live_in_pool": 3
+   "live_in_pool": 1
   },
   "Nomura": {
    "tier": 1,
@@ -273,27 +220,27 @@
   },
   "RBC Capital Markets": {
    "tier": 1,
-   "method": "workday",
-   "ok": false,
-   "open_roles_read": null,
-   "error": "POST https://rbc.wd3.myworkdayjobs.com/wday/cxs/rbc/RBCGLOBAL1/jobs failed: HTTP 429 for https://rbc.wd3.myworkdayjobs.c",
+   "method": "sitemap",
+   "ok": true,
+   "open_roles_read": 753,
+   "error": "",
    "live_in_pool": 5
   },
   "TD Securities": {
    "tier": 1,
    "method": "workday",
-   "ok": false,
+   "ok": null,
    "open_roles_read": null,
-   "error": "POST https://td.wd3.myworkdayjobs.com/wday/cxs/td/TD_Bank_Careers/jobs failed: HTTP 429 for https://td.wd3.myworkdayjobs",
+   "error": "",
    "live_in_pool": 3
   },
   "BMO Capital Markets": {
    "tier": 1,
-   "method": "workday",
-   "ok": false,
-   "open_roles_read": null,
-   "error": "POST https://bmo.wd3.myworkdayjobs.com/wday/cxs/bmo/External/jobs failed: HTTP 429 for https://bmo.wd3.myworkdayjobs.com",
-   "live_in_pool": 1
+   "method": "sitemap",
+   "ok": true,
+   "open_roles_read": 483,
+   "error": "",
+   "live_in_pool": 4
   },
   "Scotiabank": {
    "tier": 2,
@@ -306,9 +253,9 @@
   "CIBC Capital Markets": {
    "tier": 2,
    "method": "workday",
-   "ok": false,
+   "ok": null,
    "open_roles_read": null,
-   "error": "POST https://cibc.wd3.myworkdayjobs.com/wday/cxs/cibc/search/jobs failed: HTTP 429 for https://cibc.wd3.myworkdayjobs.co",
+   "error": "",
    "live_in_pool": 2
   },
   "Macquarie": {
@@ -317,15 +264,15 @@
    "ok": null,
    "open_roles_read": null,
    "error": "",
-   "live_in_pool": 2
+   "live_in_pool": 1
   },
   "Standard Chartered": {
    "tier": 2,
    "method": "sitemap",
-   "ok": true,
-   "open_roles_read": 1115,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
-   "live_in_pool": 5
+   "live_in_pool": 0
   },
   "Itau BBA": {
    "tier": 2,
@@ -341,15 +288,15 @@
    "ok": null,
    "open_roles_read": null,
    "error": "",
-   "live_in_pool": 5
+   "live_in_pool": 4
   },
   "Citizens JMP": {
    "tier": 2,
    "method": "oracle",
-   "ok": true,
-   "open_roles_read": 93,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
-   "live_in_pool": 2
+   "live_in_pool": 0
   },
   "KeyBanc Capital Markets": {
    "tier": 2,
@@ -361,26 +308,26 @@
   },
   "Truist Securities": {
    "tier": 2,
-   "method": "workday",
+   "method": "sitemap",
    "ok": true,
-   "open_roles_read": 41,
+   "open_roles_read": 1222,
    "error": "",
-   "live_in_pool": 4
+   "live_in_pool": 3
   },
   "PNC": {
    "tier": 1,
-   "method": "workday",
-   "ok": false,
-   "open_roles_read": null,
-   "error": "POST https://pnc.wd5.myworkdayjobs.com/wday/cxs/pnc/External/jobs failed: HTTP 429 for https://pnc.wd5.myworkdayjobs.com",
+   "method": "sitemap",
+   "ok": true,
+   "open_roles_read": 1044,
+   "error": "",
    "live_in_pool": 1
   },
   "U.S. Bank": {
    "tier": 2,
-   "method": "workday",
-   "ok": false,
-   "open_roles_read": null,
-   "error": "POST https://usbank.wd1.myworkdayjobs.com/wday/cxs/usbank/US_Bank_Careers/jobs failed: HTTP 429 for https://usbank.wd1.m",
+   "method": "sitemap",
+   "ok": true,
+   "open_roles_read": 1250,
+   "error": "",
    "live_in_pool": 3
   },
   "Fifth Third": {
@@ -393,18 +340,18 @@
   },
   "Capital One": {
    "tier": 2,
-   "method": "workday",
-   "ok": false,
-   "open_roles_read": null,
-   "error": "POST https://capitalone.wd12.myworkdayjobs.com/wday/cxs/capitalone/Capital_One/jobs failed: HTTP 429 for https://capital",
+   "method": "sitemap",
+   "ok": true,
+   "open_roles_read": 1923,
+   "error": "",
    "live_in_pool": 0
   },
   "M&T Bank": {
    "tier": 2,
    "method": "workday",
-   "ok": false,
+   "ok": null,
    "open_roles_read": null,
-   "error": "POST https://mtb.wd5.myworkdayjobs.com/wday/cxs/mtb/Campus/jobs failed: HTTP 429 for https://mtb.wd5.myworkdayjobs.com/w",
+   "error": "",
    "live_in_pool": 2
   },
   "Webster Bank": {
@@ -434,10 +381,10 @@
   "Northern Trust": {
    "tier": 2,
    "method": "workday",
-   "ok": false,
+   "ok": null,
    "open_roles_read": null,
-   "error": "POST https://ntrs.wd1.myworkdayjobs.com/wday/cxs/ntrs/northerntrust/jobs failed: HTTP 429 for https://ntrs.wd1.myworkday",
-   "live_in_pool": 7
+   "error": "",
+   "live_in_pool": 6
   },
   "Piper Sandler": {
    "tier": 1,
@@ -450,32 +397,32 @@
   "Raymond James": {
    "tier": 2,
    "method": "workday",
-   "ok": false,
+   "ok": null,
    "open_roles_read": null,
-   "error": "POST https://raymondjames.wd1.myworkdayjobs.com/wday/cxs/raymondjames/RaymondJamesCareers/jobs failed: HTTP 429 for http",
-   "live_in_pool": 4
+   "error": "",
+   "live_in_pool": 3
   },
   "Stifel": {
    "tier": 2,
    "method": "icims",
-   "ok": true,
-   "open_roles_read": 129,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
-   "live_in_pool": 10
+   "live_in_pool": 2
   },
   "Baird": {
    "tier": 2,
    "method": "sitemap",
-   "ok": true,
-   "open_roles_read": 137,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
-   "live_in_pool": 1
+   "live_in_pool": 0
   },
   "William Blair": {
    "tier": 1,
    "method": "greenhouse",
-   "ok": true,
-   "open_roles_read": 48,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
    "live_in_pool": 2
   },
@@ -498,8 +445,8 @@
   "BTIG": {
    "tier": 1,
    "method": "greenhouse",
-   "ok": true,
-   "open_roles_read": 3,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
    "live_in_pool": 2
   },
@@ -514,16 +461,16 @@
   "B. Riley Securities": {
    "tier": 2,
    "method": "greenhouse",
-   "ok": true,
-   "open_roles_read": 3,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
    "live_in_pool": 0
   },
   "Guggenheim Securities": {
    "tier": 2,
    "method": "workday",
-   "ok": true,
-   "open_roles_read": 34,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
    "live_in_pool": 0
   },
@@ -546,25 +493,25 @@
   "Lazard": {
    "tier": 1,
    "method": "oracle",
-   "ok": true,
-   "open_roles_read": 188,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
-   "live_in_pool": 2
+   "live_in_pool": 0
   },
   "Moelis & Company": {
    "tier": 1,
    "method": "workday",
-   "ok": false,
+   "ok": null,
    "open_roles_read": null,
-   "error": "POST https://moelis.wd1.myworkdayjobs.com/wday/cxs/moelis/Experienced-Hires/jobs failed: HTTP 429 for https://moelis.wd1",
+   "error": "",
    "live_in_pool": 0
   },
   "PJT Partners": {
    "tier": 2,
    "method": "workday",
-   "ok": false,
+   "ok": null,
    "open_roles_read": null,
-   "error": "POST https://pjtpartners.wd1.myworkdayjobs.com/wday/cxs/pjtpartners/Students/jobs failed: HTTP 429 for https://pjtpartne",
+   "error": "",
    "live_in_pool": 0
   },
   "Perella Weinberg Partners": {
@@ -586,9 +533,9 @@
   "Houlihan Lokey": {
    "tier": 2,
    "method": "workday",
-   "ok": false,
+   "ok": null,
    "open_roles_read": null,
-   "error": "POST https://hl.wd1.myworkdayjobs.com/wday/cxs/hl/Campus/jobs failed: HTTP 429 for https://hl.wd1.myworkdayjobs.com/wday",
+   "error": "",
    "live_in_pool": 11
   },
   "Canaccord Genuity": {
@@ -610,8 +557,8 @@
   "D.A. Davidson": {
    "tier": 2,
    "method": "lever",
-   "ok": true,
-   "open_roles_read": 41,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
    "live_in_pool": 3
   },
@@ -634,9 +581,9 @@
   "Northland Capital Markets": {
    "tier": 2,
    "method": "workday",
-   "ok": false,
+   "ok": null,
    "open_roles_read": null,
-   "error": "POST https://firstnational.wd12.myworkdayjobs.com/wday/cxs/firstnational/northlandcareers/jobs failed: HTTP 429 for http",
+   "error": "",
    "live_in_pool": 0
   },
   "Craig-Hallum": {
@@ -666,8 +613,8 @@
   "Seaport Global": {
    "tier": 2,
    "method": "lever",
-   "ok": true,
-   "open_roles_read": 6,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
    "live_in_pool": 0
   },
@@ -746,16 +693,16 @@
   "Clear Street": {
    "tier": 1,
    "method": "greenhouse",
-   "ok": true,
-   "open_roles_read": 33,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
    "live_in_pool": 1
   },
   "Virtu Financial": {
    "tier": 1,
    "method": "greenhouse",
-   "ok": true,
-   "open_roles_read": 42,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
    "live_in_pool": 0
   },
@@ -773,7 +720,7 @@
    "ok": null,
    "open_roles_read": null,
    "error": "",
-   "live_in_pool": 5
+   "live_in_pool": 3
   },
   "BGC Group": {
    "tier": 2,
@@ -813,46 +760,46 @@
    "ok": null,
    "open_roles_read": null,
    "error": "",
-   "live_in_pool": 1
+   "live_in_pool": 0
   },
   "IEX Group": {
    "tier": 2,
    "method": "greenhouse",
-   "ok": true,
-   "open_roles_read": 9,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
    "live_in_pool": 0
   },
   "Nasdaq": {
    "tier": 2,
    "method": "workday",
-   "ok": false,
+   "ok": null,
    "open_roles_read": null,
-   "error": "POST https://nasdaq.wd1.myworkdayjobs.com/wday/cxs/nasdaq/Global_External_Site/jobs failed: HTTP 429 for https://nasdaq.",
+   "error": "",
    "live_in_pool": 0
   },
   "Intercontinental Exchange": {
    "tier": 2,
    "method": "icims",
-   "ok": true,
-   "open_roles_read": 125,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
-   "live_in_pool": 7
+   "live_in_pool": 2
   },
   "Cboe Global Markets": {
    "tier": 2,
-   "method": "workday",
-   "ok": false,
-   "open_roles_read": null,
-   "error": "POST https://cboe.wd1.myworkdayjobs.com/wday/cxs/cboe/External_Career_CBOE/jobs failed: HTTP 429 for https://cboe.wd1.my",
-   "live_in_pool": 0
+   "method": "sitemap",
+   "ok": true,
+   "open_roles_read": 111,
+   "error": "",
+   "live_in_pool": 3
   },
   "CME Group": {
    "tier": 2,
    "method": "workday",
-   "ok": false,
+   "ok": null,
    "open_roles_read": null,
-   "error": "POST https://cmegroup.wd1.myworkdayjobs.com/wday/cxs/cmegroup/cme_careers/jobs failed: HTTP 429 for https://cmegroup.wd1",
+   "error": "",
    "live_in_pool": 1
   },
   "MIAX": {
@@ -869,14 +816,14 @@
    "ok": null,
    "open_roles_read": null,
    "error": "",
-   "live_in_pool": 4
+   "live_in_pool": 3
   },
   "Federal Reserve Bank of New York": {
    "tier": 2,
    "method": "workday",
-   "ok": false,
+   "ok": null,
    "open_roles_read": null,
-   "error": "POST https://rb.wd5.myworkdayjobs.com/wday/cxs/rb/FRS/jobs failed: HTTP 429 for https://rb.wd5.myworkdayjobs.com/wday/cx",
+   "error": "",
    "live_in_pool": 2
   },
   "Citadel Securities": {
@@ -890,40 +837,40 @@
   "Jane Street": {
    "tier": 1,
    "method": "greenhouse",
-   "ok": true,
-   "open_roles_read": 217,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
    "live_in_pool": 4
   },
   "Susquehanna (SIG)": {
    "tier": 1,
    "method": "icims",
-   "ok": true,
-   "open_roles_read": 116,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
-   "live_in_pool": 2
+   "live_in_pool": 1
   },
   "Optiver": {
    "tier": 1,
    "method": "greenhouse",
-   "ok": true,
-   "open_roles_read": 147,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
-   "live_in_pool": 7
+   "live_in_pool": 0
   },
   "IMC Trading": {
    "tier": 2,
    "method": "greenhouse",
-   "ok": true,
-   "open_roles_read": 153,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
    "live_in_pool": 9
   },
   "DRW": {
    "tier": 1,
    "method": "greenhouse",
-   "ok": true,
-   "open_roles_read": 149,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
    "live_in_pool": 4
   },
@@ -938,32 +885,32 @@
   "Jump Trading": {
    "tier": 2,
    "method": "greenhouse",
-   "ok": true,
-   "open_roles_read": 86,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
    "live_in_pool": 2
   },
   "Tower Research Capital": {
    "tier": 2,
    "method": "greenhouse",
-   "ok": true,
-   "open_roles_read": 93,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
    "live_in_pool": 1
   },
   "Five Rings": {
    "tier": 2,
    "method": "greenhouse",
-   "ok": true,
-   "open_roles_read": 22,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
-   "live_in_pool": 5
+   "live_in_pool": 0
   },
   "Akuna Capital": {
    "tier": 2,
    "method": "greenhouse",
-   "ok": true,
-   "open_roles_read": 33,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
    "live_in_pool": 7
   },
@@ -973,13 +920,13 @@
    "ok": null,
    "open_roles_read": null,
    "error": "",
-   "live_in_pool": 6
+   "live_in_pool": 4
   },
   "Belvedere Trading": {
    "tier": 2,
    "method": "lever",
-   "ok": true,
-   "open_roles_read": 9,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
    "live_in_pool": 4
   },
@@ -1002,8 +949,8 @@
   "Flow Traders": {
    "tier": 2,
    "method": "greenhouse",
-   "ok": true,
-   "open_roles_read": 43,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
    "live_in_pool": 3
   },
@@ -1018,24 +965,24 @@
   "Old Mission Capital": {
    "tier": 2,
    "method": "ashby",
-   "ok": true,
-   "open_roles_read": 39,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
-   "live_in_pool": 12
+   "live_in_pool": 11
   },
   "Headlands Technologies": {
    "tier": 2,
    "method": "greenhouse",
-   "ok": true,
-   "open_roles_read": 8,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
    "live_in_pool": 0
   },
   "Vatic Labs": {
    "tier": 2,
    "method": "greenhouse",
-   "ok": true,
-   "open_roles_read": 6,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
    "live_in_pool": 0
   },
@@ -1058,16 +1005,16 @@
   "Galaxy": {
    "tier": 2,
    "method": "greenhouse",
-   "ok": true,
-   "open_roles_read": 2,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
    "live_in_pool": 2
   },
   "FalconX": {
    "tier": 2,
    "method": "greenhouse",
-   "ok": true,
-   "open_roles_read": 14,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
    "live_in_pool": 1
   },
@@ -1090,18 +1037,18 @@
   "Point72": {
    "tier": 1,
    "method": "greenhouse",
-   "ok": true,
-   "open_roles_read": 201,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
    "live_in_pool": 8
   },
   "Millennium": {
    "tier": 2,
    "method": "eightfold",
-   "ok": true,
-   "open_roles_read": 169,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
-   "live_in_pool": 3
+   "live_in_pool": 2
   },
   "Balyasny": {
    "tier": 2,
@@ -1114,16 +1061,16 @@
   "Schonfeld": {
    "tier": 2,
    "method": "greenhouse",
-   "ok": true,
-   "open_roles_read": 66,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
    "live_in_pool": 1
   },
   "ExodusPoint": {
    "tier": 2,
    "method": "greenhouse",
-   "ok": true,
-   "open_roles_read": 5,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
    "live_in_pool": 0
   },
@@ -1146,9 +1093,9 @@
   "Jain Global": {
    "tier": 2,
    "method": "workday",
-   "ok": false,
+   "ok": null,
    "open_roles_read": null,
-   "error": "POST https://jainglobal.wd5.myworkdayjobs.com/wday/cxs/jainglobal/LinkedInCareerSite/jobs failed: HTTP 429 for https://j",
+   "error": "",
    "live_in_pool": 0
   },
   "D. E. Shaw": {
@@ -1178,16 +1125,16 @@
   "Brevan Howard": {
    "tier": 2,
    "method": "sitemap",
-   "ok": true,
-   "open_roles_read": 28,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
-   "live_in_pool": 6
+   "live_in_pool": 0
   },
   "Squarepoint Capital": {
    "tier": 2,
    "method": "greenhouse",
-   "ok": true,
-   "open_roles_read": 87,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
    "live_in_pool": 5
   },
@@ -1202,24 +1149,24 @@
   "Pharo Management": {
    "tier": 2,
    "method": "greenhouse",
-   "ok": true,
-   "open_roles_read": 8,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
    "live_in_pool": 0
   },
   "Tudor Investment": {
    "tier": 2,
    "method": "greenhouse",
-   "ok": true,
-   "open_roles_read": 5,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
-   "live_in_pool": 1
+   "live_in_pool": 0
   },
   "BlackRock": {
    "tier": 1,
    "method": "workday",
-   "ok": true,
-   "open_roles_read": 171,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
    "live_in_pool": 3
   },
@@ -1234,25 +1181,25 @@
   "Neuberger Berman": {
    "tier": 2,
    "method": "workday",
-   "ok": false,
+   "ok": null,
    "open_roles_read": null,
-   "error": "POST https://nb.wd1.myworkdayjobs.com/wday/cxs/nb/NBcareers/jobs failed: HTTP 429 for https://nb.wd1.myworkdayjobs.com/w",
+   "error": "",
    "live_in_pool": 4
   },
   "Nuveen": {
    "tier": 2,
    "method": "workday",
-   "ok": false,
+   "ok": null,
    "open_roles_read": null,
-   "error": "POST https://tiaa.wd1.myworkdayjobs.com/wday/cxs/tiaa/Search/jobs failed: HTTP 429 for https://tiaa.wd1.myworkdayjobs.co",
+   "error": "",
    "live_in_pool": 2
   },
   "PGIM": {
    "tier": 2,
    "method": "workday",
-   "ok": false,
+   "ok": null,
    "open_roles_read": null,
-   "error": "POST https://pru.wd5.myworkdayjobs.com/wday/cxs/pru/Careers/jobs failed: HTTP 429 for https://pru.wd5.myworkdayjobs.com/",
+   "error": "",
    "live_in_pool": 0
   },
   "MetLife Investment Management": {
@@ -1274,17 +1221,17 @@
   "Invesco": {
    "tier": 2,
    "method": "workday",
-   "ok": false,
+   "ok": null,
    "open_roles_read": null,
-   "error": "POST https://invesco.wd1.myworkdayjobs.com/wday/cxs/invesco/IVZ/jobs failed: HTTP 429 for https://invesco.wd1.myworkdayj",
-   "live_in_pool": 2
+   "error": "",
+   "live_in_pool": 1
   },
   "Franklin Templeton": {
    "tier": 2,
    "method": "workday",
-   "ok": false,
+   "ok": null,
    "open_roles_read": null,
-   "error": "POST https://franklintempleton.wd5.myworkdayjobs.com/wday/cxs/franklintempleton/Primary-External-1/jobs failed: HTTP 429",
+   "error": "",
    "live_in_pool": 0
   },
   "Lord Abbett": {
@@ -1306,17 +1253,17 @@
   "Apollo": {
    "tier": 2,
    "method": "workday",
-   "ok": false,
+   "ok": null,
    "open_roles_read": null,
-   "error": "POST https://athene.wd5.myworkdayjobs.com/wday/cxs/athene/Apollo_Careers/jobs failed: HTTP 429 for https://athene.wd5.my",
+   "error": "",
    "live_in_pool": 0
   },
   "Blackstone": {
    "tier": 2,
    "method": "workday",
-   "ok": false,
+   "ok": null,
    "open_roles_read": null,
-   "error": "POST https://blackstone.wd1.myworkdayjobs.com/wday/cxs/blackstone/Blackstone_Careers/jobs failed: HTTP 429 for https://b",
+   "error": "",
    "live_in_pool": 3
   },
   "KKR": {
@@ -1346,9 +1293,9 @@
   "Freepoint Commodities": {
    "tier": 2,
    "method": "workday",
-   "ok": false,
+   "ok": null,
    "open_roles_read": null,
-   "error": "POST https://freepoint.wd12.myworkdayjobs.com/wday/cxs/freepoint/Freepoint_Commodities/jobs failed: HTTP 429 for https:/",
+   "error": "",
    "live_in_pool": 0
   },
   "Mercuria": {
@@ -1362,17 +1309,17 @@
   "Vitol": {
    "tier": 2,
    "method": "smartrecruiters",
-   "ok": true,
-   "open_roles_read": 30,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
    "live_in_pool": 0
   },
   "Trafigura": {
    "tier": 2,
    "method": "workday",
-   "ok": false,
+   "ok": null,
    "open_roles_read": null,
-   "error": "POST https://trafigura.wd3.myworkdayjobs.com/wday/cxs/trafigura/TrafiguraCareerSite/jobs failed: HTTP 429 for https://tr",
+   "error": "",
    "live_in_pool": 0
   },
   "ADM Investor Services": {
@@ -1386,16 +1333,16 @@
   "Capstone Investment Advisors": {
    "tier": 2,
    "method": "greenhouse",
-   "ok": true,
-   "open_roles_read": 13,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
    "live_in_pool": 3
   },
   "Lincoln International": {
    "tier": 2,
    "method": "greenhouse",
-   "ok": true,
-   "open_roles_read": 40,
+   "ok": null,
+   "open_roles_read": null,
    "error": "",
    "live_in_pool": 3
   }
@@ -1411,11 +1358,6 @@
    "chars": 3790,
    "ok": true,
    "snippet": "Apply Now"
-  },
-  "Morgan Stanley - Full-Time Analyst (Institutional Securities)": {
-   "ok": false,
-   "error": "404 Client Error: Not Found for url: https://www.morganstanley.com/people/students-graduates/programs/institutional-securities/full-time-analyst",
-   "url": "https://www.morganstanley.com/people/students-graduates/programs/institutional-securities/full-time-analyst"
   },
   "J.P. Morgan - Markets Full-Time Analyst": {
    "company": "J.P. Morgan",
@@ -1483,16 +1425,6 @@
    "ok": true,
    "snippet": ""
   },
-  "Citadel - Full-Time Programs": {
-   "ok": false,
-   "error": "403 Client Error: Forbidden for url: https://www.citadel.com/careers/students/",
-   "url": "https://www.citadel.com/careers/students/"
-  },
-  "Citadel Securities - Full-Time Programs": {
-   "ok": false,
-   "error": "403 Client Error: Forbidden for url: https://www.citadelsecurities.com/careers/students/",
-   "url": "https://www.citadelsecurities.com/careers/students/"
-  },
   "Susquehanna - Assistant Trader": {
    "company": "Susquehanna (SIG)",
    "url": "https://careers.sig.com/campus",
@@ -1503,11 +1435,6 @@
    "chars": 514,
    "ok": true,
    "snippet": ""
-  },
-  "Optiver - Graduate Trader": {
-   "ok": false,
-   "error": "404 Client Error: Not Found for url: https://www.optiver.com/join-us/students-and-graduates/",
-   "url": "https://www.optiver.com/working-at-optiver/students-and-graduates/"
   }
  }
 }
