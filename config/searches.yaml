@@ -2,6 +2,11 @@
 hours_old: 72                # only pull postings from the last 3 days (daily runs overlap safely)
 board_stale_days: 7          # a board-only posting unseen for 7 days is marked stale
 max_posting_age_days: 45     # older postings are flagged "old-posting" for Claude to double-check
+# One-off deep look-back (catches rolling postings opened weeks ago). Turns itself off after `until`.
+backfill:
+  until: "2026-11-24"         # last day (Central) the deep look-back applies
+  hours_old: 720              # 30 days
+  results_per_search: 50
 
 locations:
   - name: "New York, NY"

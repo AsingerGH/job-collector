@@ -220,6 +220,13 @@ def main(argv=None) -> int:
         runner["hours_old"] = args.hours_old
     if args.results:
         runner["results_per_search"] = args.results
+    # Self-reverting deep look-back: while today <= backfill.until, scheduled runs search
+    # the boards back `backfill.hours_old` hours (e.g. 30 days) instead of the usual window.
+    bf = cfg.get("backfill") or {}
+    if not args.hours_old and bf.get("until") and today().isoformat() <= str(bf["until"]):
+        runner["hours_old"] = int(bf.get("hours_old", 720))
+        if bf.get("results_per_search"):
+            runner["results_per_search"] = max(int(runner.get("results_per_search", 40)), int(bf["results_per_search"]))
     companies = load_companies()
     cidx = company_index(companies)
     out_dir = ROOT / "data" / args.runner
