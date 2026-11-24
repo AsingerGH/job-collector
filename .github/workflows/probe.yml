@@ -14,12 +14,12 @@ jobs:
         with: {python-version: "3.12"}
       - run: pip install -r requirements.txt
       - name: full dress rehearsal of the cloud collector
-        run: timeout 85m python -u -m collector.collect --runner cloud > data/rehearsal.log 2>&1 || true
+        run: timeout 20m python -u -m collector.collect --runner cloud --skip-boards --only Citi Barclays "Capital One" "RBC Capital Markets" "BMO Capital Markets" PNC "U.S. Bank" "State Street" "Truist Securities" "Cboe Global Markets" > data/rehearsal.log 2>&1 || true
       - name: commit results
         if: always()
         run: |
           git config user.name "probe-bot"; git config user.email "probe-bot@users.noreply.github.com"
-          cp data/cloud/health.json data/rehearsal_health.json || true
+          cp data/cloud/health.json data/rehearsal_health.json || true; python -c "import json;j=json.load(open('data/cloud/jobs.json'));json.dump([{k:r.get(k) for k in ('company','title','location','sources','primary_url')} for r in j if 'sitemap' in r['sources']],open('data/rehearsal_jobs.json','w'),indent=1)" || true
           git checkout -- data/cloud || true
           git add data/rehearsal*
           git commit -m "rehearsal results [skip ci]" || exit 0
