@@ -222,3 +222,18 @@ def test_linkedin_empty_results_count_as_blocks(monkeypatch):
     cfg = {"locations": [{"name": "New York, NY"}], "terms": [f"t{i}" for i in range(10)]}
     rows, health = boards.search_boards(cfg, {"sites": ["linkedin"], "sleep_between": 0, "sleep_after_error": 0}, print)
     assert len(calls) == 3 and health["linkedin"]["skipped"] == 7
+
+
+@pytest.mark.parametrize("title,keep", [
+    ("Teaching Assistant, Academy of Math and Programming (AMP)", False),
+    ("Quantitative Research Intern", False),
+    ("CIB Markets, Sales, Research - New York - 2027 ReEntry Program", False),
+    ("2027 M&A Summer Associate Intern", False),
+    ("Salesforce Administrator - Chase Media Solutions", False),
+    ("Trading Analyst", True),
+    ("Junior Discretionary Trader", True),
+    ("Floor Trader - 2027 Graduate Program (August Start)", True),
+    ("Investment Banking Analyst, Capital Markets", True),
+])
+def test_junk_titles(title, keep):
+    assert classify({"title": title, "location": "New York, NY", "company": "x", "description": ""})["keep"] is keep

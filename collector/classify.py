@@ -45,7 +45,12 @@ HARD_EXCLUDE = re.compile(
     r"sales (associate|assistant|coordinator|support|representative)|inside sales|ad sales|"
     r"entry level sales|seasonal|part-?time|store|beauty|retail|representative|market development|"
     r"\bremote\b|expert|\bevp\b|merchandis|architect|product owner|business intelligence|\bbi\b|"
-    r"compensation analyst|sponsorship|tickets|people,? engagement|\btemp\b|marketing|healthcare|clinical)", re.I)
+    r"compensation analyst|sponsorship|tickets|people,? engagement|\btemp\b|marketing|healthcare|clinical|"
+    r"quantitative research|quant research|research and development|compiler|formal methods|teaching assistant|"
+    r"\bdean\b|academy of math|product specialist|data specialist|data strategist|data scout|workday financials|"
+    r"salesforce|administrator|product control|hospitality|transaction coordinator|client account management|"
+    r"business management|re-?entry|returnship|content strategist|client advisor|trading services|"
+    r"financial resource management|summer associate|strategy and product|credit support)", re.I)
 IB_ASSOCIATE = re.compile(r"(investment bank\w*.*\bassociate\b|\bassociate\b.*investment bank)", re.I)
 RECRUITER = re.compile(r"(robert half|selby jennings|mission staffing|alexander chapman|atlantic group|"
                        r"career launch|initio capital|hunter bond|oxford knight|harrington starr|"
