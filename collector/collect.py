@@ -66,8 +66,9 @@ def job_key(company: str, title: str, bucket: str | None, cidx: dict) -> str:
 
 
 # ------------------------------------------------------------------ ATS pass
-def run_ats(companies, only, log) -> tuple[list[dict], dict]:
-    targets = [c for c in companies if c.get("ats") in ats.FETCHERS and (not only or c["name"] in only)]
+def run_ats(companies, only, log, types=None) -> tuple[list[dict], dict]:
+    targets = [c for c in companies if c.get("ats") in ats.FETCHERS and (not only or c["name"] in only)
+               and (not types or c.get("ats") in types)]
     health = {}
     rows: list[dict] = []
     log(f"ATS: fetching {len(targets)} company boards")
@@ -237,7 +238,7 @@ def main(argv=None) -> int:
     raw: list[dict] = []
     ats_health, board_health = {}, {}
     if not args.skip_ats and runner.get("ats", True):
-        rows, ats_health = run_ats(companies, args.only, log)
+        rows, ats_health = run_ats(companies, args.only, log, runner.get("ats_types"))
         raw += rows
     if not args.skip_boards and runner.get("sites"):
         from .boards import search_boards

@@ -74,7 +74,8 @@ runners:
     sleep_between: 2
     sleep_after_error: 15
   laptop:                      # Andrew's Windows laptop (home IP, LinkedIn is happier here)
-    ats: false                 # cloud already covers company job systems
+    ats: true
+    ats_types: ["workday"]     # Workday blocks GitHub's servers (HTTP 429, 2026-11-23); home internet gets through
     sites: ["linkedin"]        # Indeed works fine from the cloud
     hours_old: 48               # runs twice a day, so 2 days of overlap is plenty
     results_per_search: 25

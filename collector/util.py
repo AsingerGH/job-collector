@@ -31,8 +31,8 @@ def get_json(url: str, *, params=None, timeout=25, retries=2):
     return _request("GET", url, params=params, timeout=timeout, retries=retries)
 
 
-def post_json(url: str, payload: dict, *, timeout=25, retries=2):
-    return _request("POST", url, json=payload, timeout=timeout, retries=retries)
+def post_json(url: str, payload: dict, *, timeout=25, retries=2, headers=None):
+    return _request("POST", url, json=payload, timeout=timeout, retries=retries, headers=headers)
 
 
 def _request(method, url, *, retries=2, **kw):

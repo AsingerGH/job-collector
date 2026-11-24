@@ -126,7 +126,9 @@ def workday(c: dict) -> list[dict]:
     for term in terms:
         for page in range(int(c.get("max_pages", 3))):
             data = post_json(f"{base}/jobs", {"appliedFacets": {}, "limit": 20,
-                                               "offset": page * 20, "searchText": term}, retries=4)
+                                               "offset": page * 20, "searchText": term}, retries=4,
+                             headers={"Origin": f"https://{tenant}.{dc}.myworkdayjobs.com",
+                                      "Referer": f"https://{tenant}.{dc}.myworkdayjobs.com/en-US/{site}"})
             posts = data.get("jobPostings") or []
             for j in posts:
                 path = j.get("externalPath")
