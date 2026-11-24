@@ -70,9 +70,10 @@ def job_key(company: str, title: str, bucket: str | None, cidx: dict) -> str:
 
 
 # ------------------------------------------------------------------ ATS pass
-def run_ats(companies, only, log, types=None, skip=()) -> tuple[list[dict], dict]:
+def run_ats(companies, only, log, types=None, skip=(), skip_types=()) -> tuple[list[dict], dict]:
     targets = [c for c in companies if c.get("ats") in ats.FETCHERS and (not only or c["name"] in only)
-               and (not types or c.get("ats") in types) and c["name"] not in skip]
+               and (not types or c.get("ats") in types) and c["name"] not in skip
+               and c.get("ats") not in skip_types]
     health = {}
     rows: list[dict] = []
     log(f"ATS: fetching {len(targets)} company boards")
@@ -274,6 +275,10 @@ def main(argv=None) -> int:
         if bf.get("results_per_search"):
             runner["results_per_search"] = max(int(runner.get("results_per_search", 40)), int(bf["results_per_search"]))
     companies = load_companies()
+    # Some firms have a second way in that works from the cloud (e.g. a careers-site sitemap
+    # when their Workday API rate-limits GitHub's servers). Each runner can opt into it.
+    if runner.get("use_cloud_reader"):
+        companies = [{**c, **c["cloud_reader"]} if c.get("cloud_reader") else c for c in companies]
     cidx = company_index(companies)
     out_dir = ROOT / "data" / args.runner
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -294,7 +299,8 @@ def main(argv=None) -> int:
     if runner.get("workday_budget_min"):
         ats.WD_DEADLINE[0] = time.time() + 60 * float(runner["workday_budget_min"])
     if not args.skip_ats and runner.get("ats", True):
-        rows, ats_health = run_ats(companies, args.only, log, runner.get("ats_types"), runner.get("ats_skip") or ())
+        rows, ats_health = run_ats(companies, args.only, log, runner.get("ats_types"), runner.get("ats_skip") or (),
+                                   runner.get("ats_skip_types") or ())
         raw += rows
     if not args.skip_boards and runner.get("sites"):
         from .boards import search_boards
