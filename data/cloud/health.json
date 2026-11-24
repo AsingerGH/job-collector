@@ -1,24 +1,24 @@
 {
  "runner": "cloud",
- "run_at": "2026-11-23T23:21:19.645124+00:00",
- "minutes": 12.1,
- "raw": 3807,
- "kept": 711,
- "live": 428,
- "new_today": 428,
+ "run_at": "2026-11-24T02:04:28.330518+00:00",
+ "minutes": 12.0,
+ "raw": 4572,
+ "kept": 1008,
+ "live": 479,
+ "new_today": 51,
  "filter_reasons": {
-  "location": 1374,
-  "function": 1179,
-  "experience": 68,
-  "ok": 711,
-  "seniority": 457,
-  "internship-wrong-year": 18
+  "location": 1394,
+  "function": 1359,
+  "experience": 97,
+  "ok": 1008,
+  "seniority": 684,
+  "internship-wrong-year": 30
  },
  "boards": {
   "indeed": {
-   "ok": 41,
+   "ok": 51,
    "errors": 0,
-   "rows": 1605,
+   "rows": 2386,
    "last_error": "",
    "skipped": 0
   },
@@ -27,15 +27,13 @@
    "errors": 5,
    "rows": 100,
    "last_error": "response status code 429 (blocked: use a proxy)",
-   "skipped": 35
+   "skipped": 45
   }
  },
- "ats_ok": 29,
+ "ats_ok": 31,
  "ats_failed": {
-  "PJT Partners": "POST https://pjtpartners.wd1.myworkdayjobs.com/wday/cxs/pjtpartners/Students/jobs failed: HTTP 429 for https://pjtpartners.wd1.myworkdayjobs.com/wday/cxs/pjtpartners/Students/jobs",
   "BBVA": "POST https://bbva.wd3.myworkdayjobs.com/wday/cxs/bbva/bbva/jobs failed: HTTP 429 for https://bbva.wd3.myworkdayjobs.com/wday/cxs/bbva/bbva/jobs",
-  "Nasdaq": "POST https://nasdaq.wd1.myworkdayjobs.com/wday/cxs/nasdaq/Global_External_Site/jobs failed: HTTP 429 for https://nasdaq.wd1.myworkdayjobs.com/wday/cxs/nasdaq/Global_External_Site/jobs",
-  "Federal Reserve Bank of New York": "POST https://rb.wd5.myworkdayjobs.com/wday/cxs/rb/FRS/jobs failed: HTTP 429 for https://rb.wd5.myworkdayjobs.com/wday/cxs/rb/FRS/jobs",
-  "M&T Bank": "POST https://mtb.wd5.myworkdayjobs.com/wday/cxs/mtb/Campus/jobs failed: HTTP 429 for https://mtb.wd5.myworkdayjobs.com/wday/cxs/mtb/Campus/jobs"
+  "Northern Trust": "POST https://ntrs.wd1.myworkdayjobs.com/wday/cxs/ntrs/northerntrust/jobs failed: HTTP 429 for https://ntrs.wd1.myworkdayjobs.com/wday/cxs/ntrs/northerntrust/jobs",
+  "Nasdaq": "POST https://nasdaq.wd1.myworkdayjobs.com/wday/cxs/nasdaq/Global_External_Site/jobs failed: HTTP 429 for https://nasdaq.wd1.myworkdayjobs.com/wday/cxs/nasdaq/Global_External_Site/jobs"
  }
 }
