@@ -12,6 +12,11 @@
   - intern new york
   - analyst chicago
   max_pages: 3
+  cloud_reader:
+    ats: sitemap
+    max_detail: 80
+    sitemap: https://jobs.citi.com/sitemap.xml
+    require: /job/(new-york|long-island-city|jersey-city|chicago)/
 - name: Wells Fargo
   ats: workday
   tenant: wf
@@ -28,6 +33,10 @@
   verified: 2026-11-24 probe
   terms: *id001
   max_pages: 3
+  cloud_reader:
+    ats: sitemap
+    max_detail: 80
+    sitemap: https://careers.statestreet.com/global/en/sitemap_index.xml
 - name: Barclays
   ats: workday
   tenant: barclays
@@ -36,6 +45,11 @@
   verified: 2026-11-24 probe
   terms: *id001
   max_pages: 3
+  cloud_reader:
+    ats: sitemap
+    max_detail: 80
+    sitemap: https://search.jobs.barclays/sitemap.xml
+    require: /job/(new-york|whippany|jersey-city|chicago)/
 - name: Deutsche Bank
   ats: workday
   tenant: db
@@ -74,6 +88,10 @@
   verified: 2026-11-24 probe
   terms: *id001
   max_pages: 3
+  cloud_reader:
+    ats: sitemap
+    max_detail: 80
+    sitemap: https://jobs.rbc.com/ca/en/sitemap_index.xml
 - name: TD Securities
   ats: workday
   tenant: td
@@ -88,6 +106,10 @@
   dc: wd3
   site: External
   verified: 2026-11-24 probe
+  cloud_reader:
+    ats: sitemap
+    max_detail: 80
+    sitemap: https://jobs.bmo.com/us/en/sitemap.xml
 - name: CIBC Capital Markets
   ats: workday
   tenant: cibc
@@ -104,6 +126,10 @@
   verified: 2026-11-24 probe
   terms: *id001
   max_pages: 3
+  cloud_reader:
+    ats: sitemap
+    max_detail: 80
+    sitemap: https://careers.truist.com/us/en/sitemap_index.xml
 - name: PNC
   ats: workday
   tenant: pnc
@@ -112,6 +138,10 @@
   verified: 2026-11-24 probe
   terms: *id001
   max_pages: 3
+  cloud_reader:
+    ats: sitemap
+    max_detail: 80
+    sitemap: https://careers.pnc.com/global/en/sitemap_index.xml
 - name: U.S. Bank
   ats: workday
   tenant: usbank
@@ -120,6 +150,10 @@
   verified: 2026-11-24 probe
   terms: *id001
   max_pages: 3
+  cloud_reader:
+    ats: sitemap
+    max_detail: 80
+    sitemap: https://careers.usbank.com/global/en/sitemap_index.xml
 - name: Capital One
   ats: workday
   tenant: capitalone
@@ -128,6 +162,11 @@
   verified: 2026-11-24 probe
   terms: *id001
   max_pages: 3
+  cloud_reader:
+    ats: sitemap
+    max_detail: 80
+    sitemap: https://www.capitalonecareers.com/sitemap.xml
+    require: new-york|chicago
 - name: Raymond James
   ats: workday
   tenant: raymondjames
@@ -164,6 +203,10 @@
   dc: wd1
   site: External_Career_CBOE
   verified: 2026-11-24 probe
+  cloud_reader:
+    ats: sitemap
+    max_detail: 80
+    sitemap: https://careers.cboe.com/us/en/sitemap.xml
 - name: CME Group
   ats: workday
   tenant: cmegroup

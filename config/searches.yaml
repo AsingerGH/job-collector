@@ -78,8 +78,8 @@ runners:
     linkedin_descriptions: false   # keep LinkedIn traffic light from the cloud
     sleep_between: 2
     sleep_after_error: 15
-    workday_spacing: 3.0            # Workday rate-limits cloud IPs; one request every 3 s worked in the 2026-11-24 probe
-    workday_budget_min: 20          # tenants not started within 20 min are left to the laptop run
+    ats_skip_types: ["workday"]     # Workday answered HTTP 429 to nearly every cloud request in the 2026-11-24 rehearsal; the laptop reads Workday
+    use_cloud_reader: true          # ...and the cloud reads those banks' careers-site sitemaps instead where they have one
     ats_skip: ["Morgan Stanley"]    # its Eightfold API refuses cloud IPs (403); the laptop reads it
     company_searches: true          # search Indeed by firm name for watchlist firms we can't read directly
     company_sites: ["indeed"]

@@ -1,13 +1,24 @@
-# Campus / full-time analyst program pages to watch (status open/closed + change detection)
-- {name: "Goldman Sachs - New Analyst Program (Americas)", company: "Goldman Sachs", url: "https://www.goldmansachs.com/careers/students/programs/americas/new-analyst-program.html"}
-- {name: "Morgan Stanley - Full-Time Analyst (Institutional Securities)", company: "Morgan Stanley", url: "https://www.morganstanley.com/people/students-graduates/programs/institutional-securities/full-time-analyst"}
-- {name: "J.P. Morgan - Markets Full-Time Analyst", company: "J.P. Morgan", url: "https://careers.jpmorgan.com/us/en/students/programs/cib-markets-fulltime-analyst"}
-- {name: "Citi - Markets Full-Time Analyst", company: "Citi", url: "https://jobs.citi.com/students-graduates"}
-- {name: "BofA - Global Markets Analyst Program", company: "Bank of America", url: "https://careers.bankofamerica.com/en-us/students/programs/global-markets"}
-- {name: "Barclays - Graduate Programs (Americas)", company: "Barclays", url: "https://search.jobs.barclays/early-careers"}
-- {name: "Jefferies - Full-Time Analyst Programs", company: "Jefferies", url: "https://www.jefferies.com/careers/students-and-graduates/"}
-- {name: "Evercore - Full-Time Analyst", company: "Evercore", url: "https://www.evercore.com/careers/students-graduates/"}
-- {name: "Citadel - Full-Time Programs", company: "Citadel", url: "https://www.citadel.com/careers/students/"}
-- {name: "Citadel Securities - Full-Time Programs", company: "Citadel Securities", url: "https://www.citadelsecurities.com/careers/students/"}
-- {name: "Susquehanna - Assistant Trader", company: "Susquehanna (SIG)", url: "https://careers.sig.com/campus"}
-- {name: "Optiver - Graduate Trader", company: "Optiver", url: "https://www.optiver.com/working-at-optiver/students-and-graduates/"}
+- name: Goldman Sachs - New Analyst Program (Americas)
+  company: Goldman Sachs
+  url: https://www.goldmansachs.com/careers/students/programs/americas/new-analyst-program.html
+- name: J.P. Morgan - Markets Full-Time Analyst
+  company: J.P. Morgan
+  url: https://careers.jpmorgan.com/us/en/students/programs/cib-markets-fulltime-analyst
+- name: Citi - Markets Full-Time Analyst
+  company: Citi
+  url: https://jobs.citi.com/students-graduates
+- name: BofA - Global Markets Analyst Program
+  company: Bank of America
+  url: https://careers.bankofamerica.com/en-us/students/programs/global-markets
+- name: Barclays - Graduate Programs (Americas)
+  company: Barclays
+  url: https://search.jobs.barclays/early-careers
+- name: Jefferies - Full-Time Analyst Programs
+  company: Jefferies
+  url: https://www.jefferies.com/careers/students-and-graduates/
+- name: Evercore - Full-Time Analyst
+  company: Evercore
+  url: https://www.evercore.com/careers/students-graduates/
+- name: Susquehanna - Assistant Trader
+  company: Susquehanna (SIG)
+  url: https://careers.sig.com/campus
