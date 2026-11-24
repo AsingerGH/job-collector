@@ -1,27 +1,1360 @@
 {
  "runner": "laptop",
- "run_at": "2026-11-24T01:26:20.366689+00:00",
- "minutes": 13.6,
- "raw": 1225,
- "kept": 164,
- "live": 57,
- "new_today": 57,
+ "run_at": "2026-11-24T20:28:21.466276+00:00",
+ "minutes": 22.3,
+ "raw": 4119,
+ "kept": 250,
+ "live": 245,
+ "new_today": 190,
  "filter_reasons": {
-  "function": 340,
-  "location": 611,
-  "ok": 167,
-  "seniority": 86,
-  "internship-wrong-year": 21
+  "location": 2622,
+  "function": 985,
+  "ok": 285,
+  "seniority": 220,
+  "internship-wrong-year": 7
  },
  "boards": {
   "linkedin": {
-   "ok": 20,
-   "errors": 8,
-   "rows": 492,
+   "ok": 4,
+   "errors": 7,
+   "rows": 200,
    "last_error": "response status code 429 (blocked: use a proxy)",
-   "skipped": 0
+   "skipped": 17
   }
  },
- "ats_ok": 6,
- "ats_failed": {}
+ "ats_ok": 41,
+ "ats_failed": {
+  "Morgan Stanley": "GET https://morganstanley.eightfold.ai/api/apply/v2/jobs failed: 403 Client Error: FORBIDDEN for url: https://morganstanley.eightfold.ai/api/apply/v2/jobs?domain=morganstanley.com&query=analyst&start=0&num=10&sort_by=timestamp"
+ },
+ "coverage": {
+  "Goldman Sachs": {
+   "tier": 1,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 4
+  },
+  "Morgan Stanley": {
+   "tier": 1,
+   "method": "eightfold",
+   "ok": false,
+   "open_roles_read": null,
+   "error": "GET https://morganstanley.eightfold.ai/api/apply/v2/jobs failed: 403 Client Error: FORBIDDEN for url: https://morganstan",
+   "live_in_pool": 3
+  },
+  "J.P. Morgan": {
+   "tier": 1,
+   "method": "oracle",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 7
+  },
+  "Bank of America": {
+   "tier": 1,
+   "method": "sitemap",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 2
+  },
+  "Citi": {
+   "tier": 1,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 206,
+   "error": "",
+   "live_in_pool": 13
+  },
+  "Wells Fargo": {
+   "tier": 1,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 73,
+   "error": "",
+   "live_in_pool": 2
+  },
+  "BNY": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "State Street": {
+   "tier": 2,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 14,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Barclays": {
+   "tier": 1,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 49,
+   "error": "",
+   "live_in_pool": 3
+  },
+  "Deutsche Bank": {
+   "tier": 1,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 113,
+   "error": "",
+   "live_in_pool": 13
+  },
+  "UBS": {
+   "tier": 1,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 3
+  },
+  "BNP Paribas": {
+   "tier": 1,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Société Générale": {
+   "tier": 1,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 4
+  },
+  "Natixis": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Crédit Agricole CIB": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 1
+  },
+  "HSBC": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Santander US Capital Markets": {
+   "tier": 2,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 66,
+   "error": "",
+   "live_in_pool": 2
+  },
+  "BBVA": {
+   "tier": 2,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 176,
+   "error": "",
+   "live_in_pool": 2
+  },
+  "ING": {
+   "tier": 2,
+   "method": "sitemap",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Rabobank": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Mizuho": {
+   "tier": 1,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 108,
+   "error": "",
+   "live_in_pool": 14
+  },
+  "MUFG": {
+   "tier": 2,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 122,
+   "error": "",
+   "live_in_pool": 12
+  },
+  "SMBC Nikko": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 3
+  },
+  "Nomura": {
+   "tier": 1,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Daiwa Capital Markets": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "RBC Capital Markets": {
+   "tier": 1,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 43,
+   "error": "",
+   "live_in_pool": 5
+  },
+  "TD Securities": {
+   "tier": 1,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 147,
+   "error": "",
+   "live_in_pool": 8
+  },
+  "BMO Capital Markets": {
+   "tier": 1,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 215,
+   "error": "",
+   "live_in_pool": 7
+  },
+  "Scotiabank": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 3
+  },
+  "CIBC Capital Markets": {
+   "tier": 2,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 56,
+   "error": "",
+   "live_in_pool": 3
+  },
+  "Macquarie": {
+   "tier": 1,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Standard Chartered": {
+   "tier": 2,
+   "method": "sitemap",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Itau BBA": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Jefferies": {
+   "tier": 1,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 5
+  },
+  "Citizens JMP": {
+   "tier": 2,
+   "method": "oracle",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "KeyBanc Capital Markets": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Truist Securities": {
+   "tier": 2,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 41,
+   "error": "",
+   "live_in_pool": 2
+  },
+  "PNC": {
+   "tier": 1,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 45,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "U.S. Bank": {
+   "tier": 2,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 85,
+   "error": "",
+   "live_in_pool": 4
+  },
+  "Fifth Third": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Capital One": {
+   "tier": 2,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 243,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "M&T Bank": {
+   "tier": 2,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 79,
+   "error": "",
+   "live_in_pool": 1
+  },
+  "Webster Bank": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Valley Bank": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Provident Bank": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Northern Trust": {
+   "tier": 2,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 223,
+   "error": "",
+   "live_in_pool": 6
+  },
+  "Piper Sandler": {
+   "tier": 1,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Raymond James": {
+   "tier": 2,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 206,
+   "error": "",
+   "live_in_pool": 1
+  },
+  "Stifel": {
+   "tier": 2,
+   "method": "icims",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Baird": {
+   "tier": 2,
+   "method": "sitemap",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "William Blair": {
+   "tier": 1,
+   "method": "greenhouse",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Oppenheimer": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 1
+  },
+  "Needham & Company": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "BTIG": {
+   "tier": 1,
+   "method": "greenhouse",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 1
+  },
+  "Cantor Fitzgerald": {
+   "tier": 1,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 1
+  },
+  "B. Riley Securities": {
+   "tier": 2,
+   "method": "greenhouse",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Guggenheim Securities": {
+   "tier": 2,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 34,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Wolfe Research": {
+   "tier": 1,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Evercore": {
+   "tier": 1,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Lazard": {
+   "tier": 1,
+   "method": "oracle",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Moelis & Company": {
+   "tier": 1,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 27,
+   "error": "",
+   "live_in_pool": 3
+  },
+  "PJT Partners": {
+   "tier": 2,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 11,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Perella Weinberg Partners": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Centerview Partners": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Houlihan Lokey": {
+   "tier": 2,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 50,
+   "error": "",
+   "live_in_pool": 8
+  },
+  "Canaccord Genuity": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Janney Montgomery Scott": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "D.A. Davidson": {
+   "tier": 2,
+   "method": "lever",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Wedbush Securities": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Roth Capital Partners": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Northland Capital Markets": {
+   "tier": 2,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 1,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Craig-Hallum": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Benchmark Company": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Rosenblatt Securities": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Seaport Global": {
+   "tier": 2,
+   "method": "lever",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Academy Securities": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Mischler Financial": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Drexel Hamilton": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Loop Capital": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Siebert Williams Shank": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Brean Capital": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Mesirow": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Odeon Capital": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Mizuho Greenhill": {
+   "tier": 3,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Clear Street": {
+   "tier": 1,
+   "method": "greenhouse",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Virtu Financial": {
+   "tier": 1,
+   "method": "greenhouse",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Instinet": {
+   "tier": 1,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Liquidnet (TP ICAP)": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 1
+  },
+  "BGC Group": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Tradition": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Marex": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "MarketAxess": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Tradeweb": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "IEX Group": {
+   "tier": 2,
+   "method": "greenhouse",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Nasdaq": {
+   "tier": 2,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 134,
+   "error": "",
+   "live_in_pool": 1
+  },
+  "Intercontinental Exchange": {
+   "tier": 2,
+   "method": "icims",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Cboe Global Markets": {
+   "tier": 2,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 100,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "CME Group": {
+   "tier": 2,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 73,
+   "error": "",
+   "live_in_pool": 4
+  },
+  "MIAX": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Bloomberg": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 1
+  },
+  "Federal Reserve Bank of New York": {
+   "tier": 2,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 113,
+   "error": "",
+   "live_in_pool": 2
+  },
+  "Citadel Securities": {
+   "tier": 1,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Jane Street": {
+   "tier": 1,
+   "method": "greenhouse",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Susquehanna (SIG)": {
+   "tier": 1,
+   "method": "icims",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 1
+  },
+  "Optiver": {
+   "tier": 1,
+   "method": "greenhouse",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "IMC Trading": {
+   "tier": 2,
+   "method": "greenhouse",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "DRW": {
+   "tier": 1,
+   "method": "greenhouse",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Hudson River Trading": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Jump Trading": {
+   "tier": 2,
+   "method": "greenhouse",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Tower Research Capital": {
+   "tier": 2,
+   "method": "greenhouse",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Five Rings": {
+   "tier": 2,
+   "method": "greenhouse",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Akuna Capital": {
+   "tier": 2,
+   "method": "greenhouse",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 1
+  },
+  "Peak6": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 3
+  },
+  "Belvedere Trading": {
+   "tier": 2,
+   "method": "lever",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 1
+  },
+  "Wolverine Trading": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Group One Trading": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Flow Traders": {
+   "tier": 2,
+   "method": "greenhouse",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "XR Trading": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Old Mission Capital": {
+   "tier": 2,
+   "method": "ashby",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 2
+  },
+  "Headlands Technologies": {
+   "tier": 2,
+   "method": "greenhouse",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Vatic Labs": {
+   "tier": 2,
+   "method": "greenhouse",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "GTS": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 1
+  },
+  "Maven Securities": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Galaxy": {
+   "tier": 2,
+   "method": "greenhouse",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "FalconX": {
+   "tier": 2,
+   "method": "greenhouse",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Cumberland": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Citadel": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 3
+  },
+  "Point72": {
+   "tier": 1,
+   "method": "greenhouse",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Millennium": {
+   "tier": 2,
+   "method": "eightfold",
+   "ok": true,
+   "open_roles_read": 170,
+   "error": "",
+   "live_in_pool": 1
+  },
+  "Balyasny": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Schonfeld": {
+   "tier": 2,
+   "method": "greenhouse",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "ExodusPoint": {
+   "tier": 2,
+   "method": "greenhouse",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Verition": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Hudson Bay Capital": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Jain Global": {
+   "tier": 2,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 26,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "D. E. Shaw": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Two Sigma": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Marshall Wace": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Brevan Howard": {
+   "tier": 2,
+   "method": "sitemap",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Squarepoint Capital": {
+   "tier": 2,
+   "method": "greenhouse",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Caxton Associates": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Pharo Management": {
+   "tier": 2,
+   "method": "greenhouse",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Tudor Investment": {
+   "tier": 2,
+   "method": "greenhouse",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "BlackRock": {
+   "tier": 1,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 172,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "AllianceBernstein": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Neuberger Berman": {
+   "tier": 2,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 87,
+   "error": "",
+   "live_in_pool": 8
+  },
+  "Nuveen": {
+   "tier": 2,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 126,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "PGIM": {
+   "tier": 2,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 133,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "MetLife Investment Management": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Goldman Sachs Asset Management": {
+   "tier": 3,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Invesco": {
+   "tier": 2,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 146,
+   "error": "",
+   "live_in_pool": 1
+  },
+  "Franklin Templeton": {
+   "tier": 2,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 0,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Lord Abbett": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Jennison Associates": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Apollo": {
+   "tier": 2,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 49,
+   "error": "",
+   "live_in_pool": 2
+  },
+  "Blackstone": {
+   "tier": 2,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 108,
+   "error": "",
+   "live_in_pool": 5
+  },
+  "KKR": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Castleton Commodities": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Hartree Partners": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Freepoint Commodities": {
+   "tier": 2,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 1,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Mercuria": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Vitol": {
+   "tier": 2,
+   "method": "smartrecruiters",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Trafigura": {
+   "tier": 2,
+   "method": "workday",
+   "ok": true,
+   "open_roles_read": 49,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "ADM Investor Services": {
+   "tier": 2,
+   "method": "boards-only",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  },
+  "Capstone Investment Advisors": {
+   "tier": 2,
+   "method": "greenhouse",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 1
+  },
+  "Lincoln International": {
+   "tier": 2,
+   "method": "greenhouse",
+   "ok": null,
+   "open_roles_read": null,
+   "error": "",
+   "live_in_pool": 0
+  }
+ },
+ "program_pages": {}
 }
