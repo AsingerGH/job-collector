@@ -48,29 +48,6 @@
    "date_posted": "2026-11-23",
    "age_days": 0
   },
-  "f11a2f664e87e9d4": {
-   "id": "f11a2f664e87e9d4",
-   "company": "DTG Finance & Capital Markets",
-   "title": "Equities Intraday QR",
-   "first_seen": "2026-11-23",
-   "urls": {
-    "linkedin": "https://www.linkedin.com/jobs/view/4471669165"
-   },
-   "sources": [
-    "linkedin"
-   ],
-   "flags": [],
-   "location": "New York City Metropolitan Area",
-   "loc_bucket": "NYC",
-   "track": "fulltime",
-   "last_seen": "2026-11-23",
-   "status": "live",
-   "tier": null,
-   "on_watchlist": false,
-   "primary_url": "https://www.linkedin.com/jobs/view/4471669165",
-   "date_posted": "2026-11-23",
-   "age_days": 0
-  },
   "58f6de4d6fc024c7": {
    "id": "58f6de4d6fc024c7",
    "company": "BBVA",
@@ -83,6 +60,7 @@
     "linkedin"
    ],
    "flags": [
+    "absent-from-company-site",
     "associate-title"
    ],
    "location": "New York, NY, USA",
@@ -107,7 +85,9 @@
    "sources": [
     "linkedin"
    ],
-   "flags": [],
+   "flags": [
+    "recruiter-or-gig-posting"
+   ],
    "location": "New York, NY, USA",
    "loc_bucket": "NYC",
    "track": "fulltime",
@@ -130,7 +110,9 @@
    "sources": [
     "linkedin"
    ],
-   "flags": [],
+   "flags": [
+    "recruiter-or-gig-posting"
+   ],
    "location": "New York, NY, USA",
    "loc_bucket": "NYC",
    "track": "fulltime",
@@ -185,29 +167,6 @@
    "tier": null,
    "on_watchlist": false,
    "primary_url": "https://www.linkedin.com/jobs/view/4432838110",
-   "date_posted": "2026-11-22",
-   "age_days": 1
-  },
-  "a2c53d0a601eed73": {
-   "id": "a2c53d0a601eed73",
-   "company": "GTS",
-   "title": "Quantitative Researcher, International ETFs",
-   "first_seen": "2026-11-23",
-   "urls": {
-    "linkedin": "https://www.linkedin.com/jobs/view/4458424947"
-   },
-   "sources": [
-    "linkedin"
-   ],
-   "flags": [],
-   "location": "New York, NY, USA",
-   "loc_bucket": "NYC",
-   "track": "fulltime",
-   "last_seen": "2026-11-23",
-   "status": "live",
-   "tier": 2,
-   "on_watchlist": true,
-   "primary_url": "https://www.linkedin.com/jobs/view/4458424947",
    "date_posted": "2026-11-22",
    "age_days": 1
   },
@@ -355,29 +314,6 @@
    "date_posted": "2026-11-23",
    "age_days": 0
   },
-  "13e09c311085421c": {
-   "id": "13e09c311085421c",
-   "company": "Turing",
-   "title": "Remote Finance & Research Analyst",
-   "first_seen": "2026-11-23",
-   "urls": {
-    "linkedin": "https://www.linkedin.com/jobs/view/4493743847"
-   },
-   "sources": [
-    "linkedin"
-   ],
-   "flags": [],
-   "location": "New York City Metropolitan Area",
-   "loc_bucket": "NYC",
-   "track": "fulltime",
-   "last_seen": "2026-11-23",
-   "status": "live",
-   "tier": null,
-   "on_watchlist": false,
-   "primary_url": "https://www.linkedin.com/jobs/view/4493743847",
-   "date_posted": "2026-11-23",
-   "age_days": 0
-  },
   "61fe2dc33c27056c": {
    "id": "61fe2dc33c27056c",
    "company": "Jefferies",
@@ -423,190 +359,6 @@
    "tier": null,
    "on_watchlist": false,
    "primary_url": "https://www.linkedin.com/jobs/view/4477872613",
-   "date_posted": "2026-11-22",
-   "age_days": 1
-  },
-  "8dab9d110ddb9d4d": {
-   "id": "8dab9d110ddb9d4d",
-   "company": "Basic Resources, Inc.",
-   "title": "Sales Assistant",
-   "first_seen": "2026-11-23",
-   "urls": {
-    "linkedin": "https://www.linkedin.com/jobs/view/4463382451"
-   },
-   "sources": [
-    "linkedin"
-   ],
-   "flags": [],
-   "location": "New York, NY, USA",
-   "loc_bucket": "NYC",
-   "track": "fulltime",
-   "last_seen": "2026-11-23",
-   "status": "live",
-   "tier": null,
-   "on_watchlist": false,
-   "primary_url": "https://www.linkedin.com/jobs/view/4463382451",
-   "date_posted": "2026-11-23",
-   "age_days": 0
-  },
-  "e173bcd0c03f1044": {
-   "id": "e173bcd0c03f1044",
-   "company": "PVH Legwear",
-   "title": "Sales Assistant",
-   "first_seen": "2026-11-23",
-   "urls": {
-    "linkedin": "https://www.linkedin.com/jobs/view/4480135901"
-   },
-   "sources": [
-    "linkedin"
-   ],
-   "flags": [],
-   "location": "New York, NY, USA",
-   "loc_bucket": "NYC",
-   "track": "fulltime",
-   "last_seen": "2026-11-23",
-   "status": "live",
-   "tier": null,
-   "on_watchlist": false,
-   "primary_url": "https://www.linkedin.com/jobs/view/4480135901",
-   "date_posted": "2026-11-23",
-   "age_days": 0
-  },
-  "4163882c42ac800f": {
-   "id": "4163882c42ac800f",
-   "company": "Fourth Floor",
-   "title": "Sales Assistant",
-   "first_seen": "2026-11-23",
-   "urls": {
-    "linkedin": "https://www.linkedin.com/jobs/view/4494050865"
-   },
-   "sources": [
-    "linkedin"
-   ],
-   "flags": [],
-   "location": "New York, NY, USA",
-   "loc_bucket": "NYC",
-   "track": "fulltime",
-   "last_seen": "2026-11-23",
-   "status": "live",
-   "tier": null,
-   "on_watchlist": false,
-   "primary_url": "https://www.linkedin.com/jobs/view/4494050865",
-   "date_posted": "2026-11-23",
-   "age_days": 0
-  },
-  "8dc2e2e9aa87a4dd": {
-   "id": "8dc2e2e9aa87a4dd",
-   "company": "Great American Media",
-   "title": "Ad Sales Assistant, General Rate Ad Sales",
-   "first_seen": "2026-11-23",
-   "urls": {
-    "linkedin": "https://www.linkedin.com/jobs/view/4461918022"
-   },
-   "sources": [
-    "linkedin"
-   ],
-   "flags": [],
-   "location": "New York, NY, USA",
-   "loc_bucket": "NYC",
-   "track": "fulltime",
-   "last_seen": "2026-11-23",
-   "status": "live",
-   "tier": null,
-   "on_watchlist": false,
-   "primary_url": "https://www.linkedin.com/jobs/view/4461918022",
-   "date_posted": "2026-11-23",
-   "age_days": 0
-  },
-  "8a519ddbc113302d": {
-   "id": "8a519ddbc113302d",
-   "company": "Fincadia Capital",
-   "title": "Client Sales Assistant - Wealth Management",
-   "first_seen": "2026-11-23",
-   "urls": {
-    "linkedin": "https://www.linkedin.com/jobs/view/4492849122"
-   },
-   "sources": [
-    "linkedin"
-   ],
-   "flags": [],
-   "location": "New York, NY, USA",
-   "loc_bucket": "NYC",
-   "track": "fulltime",
-   "last_seen": "2026-11-23",
-   "status": "live",
-   "tier": null,
-   "on_watchlist": false,
-   "primary_url": "https://www.linkedin.com/jobs/view/4492849122",
-   "date_posted": "2026-11-23",
-   "age_days": 0
-  },
-  "297ed319e5d37f24": {
-   "id": "297ed319e5d37f24",
-   "company": "Designer Brands",
-   "title": "Sales Coordinator",
-   "first_seen": "2026-11-23",
-   "urls": {
-    "linkedin": "https://www.linkedin.com/jobs/view/4493657787"
-   },
-   "sources": [
-    "linkedin"
-   ],
-   "flags": [],
-   "location": "New York, NY, USA",
-   "loc_bucket": "NYC",
-   "track": "fulltime",
-   "last_seen": "2026-11-23",
-   "status": "live",
-   "tier": null,
-   "on_watchlist": false,
-   "primary_url": "https://www.linkedin.com/jobs/view/4493657787",
-   "date_posted": "2026-11-23",
-   "age_days": 0
-  },
-  "023dfc0c0d51e231": {
-   "id": "023dfc0c0d51e231",
-   "company": "Suitsupply",
-   "title": "Sales Support",
-   "first_seen": "2026-11-23",
-   "urls": {
-    "linkedin": "https://www.linkedin.com/jobs/view/4439997124"
-   },
-   "sources": [
-    "linkedin"
-   ],
-   "flags": [],
-   "location": "New York, NY, USA",
-   "loc_bucket": "NYC",
-   "track": "fulltime",
-   "last_seen": "2026-11-23",
-   "status": "live",
-   "tier": null,
-   "on_watchlist": false,
-   "primary_url": "https://www.linkedin.com/jobs/view/4439997124",
-   "date_posted": "2026-11-22",
-   "age_days": 1
-  },
-  "7f60dfb2fb5ad1ed": {
-   "id": "7f60dfb2fb5ad1ed",
-   "company": "Virtu Financial",
-   "title": "Electronic Trading Engineer",
-   "first_seen": "2026-11-23",
-   "urls": {
-    "linkedin": "https://www.linkedin.com/jobs/view/4477867574"
-   },
-   "sources": [
-    "linkedin"
-   ],
-   "flags": [],
-   "location": "New York, NY, USA",
-   "loc_bucket": "NYC",
-   "track": "fulltime",
-   "last_seen": "2026-11-23",
-   "status": "live",
-   "tier": 1,
-   "on_watchlist": true,
-   "primary_url": "https://www.linkedin.com/jobs/view/4477867574",
    "date_posted": "2026-11-22",
    "age_days": 1
   },
@@ -670,7 +422,8 @@
     "linkedin"
    ],
    "flags": [
-    "associate-title"
+    "associate-title",
+    "recruiter-or-gig-posting"
    ],
    "location": "New York City Metropolitan Area",
    "loc_bucket": "NYC",
@@ -680,54 +433,6 @@
    "tier": null,
    "on_watchlist": false,
    "primary_url": "https://www.linkedin.com/jobs/view/4493909295",
-   "date_posted": "2026-11-23",
-   "age_days": 0
-  },
-  "b70a2543a81293ff": {
-   "id": "b70a2543a81293ff",
-   "company": "Charles River Associates",
-   "title": "(2028 Bachelor's/Master's graduates) Economics Consulting Analyst/Associate Intern (Summer 2027)",
-   "first_seen": "2026-11-23",
-   "urls": {
-    "linkedin": "https://www.linkedin.com/jobs/view/4458974531"
-   },
-   "sources": [
-    "linkedin"
-   ],
-   "flags": [
-    "associate-title"
-   ],
-   "location": "New York, NY, USA",
-   "loc_bucket": "NYC",
-   "track": "internship",
-   "last_seen": "2026-11-23",
-   "status": "live",
-   "tier": null,
-   "on_watchlist": false,
-   "primary_url": "https://www.linkedin.com/jobs/view/4458974531",
-   "date_posted": "2026-11-22",
-   "age_days": 1
-  },
-  "b302e7a888732c02": {
-   "id": "b302e7a888732c02",
-   "company": "Point72",
-   "title": "Fundamental Researcher - Canvas",
-   "first_seen": "2026-11-23",
-   "urls": {
-    "linkedin": "https://www.linkedin.com/jobs/view/4209870978"
-   },
-   "sources": [
-    "linkedin"
-   ],
-   "flags": [],
-   "location": "New York, NY, USA",
-   "loc_bucket": "NYC",
-   "track": "fulltime",
-   "last_seen": "2026-11-23",
-   "status": "live",
-   "tier": 1,
-   "on_watchlist": true,
-   "primary_url": "https://www.linkedin.com/jobs/view/4209870978",
    "date_posted": "2026-11-23",
    "age_days": 0
   },
@@ -804,77 +509,6 @@
    "date_posted": "2026-11-23",
    "age_days": 0
   },
-  "80de9e37e9257eff": {
-   "id": "80de9e37e9257eff",
-   "company": "Fifth Avenue Co.",
-   "title": "Entry Level Sales",
-   "first_seen": "2026-11-23",
-   "urls": {
-    "linkedin": "https://www.linkedin.com/jobs/view/4494021894"
-   },
-   "sources": [
-    "linkedin"
-   ],
-   "flags": [],
-   "location": "New York, NY, USA",
-   "loc_bucket": "NYC",
-   "track": "fulltime",
-   "last_seen": "2026-11-23",
-   "status": "live",
-   "tier": null,
-   "on_watchlist": false,
-   "primary_url": "https://www.linkedin.com/jobs/view/4494021894",
-   "date_posted": "2026-11-23",
-   "age_days": 0
-  },
-  "cc7b1804ee1ff395": {
-   "id": "cc7b1804ee1ff395",
-   "company": "CELSIUS",
-   "title": "Field Execution Representative",
-   "first_seen": "2026-11-23",
-   "urls": {
-    "linkedin": "https://www.linkedin.com/jobs/view/4493658317"
-   },
-   "sources": [
-    "linkedin"
-   ],
-   "flags": [],
-   "location": "New York, NY, USA",
-   "loc_bucket": "NYC",
-   "track": "fulltime",
-   "last_seen": "2026-11-23",
-   "status": "live",
-   "tier": null,
-   "on_watchlist": false,
-   "primary_url": "https://www.linkedin.com/jobs/view/4493658317",
-   "date_posted": "2026-11-23",
-   "age_days": 0
-  },
-  "7ea96bdbd35af62b": {
-   "id": "7ea96bdbd35af62b",
-   "company": "Spirit Halloween",
-   "title": "Sales Associate - Spirit",
-   "first_seen": "2026-11-23",
-   "urls": {
-    "linkedin": "https://www.linkedin.com/jobs/view/4448496493"
-   },
-   "sources": [
-    "linkedin"
-   ],
-   "flags": [
-    "associate-title"
-   ],
-   "location": "Brooklyn, NY, USA",
-   "loc_bucket": "NYC",
-   "track": "fulltime",
-   "last_seen": "2026-11-23",
-   "status": "live",
-   "tier": null,
-   "on_watchlist": false,
-   "primary_url": "https://www.linkedin.com/jobs/view/4448496493",
-   "date_posted": "2026-11-23",
-   "age_days": 0
-  },
   "b4bfb0529121e52b": {
    "id": "b4bfb0529121e52b",
    "company": "Marco International Corporation",
@@ -898,56 +532,6 @@
    "date_posted": "2026-11-23",
    "age_days": 0
   },
-  "016dabb96c444bc2": {
-   "id": "016dabb96c444bc2",
-   "company": "CosmoProf Beauty",
-   "title": "Sales Associate - CosmoProf Store # 66144",
-   "first_seen": "2026-11-23",
-   "urls": {
-    "linkedin": "https://www.linkedin.com/jobs/view/4062565763"
-   },
-   "sources": [
-    "linkedin"
-   ],
-   "flags": [
-    "associate-title"
-   ],
-   "location": "Brooklyn, NY, USA",
-   "loc_bucket": "NYC",
-   "track": "fulltime",
-   "last_seen": "2026-11-23",
-   "status": "live",
-   "tier": null,
-   "on_watchlist": false,
-   "primary_url": "https://www.linkedin.com/jobs/view/4062565763",
-   "date_posted": "2026-11-23",
-   "age_days": 0
-  },
-  "9c10578fd76cfd6e": {
-   "id": "9c10578fd76cfd6e",
-   "company": "West Elm",
-   "title": "Sales Associate, Occasional, Williamsburg Brooklyn - West Elm",
-   "first_seen": "2026-11-23",
-   "urls": {
-    "linkedin": "https://www.linkedin.com/jobs/view/4469520048"
-   },
-   "sources": [
-    "linkedin"
-   ],
-   "flags": [
-    "associate-title"
-   ],
-   "location": "Brooklyn, NY, USA",
-   "loc_bucket": "NYC",
-   "track": "fulltime",
-   "last_seen": "2026-11-23",
-   "status": "live",
-   "tier": null,
-   "on_watchlist": false,
-   "primary_url": "https://www.linkedin.com/jobs/view/4469520048",
-   "date_posted": "2026-11-22",
-   "age_days": 1
-  },
   "648866e54d60c96b": {
    "id": "648866e54d60c96b",
    "company": "U.S. Bank",
@@ -968,31 +552,6 @@
    "tier": 2,
    "on_watchlist": true,
    "primary_url": "https://www.linkedin.com/jobs/view/4483123979",
-   "date_posted": "2026-11-23",
-   "age_days": 0
-  },
-  "af27c66f622d81ce": {
-   "id": "af27c66f622d81ce",
-   "company": "DC Advisory",
-   "title": "Investment Banking - Generalist/EdTech - Associate",
-   "first_seen": "2026-11-23",
-   "urls": {
-    "linkedin": "https://www.linkedin.com/jobs/view/4493695774"
-   },
-   "sources": [
-    "linkedin"
-   ],
-   "flags": [
-    "associate-title"
-   ],
-   "location": "New York, NY, USA",
-   "loc_bucket": "NYC",
-   "track": "fulltime",
-   "last_seen": "2026-11-23",
-   "status": "live",
-   "tier": null,
-   "on_watchlist": false,
-   "primary_url": "https://www.linkedin.com/jobs/view/4493695774",
    "date_posted": "2026-11-23",
    "age_days": 0
   },
@@ -1031,7 +590,8 @@
     "linkedin"
    ],
    "flags": [
-    "associate-title"
+    "associate-title",
+    "recruiter-or-gig-posting"
    ],
    "location": "New York City Metropolitan Area",
    "loc_bucket": "NYC",
@@ -1043,31 +603,6 @@
    "primary_url": "https://www.linkedin.com/jobs/view/4492084681",
    "date_posted": "2026-11-23",
    "age_days": 0
-  },
-  "6c4cb2022370c4c3": {
-   "id": "6c4cb2022370c4c3",
-   "company": "RBC Capital Markets",
-   "title": "2027 Capital Markets, Global Investment Banking Summer Associate",
-   "first_seen": "2026-11-23",
-   "urls": {
-    "linkedin": "https://www.linkedin.com/jobs/view/4460585783"
-   },
-   "sources": [
-    "linkedin"
-   ],
-   "flags": [
-    "associate-title"
-   ],
-   "location": "New York, NY, USA",
-   "loc_bucket": "NYC",
-   "track": "internship",
-   "last_seen": "2026-11-23",
-   "status": "live",
-   "tier": 1,
-   "on_watchlist": true,
-   "primary_url": "https://www.linkedin.com/jobs/view/4460585783",
-   "date_posted": "2026-11-22",
-   "age_days": 1
   },
   "7334a138b4657ccf": {
    "id": "7334a138b4657ccf",
@@ -1136,8 +671,8 @@
    "track": "internship",
    "last_seen": "2026-11-23",
    "status": "live",
-   "tier": null,
-   "on_watchlist": false,
+   "tier": 2,
+   "on_watchlist": true,
    "primary_url": "https://www.linkedin.com/jobs/view/4476851031",
    "date_posted": "2026-11-22",
    "age_days": 1
@@ -1190,29 +725,6 @@
    "date_posted": "2026-11-23",
    "age_days": 0
   },
-  "232a319ffcaf7fe6": {
-   "id": "232a319ffcaf7fe6",
-   "company": "Akuna Capital",
-   "title": "Quantitative Researcher - Prediction Markets",
-   "first_seen": "2026-11-23",
-   "urls": {
-    "linkedin": "https://www.linkedin.com/jobs/view/4408077959"
-   },
-   "sources": [
-    "linkedin"
-   ],
-   "flags": [],
-   "location": "Chicago, IL, USA",
-   "loc_bucket": "Chicago",
-   "track": "fulltime",
-   "last_seen": "2026-11-23",
-   "status": "live",
-   "tier": 2,
-   "on_watchlist": true,
-   "primary_url": "https://www.linkedin.com/jobs/view/4408077959",
-   "date_posted": "2026-11-23",
-   "age_days": 0
-  },
   "da8f9233d03bdef6": {
    "id": "da8f9233d03bdef6",
    "company": "Belvedere Trading",
@@ -1233,29 +745,6 @@
    "tier": 2,
    "on_watchlist": true,
    "primary_url": "https://www.linkedin.com/jobs/view/4449218287",
-   "date_posted": "2026-11-23",
-   "age_days": 0
-  },
-  "dafab807b4923a56": {
-   "id": "dafab807b4923a56",
-   "company": "Turing",
-   "title": "Remote Financial Trading Specialist",
-   "first_seen": "2026-11-23",
-   "urls": {
-    "linkedin": "https://www.linkedin.com/jobs/view/4493744849"
-   },
-   "sources": [
-    "linkedin"
-   ],
-   "flags": [],
-   "location": "Chicago, IL, USA",
-   "loc_bucket": "Chicago",
-   "track": "fulltime",
-   "last_seen": "2026-11-23",
-   "status": "live",
-   "tier": null,
-   "on_watchlist": false,
-   "primary_url": "https://www.linkedin.com/jobs/view/4493744849",
    "date_posted": "2026-11-23",
    "age_days": 0
   },
@@ -1282,29 +771,6 @@
    "date_posted": "2026-11-23",
    "age_days": 0
   },
-  "55b2f8e05ac7d6f8": {
-   "id": "55b2f8e05ac7d6f8",
-   "company": "IMC Trading",
-   "title": "Quantitative Researcher – Futures",
-   "first_seen": "2026-11-23",
-   "urls": {
-    "linkedin": "https://www.linkedin.com/jobs/view/4381841096"
-   },
-   "sources": [
-    "linkedin"
-   ],
-   "flags": [],
-   "location": "Chicago, IL, USA",
-   "loc_bucket": "Chicago",
-   "track": "fulltime",
-   "last_seen": "2026-11-23",
-   "status": "live",
-   "tier": 2,
-   "on_watchlist": true,
-   "primary_url": "https://www.linkedin.com/jobs/view/4381841096",
-   "date_posted": "2026-11-22",
-   "age_days": 1
-  },
   "3165cb99269dcdd7": {
    "id": "3165cb99269dcdd7",
    "company": "Peak6",
@@ -1325,31 +791,6 @@
    "tier": 2,
    "on_watchlist": true,
    "primary_url": "https://www.linkedin.com/jobs/view/4451811912",
-   "date_posted": "2026-11-22",
-   "age_days": 1
-  },
-  "e64e991ab90b476f": {
-   "id": "e64e991ab90b476f",
-   "company": "Charles River Associates",
-   "title": "(2028 Bachelor's/Master's graduates) Economics Consulting Analyst/Associate Intern (Summer 2027)",
-   "first_seen": "2026-11-23",
-   "urls": {
-    "linkedin": "https://www.linkedin.com/jobs/view/4458978473"
-   },
-   "sources": [
-    "linkedin"
-   ],
-   "flags": [
-    "associate-title"
-   ],
-   "location": "Chicago, IL, USA",
-   "loc_bucket": "Chicago",
-   "track": "internship",
-   "last_seen": "2026-11-23",
-   "status": "live",
-   "tier": null,
-   "on_watchlist": false,
-   "primary_url": "https://www.linkedin.com/jobs/view/4458978473",
    "date_posted": "2026-11-22",
    "age_days": 1
   },
@@ -1378,54 +819,6 @@
    "date_posted": "2026-11-22",
    "age_days": 1
   },
-  "10b0da035b714869": {
-   "id": "10b0da035b714869",
-   "company": "Guggenheim Securities",
-   "title": "Associate - Investment Banking, Industrials",
-   "first_seen": "2026-11-23",
-   "urls": {
-    "linkedin": "https://www.linkedin.com/jobs/view/4450643004"
-   },
-   "sources": [
-    "linkedin"
-   ],
-   "flags": [
-    "associate-title"
-   ],
-   "location": "Chicago, IL, USA",
-   "loc_bucket": "Chicago",
-   "track": "fulltime",
-   "last_seen": "2026-11-23",
-   "status": "live",
-   "tier": 2,
-   "on_watchlist": true,
-   "primary_url": "https://www.linkedin.com/jobs/view/4450643004",
-   "date_posted": "2026-11-22",
-   "age_days": 1
-  },
-  "70d1f8d47d1a5dda": {
-   "id": "70d1f8d47d1a5dda",
-   "company": "Suitsupply",
-   "title": "Sales Support",
-   "first_seen": "2026-11-23",
-   "urls": {
-    "linkedin": "https://www.linkedin.com/jobs/view/4468011455"
-   },
-   "sources": [
-    "linkedin"
-   ],
-   "flags": [],
-   "location": "Chicago, IL, USA",
-   "loc_bucket": "Chicago",
-   "track": "fulltime",
-   "last_seen": "2026-11-23",
-   "status": "live",
-   "tier": null,
-   "on_watchlist": false,
-   "primary_url": "https://www.linkedin.com/jobs/view/4468011455",
-   "date_posted": "2026-11-22",
-   "age_days": 1
-  },
   "d6ee258a39fcdca6": {
    "id": "d6ee258a39fcdca6",
    "company": "Akuna Capital",
@@ -1449,54 +842,6 @@
    "date_posted": "2026-11-23",
    "age_days": 0
   },
-  "6b9d016b2ec591e7": {
-   "id": "6b9d016b2ec591e7",
-   "company": "SPACE 519",
-   "title": "Sales Associate",
-   "first_seen": "2026-11-23",
-   "urls": {
-    "linkedin": "https://www.linkedin.com/jobs/view/4494027024"
-   },
-   "sources": [
-    "linkedin"
-   ],
-   "flags": [
-    "associate-title"
-   ],
-   "location": "Chicago, IL, USA",
-   "loc_bucket": "Chicago",
-   "track": "fulltime",
-   "last_seen": "2026-11-23",
-   "status": "live",
-   "tier": null,
-   "on_watchlist": false,
-   "primary_url": "https://www.linkedin.com/jobs/view/4494027024",
-   "date_posted": "2026-11-23",
-   "age_days": 0
-  },
-  "649e8f47a9a94d53": {
-   "id": "649e8f47a9a94d53",
-   "company": "Sally Beauty",
-   "title": "Beauty Advisor (Inside Sales) Sally Beauty 02756",
-   "first_seen": "2026-11-23",
-   "urls": {
-    "linkedin": "https://www.linkedin.com/jobs/view/4062753724"
-   },
-   "sources": [
-    "linkedin"
-   ],
-   "flags": [],
-   "location": "Chicago, IL, USA",
-   "loc_bucket": "Chicago",
-   "track": "fulltime",
-   "last_seen": "2026-11-23",
-   "status": "live",
-   "tier": null,
-   "on_watchlist": false,
-   "primary_url": "https://www.linkedin.com/jobs/view/4062753724",
-   "date_posted": "2026-11-23",
-   "age_days": 0
-  },
   "edb35ebb2bca9fc8": {
    "id": "edb35ebb2bca9fc8",
    "company": "Northern Trust",
@@ -1508,7 +853,9 @@
    "sources": [
     "linkedin"
    ],
-   "flags": [],
+   "flags": [
+    "absent-from-company-site"
+   ],
    "location": "Chicago, IL, USA",
    "loc_bucket": "Chicago",
    "track": "fulltime",
@@ -1517,129 +864,6 @@
    "tier": 2,
    "on_watchlist": true,
    "primary_url": "https://www.linkedin.com/jobs/view/4458920350",
-   "date_posted": "2026-11-22",
-   "age_days": 1
-  },
-  "5c4928d0837caf5a": {
-   "id": "5c4928d0837caf5a",
-   "company": "ALO",
-   "title": "Seasonal Sales Associate (Part-Time) -  Michigan Ave",
-   "first_seen": "2026-11-23",
-   "urls": {
-    "linkedin": "https://www.linkedin.com/jobs/view/4459601842"
-   },
-   "sources": [
-    "linkedin"
-   ],
-   "flags": [
-    "associate-title"
-   ],
-   "location": "Chicago, IL, USA",
-   "loc_bucket": "Chicago",
-   "track": "fulltime",
-   "last_seen": "2026-11-23",
-   "status": "live",
-   "tier": null,
-   "on_watchlist": false,
-   "primary_url": "https://www.linkedin.com/jobs/view/4459601842",
-   "date_posted": "2026-11-22",
-   "age_days": 1
-  },
-  "76c28e3ed49bc109": {
-   "id": "76c28e3ed49bc109",
-   "company": "The TJX Companies, Inc.",
-   "title": "Seasonal Sales Associate",
-   "first_seen": "2026-11-23",
-   "urls": {
-    "linkedin": "https://www.linkedin.com/jobs/view/4493104571"
-   },
-   "sources": [
-    "linkedin"
-   ],
-   "flags": [
-    "associate-title"
-   ],
-   "location": "Chicago, IL, USA",
-   "loc_bucket": "Chicago",
-   "track": "fulltime",
-   "last_seen": "2026-11-23",
-   "status": "live",
-   "tier": null,
-   "on_watchlist": false,
-   "primary_url": "https://www.linkedin.com/jobs/view/4493104571",
-   "date_posted": "2026-11-21",
-   "age_days": 2
-  },
-  "ec3272ae5114ebd7": {
-   "id": "ec3272ae5114ebd7",
-   "company": "Sazerac Company",
-   "title": "Market Development Representative",
-   "first_seen": "2026-11-23",
-   "urls": {
-    "linkedin": "https://www.linkedin.com/jobs/view/4450002545"
-   },
-   "sources": [
-    "linkedin"
-   ],
-   "flags": [],
-   "location": "Chicago, IL, USA",
-   "loc_bucket": "Chicago",
-   "track": "fulltime",
-   "last_seen": "2026-11-23",
-   "status": "live",
-   "tier": null,
-   "on_watchlist": false,
-   "primary_url": "https://www.linkedin.com/jobs/view/4450002545",
-   "date_posted": "2026-11-22",
-   "age_days": 1
-  },
-  "5d5c84ac058af882": {
-   "id": "5d5c84ac058af882",
-   "company": "Baird",
-   "title": "Investment Banking Associate - Tech & Services",
-   "first_seen": "2026-11-23",
-   "urls": {
-    "linkedin": "https://www.linkedin.com/jobs/view/4467836045"
-   },
-   "sources": [
-    "linkedin"
-   ],
-   "flags": [
-    "associate-title"
-   ],
-   "location": "Chicago, IL, USA",
-   "loc_bucket": "Chicago",
-   "track": "fulltime",
-   "last_seen": "2026-11-23",
-   "status": "live",
-   "tier": 2,
-   "on_watchlist": true,
-   "primary_url": "https://www.linkedin.com/jobs/view/4467836045",
-   "date_posted": "2026-11-22",
-   "age_days": 1
-  },
-  "4df2a047cb51d76e": {
-   "id": "4df2a047cb51d76e",
-   "company": "William Blair",
-   "title": "2027 Investment Banking Full-Time MBA Associate",
-   "first_seen": "2026-11-23",
-   "urls": {
-    "linkedin": "https://www.linkedin.com/jobs/view/4438016907"
-   },
-   "sources": [
-    "linkedin"
-   ],
-   "flags": [
-    "associate-title"
-   ],
-   "location": "Chicago, IL, USA",
-   "loc_bucket": "Chicago",
-   "track": "fulltime",
-   "last_seen": "2026-11-23",
-   "status": "live",
-   "tier": 1,
-   "on_watchlist": true,
-   "primary_url": "https://www.linkedin.com/jobs/view/4438016907",
    "date_posted": "2026-11-22",
    "age_days": 1
   },
@@ -1691,13 +915,462 @@
    "date_posted": "2026-11-22",
    "age_days": 1
   },
-  "eb8a223987a0dd08": {
-   "id": "eb8a223987a0dd08",
-   "company": "William Blair",
-   "title": "Investment Banking Associate - Industrial Growth Products (Energy/Energy Transition)",
+  "1269ee826b6f1d4e": {
+   "id": "1269ee826b6f1d4e",
+   "company": "PJT Partners",
+   "title": "2027 Summer Associate - Restructuring & Special Situations Group",
    "first_seen": "2026-11-23",
    "urls": {
-    "linkedin": "https://www.linkedin.com/jobs/view/4438406641"
+    "workday": "https://pjtpartners.wd1.myworkdayjobs.com/en-US/Students/job/New-York/XMLNAME-2027-Summer-Associate---Restructuring---Special-Situations_R0003570"
+   },
+   "sources": [
+    "workday"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "New York",
+   "loc_bucket": "NYC",
+   "track": "internship",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 2,
+   "on_watchlist": true,
+   "primary_url": "https://pjtpartners.wd1.myworkdayjobs.com/en-US/Students/job/New-York/XMLNAME-2027-Summer-Associate---Restructuring---Special-Situations_R0003570",
+   "ats_req_id": "R0003570",
+   "ats_first_seen": "2026-11-23",
+   "date_posted": "2026-10-22",
+   "description": "PJT Partners is a global advisory-focused investment bank. Our team of senior professionals delivers a wide array of strategic advisory, shareholder advisory, restructuring and special situations and private fund advisory and placement services to corporations, financial sponsors, institutional investors and governments around the world. We offer a unique portfolio of advisory services designed to help our clients achieve their strategic objectives. We also provide, through PJT Park Hill, private fund advisory and fundraising services for alternative investment managers, including private equity funds, real estate funds and hedge funds.\n\n From the beginning, PJT Partners has firmly believed that having the best people is key to building an enduring franchise. Our perspective was, and remains, that a great team brings in both top tier clients and appeals to a wide-range of diverse, talented colleagues. Fostering an inclusive culture, which welcomes differing perspectives and beliefs, enables us to provide the best advice and insights to our clients.\n\n To learn more about PJT Partners, please visit our website at   www.pjtpartners.com . \n\n Program Description: \n The Restructuring and Special Situations Group (“RSSG”) advises both large and middle market companies, financial sponsors and creditor groups in financially distressed situations, both in Chapter 11 bankruptcy proceedings as well as in out-of-court restructuring, capital raising and strategic advisory transactions. Founded in 1991, the RSSG team consistently maintains an industry-leading market share, having advised on many of the largest and most high-profile reorganizations and liability management transactions that have occurred in the last decade.\n\n Across restructuring and liability management transactions, the team provides a wide range of strategic advisory services, including analysis and advice on recapitalizations, reorganizations, exchange offers, distressed mergers and acquisitions, raising debt and equity capital, and providing expert witness testimony on a range of topics including corporate valuations.\n Upon completion of training, Summer Associates in the Restructuring & Special Situations Group will have the opportunity to develop a broad corporate finance skillset. Financial restructuring transactions are inherently complex and involve multi-party negotiations with several key stakeholders including, among others, a board of directors, management, secured and unsecured lenders, equity holders, and, at times, the bankruptcy court. Summer Associates are integral to all aspects of a deal and are involved with the development, structuring, and financing of transactions, and regularly attend both client and internal meetings, negotiations, and due diligence sessions. Summer Associates receive exposure to and training on the full spectrum of complex issues that arise in restructurings, including valuation analysis, capital raising, mergers and acquisitions, asset sales, credit negotiations, exchange offers and Chapter 11 reorganizations, while coordinating closely with their deal teams and often working directly with senior level bankers. \n\n Responsibilities: \n Summer Associates have responsibility for guiding transactions on a day-to-day basis. These responsibilities include:\n Performing due diligence with the client;\n Developing detailed business plans;\n Building comprehensive financial models to be used as part of restructuring transactions, capital raises, and/or corporate valuations;\n Analyzing credit and other legal governing documents;\n Evaluating financial returns to current and potential investors;\n Attending key client negotiating and strategy sessions;\n Assisting in the preparation of a plan of reorganization and disclosure statement materials for Chapter 11 cases; and\n Managing and developing all key client deliverables.\n\n Qualifications: \n PJT Partners seeks to hire individuals who are highly motivated, intelligent and have excellent academic, leadership and extracurricular records. In addition, qualified candidates will possess the following:\n Strong interest in restructuring and distressed finance (prior experience in restructuring is not required)\n Outstanding qualitative, technical, and analytical skills\n Professional and confident communication skills to interface with senior management at clients and internal deal teams\n Strong work ethic with the ability to thrive in a collaborative and team-oriented culture\n Robust organizational and time management skills\n Robust knowledge of accounting and corporate finance\n\n Requirements: \n To be considered for the 2027 Summer Associate Program, applicants must meet the following criteria:\n Currently enrolled in an MBA program*\n Anticipated graduation date: December 2027 – Spring 2028\n Resume must include expected graduation month/year\n Completion of “Suited” Assessment. Please see below for more details.\n\n * Undergraduates and experienced hires should refer to the Campus Analyst or Experienced Hire opportunities listed on our career site.\n\n Suited Requirement: \n Complete the PJT Partners “Suited” Assessment. Please CLICK HERE to create an account. Suited is an A.I. powered assessment driven screening tool that uses assessments to holistically and objectively measure traits and characteristics that can be better predictors of success at PJT. Please ensure you use the same email address used for your PJT application when registering on Suited. Please complete each question through the end of the survey. A “Profile Complete” badge will appear once complete - there is no final “Submit” button.\n\n Expected Annualized Base Salary of $225,000\nTime type: Full time",
+   "age_days": 32
+  },
+  "6eb54e1046ddc079": {
+   "id": "6eb54e1046ddc079",
+   "company": "PJT Partners",
+   "title": "2027 Summer Associate - Strategic Advisory (Capital Markets)",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "workday": "https://pjtpartners.wd1.myworkdayjobs.com/en-US/Students/job/New-York/XMLNAME-2027-Summer-Associate---Strategic-Advisory--Capital-Markets-_R0003565"
+   },
+   "sources": [
+    "workday"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "New York",
+   "loc_bucket": "NYC",
+   "track": "internship",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 2,
+   "on_watchlist": true,
+   "primary_url": "https://pjtpartners.wd1.myworkdayjobs.com/en-US/Students/job/New-York/XMLNAME-2027-Summer-Associate---Strategic-Advisory--Capital-Markets-_R0003565",
+   "ats_req_id": "R0003565",
+   "ats_first_seen": "2026-11-23",
+   "date_posted": "2026-10-14",
+   "description": "PJT Partners is a global advisory-focused investment bank. Our team of senior professionals delivers a wide array of strategic advisory, shareholder advisory, restructuring and special situations and private fund advisory and placement services to corporations, financial sponsors, institutional investors and governments around the world. We offer a unique portfolio of advisory services designed to help our clients achieve their strategic objectives. We also provide, through PJT Park Hill, private fund advisory and fundraising services for alternative investment managers, including private equity funds, real estate funds and hedge funds.\n\n From the beginning, PJT Partners has firmly believed that having the best people is key to building an enduring franchise. Our perspective was, and remains, that a great team brings in both top tier clients and appeals to a wide-range of diverse, talented colleagues. Fostering an inclusive culture, which welcomes differing perspectives and beliefs, enables us to provide the best advice and insights to our clients.\n\n To learn more about PJT Partners, please visit our website at   www.pjtpartners.com . \n\n Program Description: \n This position is based in our New York office and is part of our dedicated Capital Markets Advisory team. Our Capital Markets Advisory Group provides equity and debt advisory services to a wide variety of clients, from multinational, public corporations to privately held companies either sponsor-backed or founder-owned. The Capital Markets Advisory team works in partnership with PJT Partners’ Strategic Advisory, Park Hill, Restructuring and Camberview teams.\n\n This position sits within the Strategic Advisory Group, which is one of the most experienced investment banking teams in the industry, and has been involved in some of the largest, most complex transactions in recent years. Our global team focuses on a diverse set of industries, including financial institutions, healthcare, industrials, energy, power & utilities, real estate, gaming & lodging, consumer and retail, and technology, sports, media & telecommunications.\n\n Upon completion of training, Summer Associates will have the opportunity to participate in all aspects of pitches and live transactions while being staffed on a number of assignments at once. Due to the relatively small size of the professional staff, a Summer Associate will assume an integral role on their deal teams, often working directly with senior level bankers.\n\n Responsibilities: \n The Capital Markets Advisory team originates, structures, and executes financings across the private and public debt and equity markets for sponsor-backed, privately-owned, and public businesses across numerous industries. We have acted as a placement agent, an underwriter, and a strategic advisor on a wide array of financings. Summer Associates in Capital Markets participate in the origination and execution of all deal activity. Summer Associate work will include: \n Developing general corporate finance and valuation skills relevant to raising capital, including financial modeling and analysis of capital structures\n Drafting of client presentations\n Preparation of debt and equity market updates\n Conducting financial and other business-related research\n Coordinating and helping manage complex and often time-sensitive capital raise processes\n Facilitating due diligence and discussions with clients, legal counsel, investors, and advisors\n Active involvement in live client facing situations\n Assistance in the execution of transactions\n Assistance in deal structuring (covenants, key terms, etc.) and term sheet negotiations\n Ongoing investor relationship development and management\n Constructing and managing internal deal and investor-related databases\n\n Qualifications :\n PJT Partners seeks to hire individuals who are highly motivated, intelligent and have excellent academic, leadership and extracurricular records. In addition, qualified candidates will possess the following:\n Outstanding qualitative, technical and analytical skills\n Strong verbal and written communication skills\n Aptitude to work collaboratively in a team environment\n Robust organizational and time management skills\n Strong work ethic and ability to work under pressure\n Strong knowledge of accounting and finance\n\n Requirements :\n To be considered for the 2027 Summer Associate – Capital Markets position, applicants must meet the following criteria:\n Currently enrolled in an MBA program* \n Anticipated graduation date: December 2027 – Spring 2028\n Resume must include expected graduation month/year\n Resume must be in PDF format  \n Completion of “Suited” Assessment. Please see below for more details.\n\n * Undergraduates and experienced hires should refer to the Campus Analyst or Experienced Hire opportunities listed on our career site.\n\n Suited Requirements: \n Complete the PJT Partners “Suited” Assessment. Please CLICK HERE to create an account. Suited is an A.I. powered assessment driven screening tool that uses assessments to holistically and objectively measure traits and characteristics that can be better predictors of success at PJT. Please ensure you use the same email address used for your PJT application when registering on Suited. Please complete each question through the end of the survey. A “Profile Complete” badge will appear once complete - there is no final “Submit” button.\n\n Expected Annualized Base Salary of $225,000 \n\n PJT is an equal opportunity employer. We do not discriminate on the basis of, and will consider all qualified applicants for employment without regard to race, color, religious creed, religion, sex, pregnancy, national origin, ancestry, citizenship status, age, marital or partnership status, sexual orientation, gender identity expression, disability, medical condition, genetic information or predisposition, veteran or military status, status as a victim of domestic violence, a sex offense or stalking, or any other category protected by law. ",
+   "age_days": 40
+  },
+  "b5e5d929c6da04e5": {
+   "id": "b5e5d929c6da04e5",
+   "company": "Federal Reserve Bank of New York",
+   "title": "Research Assistant",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "workday": "https://rb.wd5.myworkdayjobs.com/en-US/FRS/job/Chicago-IL/Research-Assistant_R-0000033280-2"
+   },
+   "sources": [
+    "workday"
+   ],
+   "flags": [
+    "old-posting (62d)"
+   ],
+   "location": "Chicago, IL",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 2,
+   "on_watchlist": true,
+   "primary_url": "https://rb.wd5.myworkdayjobs.com/en-US/FRS/job/Chicago-IL/Research-Assistant_R-0000033280-2",
+   "ats_req_id": "R-0000033280",
+   "ats_first_seen": "2026-11-23",
+   "date_posted": "2026-09-22",
+   "description": "Company \nFederal Reserve Bank of Chicago \n\nAre you a curious, quantitatively skilled recent graduate who wants to understand how economic research informs real-world policy? Join the Federal Reserve Bank of Chicago’s Research Assistant Program and work alongside economists and researchers on important questions facing the economy, financial markets, businesses, and households.\n\nAs a Research Assistant, you will gain hands-on experience across the research process, including managing data, conducting econometric analysis, answering economic questions, and communicating results through compelling charts, written analysis, and presentations. You will contribute to both long-term research and timely policy analysis while building the technical and analytical skills needed for a successful career in economics.\n\nThis is a two-year opportunity designed for recent graduates who want to deepen their research capabilities, explore the field of economics, and prepare for the next stage of their careers. \n\n What You’ll Do \n Research Assistants work closely with economists and research staff across a range of economic and policy areas, including macroeconomics, microeconomics, finance, and regional economics.\n Responsibilities include:\n Collecting, cleaning, managing, and analyzing economic and financial data.\n Conducting statistical and econometric analysis and developing research code using tools such as Stata, R, Python, and MATLAB.\n Conducting literature reviews and synthesizing academic and policy research.\n Preparing charts, tables, written analysis, presentations, and briefing materials.\n Supporting research papers, publications, and time-sensitive policy analysis.\n Collaborating with economists, researchers, and other Research Assistants across projects.\n\n Your Development \n The Research Assistant Program provides opportunities to develop your research, technical, and professional skills through:\n Training in programming, econometrics, data analysis, and research tools.\n Research seminars featuring Chicago Fed economists and visiting scholars.\n Workshops, conferences, coursework, and other learning opportunities.\n Mentorship and professional development focused on graduate study and career planning.\n Building relationships across the Federal Reserve and broader research community.\n The Research Assistant Program is designed to be an important step in your career. RAs pursue futures in either graduate studies of economics, public policy, finance, law, and data science or continue with careers across government, academia, and industry.\n\n Who We’re Looking For \n We seek candidates with:\n A bachelor’s degree or higher in economics, finance, statistics, mathematics, computer science, data science, public policy, or a related field with strong economics and mathematical coursework.\n Strong quantitative, analytical, and problem-solving skills.\n Familiarity with statistical programming languages such as Stata, R, Python, or MATLAB.\n Strong written and verbal communication skills.\n The ability to work independently and collaboratively.\n Curiosity, initiative, and a demonstrated interest in economics, research, or public policy.\n Previous research experience is valued but not required. We welcome candidates with a range of academic and professional experiences who demonstrate the skills and intellectual curiosity needed to succeed.\n\n What We Offer \n Full-time, two-year position with competitive salary and benefits.\n Direct collaboration with economists and research staff.\n Structured training, mentorship, and professional development.\n Opportunities to participate in coursework, workshops, conferences, and seminars.\n Opportunities to contribute to Chicago Fed research and publications, including potential opportunities for joint authorship.\n A collaborative and supportive Research Assistant community.\n\n HOW TO APPLY \n Please submit:\n 1-Resume \n 2-Cover letter \n 3 - Undergraduate transcript(s) — unofficial transcripts are acceptable \n 4-Two references with name and contact information \n 5-At least one letter of recommendation - Submitted directly to ResearchAssistantLOR@chi.frb.org by your recommender with your LAST NAME, FIRST NAME in the subject line\n\n IMPORTANT NOTE:   \n When asked to upload your resume in the Workday Portal, you must upload all supplementary application documents. There will not be an additional prompt to upload documents 2, 3, & 4. You must upload all documents on the same page as your resume. Failure to do so will result in postponing the review of your application.\n\n Applications are reviewed on a rolling basis.\n\n For questions, contact RA.Recruiting@chi.frb.org .\n\n Learn more about the Chicago Fed Research Assistant Program: \n  https://www.chicagofed.org/research/research-assistant \n\n Additional Details  \n The expected starting salary for this position is $75,000 annually in addition to annual performance-based discretionary bonuses. Final salary and offer will be determined based on the applicant’s relevant experience, skills, internal equity, and alignment with geographic and other market data.    \n The Chicago Fed offers benefits to support overall health and financial security. Learn more about our benefits here: https://www.chicagofed.org/careers/thebenefits  \n A continuous learning environment with opportunities to gain new skills and grow your career. \n\n Additional Requirements \n This position requires access to confidential FOMC and or/supervisory information, which is limited to \"Protected Individuals\" as defined in the U.S. federal immigration law. Protected Individuals include, but are not limited to, U.S. citizens, U.S. nationals, and U.S. permanent residents who either are not yet eligible to apply for naturalization or who have applied for naturalization within the requisite timeframe. Individuals who need immigration sponsorship now or in the future are not eligible for this position, including students in F-1 (CPT/OPT/STEM OPT) or J-1 status. \n This position has ",
+   "age_days": 62
+  },
+  "2c3bb6037ae6ca9c": {
+   "id": "2c3bb6037ae6ca9c",
+   "company": "Federal Reserve Bank of New York",
+   "title": "Summer 2027 Intern - Economic Research - Chicago",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "workday": "https://rb.wd5.myworkdayjobs.com/en-US/FRS/job/Chicago-IL/Summer-2027-Intern---Economic-Research---Chicago_R-0000033628-1"
+   },
+   "sources": [
+    "workday"
+   ],
+   "flags": [
+    "old-posting (53d)",
+    "quant-heavy?"
+   ],
+   "location": "Chicago, IL",
+   "loc_bucket": "Chicago",
+   "track": "internship",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 2,
+   "on_watchlist": true,
+   "primary_url": "https://rb.wd5.myworkdayjobs.com/en-US/FRS/job/Chicago-IL/Summer-2027-Intern---Economic-Research---Chicago_R-0000033628-1",
+   "ats_req_id": "R-0000033628",
+   "ats_first_seen": "2026-11-23",
+   "date_posted": "2026-10-01",
+   "description": "Company \nFederal Reserve Bank of Chicago \n\nThe Federal Reserve Bank of Chicago is recognized as one of the most influential, trusted and prestigious financial institutions in the world. We serve the Seventh District encompassing Iowa and most of Illinois, Indiana, Michigan, and Wisconsin, and is one of the 12 regional Reserve Banks in the United States. Together with the Board of Governors in Washington, D.C., the 12 Banks constitute the nation’s central bank. \n\n JOB DESCRIPTION: \n The Economic Research Internship offers a number of summer research opportunities across each of our departmental teams, inclusive of – but not limited to:  \n Macroeconomics\n Microeconomics\n Financial Economics\n Community Development\n Regional Research\n\n This program provides students with the opportunity to gain valuable research experience, network with peers in the field, and to work side-by-side with our economists and research assistants to support research and policy work. The program is designed to help students further develop quantitative analysis, critical thinking, and writing skills throughout the summer.\n\n Summer projects typically ask interns to:\n Support economists in their basic and applied research – inclusive of collecting data, conducting moderately complex statistical analysis, and organizing the presentation of results\n Assist economists with their research and analysis of policy issues and events\n Prepare a variety of charts, tables, and descriptive text for staff economists and department management.\n\n INTERNSHIP PROGRAM DETAILS: \n The Federal Reserve Bank of Chicago Summer Intern Program is a paid internship that is open to undergraduate, graduate and PHD students.  It begins in June and continues for 12 consecutive weeks. Interns work 40 hours per week and are assigned to one department. \n\n These internships are ideal for students looking to build their research portfolios, who have a potential interest in graduate school, or who are considering applying for the Chicago Fed’s Research Assistant program after graduation. Economic Research Interns are given priority consideration for 2028 RA openings providing positive recommendations regarding performance throughout their internship experience. \n\n CANDIDATE REQUIREMENTS: \n Currently pursuing at least a Bachelor’s degree, graduating Fall 2027 or later, in economics, finance, or related field (e.g. statistics, computer science, mathematics, etc.)\n Show evidence of aptitude of quantitative and analytical skills through research experience (curricular/extracurricular)\n Some exposure and experience using data/programming languages (e.g. Stata, R, Python, MATLAB, ArcGIS, etc.)\n\n ALL APPLICATIONS MUST INCLUDE: \n 1.) A COVER LETTER \n 2.) RESUME \n 3.) UNOFFICIAL TRANSCRIPT(S) \n 4.) Contact information for at least two references (that, if contacted, can speak to your aptitude for research) - please do not submit letters of recommendation.) \n\n OTHER THINGS TO KNOW: \n Salary Range: The anticipated hourly compensation range for this internship is $20 to $33, with the specific rate offered determined by the candidate's academic level.\n\n ADDITIONAL REQUIREMENTS: \n Applicants must be currently authorized to work in the United States without the need for visa sponsorship now or in the future.  \n This position may require additional screening requirements due to the information accessed while performing the job. These additional screenings would be initiated at the time of offer acceptance. The screening covers areas such as education/employment verification, criminal history, credit history, and reaches out to your references and people that know you well.\n As a condition of employment, Federal Reserve Bank of Chicago employees must comply with the Bank’s ethics rules, which generally prohibit employees, their spouses/domestic partners, and minor children from owning securities, such as stock, of banks or savings associations or their affiliates, such as bank holding companies and savings and loan holding companies. If you or your spouse/domestic partner or minor child own such securities and would not be willing or able to divest them if you accepted an offer of Bank employment, you should raise this issue with the recruiter for this posting, who can provide you contact information for our ethics official if necessary. \n This document indicates the general nature and level of work performed by employees within this position. It is not a comprehensive inventory of all duties, responsibilities, and qualifications required of employees assigned to this job. An employee's responsibilities, tasks, and duties might differ from those outlined in the job description, and other duties, as assigned, are a part of the job. The Federal Reserve Bank of Chicago reserves the right to modify the elements of this job description, as business needs require. \n\n We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, marital status, disability, gender, gender identity or expression, or veteran status.  \n\n This document indicates the general nature and level of work performed by employees within this position. It is not a comprehensive inventory of all duties, responsibilities, and qualifications required of employees assigned to this job. An employee's responsibilities, tasks, and duties might differ from those outlined in the job description, and other duties, as assigned, are a part of the job. The Federal Reserve Bank of Chicago reserves the right to modify the elements of this job description, as business needs require. \n\n Full Time / Part Time \nFull time \n\n Regular / Temporary \nTemporary \n\n Job Exempt (Yes / No) \nNo \n\n Job Category \nInternship Family Group \n\n Work Shift \nFirst (United States of America) \n The Federal Reserve Banks are committed to equal employment opportunity for employees and job applicants in compliance with applicable law and to an environment where employees a",
+   "age_days": 53
+  },
+  "4dce8c770fef8927": {
+   "id": "4dce8c770fef8927",
+   "company": "Northern Trust",
+   "title": "Municipal Bond Trader",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "workday": "https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Chicago-IL/Municipal-Bond-Trader_R146981"
+   },
+   "sources": [
+    "workday"
+   ],
+   "flags": [],
+   "location": "Chicago, IL",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 2,
+   "on_watchlist": true,
+   "primary_url": "https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Chicago-IL/Municipal-Bond-Trader_R146981",
+   "ats_req_id": "R146981",
+   "ats_first_seen": "2026-11-23",
+   "date_posted": "2026-10-23",
+   "description": "About Northern Trust \n\n As a global leader in innovative wealth management, asset servicing, asset management and banking services, Northern Trust (Nasdaq: NTRS) is proud to guide the world’s most successful individuals, families, corporations and institutions. \n\n Since 1889, we have aligned our efforts with our three guiding Principles That Endure: Service, Expertise, and Integrity. Together, they reflect the three cornerstones of business conduct which we strive to instill in our employees, whom we call partners, and to provide to our clients and the communities we serve worldwide. \n\n With more than 135 years of financial experience and over 24,000 partners, we serve the world’s most sophisticated clients using leading technology and exceptional service. \n\n Position Summary: \n Northern Trust Asset Management is seeking an experienced fixed income trader responsible for the execution of buy and sell orders across client portfolios. The role is primarily focused on taxable and tax-exempt municipal bonds, with opportunities to support electronic trading across other fixed income sectors, including corporate credit and rates products. This role partners closely with Portfolio Managers and fellow traders to ensure efficient execution across a broad range of investment strategies including ETFs, active and index-based funds, institutional accounts, separately managed accounts (SMAs), and wealth management portfolios. \n\n Duties and Responsibilities \n ·       Execute primary and secondary market municipal bond transactions across all sectors in accordance with portfolio manager direction, client objectives, and investment guidelines. \n ·       Maintain a thorough understanding of the factors influencing bond valuations, including market conditions, supply and demand dynamics, technical factors, relative value considerations, and sector fundamentals. \n ·       Develop and maintain strong relationships with broker-dealers and trading counterparties to source liquidity, evaluate market opportunities, and achieve best execution. \n ·         \n ·       Coordinate tax-loss harvesting, account liquidations, invest-ups, cash deployment, and other portfolio-transition activities, including the receipt, execution, and settlement of related trading orders. \n ·       Collaborate with portfolio managers on portfolio positioning, trading strategy, cash deployment strategies, and implementation decisions consistent with client objectives and prevailing market conditions. \n ·       Maintain a strong understanding of fixed income investment vehicles, market structure, security characteristics, pricing methodologies, industry trends, and regulatory requirements. \n ·       Provide portfolio and market analysis to support investment decisions, client communications, and business development efforts for current and prospective clients. \n ·       Partner with technology, operations, compliance, and external vendors to test, troubleshoot, and improve municipal trading platforms, data flows, reporting, and system integrations. \n ·       Identify and implement process improvements, automation, controls, and analytical tools that increase trading efficiency, reduce operational risk, and improve scalability. \n ·       Contribute to electronic trading coverage across other fixed income sectors, including corporate credit, government securities, and rates products, as needed. \n\n Competencies / Skills \n\n ·       Expertise in electronic fixed income trading, with extensive proficiency across trading platforms including MarketAxess, Tradeweb, and Bloomberg. \n ·       Preferred experience with OMS and EMS systems such as Aladdin, Perform, and Adroit. \n ·       Comprehensive knowledge of fixed income markets, investment strategies, portfolio construction, risk management, and credit fundamentals. \n ·       Strong dealer relationship management skills, with a demonstrated ability to source liquidity, negotiate effectively, and achieve best execution for client portfolios. \n ·       Excellent communication, analytical, and collaboration skills, with the ability to partner effectively with portfolio managers, traders, research analysts, and operational teams. \n\n Experience: \n ·       Preferred candidates will have a minimum of three-five years municipal bond trading experience. Candidates with investment-grade or corporate bond trading experience will also be considered, provided they have some exposure to or experience in municipal bond trading. \n\n Salary Range:\n$160,100 - 272,300 USD \n Salary range is a good faith estimate of base pay. Northern Trust provides a comprehensive benefits package including retirement benefits (401k and pension), health and welfare benefits (medical, dental, vision, spending accounts and disability), paid time off, parental and caregiver leave, life & accident insurance, and other voluntary and well-being benefits. Northern Trust also provides a discretionary bonus program that may include an equity component. \n\n Work Authorization \n\n Applicants must be authorized to work in the U.S. without the need for employment-based visa sponsorship now or in the future. Northern Trust will not sponsor applicants for U.S. work visa status for this opportunity (no sponsorship is available for H-1B, L-1, TN, O-1, E-3, H-1B1, F-1, J-1, OPT, CPT or any other employment-based visa). \n\n Working with Us \n\n As a Northern Trust partner, you will be part of a flexible and collaborative work culture, which has a strong history of financial strength and stability. Movement within the organization is encouraged, senior leaders are accessible, and you can take pride in working for a company committed to an inclusive workplace and assisting the communities we serve.\n\n Philanthropy is deeply rooted in Northern Trust’s history and is an essential element of our culture. Employees around the world give their time and talent to work for the greater good of their communities. \n\n Reasonable Accommodation \n\n Northern Trust is committe",
+   "age_days": 31
+  },
+  "f84a6327c92a52b3": {
+   "id": "f84a6327c92a52b3",
+   "company": "Northern Trust",
+   "title": "Trader - Investment Grade Bond",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "workday": "https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Chicago-IL/Trader---Investment-Grade-Bond_R163327"
+   },
+   "sources": [
+    "workday"
+   ],
+   "flags": [],
+   "location": "Chicago, IL",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 2,
+   "on_watchlist": true,
+   "primary_url": "https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Chicago-IL/Trader---Investment-Grade-Bond_R163327",
+   "ats_req_id": "R163327",
+   "ats_first_seen": "2026-11-23",
+   "date_posted": "2026-10-29",
+   "description": "About Northern Trust \n\n As a global leader in innovative wealth management, asset servicing, asset management and banking services, Northern Trust (Nasdaq: NTRS) is proud to guide the world’s most successful individuals, families, corporations and institutions. \n\n Since 1889, we have aligned our efforts with our three guiding Principles That Endure: Service, Expertise, and Integrity. Together, they reflect the three cornerstones of business conduct which we strive to instill in our employees, whom we call partners, and to provide to our clients and the communities we serve worldwide. \n\n With more than 135 years of financial experience and over 24,000 partners, we serve the world’s most sophisticated clients using leading technology and exceptional service. \n\n Position Summary: \n\n Northern Trust Asset Management is seeking an experienced Investment Grade Bond Trader to join its Fixed Income Trading team. This role sits at the intersection of technology, markets, and portfolio implementation, partnering closely with Portfolio Managers and fellow traders to deliver liquidity, efficient execution, and investment outcomes across a broad range of client portfolios. \n\n We are seeking a trader who views execution as a source of competitive advantage, leveraging market expertise, dealer relationships, technology, and data-driven insights to generate trading edge and improve investment outcomes. The successful candidate will be expected to challenge convention, uncover market opportunities, influence portfolio implementation decisions, and help shape the future of our trading platform through innovation, automation, and analytics. \n\n The role offers broad exposure across ETFs, active and index strategies, institutional mandates, separately managed accounts (SMAs), and wealth management portfolios while contributing to the continued evolution of a technology-driven trading organization. \n\n Duties and Responsibilities \n ·       Execute primary and secondary market Investment Grade credit transactions across all sectors while delivering liquidity, efficient execution, and strong investment outcomes. \n ·       Provide differentiated market insight and liquidity intelligence to support investment decisions and execution strategy. \n ·       Develop and maintain strategic relationships with broker-dealers, platforms, and trading counterparties to source liquidity, identify opportunities, and achieve optimal execution. \n ·       Provide real-time market intelligence, pricing insight, and liquidity assessment to support investment decision-making and portfolio construction. \n ·       Deliver portfolio, market, and trading analysis to support client portfolios, investment initiatives, and business development efforts. \n ·       Collaborate with technology, operations, compliance, and external vendors to enhance trading platforms, data quality, workflow automation, and system integration. \n ·       Identify and drive process improvements, automation initiatives, and analytical capabilities that improve scalability, strengthen controls, and increase trading efficiency. \n ·       Maintain expertise in fixed income market structure, security characteristics, pricing methodologies, industry developments, and regulatory requirements. \n ·       Provide backup trading coverage across other fixed income sectors, including High Yield, non-US Fixed Income, and Rates products. \n\n Competencies / Skills \n ·       Expertise in both voice and electronic fixed income trading, with advanced proficiency across platforms including MarketAxess, Tradeweb, Bloomberg, and other electronic execution venues. \n ·       Experience with OMS and EMS platforms such as Aladdin and Adroit preferred. \n ·       Strong understanding of index and active investment strategies, investment grade credit markets, portfolio construction, risk management, market structure, and credit fundamentals. \n ·       Proven ability to source liquidity, navigate complex market environments, and deliver superior execution outcomes. \n ·       Established dealer relationships and strong negotiation skills across the fixed income marketplace. \n ·       Demonstrated ability to leverage technology, data, and analytics to enhance trading decisions, workflows, and execution quality. \n ·       Intellectual curiosity, sound judgment, and a continuous-improvement mindset focused on innovation, efficiency, and investment outcomes. \n\n Experience: \n\n Preferred candidates will have 5-10 years of Investment Grade credit trading experience. We will also consider candidates with corporate credit trading backgrounds who can demonstrate strong Investment Grade market knowledge and relevant trading experience. \n\n Salary Range:\n$160,100 - 272,300 USD \n Salary range is a good faith estimate of base pay. Northern Trust provides a comprehensive benefits package including retirement benefits (401k and pension), health and welfare benefits (medical, dental, vision, spending accounts and disability), paid time off, parental and caregiver leave, life & accident insurance, and other voluntary and well-being benefits. Northern Trust also provides a discretionary bonus program that may include an equity component. \n\n Work Authorization \n\n Applicants must be authorized to work in the U.S. without the need for employment-based visa sponsorship now or in the future. Northern Trust will not sponsor applicants for U.S. work visa status for this opportunity (no sponsorship is available for H-1B, L-1, TN, O-1, E-3, H-1B1, F-1, J-1, OPT, CPT or any other employment-based visa). \n\n Working with Us \n\n As a Northern Trust partner, you will be part of a flexible and collaborative work culture, which has a strong history of financial strength and stability. Movement within the organization is encouraged, senior leaders are accessible, and you can take pride in working for a company committed to an inclusive workplace and assisting the communities we serve.\n\n Philanthropy is deeply rooted in Northern Trust",
+   "age_days": 25
+  },
+  "b4aff10b40a55b19": {
+   "id": "b4aff10b40a55b19",
+   "company": "Northern Trust",
+   "title": "OTC/FX Associate Specialist, Integrated Portfolio Services",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "workday": "https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Chicago-IL/OTC-FX-Associate-Specialist--Integrated-Portfolio-Services_R161099"
+   },
+   "sources": [
+    "workday"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "Chicago, IL",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 2,
+   "on_watchlist": true,
+   "primary_url": "https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Chicago-IL/OTC-FX-Associate-Specialist--Integrated-Portfolio-Services_R161099",
+   "ats_req_id": "R161099",
+   "ats_first_seen": "2026-11-23",
+   "date_posted": "2026-11-02",
+   "description": "About Northern Trust \n\n As a global leader in innovative wealth management, asset servicing, asset management and banking services, Northern Trust (Nasdaq: NTRS) is proud to guide the world’s most successful individuals, families, corporations and institutions. \n\n Since 1889, we have aligned our efforts with our three guiding Principles That Endure: Service, Expertise, and Integrity. Together, they reflect the three cornerstones of business conduct which we strive to instill in our employees, whom we call partners, and to provide to our clients and the communities we serve worldwide. \n\n With more than 135 years of financial experience and over 24,000 partners, we serve the world’s most sophisticated clients using leading technology and exceptional service. \n\n The OTC and FX Associate Specialist is responsible for the drive, implementation and execution of our project initiatives. They will translate strategy into actionable plans, drive execution across our teams, coordinate dependencies and manage trade-offs, monitor progress and surface risks or constraints and reinforce priorities and adjust as needed. In addition, the OTC and FX Associate Specialist is responsible for contributing, executing and reinforcing the strategic priorities, stepping in to assist the team where needed to successfully satisfy the client support model.\n\n Major Duties: \n Being an escalation point for members of the team and clients\n Being an OTCFX Product SME\n Manage team projects or initiatives Taking lead on an initiative while contributing and executing in others\n\n Oversight of processes within team of: Manage multiple clients/hedge funds and business lines within a fast-paced, challenging environment\n Affirmation/Confirmation of all OTC and FX trades on electronic platforms or on paper where required\n Settlement of swap cash flows associated with OTC and FX products, including unwinds, fees, resets, and premiums\n Proper operational reflection of OTC and FX trades\n Booking corporate actions and dividends/coupons to ensure accurate position and p/l attribution\n Efficiently identify and resolve transaction discrepancies between client and swap counterparties. Liaison between trading desk, control groups and counterparties to resolve any economic discrepancies on trades in a timely and efficient manner\n Process all aspects of periodic resets for vanilla and exotic IRS, CDS, and Equity OTC products\n Ensure timely receipt of OTC and FX confirmations from trading counterparties\n Ensure accuracy of transaction agreements and modifications\n Prioritize time accordingly to action trade breaks by end of day\n Understand and process trade activity in accordance with established operations policies and procedures; understand and minimize risk associated with trade mismatches\n\n Work with IT in the development and enhancement of the trade management system\n Must be able to interact with coworkers and clients in a fast-paced trading environment.\n Should be intellectually curious, intuitive, and trustworthy and have the highest ethical standards\n Effectively address a number of internal and external audiences in a professional manner\n Perform other related duties as required\n Assists in the training of staff globally.\n Operates independently; has in-depth knowledge of business unit / function\n As subject area expert, provides comprehensive, in-depth consulting and leadership to team and partners at a high technical level\n Carries out activities that are large in scope, cross-functional and technically difficult\n Role is balanced between high level operational execution and development, and execution of strategic direction of business function activities\n Strategic in developing, implementing and administering programs within functional areas\n\n Knowledge/Skills: \n Bachelor’s degree strongly preferred\n Five plus years of experience in FX or OTC structured and derivatives products operations including: Experience with the settlement of OTC structured and derivatives products\n Experience reviewing documentation for OTC structured and derivatives products\n\n Proficiency with TradeServ, MarkitWire/MarkitTradeManager, and eConfirm platforms preferred\n Excellent people skills; ability to dynamically act as knowledgeable point of reference to co-workers domestically and internationally\n Proficiency in Microsoft Word, Excel (ability to create macros), Copilot, Power Automate\n Excellent math and analytical skills\n Excellent written and oral communication skills\n Strong organization skills, meticulous attention to detail\n Ability to handle multiple tasks under extremely time sensitive conditions\n Understanding of the various transaction types within each asset class beyond ‘vanilla’ trades is preferred (e.g. for IRS, understanding of caps, floors, swaptions, etc. and for CDS, understanding of tranches, recovery swaps, ABS/X, etc.)\n Understanding of established guidelines and documents published by ISDA is helpful\n OTC Regulatory knowledge across Dodd Frank, EMIR, ASIC, MAS\n\n Experience: \n The successful candidate will be a mature self-starter who has demonstrated the ability to function independently in a fast-paced, dynamic and demanding environment. This person needs to be able to resolve conflict within a short period of time. This person will be intellectually curious, intuitive, trustworthy and have the highest ethical standards. In addition, he/she will be effective addressing a number of internal and external audiences in a professional manner. This person will add value by working on a number of simultaneous tasks with minimal supervision and exemplary follow-through.\n\n #LI-HY\n #LI-CL1\n\n Salary Range:\n$95,600 - 162,400 USD \n Salary range is a good faith estimate of base pay. Northern Trust provides a comprehensive benefits package including retirement benefits (401k and pension), health and welfare benefits (medical, dental, vision, spending accounts and disability), paid time off, parental and caregiver leave, life & accident insu",
+   "age_days": 21
+  },
+  "cb8fbffbad8e863c": {
+   "id": "cb8fbffbad8e863c",
+   "company": "Northern Trust",
+   "title": "Market Associate (Internal Wholesaler)",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "workday": "https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Chicago-IL/Market-Associate--Internal-Wholesaler-_R163526-1"
+   },
+   "sources": [
+    "workday"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "Chicago, IL",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 2,
+   "on_watchlist": true,
+   "primary_url": "https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Chicago-IL/Market-Associate--Internal-Wholesaler-_R163526-1",
+   "ats_req_id": "R163526",
+   "ats_first_seen": "2026-11-23",
+   "date_posted": "2026-10-29",
+   "description": "About Northern Trust \n\n As a global leader in innovative wealth management, asset servicing, asset management and banking services, Northern Trust (Nasdaq: NTRS) is proud to guide the world’s most successful individuals, families, corporations and institutions. \n\n Since 1889, we have aligned our efforts with our three guiding Principles That Endure: Service, Expertise, and Integrity. Together, they reflect the three cornerstones of business conduct which we strive to instill in our employees, whom we call partners, and to provide to our clients and the communities we serve worldwide. \n\n With more than 135 years of financial experience and over 24,000 partners, we serve the world’s most sophisticated clients using leading technology and exceptional service. \n\n Duties and Responsibilities: \n\n Under general supervision (but works independently most of the time) sells ETF, Mutual Funds, Separately Managed Accounts, Direct Indexing, Alternatives and Multi Asset Class products and services to prospective clients generating revenue for the bank. \n Cross sells Northern Trust's products and services and maintains ongoing relationships with clients. \n Assists in identifying new prospects by researching potential needs and prioritizing and producing a business plan\n Assists in preparing sales presentations to clients utilizing knowledge of our products and services\n Manages territorial responsibilities including contact management database and client reporting\n Utilizes knowledge of bank's investment, trust, custody and securities products and services to work with other internal partners and recommend new services or products to clients where possible\n Will handle a high volume of inbound sales related requests focused on products and account maintenance with an expectation to proactively respond.\n Maintains thorough knowledge of our products and services by initiating frequent contact with partners and keeping abreast of laws and regulations affecting the industry\n Maintains knowledge of competitors and their products and services\n Accountable for the performance/profitability of the area as compared to the plan\n May have direct interaction with committees and/or senior management\n Able to serve as a key subject matter expert and mentor to other more junior level employees\n May manage daily operational activities and supervise day-to-day work of junior level employees (but not a formal management role)\n Delivers a work product that requires less revision\n Able to facilitate discussions and reach decisions\n\n Skills and Experience: \n A college or university degree and/or relevant proven work experience is required. \n NASD Series 7 and 63 required or able to obtain within first 90 days . \n Knowledge of investment management areas across all products and segments such as fixed income, active and passive equities, cash, securities, and international, as well as, other Northern products and services, usually acquired through related work experience, is required to respond to client's needs.\n Ability to communicate and sell Northern products and services to generate revenue for the bank.\n Knowledge of securities industry products and services in order to compete with other financial institutions.\n\n Salary Range:\n$70,000-110,000 \n Salary range is a good faith estimate of base pay. Northern Trust provides a comprehensive benefits package including retirement benefits (401k and pension), health and welfare benefits (medical, dental, vision, spending accounts and disability), paid time off, parental and caregiver leave, life & accident insurance, and other voluntary and well-being benefits. Northern Trust also provides a discretionary bonus program that may include an equity component. \n\n Work Authorization \n\n Applicants must be authorized to work in the U.S. without the need for employment-based visa sponsorship now or in the future. Northern Trust will not sponsor applicants for U.S. work visa status for this opportunity (no sponsorship is available for H-1B, L-1, TN, O-1, E-3, H-1B1, F-1, J-1, OPT, CPT or any other employment-based visa). \n\n Working with Us \n\n As a Northern Trust partner, you will be part of a flexible and collaborative work culture, which has a strong history of financial strength and stability. Movement within the organization is encouraged, senior leaders are accessible, and you can take pride in working for a company committed to an inclusive workplace and assisting the communities we serve. \n\n Philanthropy is deeply rooted in Northern Trust’s history and is an essential element of our culture. Employees around the world give their time and talent to work for the greater good of their communities. \n\n Reasonable Accommodation \n\n Northern Trust is committed to working with and providing adjustments to individuals with health conditions and disabilities. If you need a reasonable accommodation for any part of the employment process, please email our HR Service Center at MyHRHelp@ntrs.com , or alternatively you can discuss your individual requirements with the recruiter you are working with.\nTime type: Full time",
+   "age_days": 25
+  },
+  "79f3435033be504b": {
+   "id": "79f3435033be504b",
+   "company": "Northern Trust",
+   "title": "Institutional Sales Executive - Corporate Segment - East Coast",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "workday": "https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/New-York-NY/Institutional-Distribution-Executive_R153126"
+   },
+   "sources": [
+    "workday"
+   ],
+   "flags": [
+    "old-posting (71d)"
+   ],
+   "location": "New York, NY",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 2,
+   "on_watchlist": true,
+   "primary_url": "https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/New-York-NY/Institutional-Distribution-Executive_R153126",
+   "ats_req_id": "R153126",
+   "ats_first_seen": "2026-11-23",
+   "date_posted": "2026-09-13",
+   "description": "About Northern Trust \n\n As a global leader in innovative wealth management, asset servicing, asset management and banking services, Northern Trust (Nasdaq: NTRS) is proud to guide the world’s most successful individuals, families, corporations and institutions. \n\n Since 1889, we have aligned our efforts with our three guiding Principles That Endure: Service, Expertise, and Integrity. Together, they reflect the three cornerstones of business conduct which we strive to instill in our employees, whom we call partners, and to provide to our clients and the communities we serve worldwide. \n\n With more than 135 years of financial experience and over 24,000 partners, we serve the world’s most sophisticated clients using leading technology and exceptional service. \n\n Role Summary: \n Northern Trust Asset Management (NTAM) is seeking a highly motivated and experienced Institutional Sales Executive to drive new business growth across the U.S. Corporate Segment on the East Coast. This senior business development professional will be responsible for originating, developing, and closing new institutional relationships with corporate defined contribution plans, defined benefit plans, healthcare organizations, corporate investment portfolios, and sub-advisory partners.\n\n The successful candidate will partner with senior executives, investment committees, consultants, and intermediary organizations to deliver investment solutions that address evolving client needs. The role will focus on gathering assets and revenue across NTAM's full suite of investment capabilities, including equities, fixed income, alternatives, OCIO, multi-manager solutions, and customized sub-advisory partnerships.  The role also requires enterprise level collaboration across asset management, banking, and asset servicing.. \n\n Primary Responsibilities: \n New Business Development \n Develop and execute a business development strategy to drive asset and revenue growth across the East Coast Corporate Segment.\n Identify, cultivate, and close new institutional investment mandates and strategic partnerships.\n Build and maintain relationships with corporate executives, benefits leaders, investment committees, retirement plan fiduciaries, consultants, and advisors.\n Generate and manage a robust pipeline of opportunities while maintaining disciplined sales management practices and CRM reporting.\n Lead all aspects of the sales process, including prospecting, qualification, discovery, proposal development, finalist presentations, negotiations, and implementation.\n\n Sub-Advisory Business Development \n Develop and expand relationships with asset managers, retirement providers, banks, wealth managers, and other financial institutions seeking sub-advisory investment solutions.\n Identify opportunities to deliver NTAM investment capabilities through third-party products, platforms, collective investment trusts, mutual funds, ETFs, and separately managed accounts.\n Negotiate and manage strategic sub-advisory partnerships to drive long-term revenue and asset growth.\n\n Required Knowledge and Skills: \n · Institutional Investment Expertise - Comprehensive understanding of institutional asset management and capital markets, including equities, fixed income, alternatives, OCIO, and multi-asset investment programs. \n · Business Development and Sales Leadership - Demonstrated success sourcing, developing, and closing complex institutional investment relationships. Proven ability to generate new assets and revenue through consultative selling.\n · Enterprise Mindset - Experience working within a large, multi-disciplinary asset management organization and the ability to navigate complex organizations to deliver solutions for clients. Demonstrated ability to collaborate across multiple business lines and functional teams.\n · Communication and Executive Presence - Exceptional presentation, negotiation, and relationship-building skills with the ability to engage effectively with C-suite executives, investment committees, consultants, and senior stakeholders.\n · Strategic Thinking - Ability to identify market opportunities, anticipate client needs, and develop creative solutions that differentiate Northern Trust Asset Management in a competitive marketplace.\n\n Experience and Qualifications: \n · 10+ years of institutional sales, business development, or relationship management experience within asset management.  \n · Demonstrated success raising assets from institutional investors and intermediary partners. \n · Direct experience developing sub-advisory relationships and strategic distribution partnerships. \n · Experience selling investment management, retirement, or OCIO solutions. \n · Proven ability to work successfully within a large, global, multi-disciplinary asset management organization. \n · Established network of institutional investors, consultants, advisors, and intermediary relationships across the East Coast. \n · Bachelor's degree required. \n · CFA, CAIA, MBA, or other advanced investment designation preferred. \n\n · Series 7 and 63 licenses \n · Ability to travel approximately 65-80%. \n\n Preferred Candidate Profile: \n · Based in New York or Boston. \n · Existing relationships within corporate retirement, healthcare, and sub-advisory channels. \n · Track record of success gathering assets across both traditional and alternative investment strategies. \n · Demonstrated ability to partner across complex organizations and leverage enterprise-wide resources to win client relationships. \n · Entrepreneurial, resilient, collaborative, and highly client focused. \n\n Salary Range:\n$158,010 - 268,640 USD \n Salary range is a good faith estimate of base pay. Northern Trust provides a comprehensive benefits package including retirement benefits (401k and pension), health and welfare benefits (medical, dental, vision, spending accounts and disability), paid time off, parental and caregiver leave, life & accident insurance, and other voluntary and well-being benefits. Northern",
+   "age_days": 71
+  },
+  "3fc054c430ed7391": {
+   "id": "3fc054c430ed7391",
+   "company": "BBVA",
+   "title": "Loan Syndicate & Sales Trading Associate",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "workday": "https://bbva.wd3.myworkdayjobs.com/en-US/bbva/job/New-York/Loan-Syndicate---Sales-Trading-Associate_JR00117407"
+   },
+   "sources": [
+    "workday"
+   ],
+   "flags": [
+    "asks-3yrs",
+    "associate-title"
+   ],
+   "location": "New York",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 2,
+   "on_watchlist": true,
+   "primary_url": "https://bbva.wd3.myworkdayjobs.com/en-US/bbva/job/New-York/Loan-Syndicate---Sales-Trading-Associate_JR00117407",
+   "ats_req_id": "JR00117407",
+   "ats_first_seen": "2026-11-23",
+   "date_posted": "2026-10-27",
+   "description": "Excited to grow your career? \n\n BBVA is a global company with more than 160 years of history that operates in more than 25 countries where we serve more than 80 million customers. We are more than 121,000 professionals working in multidisciplinary teams with profiles as diverse as financiers, legal experts, data scientists, developers, engineers and designers.\n\n About the job: \n\n Summary of Responsibilities: \n Help the efforts of the LATAM Loan Syndicate Sales & Trading team (“LSS&T”), which focuses on the underwriting, distribution and trading of syndicated loans in the primary and secondary markets, focused on LATAM Corporate Loans, Project Finance and Infrastructure, and Real Estate. LSS&T works jointly with the teams responsible for the origination, structuring and negotiation of syndicated loans and other credit and portfolio management functions. This role is critical in the continued development of BBVA as an active Lead Arranger and Bookrunner on loan transactions in the LATAM market. \n\n LSS&T, in its Syndicate role, is an analytical and advisory function facilitating information flow and decision making regarding the marketability of loans. Loan Syndicate analyzes the loan markets, evaluates financing proposals and recommends terms, conditions, and applicable distribution strategies. \n\n For loan underwritings, Loan Syndicate manages loan market risk, generates underwriting proposals, recommends and executes approved de-risking strategies. In each case, Loan Syndicate provides a situation appropriate market risk analysis (the Loan Underwriting Assessment), including supporting data, liquidity analysis, comparable transaction analysis, an analysis of prevailing market conditions, risk mitigation strategies and the appropriate distribution strategy for achieving BBVA’s Sell-Down Target. LSS&T champions the transaction in the underwriting committee and, if sanctioned, presented for final approval also monitors all underwritings and records them in the Open Position Report. \n\n In its Sales role, LSS&T acts as primary contact point between BBVA and the loan investor universe, including regional, national and foreign banks and institutional investors (asset and fund managers, insurance companies, pension funds, etc…). Responsibility includes primary distribution of loans when BBVA acts as Lead Arranger and Bookrunner, including for Corporate Loans (IG and Mid Corp), Project Finance and Infrastructure, and Real Estate. In addition, the team works closely with Loan Trading & Portfolio Management on secondary opportunities to source or divest loans for the bank’s portfolios. As well, the team assists relationship managers in sourcing primary and secondary loans that can enhance the Bank’s position with its client base and provide an entry point for prospective clients. \n\n The position requires knowledge of the corporate loan market (investment and non-investment grade), the structured aka project finance and infrastructure sectors, real estate and other sectors in which BBVA is active across the Americas. \n\n The general responsibilities for the role include but are not limited to the following: \n\n Help senior staff to identify underwriting opportunities across the various business lines, working closely with the coverage bankers and origination and structuring teams\n Work with these teams as well as Risk and PM to identify the appropriate level of final hold desired\n Help senior staff to formulate appropriate level of underwriting commitments and associated de-risk strategies to achieve BBVA’s desired final hold\n Help to prepare LUAs to LUC and other business and risk committees as needed\n Maintain working database of investors and ongoing contact with said investors, including with the Sales team\n Help identify investor list for transactions where BBVA is Lead Arranger / Bookrunner and formulate distribution strategy\n Support the organization and management of bank meetings and marketing events, including the preparation of the necessary marketing materials\n During distribution phases of syndications, help research and answer investor questions, prepare syndication trackers and update reports maintain deal pipeline to ensure accurate reporting of all activity and especially open underwriting positions\n Keep track and provide ongoing assessment of pricing trends across sectors and markets\n Prepare loan market commentary & analysis distributed internally on a periodic basis, ie. weekly, monthly, etc..\n Oversee the maintaining of database of loan comparables\n Work with Loan Trading and Portfolio Management on optimizing secondary loan execution for the various portfolio books within BBVA\n Regulatory and compliance obligations including proper documentation of all trades, etc..\n Monitor & support the closing of loan trades by BBVA’s Closing teams as needed\n Provide periodic monitoring and reporting of underwritten positions and sell-down results, and associated economics, to Team Head and Sr. Management.\n\n Level of Complexity and Risk Involved: \n Mid-level of complexity. Key component of the Syndicated Finance value chain supporting senior staff.Actively involved in helping to structure, price, and ultimately sell underwritten loans for the Bank. Must have knowledge of multiple loan markets and investor types in Latin America, including Corporate and Mid-Corporate credits, Real Estate and PF and Infrastructure, and understand best practices in the market, including trends in sustainable financing. \n\n Skills, knowledge, and abilities/competencies : \n Degree in Economics, Accounting, Finance or related field. MBA a plus.\n 3 to 5 years of experience including roles in either loan syndicate or syndicated finance\n Knowledge of Corporate and Mid-Corporate, Project and Infrastructure finance, and Real Estate Latam loan markets\n Track record of underwriting and successfully syndicating transactions in the LATAM sectors to be covered at similar level of responsibility\n Strong understanding of financi",
+   "min_years": 3,
+   "age_days": 27
+  },
+  "7773b24dfd676338": {
+   "id": "7773b24dfd676338",
+   "company": "M&T Bank",
+   "title": "2027 Corporate Summer Internship Program- Wealth Markets- Northeast",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "workday": "https://mtb.wd5.myworkdayjobs.com/en-US/Campus/job/New-York-NY/XMLNAME-2027-Corporate-Summer-Internship-Program--Wealth-Markets--Northeast_R91801"
+   },
+   "sources": [
+    "workday"
+   ],
+   "flags": [],
+   "location": "New York, NY",
+   "loc_bucket": "NYC",
+   "track": "internship",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 2,
+   "on_watchlist": true,
+   "primary_url": "https://mtb.wd5.myworkdayjobs.com/en-US/Campus/job/New-York-NY/XMLNAME-2027-Corporate-Summer-Internship-Program--Wealth-Markets--Northeast_R91801",
+   "ats_req_id": "R91801",
+   "ats_first_seen": "2026-11-23",
+   "date_posted": "2026-11-18",
+   "description": "Overview: \n Summer Interns complete a 10 week internship centered around professional development, career growth and building the necessary skills to succeed.  Summer Interns participate in projects and department initiatives that accelerate career growth and play an important role in building the future of the Bank.  As an Intern, you will gain exposure to other departments through guest speakers and industry leaders and a built-in network with peers as well as priority consideration for full time opportunities throughout the Bank.\n\n Role Overview \n The Investment Advisory team partners closely with Wealth Advisors to help manage and support clients’ investment portfolios. The team consists of six advisors and four associates who focus on developing investment strategies and ensuring portfolios align with each client’s goals, needs, and preferences.\n\n What the Intern Will Do \n As an intern, you’ll gain hands-on exposure to the work of an Investment Associate while being mentored by members of the team. Responsibilities may include:\n Supporting the development of investment proposals and Investment Policy Statements\n Assisting with portfolio analysis and portfolio management\n Conducting investment and market research\n Partnering with Investment and Wealth Advisors on client-related investment needs\n Identifying opportunities to improve processes and team efficiencies\n Supporting current projects and initiatives across the Investment Advisory team\n Learning how investment recommendations are developed and incorporated into a client’s broader wealth strategy\n\n Primary Responsibilities: \n Complete duties and responsibilities of an entry-level professional nature specific to assigned area of the Bank.\n Ensure activities adhere to established internal policies and external regulations as applicable. \n Understand and adhere to the Company’s risk and regulatory standards, policies and controls in accordance with the Company’s Risk Appetite.  Identify risk-related issues needing escalation to management.\n Design, implement, maintain and enhance internal controls to mitigate risk on an ongoing basis.  Identify risk-related issues needing escalation to management.\n Promote an environment that supports belonging and reflects the M&T Bank brand.\n Maintain M&T internal control standards, including timely implementation of internal and external audit points together with any issues raised by external regulators as applicable.\n Complete other related duties as assigned.\n\n Scope of Responsibilities: \n The jobholder works under immediate supervision. \n\n Supervisory/Managerial Responsibilities: \n Not Applicable\n\n Education and Experience Required: \n Currently pursuing a Bachelor’s or Master’s degree\n Minimum Cumulative GPA of 3.0\n Work Visa Sponsorship not offered for this role\n\n Education and Experience Preferred: \n Strong written and verbal communication skills\n Demonstrated computer skills\n Proven analytical skills\n Proven critical thinking skills\n Strong organizational skills\n Detail-oriented\n\nM&T Bank is committed to fair, competitive, and market-informed pay for our employees. The pay range for this position is $18.00 - $28.00 per hour. The successful candidate’s particular combination of knowledge, skills, and experience will inform their specific compensation. The range listed above encompasses all geographic locations. The pay rate specific to your location will fall within this range and is available from your recruiter. \n\n Location: \nNew York, New York, United States of America\nTime type: Full time",
+   "age_days": 5
+  },
+  "4617fef420e91144": {
+   "id": "4617fef420e91144",
+   "company": "Graham Capital Management, L.P.",
+   "title": "Portfolio Analyst, Global Macro",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4493938781"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4493938781",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "d8101d5f3364e2b9": {
+   "id": "d8101d5f3364e2b9",
+   "company": "Scotiabank",
+   "title": "Associate, Electronic Execution Services (EES)",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4494066908"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 2,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4494066908",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "f3cb9cf66e83ac95": {
+   "id": "f3cb9cf66e83ac95",
+   "company": "Alvarez & Marsal",
+   "title": "Credit Solutions Associate",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4493947412"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4493947412",
+   "date_posted": "2026-11-24",
+   "age_days": -1
+  },
+  "54a7c7b93967dbab": {
+   "id": "54a7c7b93967dbab",
+   "company": "Wells Fargo",
+   "title": "Analyst, Investment Banking - Private Capital Markets",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4493947039"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 1,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4493947039",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "144873dbb7541699": {
+   "id": "144873dbb7541699",
+   "company": "TD Securities",
+   "title": "TD Securities 2027 Full-Time Analyst Program - CIB Credit (New York)",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4493938594"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 1,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4493938594",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "3879d3303027ffac": {
+   "id": "3879d3303027ffac",
+   "company": "Mizuho",
+   "title": "Investment & Corporate Banking - Loan Capital Markets, Associate",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4493928743"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-23",
+   "status": "live",
+   "tier": 1,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4493928743",
+   "date_posted": "2026-11-23",
+   "age_days": 0
+  },
+  "a72d484ad718ac13": {
+   "id": "a72d484ad718ac13",
+   "company": "Houlihan Lokey",
+   "title": "Associate - Financial Restructuring, Chicago",
+   "first_seen": "2026-11-23",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4441237041"
    },
    "sources": [
     "linkedin"
@@ -1710,19 +1383,19 @@
    "track": "fulltime",
    "last_seen": "2026-11-23",
    "status": "live",
-   "tier": 1,
+   "tier": 2,
    "on_watchlist": true,
-   "primary_url": "https://www.linkedin.com/jobs/view/4438406641",
-   "date_posted": "2026-11-22",
-   "age_days": 1
+   "primary_url": "https://www.linkedin.com/jobs/view/4441237041",
+   "date_posted": "2026-11-23",
+   "age_days": 0
   },
-  "cb28f2e19c1373b8": {
-   "id": "cb28f2e19c1373b8",
-   "company": "Constellation",
-   "title": "2027 Summer Gas Sales Support Intern (Kennett Square, PA)",
+  "10b66eb89ff4d7ff": {
+   "id": "10b66eb89ff4d7ff",
+   "company": "Old National Bank",
+   "title": "Treasury Management Cnslt III",
    "first_seen": "2026-11-23",
    "urls": {
-    "linkedin": "https://www.linkedin.com/jobs/view/4484590308"
+    "linkedin": "https://www.linkedin.com/jobs/view/4493928490"
    },
    "sources": [
     "linkedin"
@@ -1730,15 +1403,15 @@
    "flags": [],
    "location": "Chicago, IL, USA",
    "loc_bucket": "Chicago",
-   "track": "internship",
+   "track": "fulltime",
    "last_seen": "2026-11-23",
    "status": "live",
    "tier": null,
    "on_watchlist": false,
-   "primary_url": "https://www.linkedin.com/jobs/view/4484590308",
+   "primary_url": "https://www.linkedin.com/jobs/view/4493928490",
    "date_posted": "2026-11-23",
    "age_days": 0
   }
  },
- "last_run": "2026-11-23T22:05:30.795505+00:00"
+ "last_run": "2026-11-24T01:26:20.366689+00:00"
 }

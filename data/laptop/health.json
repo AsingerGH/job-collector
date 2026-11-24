@@ -1,26 +1,27 @@
 {
  "runner": "laptop",
- "run_at": "2026-11-23T22:05:30.795505+00:00",
- "minutes": 9.5,
- "raw": 793,
- "kept": 270,
- "live": 73,
- "new_today": 73,
+ "run_at": "2026-11-24T01:26:20.366689+00:00",
+ "minutes": 13.6,
+ "raw": 1225,
+ "kept": 164,
+ "live": 57,
+ "new_today": 57,
  "filter_reasons": {
-  "ok": 270,
-  "function": 351,
-  "internship-wrong-year": 66,
-  "seniority": 88,
-  "location": 18
+  "function": 340,
+  "location": 611,
+  "ok": 167,
+  "seniority": 86,
+  "internship-wrong-year": 21
  },
  "boards": {
   "linkedin": {
-   "ok": 28,
-   "errors": 13,
-   "rows": 793,
-   "last_error": "response status code 429 (blocked: use a proxy)"
+   "ok": 20,
+   "errors": 8,
+   "rows": 492,
+   "last_error": "response status code 429 (blocked: use a proxy)",
+   "skipped": 0
   }
  },
- "ats_ok": 0,
+ "ats_ok": 6,
  "ats_failed": {}
 }
