@@ -1,42 +1,42 @@
 {
  "runner": "cloud",
- "run_at": "2026-11-24T03:23:14.832551+00:00",
- "minutes": 11.1,
- "raw": 2535,
- "kept": 251,
- "live": 446,
- "new_today": 53,
+ "run_at": "2026-11-24T11:00:48.429625+00:00",
+ "minutes": 5.4,
+ "raw": 3537,
+ "kept": 618,
+ "live": 451,
+ "new_today": 58,
  "filter_reasons": {
-  "location": 1178,
-  "function": 879,
-  "experience": 26,
-  "ok": 251,
-  "seniority": 178,
-  "internship-wrong-year": 23
+  "location": 1194,
+  "function": 1163,
+  "experience": 65,
+  "ok": 618,
+  "seniority": 477,
+  "internship-wrong-year": 20
  },
  "boards": {
   "indeed": {
    "ok": 51,
    "errors": 0,
-   "rows": 261,
+   "rows": 1659,
    "last_error": "",
    "skipped": 0
   },
   "linkedin": {
-   "ok": 13,
-   "errors": 12,
-   "rows": 390,
+   "ok": 0,
+   "errors": 3,
+   "rows": 0,
    "last_error": "response status code 429 (blocked: use a proxy)",
-   "skipped": 26
+   "skipped": 48
   }
  },
  "ats_ok": 28,
  "ats_failed": {
-  "M&T Bank": "POST https://mtb.wd5.myworkdayjobs.com/wday/cxs/mtb/Campus/jobs failed: HTTP 429 for https://mtb.wd5.myworkdayjobs.com/wday/cxs/mtb/Campus/jobs",
-  "BBVA": "POST https://bbva.wd3.myworkdayjobs.com/wday/cxs/bbva/bbva/jobs failed: HTTP 429 for https://bbva.wd3.myworkdayjobs.com/wday/cxs/bbva/bbva/jobs",
-  "Federal Reserve Bank of New York": "POST https://rb.wd5.myworkdayjobs.com/wday/cxs/rb/FRS/jobs failed: HTTP 429 for https://rb.wd5.myworkdayjobs.com/wday/cxs/rb/FRS/jobs",
   "Northern Trust": "POST https://ntrs.wd1.myworkdayjobs.com/wday/cxs/ntrs/northerntrust/jobs failed: HTTP 429 for https://ntrs.wd1.myworkdayjobs.com/wday/cxs/ntrs/northerntrust/jobs",
+  "M&T Bank": "POST https://mtb.wd5.myworkdayjobs.com/wday/cxs/mtb/Campus/jobs failed: HTTP 429 for https://mtb.wd5.myworkdayjobs.com/wday/cxs/mtb/Campus/jobs",
   "PJT Partners": "POST https://pjtpartners.wd1.myworkdayjobs.com/wday/cxs/pjtpartners/Students/jobs failed: HTTP 429 for https://pjtpartners.wd1.myworkdayjobs.com/wday/cxs/pjtpartners/Students/jobs",
-  "Nasdaq": "POST https://nasdaq.wd1.myworkdayjobs.com/wday/cxs/nasdaq/Global_External_Site/jobs failed: HTTP 429 for https://nasdaq.wd1.myworkdayjobs.com/wday/cxs/nasdaq/Global_External_Site/jobs"
+  "Nasdaq": "POST https://nasdaq.wd1.myworkdayjobs.com/wday/cxs/nasdaq/Global_External_Site/jobs failed: HTTP 429 for https://nasdaq.wd1.myworkdayjobs.com/wday/cxs/nasdaq/Global_External_Site/jobs",
+  "BBVA": "POST https://bbva.wd3.myworkdayjobs.com/wday/cxs/bbva/bbva/jobs failed: HTTP 429 for https://bbva.wd3.myworkdayjobs.com/wday/cxs/bbva/bbva/jobs",
+  "Federal Reserve Bank of New York": "POST https://rb.wd5.myworkdayjobs.com/wday/cxs/rb/FRS/jobs failed: HTTP 429 for https://rb.wd5.myworkdayjobs.com/wday/cxs/rb/FRS/jobs"
  }
 }
