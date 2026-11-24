@@ -1,0 +1,104 @@
+ATS: fetching 84 company boards
+  Standard Chartered: 7 open roles
+  Citizens JMP: 93 open roles
+  William Blair: 48 open roles
+  BTIG: 3 open roles
+  B. Riley Securities: 3 open roles
+  ING: 5 open roles
+  D.A. Davidson: 41 open roles
+  Seaport Global: 6 open roles
+  Clear Street: 33 open roles
+  Virtu Financial: 42 open roles
+  IEX Group: 9 open roles
+  Baird: 60 open roles
+  Stifel: 79 open roles
+  Jane Street: 217 open roles
+  Optiver: 147 open roles
+  IMC Trading: 153 open roles
+  DRW: 149 open roles
+  Jump Trading: 86 open roles
+  Tower Research Capital: 93 open roles
+  Five Rings: 22 open roles
+  Akuna Capital: 33 open roles
+  Belvedere Trading: 9 open roles
+  Flow Traders: 43 open roles
+  Old Mission Capital: 39 open roles
+  Headlands Technologies: 8 open roles
+  Vatic Labs: 6 open roles
+  Galaxy: 2 open roles
+  FalconX: 14 open roles
+  Point72: 201 open roles
+  J.P. Morgan: 415 open roles
+  Schonfeld: 66 open roles
+  ExodusPoint: 5 open roles
+  Intercontinental Exchange: 28 open roles
+  Squarepoint Capital: 87 open roles
+  Pharo Management: 8 open roles
+  Tudor Investment: 5 open roles
+  Bank of America: 68 open roles
+  Vitol: 30 open roles
+  Capstone Investment Advisors: 13 open roles
+  Lincoln International: 40 open roles
+  Lazard: 188 open roles
+  Millennium: 169 open roles
+  Brevan Howard: 28 open roles
+  Susquehanna (SIG): 40 open roles
+  Wells Fargo: 74 open roles
+  ! Barclays (workday): POST https://barclays.wd3.myworkdayjobs.com/wday/cxs/barclays/External_Career_Site_Barclays/jobs failed: HTTP 429 for https://barclays.wd3.myworkdayjobs.com/wday/cxs/barclays/External_Career_Site_Barclays/jobs
+  ! Citi (workday): POST https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/jobs failed: HTTP 429 for https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/jobs
+  ! Deutsche Bank (workday): POST https://db.wd3.myworkdayjobs.com/wday/cxs/db/DBWebsite/jobs failed: HTTP 429 for https://db.wd3.myworkdayjobs.com/wday/cxs/db/DBWebsite/jobs
+  ! RBC Capital Markets (workday): POST https://rbc.wd3.myworkdayjobs.com/wday/cxs/rbc/RBCGLOBAL1/jobs failed: HTTP 429 for https://rbc.wd3.myworkdayjobs.com/wday/cxs/rbc/RBCGLOBAL1/jobs
+  ! Mizuho (workday): POST https://mizuho.wd1.myworkdayjobs.com/wday/cxs/mizuho/mizuhoamericas/jobs failed: HTTP 429 for https://mizuho.wd1.myworkdayjobs.com/wday/cxs/mizuho/mizuhoamericas/jobs
+  ! TD Securities (workday): POST https://td.wd3.myworkdayjobs.com/wday/cxs/td/TD_Bank_Careers/jobs failed: HTTP 429 for https://td.wd3.myworkdayjobs.com/wday/cxs/td/TD_Bank_Careers/jobs
+  ! BMO Capital Markets (workday): POST https://bmo.wd3.myworkdayjobs.com/wday/cxs/bmo/External/jobs failed: HTTP 429 for https://bmo.wd3.myworkdayjobs.com/wday/cxs/bmo/External/jobs
+  ! Moelis & Company (workday): POST https://moelis.wd1.myworkdayjobs.com/wday/cxs/moelis/Experienced-Hires/jobs failed: HTTP 429 for https://moelis.wd1.myworkdayjobs.com/wday/cxs/moelis/Experienced-Hires/jobs
+  ! PNC (workday): POST https://pnc.wd5.myworkdayjobs.com/wday/cxs/pnc/External/jobs failed: HTTP 429 for https://pnc.wd5.myworkdayjobs.com/wday/cxs/pnc/External/jobs
+  BlackRock: 171 open roles
+  ! State Street (workday): POST https://statestreet.wd1.myworkdayjobs.com/wday/cxs/statestreet/Global/jobs failed: HTTP 429 for https://statestreet.wd1.myworkdayjobs.com/wday/cxs/statestreet/Global/jobs
+  ! Santander US Capital Markets (workday): POST https://santander.wd3.myworkdayjobs.com/wday/cxs/santander/SantanderCareers/jobs failed: HTTP 429 for https://santander.wd3.myworkdayjobs.com/wday/cxs/santander/SantanderCareers/jobs
+  ! BBVA (workday): POST https://bbva.wd3.myworkdayjobs.com/wday/cxs/bbva/bbva/jobs failed: HTTP 429 for https://bbva.wd3.myworkdayjobs.com/wday/cxs/bbva/bbva/jobs
+  ! MUFG (workday): POST https://mufgub.wd3.myworkdayjobs.com/wday/cxs/mufgub/MUFG-Careers/jobs failed: HTTP 429 for https://mufgub.wd3.myworkdayjobs.com/wday/cxs/mufgub/MUFG-Careers/jobs
+  ! CIBC Capital Markets (workday): POST https://cibc.wd3.myworkdayjobs.com/wday/cxs/cibc/search/jobs failed: HTTP 429 for https://cibc.wd3.myworkdayjobs.com/wday/cxs/cibc/search/jobs
+  Truist Securities: 41 open roles
+  ! U.S. Bank (workday): POST https://usbank.wd1.myworkdayjobs.com/wday/cxs/usbank/US_Bank_Careers/jobs failed: HTTP 429 for https://usbank.wd1.myworkdayjobs.com/wday/cxs/usbank/US_Bank_Careers/jobs
+  ! Capital One (workday): POST https://capitalone.wd12.myworkdayjobs.com/wday/cxs/capitalone/Capital_One/jobs failed: HTTP 429 for https://capitalone.wd12.myworkdayjobs.com/wday/cxs/capitalone/Capital_One/jobs
+  ! M&T Bank (workday): POST https://mtb.wd5.myworkdayjobs.com/wday/cxs/mtb/Campus/jobs failed: HTTP 429 for https://mtb.wd5.myworkdayjobs.com/wday/cxs/mtb/Campus/jobs
+  ! Northern Trust (workday): POST https://ntrs.wd1.myworkdayjobs.com/wday/cxs/ntrs/northerntrust/jobs failed: HTTP 429 for https://ntrs.wd1.myworkdayjobs.com/wday/cxs/ntrs/northerntrust/jobs
+  ! Raymond James (workday): POST https://raymondjames.wd1.myworkdayjobs.com/wday/cxs/raymondjames/RaymondJamesCareers/jobs failed: HTTP 429 for https://raymondjames.wd1.myworkdayjobs.com/wday/cxs/raymondjames/RaymondJamesCareers/jobs
+  Guggenheim Securities: 34 open roles
+  ! PJT Partners (workday): POST https://pjtpartners.wd1.myworkdayjobs.com/wday/cxs/pjtpartners/Students/jobs failed: HTTP 429 for https://pjtpartners.wd1.myworkdayjobs.com/wday/cxs/pjtpartners/Students/jobs
+  ! Houlihan Lokey (workday): POST https://hl.wd1.myworkdayjobs.com/wday/cxs/hl/Campus/jobs failed: HTTP 429 for https://hl.wd1.myworkdayjobs.com/wday/cxs/hl/Campus/jobs
+  ! Northland Capital Markets (workday): POST https://firstnational.wd12.myworkdayjobs.com/wday/cxs/firstnational/northlandcareers/jobs failed: HTTP 429 for https://firstnational.wd12.myworkdayjobs.com/wday/cxs/firstnational/northlandcareers/jobs
+  ! Nasdaq (workday): POST https://nasdaq.wd1.myworkdayjobs.com/wday/cxs/nasdaq/Global_External_Site/jobs failed: HTTP 429 for https://nasdaq.wd1.myworkdayjobs.com/wday/cxs/nasdaq/Global_External_Site/jobs
+  ! Cboe Global Markets (workday): POST https://cboe.wd1.myworkdayjobs.com/wday/cxs/cboe/External_Career_CBOE/jobs failed: HTTP 429 for https://cboe.wd1.myworkdayjobs.com/wday/cxs/cboe/External_Career_CBOE/jobs
+  ! CME Group (workday): POST https://cmegroup.wd1.myworkdayjobs.com/wday/cxs/cmegroup/cme_careers/jobs failed: HTTP 429 for https://cmegroup.wd1.myworkdayjobs.com/wday/cxs/cmegroup/cme_careers/jobs
+  ! Jain Global (workday): POST https://jainglobal.wd5.myworkdayjobs.com/wday/cxs/jainglobal/LinkedInCareerSite/jobs failed: HTTP 429 for https://jainglobal.wd5.myworkdayjobs.com/wday/cxs/jainglobal/LinkedInCareerSite/jobs
+  ! Federal Reserve Bank of New York (workday): POST https://rb.wd5.myworkdayjobs.com/wday/cxs/rb/FRS/jobs failed: HTTP 429 for https://rb.wd5.myworkdayjobs.com/wday/cxs/rb/FRS/jobs
+  ! Neuberger Berman (workday): POST https://nb.wd1.myworkdayjobs.com/wday/cxs/nb/NBcareers/jobs failed: HTTP 429 for https://nb.wd1.myworkdayjobs.com/wday/cxs/nb/NBcareers/jobs
+  ! Nuveen (workday): POST https://tiaa.wd1.myworkdayjobs.com/wday/cxs/tiaa/Search/jobs failed: HTTP 429 for https://tiaa.wd1.myworkdayjobs.com/wday/cxs/tiaa/Search/jobs
+  ! PGIM (workday): POST https://pru.wd5.myworkdayjobs.com/wday/cxs/pru/Careers/jobs failed: HTTP 429 for https://pru.wd5.myworkdayjobs.com/wday/cxs/pru/Careers/jobs
+  ! Invesco (workday): POST https://invesco.wd1.myworkdayjobs.com/wday/cxs/invesco/IVZ/jobs failed: HTTP 429 for https://invesco.wd1.myworkdayjobs.com/wday/cxs/invesco/IVZ/jobs
+  ! Franklin Templeton (workday): POST https://franklintempleton.wd5.myworkdayjobs.com/wday/cxs/franklintempleton/Primary-External-1/jobs failed: HTTP 429 for https://franklintempleton.wd5.myworkdayjobs.com/wday/cxs/franklintempleton/Primary-External-1/jobs
+  ! Apollo (workday): POST https://athene.wd5.myworkdayjobs.com/wday/cxs/athene/Apollo_Careers/jobs failed: HTTP 429 for https://athene.wd5.myworkdayjobs.com/wday/cxs/athene/Apollo_Careers/jobs
+  ! Blackstone (workday): POST https://blackstone.wd1.myworkdayjobs.com/wday/cxs/blackstone/Blackstone_Careers/jobs failed: HTTP 429 for https://blackstone.wd1.myworkdayjobs.com/wday/cxs/blackstone/Blackstone_Careers/jobs
+  ! Freepoint Commodities (workday): POST https://freepoint.wd12.myworkdayjobs.com/wday/cxs/freepoint/Freepoint_Commodities/jobs failed: HTTP 429 for https://freepoint.wd12.myworkdayjobs.com/wday/cxs/freepoint/Freepoint_Commodities/jobs
+  ! Trafigura (workday): POST https://trafigura.wd3.myworkdayjobs.com/wday/cxs/trafigura/TrafiguraCareerSite/jobs failed: HTTP 429 for https://trafigura.wd3.myworkdayjobs.com/wday/cxs/trafigura/TrafiguraCareerSite/jobs
+Company-targeted board searches for 79 firms with no readable job system
+ERROR:jobspy.linkedin:response status code 429 (blocked: use a proxy)
+  ! linkedin 'trading analyst' @ New York, NY: response status code 429 (blocked: use a proxy)
+ERROR:jobspy.linkedin:response status code 429 (blocked: use a proxy)
+  ! linkedin 'sales and trading analyst' @ New York, NY: response status code 429 (blocked: use a proxy)
+ERROR:jobspy.linkedin:response status code 429 (blocked: use a proxy)
+  ! linkedin 'trading assistant' @ New York, NY: response status code 429 (blocked: use a proxy)
+ERROR:jobspy.linkedin:response status code 429 (blocked: use a proxy)
+  ! linkedin 'execution services analyst' @ New York, NY: response status code 429 (blocked: use a proxy)
+ERROR:jobspy.linkedin:response status code 429 (blocked: use a proxy)
+  ! linkedin 'fixed income trading analyst' @ New York, NY: response status code 429 (blocked: use a proxy)
+ERROR:jobspy.linkedin:response status code 429 (blocked: use a proxy)
+  ! linkedin 'rates trading analyst' @ New York, NY: response status code 429 (blocked: use a proxy)
+  ! linkedin: blocked 3 times in a row, skipping it for the rest of this run
+Program pages: 8/12 read, 3 look open
+Prefilter: 5137 raw -> 862 kept  {'ok': 862, 'experience': 88, 'function': 1526, 'location': 2074, 'seniority': 562, 'internship-wrong-year': 25}
+Fetching full descriptions for 17 prefiltered roles
+After full descriptions: 855 kept
+Done: 570 live, 177 new today
