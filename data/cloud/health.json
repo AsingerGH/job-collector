@@ -1,34 +1,34 @@
 {
  "runner": "cloud",
- "run_at": "2026-11-24T23:12:18.930303+00:00",
- "minutes": 9.7,
- "raw": 5291,
- "kept": 836,
- "live": 579,
- "new_today": 186,
+ "run_at": "2026-11-25T11:06:09.664673+00:00",
+ "minutes": 22.0,
+ "raw": 4706,
+ "kept": 659,
+ "live": 630,
+ "new_today": 52,
  "filter_reasons": {
-  "function": 1443,
-  "internship-wrong-year": 30,
-  "ok": 836,
-  "seniority": 549,
-  "experience": 108,
-  "location": 2325
+  "function": 1328,
+  "internship-wrong-year": 59,
+  "ok": 659,
+  "seniority": 275,
+  "experience": 52,
+  "location": 2333
  },
  "boards": {
   "indeed": {
    "ok": 51,
    "errors": 0,
-   "rows": 1841,
+   "rows": 445,
    "last_error": "",
    "skipped": 0,
    "company_searches": 158
   },
   "linkedin": {
-   "ok": 0,
-   "errors": 3,
-   "rows": 0,
+   "ok": 27,
+   "errors": 23,
+   "rows": 810,
    "last_error": "response status code 429 (blocked: use a proxy)",
-   "skipped": 48
+   "skipped": 1
   }
  },
  "ats_ok": 54,
@@ -40,7 +40,7 @@
    "ok": null,
    "open_roles_read": null,
    "error": "",
-   "live_in_pool": 8
+   "live_in_pool": 9
   },
   "Morgan Stanley": {
    "tier": 1,
@@ -54,9 +54,9 @@
    "tier": 1,
    "method": "oracle",
    "ok": true,
-   "open_roles_read": 406,
+   "open_roles_read": 403,
    "error": "",
-   "live_in_pool": 31
+   "live_in_pool": 33
   },
   "Bank of America": {
    "tier": 1,
@@ -70,7 +70,7 @@
    "tier": 1,
    "method": "sitemap",
    "ok": true,
-   "open_roles_read": 3133,
+   "open_roles_read": 3134,
    "error": "",
    "live_in_pool": 30
   },
@@ -94,7 +94,7 @@
    "tier": 2,
    "method": "sitemap",
    "ok": true,
-   "open_roles_read": 1167,
+   "open_roles_read": 1178,
    "error": "",
    "live_in_pool": 0
   },
@@ -102,7 +102,7 @@
    "tier": 1,
    "method": "sitemap",
    "ok": true,
-   "open_roles_read": 647,
+   "open_roles_read": 644,
    "error": "",
    "live_in_pool": 6
   },
@@ -112,7 +112,7 @@
    "ok": null,
    "open_roles_read": null,
    "error": "",
-   "live_in_pool": 4
+   "live_in_pool": 5
   },
   "UBS": {
    "tier": 1,
@@ -120,7 +120,7 @@
    "ok": null,
    "open_roles_read": null,
    "error": "",
-   "live_in_pool": 5
+   "live_in_pool": 6
   },
   "BNP Paribas": {
    "tier": 1,
@@ -128,7 +128,7 @@
    "ok": null,
    "open_roles_read": null,
    "error": "",
-   "live_in_pool": 0
+   "live_in_pool": 1
   },
   "Société Générale": {
    "tier": 1,
@@ -136,7 +136,7 @@
    "ok": null,
    "open_roles_read": null,
    "error": "",
-   "live_in_pool": 7
+   "live_in_pool": 8
   },
   "Natixis": {
    "tier": 2,
@@ -168,7 +168,7 @@
    "ok": null,
    "open_roles_read": null,
    "error": "",
-   "live_in_pool": 4
+   "live_in_pool": 5
   },
   "BBVA": {
    "tier": 2,
@@ -182,7 +182,7 @@
    "tier": 2,
    "method": "sitemap",
    "ok": true,
-   "open_roles_read": 622,
+   "open_roles_read": 623,
    "error": "",
    "live_in_pool": 0
   },
@@ -200,7 +200,7 @@
    "ok": null,
    "open_roles_read": null,
    "error": "",
-   "live_in_pool": 6
+   "live_in_pool": 7
   },
   "MUFG": {
    "tier": 2,
@@ -208,7 +208,7 @@
    "ok": null,
    "open_roles_read": null,
    "error": "",
-   "live_in_pool": 8
+   "live_in_pool": 9
   },
   "SMBC Nikko": {
    "tier": 2,
@@ -216,7 +216,7 @@
    "ok": null,
    "open_roles_read": null,
    "error": "",
-   "live_in_pool": 1
+   "live_in_pool": 2
   },
   "Nomura": {
    "tier": 1,
@@ -224,7 +224,7 @@
    "ok": null,
    "open_roles_read": null,
    "error": "",
-   "live_in_pool": 4
+   "live_in_pool": 5
   },
   "Daiwa Capital Markets": {
    "tier": 2,
@@ -238,7 +238,7 @@
    "tier": 1,
    "method": "sitemap",
    "ok": true,
-   "open_roles_read": 776,
+   "open_roles_read": 773,
    "error": "",
    "live_in_pool": 5
   },
@@ -286,7 +286,7 @@
    "tier": 2,
    "method": "sitemap",
    "ok": true,
-   "open_roles_read": 1102,
+   "open_roles_read": 1116,
    "error": "",
    "live_in_pool": 5
   },
@@ -310,7 +310,7 @@
    "tier": 2,
    "method": "oracle",
    "ok": true,
-   "open_roles_read": 94,
+   "open_roles_read": 93,
    "error": "",
    "live_in_pool": 2
   },
@@ -326,7 +326,7 @@
    "tier": 2,
    "method": "sitemap",
    "ok": true,
-   "open_roles_read": 1255,
+   "open_roles_read": 1188,
    "error": "",
    "live_in_pool": 3
   },
@@ -334,15 +334,15 @@
    "tier": 1,
    "method": "sitemap",
    "ok": true,
-   "open_roles_read": 1156,
+   "open_roles_read": 1236,
    "error": "",
-   "live_in_pool": 1
+   "live_in_pool": 2
   },
   "U.S. Bank": {
    "tier": 2,
    "method": "sitemap",
    "ok": true,
-   "open_roles_read": 1274,
+   "open_roles_read": 1284,
    "error": "",
    "live_in_pool": 3
   },
@@ -358,7 +358,7 @@
    "tier": 2,
    "method": "sitemap",
    "ok": true,
-   "open_roles_read": 1940,
+   "open_roles_read": 1938,
    "error": "",
    "live_in_pool": 0
   },
@@ -368,7 +368,7 @@
    "ok": null,
    "open_roles_read": null,
    "error": "",
-   "live_in_pool": 2
+   "live_in_pool": 3
   },
   "Webster Bank": {
    "tier": 2,
@@ -422,15 +422,15 @@
    "tier": 2,
    "method": "icims",
    "ok": true,
-   "open_roles_read": 130,
+   "open_roles_read": 131,
    "error": "",
-   "live_in_pool": 10
+   "live_in_pool": 11
   },
   "Baird": {
    "tier": 2,
    "method": "sitemap",
    "ok": true,
-   "open_roles_read": 135,
+   "open_roles_read": 134,
    "error": "",
    "live_in_pool": 1
   },
@@ -438,7 +438,7 @@
    "tier": 1,
    "method": "greenhouse",
    "ok": true,
-   "open_roles_read": 48,
+   "open_roles_read": 47,
    "error": "",
    "live_in_pool": 2
   },
@@ -552,7 +552,7 @@
    "ok": null,
    "open_roles_read": null,
    "error": "",
-   "live_in_pool": 11
+   "live_in_pool": 12
   },
   "Canaccord Genuity": {
    "tier": 2,
@@ -792,7 +792,7 @@
    "ok": null,
    "open_roles_read": null,
    "error": "",
-   "live_in_pool": 0
+   "live_in_pool": 1
   },
   "Intercontinental Exchange": {
    "tier": 2,
@@ -806,7 +806,7 @@
    "tier": 2,
    "method": "sitemap",
    "ok": true,
-   "open_roles_read": 110,
+   "open_roles_read": 111,
    "error": "",
    "live_in_pool": 3
   },
@@ -864,13 +864,13 @@
    "ok": true,
    "open_roles_read": 115,
    "error": "",
-   "live_in_pool": 2
+   "live_in_pool": 3
   },
   "Optiver": {
    "tier": 1,
    "method": "greenhouse",
    "ok": true,
-   "open_roles_read": 147,
+   "open_roles_read": 146,
    "error": "",
    "live_in_pool": 5
   },
@@ -878,7 +878,7 @@
    "tier": 2,
    "method": "greenhouse",
    "ok": true,
-   "open_roles_read": 152,
+   "open_roles_read": 153,
    "error": "",
    "live_in_pool": 9
   },
@@ -910,7 +910,7 @@
    "tier": 2,
    "method": "greenhouse",
    "ok": true,
-   "open_roles_read": 93,
+   "open_roles_read": 92,
    "error": "",
    "live_in_pool": 1
   },
@@ -966,7 +966,7 @@
    "tier": 2,
    "method": "greenhouse",
    "ok": true,
-   "open_roles_read": 42,
+   "open_roles_read": 44,
    "error": "",
    "live_in_pool": 3
   },
@@ -982,9 +982,9 @@
    "tier": 2,
    "method": "ashby",
    "ok": true,
-   "open_roles_read": 39,
+   "open_roles_read": 38,
    "error": "",
-   "live_in_pool": 11
+   "live_in_pool": 10
   },
   "Headlands Technologies": {
    "tier": 2,
@@ -1054,7 +1054,7 @@
    "tier": 1,
    "method": "greenhouse",
    "ok": true,
-   "open_roles_read": 202,
+   "open_roles_read": 199,
    "error": "",
    "live_in_pool": 8
   },
@@ -1062,7 +1062,7 @@
    "tier": 2,
    "method": "eightfold",
    "ok": true,
-   "open_roles_read": 170,
+   "open_roles_read": 169,
    "error": "",
    "live_in_pool": 3
   },
@@ -1078,7 +1078,7 @@
    "tier": 2,
    "method": "greenhouse",
    "ok": true,
-   "open_roles_read": 66,
+   "open_roles_read": 65,
    "error": "",
    "live_in_pool": 1
   },
@@ -1326,7 +1326,7 @@
    "tier": 2,
    "method": "smartrecruiters",
    "ok": true,
-   "open_roles_read": 30,
+   "open_roles_read": 31,
    "error": "",
    "live_in_pool": 0
   },
@@ -1412,10 +1412,10 @@
    "company": "Barclays",
    "url": "https://search.jobs.barclays/early-careers",
    "status": "unclear",
-   "hash": "d105b7d146a3",
-   "changed": false,
+   "hash": "cea540093b87",
+   "changed": true,
    "status_changed": false,
-   "chars": 7055,
+   "chars": 7036,
    "ok": true,
    "snippet": ""
   },
