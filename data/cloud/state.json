@@ -177,15 +177,17 @@
    "title": "Quantitative Trading Intern Summer 2027",
    "first_seen": "2026-11-23",
    "urls": {
-    "greenhouse": "https://job-boards.greenhouse.io/flowtraders/jobs/8047166"
+    "greenhouse": "https://job-boards.greenhouse.io/flowtraders/jobs/8047166",
+    "linkedin": "https://www.linkedin.com/jobs/view/4476460197"
    },
    "sources": [
-    "greenhouse"
+    "greenhouse",
+    "linkedin"
    ],
    "flags": [
     "old-posting (140d)"
    ],
-   "location": "New York",
+   "location": "New York, NY, USA",
    "loc_bucket": "NYC",
    "track": "internship",
    "last_seen": "2026-11-25",
@@ -1632,17 +1634,19 @@
    "sources": [
     "linkedin"
    ],
-   "flags": [],
+   "flags": [
+    "absent-from-company-site"
+   ],
    "location": "New York, NY, USA",
    "loc_bucket": "NYC",
    "track": "fulltime",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-25",
    "status": "live",
    "tier": 2,
    "on_watchlist": true,
    "primary_url": "https://www.linkedin.com/jobs/view/4483123979",
    "date_posted": "2026-11-23",
-   "age_days": 0
+   "age_days": 2
   },
   "6e1e36a4483b04d4": {
    "id": "6e1e36a4483b04d4",
@@ -1789,7 +1793,7 @@
    "flags": [
     "old-posting (47d)"
    ],
-   "location": "New York, NY, USA",
+   "location": "New York, New York",
    "loc_bucket": "NYC",
    "track": "internship",
    "last_seen": "2026-11-25",
@@ -2195,7 +2199,7 @@
     "greenhouse"
    ],
    "flags": [],
-   "location": "Chicago, IL",
+   "location": "Chicago, IL, USA",
    "loc_bucket": "Chicago",
    "track": "fulltime",
    "last_seen": "2026-11-25",
@@ -2616,7 +2620,7 @@
    "flags": [
     "asks-2yrs"
    ],
-   "location": "New York, NY, USA",
+   "location": "New York, NY, United States",
    "loc_bucket": "NYC",
    "track": "fulltime",
    "last_seen": "2026-11-25",
@@ -2814,13 +2818,13 @@
    "title": "Quantitative Trader",
    "first_seen": "2026-11-23",
    "urls": {
-    "greenhouse": "https://www.janestreet.com/join-jane-street/apply/8573523002?gh_jid=8573523002"
+    "greenhouse": "https://www.janestreet.com/join-jane-street/apply/4794171002?gh_jid=4794171002"
    },
    "sources": [
     "greenhouse"
    ],
    "flags": [
-    "old-posting (177d)"
+    "old-posting (2324d)"
    ],
    "location": "New York, New York, United States",
    "loc_bucket": "NYC",
@@ -2829,12 +2833,12 @@
    "status": "live",
    "tier": 1,
    "on_watchlist": true,
-   "primary_url": "https://www.janestreet.com/join-jane-street/apply/8573523002?gh_jid=8573523002",
-   "ats_req_id": "R-1072",
+   "primary_url": "https://www.janestreet.com/join-jane-street/apply/4794171002?gh_jid=4794171002",
+   "ats_req_id": "2512",
    "ats_first_seen": "2026-11-23",
-   "date_posted": "2026-06-01",
+   "date_posted": "2020-07-15",
    "description": "About the Position\n\n Our goals are to give you a real sense of what it's like to work as a Quantitative Trader at Jane Street while also providing a truly unparalleled educational experience. You'll be paired with experienced quantitative traders who will teach you how to identify market signals, analyze and execute strategies, construct quantitative models, conduct statistical analysis, and build trading intuition.\n\n At Jane Street, the lines between research, technology, and trading are intentionally blurry, and you’ll have access to petabytes of data, a computing cluster with hundreds of thousands of cores, and a growing GPU cluster containing tens of thousands of high-end GPUs. We don't believe in \"one-size-fits-all\" modeling solutions; we are open to and excited about applying all different types of statistical and ML techniques, from linear models to deep learning, depending on what best fits a given problem. You'll work closely with two different mentors on projects relating to their day-to-day work, giving you a sense of the variety of problems we solve every day. Past projects have included analyzing new or existing datasets, training predictive models, simulating potential new trading strategies, writing tools that we use in production, and even working to answer big-picture questions we haven't yet figured out.\n\n During the internship, your work is reinforced with intensive classes, workshops, and team-based mock trading sessions. These will expose you to many of the dynamics we observe in real markets, illustrate the role that we play in making markets more efficient, and help build intuition for how we think about both trading and collaborating.\n\n As a quantitative trading intern, you'll also have the opportunity to participate in one \"elective\" based on your interests. Electives consist of targeted classes and immersive activities, and are designed to give you a deeper and more nuanced look into one of the many aspects of what quantitative trading can look like at Jane Street:\n\n Machine Learning, Modeling, and Data Science \n\n You'll learn how Jane Street applies advanced machine learning and statistical techniques to make models and predictions using large datasets of both real and simulated market data. You'll learn how to train and use a variety of ML models, and gain an understanding of the differences between textbook machine learning and its application to noisy and complex financial data. \n\n Algorithmic Trading and Market Microstructure \n\n You'll learn the end-to-end process of developing an algorithmic trading strategy. You'll analyze market data to develop a tradable fair value and implement a trading strategy in Python. Your algorithmic strategy will connect directly to simulated markets with different market structures, and you will learn how to optimize your strategy given the unique attributes of each market. You will discover how various market dynamics affect strategy behavior and learn how real-world trading differs from simulation.\n\n Trading Strategy and Scenarios \n\n You’ll be introduced to a rotating set of new trading scenarios inspired by real events on a particular trading desk. You’ll work in teams on multiple mock trading sessions related to each scenario and use the time between sessions to refine your strategies, write recaps, and hear how the story played out in real life from our seasoned full-time traders who lived through it.\n\n About You\n\n If you’ve never thought about a career in finance, you’re in good company. Many of us were in the same position before working here. If you have a curious mind, a collaborative spirit, and a passion for solving interesting problems, we have a feeling you’ll fit right in. We’re more interested in how you think and learn than what you currently know. You should be:\n\n A strong quantitative thinker (no specific degree or major is required)\n\n A clear and effective verbal and written communicator\n\n Someone who enjoys working collaboratively on a team\n\n Eager to ask questions, admit mistakes, and learn new things\n\n A profitable trading strategy is only as strong as the technology it runs on, and we consider ourselves as much a technology company as a trading firm. General programming experience is a plus, but knowing a particular programming language is not required.\n\n If you’d like to learn more, you can read about our interview process and meet some of the team . Learn more about Jane Street’s internship program here.\n\n If you're a recruiting agency and want to partner with us, please reach out to agency-partnerships@janestreet.com.",
-   "age_days": 177
+   "age_days": 2324
   },
   "7467478b26c6b4f2": {
    "id": "7467478b26c6b4f2",
@@ -3552,10 +3556,10 @@
   "bbe5853ba9e302c9": {
    "id": "bbe5853ba9e302c9",
    "company": "Old Mission Capital",
-   "title": " Quantitative Trader – 2027 Graduate Program (August Start)",
+   "title": "Quantitative Trader – 2027 Graduate Program (February Start)",
    "first_seen": "2026-11-23",
    "urls": {
-    "ashby": "https://jobs.ashbyhq.com/old-mission-capital/a8bad54c-405b-469c-8a7d-b7794dfb54b3"
+    "ashby": "https://jobs.ashbyhq.com/old-mission-capital/a7b34fe6-cd82-4f17-b5d7-983aa354b505"
    },
    "sources": [
     "ashby"
@@ -3570,8 +3574,8 @@
    "status": "live",
    "tier": 2,
    "on_watchlist": true,
-   "primary_url": "https://jobs.ashbyhq.com/old-mission-capital/a8bad54c-405b-469c-8a7d-b7794dfb54b3",
-   "ats_req_id": "a8bad54c-405b-469c-8a7d-b7794dfb54b3",
+   "primary_url": "https://jobs.ashbyhq.com/old-mission-capital/a7b34fe6-cd82-4f17-b5d7-983aa354b505",
+   "ats_req_id": "a7b34fe6-cd82-4f17-b5d7-983aa354b505",
    "ats_first_seen": "2026-11-23",
    "date_posted": "2026-07-13",
    "description": "Old Mission is a global proprietary trading firm that leverages state-of-the-art technology and research to identify and execute profitable trading strategies across multiple asset classes around the world. Our offices in Chicago, New York, and London are all composed of naturally-curious individuals who thrive in a team environment and constantly strive for improvement.\n\n\n\nAbout the Position \n\nOur traders work in teams to seek out and profitably trade mispriced securities. The junior traders job responsibilities will include disciplined decision making, risk management, derivative pricing, and researching new opportunities. If you are looking to be a value added member to our team and have an immediate contribution in building out our business, feel free to apply today! \n\n\n\nRequired Skills\n\n - An undergraduate or an advanced degree in a quantitative field such as computer science, engineering, or one of the hard sciences\n\n - Proficiency with at least one of the following languages: Python or C++\n\n - The ability to work and solve problems as part of a team, often in a high-pressure environment\n\n - Proven trustworthiness and performance under the highest ethical standards\n\n - A strong desire for knowledge and to understand how things work\n\n - Superior written and verbal communication skills\n\n - A strong work ethic and ability to adapt quickly in a fast-paced environment\n\nBenefits and Perks\n\n - Fully paid Medical, Dental, Vision, Disability, and Life Insurance\n\n - Fully stocked kitchen; free breakfast and lunch every day on-site\n\n - Tuition Reimbursement Program\n\n - 401(k) with employer match\n\n - Flexible Spending Plan\n\n - Commuter Benefit Program\n\nBase Salary\n\n$200,000 - Salaries are based on numerous factors such as skills, experience, and education. Our compensation package also includes a discretionary bonus and a comprehensive benefits program for full-time employees. For more information, reach out to your recruiter. \n\n\n\n \n\nOld Mission is not accepting unsolicited resumes from any staffing/search firms. All resumes submitted by staffing/search firms to any employee at Old Mission via-email, the Internet or directly without a valid signed search agreement will be deemed the sole property of Old Mission, and no fee will be paid in the event the candidate is hired by Old Mission.",
@@ -3608,7 +3612,7 @@
   "ba6fea19e35e24a6": {
    "id": "ba6fea19e35e24a6",
    "company": "Old Mission Capital",
-   "title": "Floor Trader - 2027 Graduate Program (August Start)",
+   "title": "Floor Trader - 2027 Graduate Program (February/August Start)",
    "first_seen": "2026-11-23",
    "urls": {
     "ashby": "https://jobs.ashbyhq.com/old-mission-capital/f41d3ded-526b-49e2-9cad-21223b048161"
@@ -3639,13 +3643,15 @@
    "title": "Floor Trader (BOX)",
    "first_seen": "2026-11-23",
    "urls": {
-    "ashby": "https://jobs.ashbyhq.com/old-mission-capital/7a05e02e-f6a3-4061-b968-98c89bd82a67"
+    "ashby": "https://jobs.ashbyhq.com/old-mission-capital/7a05e02e-f6a3-4061-b968-98c89bd82a67",
+    "linkedin": "https://www.linkedin.com/jobs/view/4489291652"
    },
    "sources": [
-    "ashby"
+    "ashby",
+    "linkedin"
    ],
    "flags": [],
-   "location": "Chicago, IL",
+   "location": "Chicago, IL, USA",
    "loc_bucket": "Chicago",
    "track": "fulltime",
    "last_seen": "2026-11-25",
@@ -4284,18 +4290,20 @@
    "title": "OTC/FX Associate Specialist, Integrated Portfolio Services",
    "first_seen": "2026-11-23",
    "urls": {
-    "workday": "https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Chicago-IL/OTC-FX-Associate-Specialist--Integrated-Portfolio-Services_R161099"
+    "workday": "https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Chicago-IL/OTC-FX-Associate-Specialist--Integrated-Portfolio-Services_R161099",
+    "linkedin": "https://www.linkedin.com/jobs/view/4484624742"
    },
    "sources": [
-    "workday"
+    "workday",
+    "linkedin"
    ],
    "flags": [
     "associate-title"
    ],
-   "location": "Chicago, IL",
+   "location": "Chicago, IL, USA",
    "loc_bucket": "Chicago",
    "track": "fulltime",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-25",
    "status": "live",
    "tier": 2,
    "on_watchlist": true,
@@ -4304,7 +4312,7 @@
    "ats_first_seen": "2026-11-23",
    "date_posted": "2026-11-02",
    "description": "About Northern Trust \n\n As a global leader in innovative wealth management, asset servicing, asset management and banking services, Northern Trust (Nasdaq: NTRS) is proud to guide the world’s most successful individuals, families, corporations and institutions. \n\n Since 1889, we have aligned our efforts with our three guiding Principles That Endure: Service, Expertise, and Integrity. Together, they reflect the three cornerstones of business conduct which we strive to instill in our employees, whom we call partners, and to provide to our clients and the communities we serve worldwide. \n\n With more than 135 years of financial experience and over 24,000 partners, we serve the world’s most sophisticated clients using leading technology and exceptional service. \n\n The OTC and FX Associate Specialist is responsible for the driving implementation and execution of our project initiatives. They will translate strategy into actionable plans, drive execution across our teams, coordinate dependencies and manage trade-offs, monitor progress and surface risks or constraints and reinforce priorities and adjust as needed. In addition, the OTC and FX Associate Specialist is responsible for contributing, executing and reinforcing the strategic priorities, stepping in to assist the team where needed to successfully satisfy the client support model.\n\n Major Duties: \n Being an escalation point for members of the team and clients\n Being an OTC/FX Product SME\n Manage team projects or initiatives Taking lead on an initiative while contributing and executing in others\n\n Oversight of processes within team of: Manage multiple clients/hedge funds and business lines within a fast-paced, challenging environment\n Affirmation/Confirmation of all OTC and FX trades on electronic platforms or on paper where required\n Settlement of swap cash flows associated with OTC and FX products, including unwinds, fees, resets, and premiums\n Proper operational reflection of OTC and FX trades\n Booking corporate actions and dividends/coupons to ensure accurate position and p/l attribution\n Efficiently identify and resolve transaction discrepancies between client and swap counterparties. Liaison between trading desk, control groups and counterparties to resolve any economic discrepancies on trades in a timely and efficient manner\n Process all aspects of periodic resets for vanilla and exotic IRS, CDS, and Equity OTC products\n Ensure timely receipt of OTC and FX confirmations from trading counterparties\n Ensure accuracy of transaction agreements and modifications\n Prioritize time accordingly to action trade breaks by end of day\n Understand and process trade activity in accordance with established operations policies and procedures; understand and minimize risk associated with trade mismatches\n\n Work with IT in the development and enhancement of the trade management system\n Must be able to interact with coworkers and clients in a fast-paced trading environment.\n Should be intellectually curious, intuitive, and trustworthy and have the highest ethical standards\n Effectively address a number of internal and external audiences in a professional manner\n Perform other related duties as required\n Assists in the training of staff globally.\n Operates independently; has in-depth knowledge of business unit / function\n As subject area expert, provides comprehensive, in-depth consulting and leadership to team and partners at a high technical level\n Carries out activities that are large in scope, cross-functional and technically difficult\n Role is balanced between high level operational execution and development, and execution of strategic direction of business function activities\n Strategic in developing, implementing and administering programs within functional areas\n\n Knowledge/Skills: \n Bachelor’s degree strongly preferred\n Five plus years of experience in FX or OTC structured and derivatives products operations including: Experience with the settlement of OTC structured and derivatives products\n Experience reviewing documentation for OTC structured and derivatives products\n\n Proficiency with TradeServ, MarkitWire/MarkitTradeManager, and eConfirm platforms preferred\n Excellent people skills; ability to dynamically act as knowledgeable point of reference to co-workers domestically and internationally\n Proficiency in Microsoft Word, Excel (ability to create macros), Copilot, Power Automate\n Excellent math and analytical skills\n Excellent written and oral communication skills\n Strong organization skills, meticulous attention to detail\n Ability to handle multiple tasks under extremely time sensitive conditions\n Understanding of the various transaction types within each asset class beyond ‘vanilla’ trades is preferred (e.g. for IRS, understanding of caps, floors, swaptions, etc. and for CDS, understanding of tranches, recovery swaps, ABS/X, etc.)\n Understanding of established guidelines and documents published by ISDA is helpful\n OTC Regulatory knowledge across Dodd Frank, EMIR, ASIC, MAS\n\n Experience: \n The successful candidate will be a mature self-starter who has demonstrated the ability to function independently in a fast-paced, dynamic and demanding environment. This person needs to be able to resolve conflict within a short period of time. This person will be intellectually curious, intuitive, trustworthy and have the highest ethical standards. In addition, he/she will be effective addressing a number of internal and external audiences in a professional manner. This person will add value by working on a number of simultaneous tasks with minimal supervision and exemplary follow-through.\n\n #LI-HY\n #LI-CL1\n\n Salary Range:\n$95,600 - 162,400 USD \n Salary range is a good faith estimate of base pay. Northern Trust provides a comprehensive benefits package including retirement benefits (401k and pension), health and welfare benefits (medical, dental, vision, spending accounts and disability), paid time off, parental and caregiver leave, life & accident in",
-   "age_days": 21
+   "age_days": 23
   },
   "cb8fbffbad8e863c": {
    "id": "cb8fbffbad8e863c",
@@ -5578,10 +5586,12 @@
    "title": "Asset & Wealth Management, Portfolio Management, FX Trading Analyst, New York",
    "first_seen": "2026-11-23",
    "urls": {
-    "indeed": "https://higher.gs.com/roles/187237"
+    "indeed": "https://higher.gs.com/roles/187237",
+    "linkedin": "https://www.linkedin.com/jobs/view/4486075589"
    },
    "sources": [
-    "indeed"
+    "indeed",
+    "linkedin"
    ],
    "flags": [
     "asks-2yrs"
@@ -5589,7 +5599,7 @@
    "location": "New York, NY, USA",
    "loc_bucket": "NYC",
    "track": "fulltime",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "live",
    "tier": 1,
    "on_watchlist": true,
@@ -5598,7 +5608,7 @@
    "salary": "85,000-120,000 yearly",
    "description": "**Asset & Wealth Management Divisional Overview**\n\nA career with Goldman Sachs Asset & Wealth Management is an opportunity to help clients across the globe realize their potential, while you discover your own. As part of one of the world’s leading asset managers with over $3.14 trillion in assets under supervision globally, you can expect to participate in exciting investment opportunities while collaborating with talented colleagues from all asset classes and regions and building meaningful relationships with your clients. Working in a culture that values integrity and transparency, you will be part of a diverse team that is passionate about our craft, our clients, and building sustainable success. Bringing together traditional and alternative investments, Goldman Sachs Asset & Wealth Management provides clients around the world with a dedicated partnership and focus on long-term performance. As the primary investment area within Goldman Sachs, we provide investment and advisory services for pension plans, sovereign wealth funds, insurance companies, endowments, foundations, financial advisors and individuals.\n\nGoldman Sachs is one of the leading investors in alternatives globally and invests in the full spectrum of alternatives including private equity, growth equity, private credit, real estate, infrastructure, hedge funds and sustainability. Clients access these solutions through direct strategies, customized partnerships, and open-architecture programs. The alternative investments platform is part of Goldman Sachs Asset Management, which delivers investment and advisory services across public and private markets for the world’s leading institutions, financial advisors and individuals. Goldman Sachs has over $3.0 trillion in assets under supervision globally as of December 31, 2025.\n\nPortfolio Management and Platform Management Overview The Alternatives Portfolio Management Group is dedicated to optimizing investor performance and experience. The Platform Management team within the Portfolio Management group is focused on driving day-to-day portfolio decision-making. This encompasses structuring and allocating deals, capital activity, managing liquidity, and maintaining disciplined risk management to ensure consistent, high-quality delivery across portfolios with a focus on optimizing fund performance and investor experience. The Platform Management team partners with investment teams, capital markets, engineering and investor relations to achieve superior outcomes for AWM’s clients. Role Overview\n\nWe are seeking a highly analytical individual to join the Platform Management team within Portfolio Management, focusing on Analytics and Trading across FX and Rates. This role is pivotal in ensuring robust macro risk management across all portfolios. The successful candidate will be required to leverage existing divisional tools to support successful execution of foreign currency deal execution, and to play a central role interpreting ongoing FX delta and interest rate risk across all our portfolios. This role plays a key part in risk management, improving workflow, facilitating cross-team collaboration, and driving tooling innovation.\n\nKey Responsibilities & Activities\n\n* Assist in developing, implementing and executing FX and interest rate hedging programs across all AWM Private fund strategies and structures.\n* Utilise divisional tools to access, analyse, and interpret portfolio data, providing actionable insights to the platform management and trading team.\n* Work closely with the trading team daily, taking ownership of workflow responsibilities related to exposure management, ensuring timely and accurate order management workflows.\n* Partner with investment teams to assist with the implementation and execution of risk management strategies for AWM Private portfolio companies.\n* Work closely with external counsel to negotiate ISDA, CSA, and other trading related documentation with sell side counterparties.\n* Develop and grow relationships with sell side derivatives counterparties.\n* Collaborate with internal capital markets teams to maximize wallet share across key counterparties for AWM Private.\n* Maintain pipeline of new fund launches to ensure all funds are legally and operationally prepared to trade FX and interest rate derivatives.\n* Partner with the trading team to provide actionable insights on which counterparties to prioritise for new trading opportunities by leveraging historical trading data and broader relationship fact patterns.\n* Liaise with the Portfolio Strategy team to ensure macro risk strategy is effectively implemented as required, per portfolio.\n* Contribute to the design and enhancement divisional tools, supporting ongoing innovation and process improvement initiatives.\n* Identify, escalate, and help mitigate operational risks within trading processes, championing best practices and continuous improvement.\n\nRequired Skills & Experience\n\n* 2+ years of experience in FX, Interest Rate, or other market risk management product areas Understanding of FX and interest rate trading workflows and operational controls.\n* Ability to analyse complex data sets and extract meaningful conclusions.\n* Experience using financial and analytical tools to access and manipulate portfolio information.\n* Proven track record of working effectively within multi-disciplinary teams.\n* Strong written and verbal communication skills, capable of presenting findings and recommendations clearly to both technical and non-technical stakeholders.\n* Experience working directly with clients and internal stakeholders to explain hedging strategies.\n\nABOUT GOLDMAN SACHS\n\nAt Goldman Sachs, we commit our people, capital and ideas to help our clients, shareholders and the communities we serve to grow. Founded in 1869, we are a leading global investment banking, securities and investment management firm. Headquartered in New York, we maintain offices around the world.\n\nWe believe who you are makes you better",
    "min_years": 2,
-   "age_days": 21
+   "age_days": 22
   },
   "1a67c4079af2f2a6": {
    "id": "1a67c4079af2f2a6",
@@ -10834,10 +10844,12 @@
    "title": "Global Banking & Markets, Prime Client Services, Associate - New York",
    "first_seen": "2026-11-24",
    "urls": {
-    "indeed": "https://higher.gs.com/roles/188069"
+    "indeed": "https://higher.gs.com/roles/188069",
+    "linkedin": "https://www.linkedin.com/jobs/view/4486305591"
    },
    "sources": [
-    "indeed"
+    "indeed",
+    "linkedin"
    ],
    "flags": [
     "associate-title"
@@ -10845,7 +10857,7 @@
    "location": "New York, NY, USA",
    "loc_bucket": "NYC",
    "track": "fulltime",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "live",
    "tier": 1,
    "on_watchlist": true,
@@ -10854,7 +10866,7 @@
    "salary": "150,000-225,000 yearly",
    "description": "**Job Summary & Responsibilities**\n\nPrime Services delivers financing, clearing, and risk management solutions to hedge funds, institutional investors, and broker-dealers across equities, fixed income, derivatives, and OTC markets. Associates serve as the primary point of contact for CFOs, COOs, accounting and operations professionals at these clients managing client relationships, delivering cross-asset solutions, and enhancing the client experience. This role provides direct exposure to front-office activity, hedge funds, and ownership of client relationships.\n\nThis role offers a strong foundation in prime brokerage and client coverage, combining technical product exposure with client interaction and cross-functional execution. Associates develop the skills necessary to progress into senior client-facing roles within a leading global platform. As an Associate, you will i) gain direct exposure to hedge fund clients and portfolio financing strategies, ii) training across equities, fixed income, futures, and derivatives products, iii) opportunity to build client-facing skills and progress into a coverage role, and iv) collaboration with senior stakeholders across trading, risk, and operations\n\n  \n\n**Job Function:**\n\n**Client Coverage & Execution**\n\n* Support day-to-day management of hedge fund and institutional client relationships\n* Respond to client inquiries and ensure timely resolution of issues\n* Prepare materials for client meetings and assist with follow-ups\n\n**Portfolio & Risk Monitoring**\n\n* Monitor client portfolios, including leverage, margin, and financing exposures\n* Identify and escalate potential risks or discrepancies\n* Support delivery of insights to improve client transparency and decision-making\n\n**Product & Platform Exposure**\n\n* Develop working knowledge of securities financing, derivatives, and clearing solutions\n* Assist in identifying opportunities to expand client engagement across products\n* Support onboarding and adoption of internal reporting and trading platforms\n\n**Cross-Functional Coordination**\n\n* Partner with trading, legal, compliance, and operations teams to deliver client solutions\n* Support onboarding and ensure smooth execution of new account setups\n* Assist with time-sensitive requests in a fast-paced environment\n\n**Basic Qualifications**\n\n* Bachelor’s Degree\n* 1–3 years of relevant experience (financial services, operations, or capital markets)\n* Strong analytical and problem-solving skills\n* Effective communication and interpersonal abilities\n* Ability to manage multiple priorities under tight deadlines\n* Series 7, 63, SIE (is required within 90 days of hire)\n\n**Preferred Qualifications**\n\n* Exposure to listed options, futures, or electronic trading\n* Interest in financial markets and alternative asset managers\n* Team-oriented with a proactive, results-driven mindset\n\n**Salary Range**\n  \nThe expected base salary for this New York, NY, United States-based position is $150000-$225000. In addition, you may be eligible for a discretionary bonus if you are an active employee as of fiscal year-end.\n\n**Benefits**\n  \nGoldman Sachs is committed to providing our people with valuable and competitive benefits and wellness offerings, as it is a core part of providing a strong overall employee experience. A summary of these offerings, which are generally available to active, non-temporary, full-time and part-time US employees who work at least 20 hours per week, can be found here.\n\nWe Offer Best-In-Class Benefits\n\nHealthcare & Medical Insurance\n\nWe offer a wide range of health and welfare programs that vary depending on office location. These generally include medical, dental, short-term disability, long-term disability, life, accidental death, labor accident and business travel accident insurance.\n\nHoliday & Vacation Policies\n\nWe offer competitive vacation policies based on employee level and office location. We promote time off from work to recharge by providing generous vacation entitlements and a minimum of three weeks expected vacation usage each year.\n\nFinancial Wellness & Retirement\n\nWe assist employees in saving and planning for retirement, offer financial support for higher education, and provide a number of benefits to help employees prepare for the unexpected. We offer live financial education and content on a variety of topics to address the spectrum of employees’ priorities.\n\nHealth Services\n\nWe offer a medical advocacy service for employees and family members facing critical health situations, and counseling and referral services through the Employee Assistance Program (EAP). We provide Global Medical, Security and Travel Assistance and a Workplace Ergonomics Program. We also offer state-of-the-art on-site health centers in certain offices.\n\nFitness\n\nTo encourage employees to live a healthy and active lifestyle, some of our offices feature on-site fitness centers. For eligible employees we typically reimburse fees paid for a fitness club membership or activity (up to a pre-approved amount).\n\nChild Care & Family Care\n\nWe offer on-site child care centers that provide full-time and emergency back-up care, as well as mother and baby rooms and homework rooms. In every office, we provide advice and counseling services, expectant parent resources and transitional programs for parents returning from parental leave. Adoption, surrogacy, egg donation and egg retrieval stipends are also available.\n\nBenefits at Goldman Sachs\n\nRead more about the full suite of class-leading benefits our firm has to offer.\n\n  \n\nOpportunity Overview\n\nCORPORATE TITLEAssociate\n\nOFFICE LOCATION(S)New York\n\nJOB FUNCTIONClient Services - Prime\n\nDIVISIONGlobal Banking & Markets\n\nSALARY RANGEUSD 150,000 - 225,000",
    "min_years": 1,
-   "age_days": 20
+   "age_days": 21
   },
   "621ea9bbf0d80efc": {
    "id": "621ea9bbf0d80efc",
@@ -11053,16 +11065,18 @@
    "title": "Investment Analyst – Long/Short Equity (TMT & Consumer) - Client Role",
    "first_seen": "2026-11-24",
    "urls": {
-    "indeed": "https://jobs.lever.co/arootah/76948139-2f64-4fec-82da-1da6fdbd881b?lever-source=Indeed"
+    "indeed": "https://jobs.lever.co/arootah/76948139-2f64-4fec-82da-1da6fdbd881b?lever-source=Indeed",
+    "linkedin": "https://www.linkedin.com/jobs/view/4494692119"
    },
    "sources": [
-    "indeed"
+    "indeed",
+    "linkedin"
    ],
    "flags": [],
    "location": "New York, NY, USA",
    "loc_bucket": "NYC",
    "track": "fulltime",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "live",
    "tier": null,
    "on_watchlist": false,
@@ -11070,7 +11084,7 @@
    "date_posted": "2026-11-16",
    "salary": "190,000-200,000 yearly",
    "description": "A growing long/short equity hedge fund is seeking a **full-time Investment Analyst** to join its small, high-performing investment team. The fund focuses on deep fundamental research and high-conviction investing across the global Technology, Media & Telecom (TMT) and Consumer sectors.\n\n**Role Overview**\n\nThe Investment Analyst will work closely with senior team members on fundamental research, financial modeling, and idea generation for both long and short positions. This role offers significant exposure to the full investment process and the opportunity to contribute meaningfully within a lean, entrepreneurial environment.\n\n### **Key Responsibilities**\n\n* Conduct fundamental company and industry research within TMT and Consumer sectors\n* Build and maintain detailed financial models\n* Develop and present investment ideas with clear risk/reward frameworks\n* Monitor portfolio holdings and sector developments\n* Prepare investment memos and supporting materials\n\n### **Qualifications**\n\n* **2+ years of investment banking experience required**\n* **Buyside experience in public equities is a strong plus**\n* Strong analytical, modeling, and valuation skills\n* Demonstrated interest in fundamental investing\n* Independent thinker with clear, concise communication skills\n* Comfortable working in a lean, fast-paced environment\n\n190k-200k base salary, plus discretionary bonus.\n\nWe may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.",
-   "age_days": 8
+   "age_days": 9
   },
   "e8c1595775f11cd2": {
    "id": "e8c1595775f11cd2",
@@ -15392,7 +15406,7 @@
    "ats_first_seen": "2026-11-25",
    "date_posted": "2026-11-24",
    "deadline": "2027-11-24",
-   "description": "Why Stifel\n\n Stifel strives for a culture that puts its clients and associates first: a culture where everyone belongs, everyone is welcome, and everyone contributes to the success of our clients, their careers, and the firm as a whole.\n\n Let’s talk about how you can find your place here at Stifel,  where success meets success .\n\n What You'll Be Doing\n\n Under immediate supervision, the Research Associate I is primarily responsible for providing information and data gathering, analysis, modeling, and organizational support to the senior level Research Analysts. Should be adept at or able to quickly learn and apply the core research foundation skills including accounting, finance, valuation, modeling, and proficient verbal and written communication.\n\n What We're Looking For\n\n Build and maintain Excel-based financial models, including income statements, balance sheets, cash flow statements, and discounted cash flow analysis.\n\n Formulate mathematical or simulation models of problems, relating constants and variables, restrictions, alternatives, conflicting objectives, and their numerical parameters.\n\n Analyze information obtained from management in order to conceptualize and define operational problems.\n\n Perform validation and testing of models to ensure adequacy; reformulate models as necessary.\n\n Building and updating comp sheets.\n\n Managing the databases and electronic data services (i.e. Bloomberg, FactSet, etc.)\n\n Meet the special projects demands of the senior level Research Analysts.\n\n Use all resources to determine and locate relevant data.\n\n Build industry knowledge and contacts.\n\n What You'll Bring\n\n Inductive Reasoning - The ability to combine pieces of information to form general rules or conclusions.\n\n Critical Thinking - Using logic and reasoning to identify the strengths and weaknesses of alternative solutions, conclusions or approaches to problems.\n\n Judgment and Decision Making - Considering the relative costs and benefits of potential actions to choose the most appropriate one.\n\n Time Management - Managing one's own time and priorities to ensure the meeting of deadlines\n\n Oral and Written Expression - The ability to communicate information and ideas in spoken or written form so that others will understand.\n\n Economics, Accounting, Finance, and Securities Analysis - Knowledge of economic, accounting, and financial principles and practices, the financial markets, the industry, the analysis and reporting of financial data, and associated terminology.\n\n Education & Experience\n\n Minimum Required: Bachelor's degree\n\n Minimum Required: 0 to 2 years of Financial Services or relevant industry experience\n\n Licenses & Credentials\n\n Minimum Required: None\n\n Systems & Technology\n\n Proficient in Microsoft Excel, Word, PowerPoint, Outlook\n\n Compensation Range\nSalary: - Actual salaries may vary, and may be based on several factors, including but not limited to each candidate’s qualifications, skills, and overall competencies for the position. The base salary is one component of Stifel’s overall compensation package for each individual employee. Other benefits and offerings include, but not limited to, discretionary bonuses, health / dental / vision / prescription insurance offerings, Stifel Total Health Connect, flexible spending accounts, tuition & certification assistance programs, paid time off, and much, much more! To view a more comprehensive list of Stifel’s current offerings, please visit https://www.stifel.com/careers/benefits. Applications are accepted until the position is filled.\n About Stifel\n\n The Stifel Equity Research Group is a recognized leader with a deep and broad spectrum of coverage. Our award-winning analysts are thought leaders, many with hands-on experience in their respective industries, offering objective, in-depth analysis and timely, actionable research ideas.\n\n Stifel is a top 10 provider of U.S. equity coverage in:\n\n Aerospace & Defense\n\n Consumer & Retail\n\n Diversified Industrials\n\n Internet & Media\n\n Healthcare\n\n Real Estate\n\n Technology\n\n Transportation\n\n Business Services\n\n Energy & Power\n\n Materials",
+   "description": "Why Stifel\n\n Stifel strives for a culture that puts its clients and associates first: a culture where everyone belongs, everyone is welcome, and everyone contributes to the success of our clients, their careers, and the firm as a whole.\n\n Let’s talk about how you can find your place here at Stifel,  where success meets success .\n\n What You'll Be Doing\n\n Under immediate supervision, the Research Associate I is primarily responsible for providing information and data gathering, analysis, modeling, and organizational support to the senior level Research Analysts. Should be adept at or able to quickly learn and apply the core research foundation skills including accounting, finance, valuation, modeling, and proficient verbal and written communication.\n\n What We're Looking For\n\n Build and maintain Excel-based financial models, including income statements, balance sheets, cash flow statements, and discounted cash flow analysis.\n\n Formulate mathematical or simulation models of problems, relating constants and variables, restrictions, alternatives, conflicting objectives, and their numerical parameters.\n\n Analyze information obtained from management in order to conceptualize and define operational problems.\n\n Perform validation and testing of models to ensure adequacy; reformulate models as necessary.\n\n Building and updating comp sheets.\n\n Managing the databases and electronic data services (i.e. Bloomberg, FactSet, etc.)\n\n Meet the special projects demands of the senior level Research Analysts.\n\n Use all resources to determine and locate relevant data.\n\n Build industry knowledge and contacts.\n\n What You'll Bring\n\n Inductive Reasoning - The ability to combine pieces of information to form general rules or conclusions.\n\n Critical Thinking - Using logic and reasoning to identify the strengths and weaknesses of alternative solutions, conclusions or approaches to problems.\n\n Judgment and Decision Making - Considering the relative costs and benefits of potential actions to choose the most appropriate one.\n\n Time Management - Managing one's own time and priorities to ensure the meeting of deadlines\n\n Oral and Written Expression - The ability to communicate information and ideas in spoken or written form so that others will understand.\n\n Economics, Accounting, Finance, and Securities Analysis - Knowledge of economic, accounting, and financial principles and practices, the financial markets, the industry, the analysis and reporting of financial data, and associated terminology.\n\n Education & Experience\n\n Minimum Required: Bachelor's degree\n\n Minimum Required: 0 to 2 years of Financial Services or relevant industry experience\n\n Licenses & Credentials\n\n Minimum Required: None\n\n Systems & Technology\n\n Proficient in Microsoft Excel, Word, PowerPoint, Outlook\n\n Compensation Range\nSalary: USD $100,000.00/Yr. - USD $120,000.00/Yr. Actual salaries may vary, and may be based on several factors, including but not limited to each candidate’s qualifications, skills, and overall competencies for the position. The base salary is one component of Stifel’s overall compensation package for each individual employee. Other benefits and offerings include, but not limited to, discretionary bonuses, health / dental / vision / prescription insurance offerings, Stifel Total Health Connect, flexible spending accounts, tuition & certification assistance programs, paid time off, and much, much more! To view a more comprehensive list of Stifel’s current offerings, please visit https://www.stifel.com/careers/benefits. Applications are accepted until the position is filled.\n About Stifel\n\n The Stifel Equity Research Group is a recognized leader with a deep and broad spectrum of coverage. Our award-winning analysts are thought leaders, many with hands-on experience in their respective industries, offering objective, in-depth analysis and timely, actionable research ideas.\n\n Stifel is a top 10 provider of U.S. equity coverage in:\n\n Aerospace & Defense\n\n Consumer & Retail\n\n Diversified Industrials\n\n Internet & Media\n\n Healthcare\n\n Real Estate\n\n Technology\n\n Transportation\n\n Business Services\n\n Energy & Power\n\n Materials",
    "age_days": 1
   },
   "19f1d158e35874db": {
@@ -16642,9 +16656,1304 @@
    "date_posted": "2026-11-24",
    "description": "* Chicago, Illinois · On-site\n* Permanent\n* Posted today\n\nA well-established proprietary trading firm in Chicago is selectively adding experienced options and volatility traders to its desk. The firm carries a strong performance history and fosters a collaborative, entrepreneurial environment where traders are given the autonomy to run distinct strategies with real conviction.\n\n### **What you'll do**\n\n* Develop and execute discretionary or semi-systematic options and volatility trading strategies with a defined edge\n* Manage risk thoughtfully within a long-term performance framework\n* Contribute meaningfully to desk culture and collaborative decision-making\n\n### **What you'll bring**\n\n* Several years of options or volatility trading experience gained at a proprietary trading firm, market maker, or hedge fund\n* Demonstrable track record with clear, attributable P&L\n* Discretionary or semi-systematic trading approach — purely quantitative backgrounds are not the focus for this search\n* Strong risk management discipline and a long-term mindset\n* Ability to be based in Chicago; presence in New York or Austin may also be considered\n\n### **What's on offer**\n\n* Competitive base salary with meaningful performance-linked upside\n* Opportunity to operate with entrepreneurial autonomy within a firm that has a consistent, long-standing track record",
    "age_days": 1
+  },
+  "df9af68f6d80f54d": {
+   "id": "df9af68f6d80f54d",
+   "company": "BMO Capital Markets",
+   "title": "Equity Research Associate – U.S. Financials – Brokers, Asset Managers & Trust Banks",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "sitemap": "https://jobs.bmo.com/us/en/job/BOMOGLOBALR260026347EXTERNALENUS/Equity-Research-Associate-U-S-Financials-Brokers-Asset-Managers-Trust-Banks"
+   },
+   "sources": [
+    "sitemap"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "New York, New York",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": 1,
+   "on_watchlist": true,
+   "primary_url": "https://jobs.bmo.com/us/en/job/BOMOGLOBALR260026347EXTERNALENUS/Equity-Research-Associate-U-S-Financials-Brokers-Asset-Managers-Trust-Banks",
+   "ats_req_id": "R260026347",
+   "ats_first_seen": "2026-11-25",
+   "date_posted": "2026-10-15",
+   "description": "Application Deadline: \n\n10/30/2026 \n\n Address:\n151 W 42nd Street \n\n Job Family Group:\nCustomer Solutions \n\n BMO Capital Markets is a leading, full-service financial services provider. We offer corporate and investment banking, treasury management, as well as research and advisory services to clients around the world. #bmocapitalmarkets\n\n We are seeking a Senior Equity Research Associate or VP to join our U.S. Financials team. The associate will be an integral member of the team, will work closely with the senior analyst and two other team members to develop and market all equity research products. The role requires strong analytical / critical thinking skills, solid communication skills (with a drive for client interaction) a passion for the stock market, keen attention to detail, and a strong work ethic.\n\n The work environment involves collaboration, co-ordination and a shared knowledge base with the analyst and rest of the team but equally values independence, initiative, idea generation and a sense of ownership for the work.\n\n Ideal Candidate: \n\n Our ideal candidate is fully licensed and has a minimum of three to five plus years of equity research experience in the U.S. Financials space with a strong financial background and a desire to help create, launch and support new research. Strong accounting and finance skills, strong communication skills (both verbal for client interactions as well as written) a passion for the stock market and the ability to work on a fast-paced equity research team are critical.\n\n Responsibilities include, but are not limited to: \n\n Building and maintaining detailed company models (IS/BS/CF)\n Analyzing financial statements and news related to industry coverage\n Analyze company filings (10-K, 10-Q, earnings releases) and company transcripts\n Writing equity research reports and over time, formulating investment theses\n Participation in site visits and management meetings\n Maintaining, sourcing and analyzing industry data\n Communicating investment recommendations to internal and external clients\n Collaborate in developing tools and processes to gather industry and company-related news that can then be disseminated to clients as one-off products or incorporated in the group’s normal research product\n Work to establish industry, regulatory and political relationships to help better predict and/or handicap industry trends or company-related events\n\n Experience/Skills \n\n A combination of writing skills, technical knowledge and skills in equity research, finance or accounting demonstrated through relevant work and educational experience is required. Prior industry experience in the brokerage, asset management and exchange sectors is not required but could be a benefit.  Candidates must have a clear and proven track record of achievement throughout their education and career. Other necessary attributes include:\n\n Exceptional written and verbal communication skills\n Strong organizational skills and comfort managing various/shifting priorities\n Client service mindset and ability to prioritize client needs with accuracy\n The ability to interact professionally with company management teams and clients (analysts and portfolio managers)\n A keen interest in and demonstrated understanding of Equity Research\n A positive attitude, intellectual curiosity, the ability to learn quickly and strong attention to detail\n Superior work ethic, self-motivated and the ability to work both collaboratively as well as independently\n Ability to manage a heavy workload and meet stringent deadlines, often in a time-constrained, high-pressure environment\n Flexibility to work irregular and extended hours\n Solid technology skills with robust knowledge of Excel, Word, PowerPoint, Bloomberg and/or FactSet. Familiarity with Dealogic, Preqin and Morningstar would also be a positive.\n Demonstrated use of AI in the workplace\n CFA Charter or working towards the CFA designation is a plus\n\n Education \n\n Bachelor’s degree is required. A post-secondary degree in a related field of study is a plus. U.S. only.\n\n We thank all applicants for their interest; however, only those selected for an interview will be contacted.\n\n Senior Research Associate Salary Range: \n The salary range for this role is $150,000 up to $180,000 USD (subject to the candidate meeting the specific skills, experience, education, and qualification requirements)\n\n VP, Equity Research Salary Range: \n The salary range for this role is $200,000 up to $250,000 USD (subject to the candidate meeting the specific skills, experience, education, and qualification requirements)\n\n Salary : \n\n Pay Type: \nSalaried \n The above represents BMO Financial Group’s pay range and type.\n\n Salaries will vary based on factors such as location, skills, experience, education, and qualifications for the role, and may include a commission structure. Salaries for part-time roles will be pro-rated based on number of hours regularly worked. For commission roles, the salary listed above represents BMO Financial Group’s expected target for the first year in this position.\n\n BMO Financial Group’s total compensation package will vary based on the pay type of the position and may include performance-based incentives, discretionary bonuses, as well as other perks and rewards. BMO also offers health insurance, tuition reimbursement, accident and life insurance, and retirement savings plans. To view more details of our benefits, please visit:  https://jobs.bmo.com/global/en/Total-Rewards \n\n About Us \n\n At BMO we are driven by a shared Purpose: Boldly Grow the Good in business and life. It calls on us to create lasting, positive change for our customers, our communities and our people. By working together, innovating and pushing boundaries, we transform lives and businesses, and power economic growth around the world.\n\n As a member of the BMO team you are valued, respected and heard, and you have more ways to grow and make an impact.  We strive to help you make an impact from da",
+   "age_days": 41
+  },
+  "7321cc4efcd7d46b": {
+   "id": "7321cc4efcd7d46b",
+   "company": "J.P. Morgan",
+   "title": "Margin & Collateral Analyst",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "oracle": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210811515"
+   },
+   "sources": [
+    "oracle"
+   ],
+   "flags": [],
+   "location": "Chicago, IL, United States",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": 1,
+   "on_watchlist": true,
+   "primary_url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210811515",
+   "ats_req_id": "210811515",
+   "ats_first_seen": "2026-11-25",
+   "date_posted": "2026-11-25",
+   "description": "Treasury Operations forecasts Global Clearing funding, meeting clearinghouse margin via cash/non-cash collateral and timely service.",
+   "age_days": 0
+  },
+  "b53f88f52cab78b5": {
+   "id": "b53f88f52cab78b5",
+   "company": "J.P. Morgan",
+   "title": "PricingDirect Evaluator - Municipal Bond - Analyst",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "oracle": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210792604"
+   },
+   "sources": [
+    "oracle"
+   ],
+   "flags": [],
+   "location": "New York, NY, United States",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": 1,
+   "on_watchlist": true,
+   "primary_url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210792604",
+   "ats_req_id": "210792604",
+   "ats_first_seen": "2026-11-25",
+   "date_posted": "2026-11-25",
+   "description": "Be an owner from day 1. Join the team delivering independent, accurate securities valuations for clients across the globe.",
+   "age_days": 0
+  },
+  "4790d31899000a48": {
+   "id": "4790d31899000a48",
+   "company": "Jane Street",
+   "title": "Natural Gas Scheduler",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "greenhouse": "https://www.janestreet.com/join-jane-street/apply/8958855002?gh_jid=8958855002"
+   },
+   "sources": [
+    "greenhouse"
+   ],
+   "flags": [],
+   "location": "New York, New York, United States",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": 1,
+   "on_watchlist": true,
+   "primary_url": "https://www.janestreet.com/join-jane-street/apply/8958855002?gh_jid=8958855002",
+   "ats_req_id": "6609",
+   "ats_first_seen": "2026-11-25",
+   "date_posted": "2026-11-25",
+   "description": "About the position\n\n We’re looking for a Natural Gas Scheduler to help build and scale our growing US physical gas business. As a relatively new business line at Jane Street, operating since 2023, we are leveraging our existing systems in a slightly different way than a typical physical gas shop and are looking for someone who is eager to think outside the box and open to challenging industry consensus. \n\n In this role, you’ll work collaboratively with the team on commercial and operational workflows to support day-to-day trading and longer-term growth. We are committed to building this business at scale and investing for the long term.\n\n Responsibilities of this role will include:\n\n Identifying opportunities to grow the physical business and optimize existing flows and asset positions across storage, transport, and structured deals\n\n Working collaboratively with the team to execute and implement trade ideas\n\n Monitoring pipeline conditions and understanding the impact of maintenance, constraints, and other potential disruptions\n\n Proactively engaging with pipelines and counterparties, and communicating relevant information to the team\n\n About you\n\n Have 2+ years of natural gas scheduling experience and a broad understanding of the US gas markets, ideally with a deeper understanding of a subset of pipelines or regions\n\n Enjoy working with large datasets to find patterns and identify irregularities\n\n Can easily navigate Excel and love to find faster ways to process data\n\n A self-starter and detail-oriented critical thinker who can multitask in a fast-moving, highly intellectual environment\n\n Humble about what you know and don’t know, and not afraid to ask questions\n\n A reliable and flexible team player with a positive demeanor\n\n Interested in learning more about finance and the day-to-day operations of the firm\n\n If you're a recruiting agency and want to partner with us, please reach out to agency-partnerships@janestreet.com.",
+   "age_days": 0
+  },
+  "cc2f947a4c51430f": {
+   "id": "cc2f947a4c51430f",
+   "company": "PNC",
+   "title": "Asset Management Group Undergraduate Intern",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "sitemap": "https://careers.pnc.com/global/en/job/R242550/Asset-Management-Group-Undergraduate-Intern"
+   },
+   "sources": [
+    "sitemap"
+   ],
+   "flags": [],
+   "location": "Phoenix, Arizona; Chicago, Illinois; Dallas, Texas",
+   "loc_bucket": "Chicago",
+   "track": "internship",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": 1,
+   "on_watchlist": true,
+   "primary_url": "https://careers.pnc.com/global/en/job/R242550/Asset-Management-Group-Undergraduate-Intern",
+   "ats_req_id": "R242550",
+   "ats_first_seen": "2026-11-25",
+   "date_posted": "2026-11-25",
+   "description": "Overview \n\nAt PNC, our people are our greatest differentiator and competitive advantage in the markets we serve. We are all united in delivering the best experience for our customers. We work together each day to foster an inclusive workplace culture where all of our employees feel respected, valued and have an opportunity to contribute to the company’s success. \n\nPNC is an in-office company that fosters a supportive culture where employees can thrive and achieve balance. We encourage candidates to connect with their recruiter and hiring manager to understand workplace expectations and ensure the role aligns with their goals.  \n\nPNC will not provide sponsorship for employment visas or participate in STEM OPT for this position. \n\n Job Description \n As a(n) Asset Management Group Intern within PNC's Asset Management Group organization, you will be based in Phoenix, Dallas, or Chicago. \n\n Participates as an intern in the PNC summer internship program.\n Performs or assists with the core activities of the group by applying knowledge learned to drive business results (e.g. deal, sales, or process support, internal or external customer interaction, or supporting internal projects). Works under supervision and may have limited approval and/or exception authority.\n Participates in social learning within the organization (e.g. identifies and networks with business representatives and peers, participates in mentoring, job shadowing and community outreach)\n\n To learn more about this opportunity, please watch this video . \n\nPNC Employees take pride in our reputation and to continue building upon that we expect our employees to be:\n\n• Customer Focused: Knowledgeable of the values and practices that align customer needs and satisfaction as primary considerations in all business decisions and able to leverage that information in creating customized customer solutions.\n\n• Managing Risk: Assessing and effectively managing all of the risks associated with their business objectives and activities to ensure they adhere to and support PNC's Enterprise Risk Management Framework.  \n\n Qualifications \n\n Successful candidates must demonstrate appropriate knowledge, skills, and abilities for a role. Listed below are skills, competencies, work experience, education, and required certifications/licensures needed to be successful in this position.\n\n Competencies \nAccuracy and Attention to Detail, Analytical Thinking, Effective Communications, Flexibility and Adaptability, Information Capture, Initiative, Products and Services, Self-Directed Growth and Development \n\n Work Experience \nRoles at this level are filled by recent university / college graduates with little or no professional experience, but possessing relevant skills. Includes individuals joining the organization through a Corporate development/ training program. In lieu of a degree, a comparable combination of education, job specific certification(s), and experience (including military service) may be considered. \n\n Education \nNo Degree \n\n Language Assessments \n\nNo Required or Preferred Language Assessments  \n\n Pay Transparency \n\nBase Salary: $18.00 – $35.00 \n\nSalaries may vary based on geographic location, market data and on individual skills, experience, and education. \n\n Application Window \n\nGenerally, this opening is expected to be posted for two business days from 11/25/2026, although it may be longer with business discretion. \n\n Disability Accommodations Statement \n\n If an accommodation is required to participate in the application process, please contact us via email at AccommodationRequest@pnc.com . Please include “accommodation request” in the subject line title and be sure to include your name, the job ID, and your preferred method of contact in the body of the email. Emails not related to accommodation requests will not receive responses.  Applicants may also call 877-968-7762 and say \"Workday\" for accommodation assistance. All information provided will be kept confidential and will be used only to the extent required to provide needed reasonable accommodations. \n\n At PNC we foster an inclusive and accessible workplace.  We provide reasonable accommodations to employment applicants and qualified individuals with a disability who need an accommodation to perform the essential functions of their positions. \n\n Equal Employment Opportunity (EEO) \n\n PNC provides equal employment opportunity to qualified persons regardless of race, color, sex, religion, national origin, age, sexual orientation, gender identity, disability, veteran status, or other categories protected by law. \n\n This position is subject to the requirements of Section 19 of the Federal Deposit Insurance Act (FDIA) and, for any registered role, the Secure and Fair Enforcement for Mortgage Licensing Act of 2008 (SAFE Act) and/or the Financial Industry Regulatory Authority (FINRA), which prohibit the hiring of individuals with certain criminal history. \n\n California Residents \n\n Refer to the California Consumer Privacy Act Privacy Notice to gain understanding of how PNC may use or disclose your personal information in our hiring practices.",
+   "age_days": 0
+  },
+  "f2bc0873abfd9285": {
+   "id": "f2bc0873abfd9285",
+   "company": "Schonfeld",
+   "title": "2027 Business Analytics Intern",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "greenhouse": "https://job-boards.greenhouse.io/schonfeld/jobs/8171703"
+   },
+   "sources": [
+    "greenhouse"
+   ],
+   "flags": [
+    "old-posting (82d)",
+    "quant-heavy?"
+   ],
+   "location": "New York, New York, United States",
+   "loc_bucket": "NYC",
+   "track": "internship",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": 2,
+   "on_watchlist": true,
+   "primary_url": "https://job-boards.greenhouse.io/schonfeld/jobs/8171703",
+   "ats_req_id": "P101874-2026-09-01",
+   "ats_first_seen": "2026-11-25",
+   "date_posted": "2026-09-04",
+   "description": "The Role     \n\n We are excited to offer an opportunity for a talented individual to join the internship program at Schonfeld. You’ll spend ten weeks with Schonfeld’s Business Analytics team where you will be immersed in our culture, working alongside talented professionals contributing to high profile projects as a Data Analyst.   \n\n What You’ll Do    \n\n The Business Analytics team at Schonfeld focuses on the discovery, interpretation, and communication of meaningful patterns in data to drive better decision making and problem solving. The team is responsible for data acquisition and processing using technology to solve business problems from stakeholders across the business such as risk, trading, accounting, operations, and business development.    \n\n In this role, you’ll gain exposure to using tools such as Python, SQL, and Power BI to transform and analyze data in a real-world environment under the mentorship of members of the team. The ideal candidate will have a proven ability to solve problems and create a positive impact on the team by improving data quality, streamlining manual processes, building reports, proposing analytics, and supporting our reporting infrastructure.   \n\n What You’ll Bring   \n\n Currently pursuing a bachelor’s or master’s degree in Computer Science, Data Science, Engineering, Mathematics, or another quantitative field   \n\n Strong programming skills in Python and experience with data engineering and analytics tools and frameworks   \n\n Proficiency in SQL and experience with relational and non-relational databases.   \n\n An analytical mindset with the ability to interpret complex data sets   \n\n Strong written and verbal communication skills to work effectively with cross-functional teams.   \n\n Ability to work in a fast-paced environment and adapt to changing requirements.   \n\n Interest in trading and hedge fund strategies   \n\n Our Internship   \n\n Kick-start your career in finance with the Schonfeld Summer Internship! Over the course of 10 action-packed weeks, you will have the opportunity to build solutions that tackle real-world challenges and leave a lasting impact on the firm. As an intern, you’ll join a close-knit team that is ready to support your growth and accelerate your career. We will pair you with a dedicated manager and a mentor who’ll guide your development over the course of the internship and beyond. Throughout the program, you will have the chance to connect with senior leaders through a series of learning sessions, attend hands-on skills workshops, network at social events and get a behind-the-scenes look at how various functions power the firm. We’ll empower you to bring your ideas to life and make an impact.    \n\n Who We Are   \n\n Schonfeld is a global multi-manager hedge fund that strives to deliver industry-leading risk-adjusted returns for our investors. We leverage both internal and external portfolio manager teams around the world, seeking to capitalize on inefficiencies and opportunities within the markets. We draw from decades of experience and a significant investment in proprietary technology, infrastructure and risk analytics to invest across four main strategies: Quant, Tactical, Fundamental Equity and Discretionary Macro & Fixed Income.   \n\n Our Culture   \n\n At Schonfeld, we’ll invest in you. Attracting and retaining top talent is at the heart of what we do, because we believe that exceptional outcomes begin with exceptional people. We foster a culture where talent is empowered to continually learn, innovate and pursue ambitious goals. We are teamwork-oriented, collaborative and encourage ideas—at all levels—to be shared. As an organization committed to investing in our people, we provide learning and educational offerings and opportunities to make an impact. We encourage community through internal networks, external partnerships and service initiatives that promote inclusion and purpose beyond the firm’s walls.   \n\n The annual base pay for this role is expected to be between $100,000 and $115,000 which will be prorated based on internship start and end date. The expected base pay range is based on information at the time this post was generated. Actual compensation for the successful candidate will be determined based on a variety of factors such as skills, qualifications and experience and level of education.",
+   "age_days": 82
+  },
+  "5a5e562f61c6676a": {
+   "id": "5a5e562f61c6676a",
+   "company": "BNY",
+   "title": "2027 BNY Analyst Program – Credit and Trading - (New York, NY)",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "indeed": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/requisitions/preview/84368",
+    "linkedin": "https://www.linkedin.com/jobs/view/4494644899"
+   },
+   "sources": [
+    "indeed",
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": 2,
+   "on_watchlist": true,
+   "primary_url": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/requisitions/preview/84368",
+   "date_posted": "2026-11-25",
+   "salary": "52,000-95,000 yearly",
+   "description": "BNY’s Trading Execution/CIO and Credit and Lending Practices play important roles in supporting clients and the organization across dynamic global markets. These teams help execute and oversee trading activity, support client financing needs, and maintain strong operational controls, credit discipline, and risk management.\n\nThe Trading and Credit Analyst Program offers driven students hands-on exposure through strategic projects aligned with trading, credit analysis, underwriting, portfolio monitoring, transaction support, operational controls, reporting, client servicing, and process improvement.\n\nIn a fast-paced environment, analysts will gain insight into trading workflows, the trade and credit lifecycles, lending fundamentals, market structure, and risk management. They will support financial and market analysis, reporting, documentation, and issue resolution while building an understanding of how accuracy, sound judgment, technology, controls, and cross-functional partnership contribute to effective business decisions.\n\n**What you will do**\n\n* Monitor trading activity and help review pricing, liquidity, execution details, and transaction activity in a fast-moving environment.\n* Analyze company financials, industry trends, and key risk indicators to support borrower and transaction assessments.\n* Assist with credit materials, portfolio reviews, reconciliations, reporting, and control processes that help teams evaluate opportunities and maintain operational integrity.\n* Use data and technology to identify trends, investigate exceptions, support performance analysis, and surface meaningful insights.\n* Learn how deal structures are developed and how lending decisions balance growth, risk, and client needs.\n* Gain exposure to how markets, trading workflows, credit processes, and risk controls connect across teams and systems.\nPartner with experienced professionals to understand how disciplined execution, underwriting, and oversight support resilient client relationships.  \n\n**Skills you will build**\n\n* Market awareness and trading fundamentals\n* Financial statement and ratio analysis\n* Credit and risk assessment\n* Quantitative and analytical problem-solving\n* Analytical judgment and evidence-based decision-making\n* Underwriting and deal-structuring fundamentals\n* Data fluency using tools such as Excel, Python, SQL, and AI-enabled workflows\n* Attention to detail in fast-paced, time-sensitive environments\n* Regulatory, control, and risk awareness\nCross-functional communication and partnership\n\n**Impact you will have at BNY**\n\n* Help support the smooth execution and monitoring of market and transaction activity.\n* Support informed lending decisions grounded in financial analysis and sound risk management.\n* Contribute to processes that strengthen accuracy, transparency, and operational control.\n* Help teams monitor portfolio health and identify insights that matter to decision-makers.\n* See how finance, markets, technology, operations, and risk disciplines enable BNY to serve clients responsibly.\nBuild highly transferable skills in data analysis, markets, credit, risk management, and decision-making.  \n\n**Why this could be a fit for you**\n\nThis opportunity may be a strong fit if you enjoy dynamic environments, hands-on analysis, and technology-enabled work where precision matters. It is well suited for students who are curious about the “why” behind the numbers, enjoy making evidence-based recommendations, and want to build practical finance, markets, and risk-management skills with clear real-world relevance.\n\n**Analyst Program**  \nOur 24-month rotational Analyst Program is designed to set you up for success from day one. New joiners take part in a structured induction experience to help them assimilate into BNY, learn about the organization, connect with peers and leaders, and build the core skills needed to navigate their early career with confidence.\n\nFrom day one, analysts are immersed in BNY's collaborative and innovative culture through:\n\n* Enterprise-wide onboarding and development programming, including an in person immersive induction experience, executive speaker series, skill development, and networking opportunities.\n* Meaningful project work aligned to key business practices and platforms, providing hands-on experience, skill development, and real-world business impact.\n* Structured mentorship and career support from managers, senior leaders, peer mentors, business stakeholders, and dedicated program managers.\n* Exposure across practices, platforms, and teams, building a broad understanding of BNY's integrated business model.\n* Professional, technical, and financial services training designed to strengthen business acumen and prepare participants for long-term career success.\nA premier early-career experience, backed by senior leadership and designed to develop the next generation of talent for BNY's global workforce.  \n\n**Program eligibility:**\n\n* Enrollment in a 4-year undergraduate degree program with a strong focus on business-related and/or technology-related majors preferred\n* Graduating in Dec 2026 or May 2027 (U.S.)\n* Minimum cumulative GPA of 3.0 or better\n* Does not require sponsorship for employment visa status (now or in the future) in the country where applying.\n\nAt BNY, our culture speaks for itself, check out the latest BNY news at:\n  \nBNY Newsroom\n  \nBNY LinkedIn\n\nHere’s a few of our recent awards:\n\n* America’s Most Innovative Companies, Fortune, 2025\n* World’s Most Admired Companies, Fortune 2025\n“Most Just Companies”, Just Capital and CNBC, 2025  \n\nOur Benefits and Rewards:\n\nBNY offers highly competitive compensation, benefits, and wellbeing programs rooted in a strong culture of excellence and our pay-for-performance philosophy. We provide access to flexible global resources and tools for your life’s journey. Focus on your health, foster your personal resilience, and reach your financial goals as a valued member of our team, along with generous paid leaves, ",
+   "age_days": 0
+  },
+  "e71d3eb7c72338e8": {
+   "id": "e71d3eb7c72338e8",
+   "company": "Deutsche Bank",
+   "title": "Equity Sales & Trading, Equity Distribution Analyst",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "indeed": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/New-York-1-Columbus-Circle/Equity-Sales---Trading--Equity-Distribution-Analyst_R0459583",
+    "linkedin": "https://www.linkedin.com/jobs/view/4494633299"
+   },
+   "sources": [
+    "indeed",
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": 1,
+   "on_watchlist": true,
+   "primary_url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/New-York-1-Columbus-Circle/Equity-Sales---Trading--Equity-Distribution-Analyst_R0459583",
+   "date_posted": "2026-11-25",
+   "salary": "110,000-125,000 yearly",
+   "description": "**Job Description:**\n--------------------\n\n**Job Title:** Equity Sales & Trading, Equity Distribution\n\n**Corporate Title:** Analyst\n\n**Location:** New York, NY\n\n**Overview**\n\nOur Investment Banking and Capital Markets (IBCM) business provides the full range of investment banking products and services to corporates and financial sponsors. Our offering consists of comprehensive financial advisory and capital-raising services - including mergers & acquisitions (M&A) and restructuring advice, underpinned by one of the world's largest and most successful debt and equity capital markets platforms. Our range of services and strong presence across the globe enables us to complete large, multi-dimensional cross-border, and regional transactions. The Equity Distribution business sits within IBCM and is responsible for distributing our equity capital markets, research and corporate access products to our institutional clients, and for providing sales and trading services to this client base.\n\nAs an Equity Sales & Trading Analyst, you will be responsible for helping the team service institutional clients by executing trades, managing risk, and providing advisory market content, as appropriate, in their relevant product/sector/market.\n\n**What We Offer You**\n\n* A diverse and inclusive environment that embraces change, innovation, and collaboration\n* Employee Resource Groups support an inclusive workplace for everyone and promote community engagement\n* Competitive compensation packages including health and wellbeing benefits, retirement savings plans, parental leave, and family building benefits\n\nEducational resources, matching gift and volunteer programs  \n\n\n\n**What You’ll Do**\n\n* Support the Equity Sales & Trading business\n* Learn how to achieve optimal execution outcomes and manage risk appropriately in the US equity asset class.\n* Develop and maintain relationships with institutional clients\n* Create and deliver high-value market and trading content to a targeted universe of clients and prospects\n* Collaborate with internal teams to cross-sell other products offered by the bank\n* Find creative ways to utilize AI tools to improve daily workflows\nComplete all relevant regulatory licensing  \n\n**Skills You’ll Need**\n\n* Ability to develop in-depth product and market knowledge\n* Capacity to work in a fast-paced environment while independently and proactively servicing multiple clients\n* Capable of managing numerous priorities while supporting meaningfully revenue generation\n* Financial acumen: understanding client/market problems, proactively tackling challenges and seizing opportunities as they arise\n* Proven ability to work collaboratively with a large team\nFamiliarity with AI tools.  \n\n**Skills That Will Help You Excel**\n\n* Excellent communication skills, both written and spoken\n\n* A strategic thinker with the ability to understand broad business issues, their potential implications and to make sound business recommendations.\nDynamic, agile, highly motivated. Able to navigate, adapt and thrive in a constantly changing/evolving global bank  \n\n**Expectations**\n\nIt is the Bank’s expectation that employees hired into this role will work in the New York office and in accordance with the Bank’s policies.\n\nThe base salary for this position in New York City is $110,000-125,000. Actual salaries may be based on a number of factors including, but not limited to, a candidate’s skill set, experience, education, work location and other qualifications. Posted salary ranges do not include incentive compensation or any other type of remuneration.\n\n**Deutsche Bank Benefits**\n\nAt Deutsche Bank, we recognize that our benefit programs have a profound impact on our colleagues. That’s why we are focused on providing benefits and perks that enable our colleagues to live authentically and be their whole selves, at every stage of life. We provide access to physical, emotional, and financial wellness benefits that allow our colleagues to stay financially secure and strike balance between work and home. Click here to learn more!\n\nLearn more about your life at Deutsche Bank through the eyes of our current employees: https://careers.db.com/life\n\nThe California Consumer Privacy Act outlines how companies can use personal information. If you are interested in receiving a copy of Deutsche Bank’s California Privacy Notice please email HR.Direct@DB.com .\n\nWe strive for a culture in which we are empowered to excel together every day. This includes acting responsibly, thinking commercially, taking initiative and working collaboratively.\n\nTogether we share and celebrate the successes of our people. Together we are Deutsche Bank Group.\n\nWe welcome applications from all people and promote a positive, fair and inclusive work environment.\n\nQualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status or other characteristics protected by law. Click these links to view Deutsche Bank’s Equal Opportunity Policy Statement and the following notices: EEOC Know Your Rights ; Employee Rights and Responsibilities under the Family and Medical Leave Act ; and Employee Polygraph Protection Act .",
+   "age_days": 0
+  },
+  "1994fc872f67b6ea": {
+   "id": "1994fc872f67b6ea",
+   "company": "Liquidnet (TP ICAP)",
+   "title": "Trade Services Analyst",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4480680919"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": 2,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4480680919",
+   "date_posted": "2026-11-25",
+   "age_days": 0
+  },
+  "b834b746146d6369": {
+   "id": "b834b746146d6369",
+   "company": "Deutsche Bank",
+   "title": "Listed Derivatives Execution Solutions – Client Facing Product & Solutions Specialist",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4447720277"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": 1,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4447720277",
+   "date_posted": "2026-11-25",
+   "age_days": 0
+  },
+  "0fcf5381499a8223": {
+   "id": "0fcf5381499a8223",
+   "company": "Coda Search│Staffing",
+   "title": "Structured Products Specialist (CMBS)",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4476348954"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4476348954",
+   "date_posted": "2026-11-25",
+   "age_days": 0
+  },
+  "5fb69482a7a3dba5": {
+   "id": "5fb69482a7a3dba5",
+   "company": "Jefferies",
+   "title": "Equity Research Associate - US Banks",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4478706775"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": 1,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4478706775",
+   "date_posted": "2026-11-25",
+   "age_days": 0
+  },
+  "eba1d3ed011d9fb7": {
+   "id": "eba1d3ed011d9fb7",
+   "company": "Motion Recruitment",
+   "title": "Markets Quantitative Analyst (MQA)",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4495212371"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4495212371",
+   "date_posted": "2026-11-25",
+   "age_days": 0
+  },
+  "d93670dfe6991a7d": {
+   "id": "d93670dfe6991a7d",
+   "company": "Selby Jennings",
+   "title": "Options / Volatility Trader | Digital Assets",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4494698163"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "recruiter-or-gig-posting"
+   ],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4494698163",
+   "date_posted": "2026-11-25",
+   "age_days": 0
+  },
+  "4dc4414789b53bea": {
+   "id": "4dc4414789b53bea",
+   "company": "Neuberger",
+   "title": "Private Markets Deal Coordinator, Co-Investments Analyst/Associate",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4494961410"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4494961410",
+   "date_posted": "2026-11-25",
+   "age_days": 0
+  },
+  "29630d0898c6b0af": {
+   "id": "29630d0898c6b0af",
+   "company": "Deutsche Bank",
+   "title": "Trader",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4470485581"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": 1,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4470485581",
+   "date_posted": "2026-11-25",
+   "age_days": 0
+  },
+  "1813c18de3bd9986": {
+   "id": "1813c18de3bd9986",
+   "company": "Albert Bow",
+   "title": "Fixed Income ETF Quant Trader",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4474524267"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4474524267",
+   "date_posted": "2026-11-25",
+   "age_days": 0
+  },
+  "310c070c5bf1635c": {
+   "id": "310c070c5bf1635c",
+   "company": "Goldman Sachs",
+   "title": "Global Banking & Markets - Capital Solutions Group - Latam - Analyst - New York",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4478403599"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": 1,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4478403599",
+   "date_posted": "2026-11-25",
+   "age_days": 0
+  },
+  "3684cb6f333f04b3": {
+   "id": "3684cb6f333f04b3",
+   "company": "Boies Schiller Flexner LLP",
+   "title": "Research Analyst",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4493441070"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4493441070",
+   "date_posted": "2026-11-25",
+   "age_days": 0
+  },
+  "18971f1ffac7d961": {
+   "id": "18971f1ffac7d961",
+   "company": "Apollo",
+   "title": "Competitor Intelligence & Market Insights Associate",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4494940562"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": 2,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4494940562",
+   "date_posted": "2026-11-25",
+   "age_days": 0
+  },
+  "4739dbb1a59d3e83": {
+   "id": "4739dbb1a59d3e83",
+   "company": "Jefferies",
+   "title": "Investment Banking Analyst | FIG (Specialty Finance)",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4494942887"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": 1,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4494942887",
+   "date_posted": "2026-11-25",
+   "age_days": 0
+  },
+  "114b87eab2474ba8": {
+   "id": "114b87eab2474ba8",
+   "company": "Moelis & Company",
+   "title": "Analyst, Investment Banking – Capital Markets (New York)",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4478701582"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": 1,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4478701582",
+   "date_posted": "2026-11-25",
+   "age_days": 0
+  },
+  "a22377b4cea11d43": {
+   "id": "a22377b4cea11d43",
+   "company": "CIBC Capital Markets",
+   "title": "2027 Analyst I, Corporate Banking",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4494685224"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": 2,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4494685224",
+   "date_posted": "2026-11-25",
+   "age_days": 0
+  },
+  "20ec80a58751bec1": {
+   "id": "20ec80a58751bec1",
+   "company": "LevelUP HCS",
+   "title": "Corporate Banking Graduate",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4494940571"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4494940571",
+   "date_posted": "2026-11-25",
+   "age_days": 0
+  },
+  "f926e60eab794c28": {
+   "id": "f926e60eab794c28",
+   "company": "Morning Consult",
+   "title": "Research Associate",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4487209347"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4487209347",
+   "date_posted": "2026-11-25",
+   "age_days": 0
+  },
+  "bfd2265348c6ca17": {
+   "id": "bfd2265348c6ca17",
+   "company": "New York State Department of Financial Services",
+   "title": "Program Research Specialist 1, SG-18",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4494443637"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4494443637",
+   "date_posted": "2026-11-25",
+   "age_days": 0
+  },
+  "c003ea917d8a56ee": {
+   "id": "c003ea917d8a56ee",
+   "company": "LSEG",
+   "title": "AI Product & Business Graduate Associate",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4494710815"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4494710815",
+   "date_posted": "2026-11-24",
+   "age_days": 1
+  },
+  "9ac98a5b7fb04fcc": {
+   "id": "9ac98a5b7fb04fcc",
+   "company": "MiQ",
+   "title": "Trader",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4477962438"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4477962438",
+   "date_posted": "2026-11-25",
+   "age_days": 0
+  },
+  "9e2e1fcb8a6d3fc0": {
+   "id": "9e2e1fcb8a6d3fc0",
+   "company": "Galaxy",
+   "title": "2027 Sales and Trading Internships - NYC",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4487068361"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "absent-from-company-site"
+   ],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": 2,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4487068361",
+   "date_posted": "2026-11-25",
+   "age_days": 0
+  },
+  "ee9f56159e572c45": {
+   "id": "ee9f56159e572c45",
+   "company": "Albert Bow",
+   "title": "Equity ETF Risk Trader",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4491589586"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4491589586",
+   "date_posted": "2026-11-25",
+   "age_days": 0
+  },
+  "b392048e22531a02": {
+   "id": "b392048e22531a02",
+   "company": "Cyperus Group LLC",
+   "title": "Equity Derivatives Specialist",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4484854163"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York City Metropolitan Area",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4484854163",
+   "date_posted": "2026-11-24",
+   "age_days": 1
+  },
+  "e53f2cfe2ff47a1b": {
+   "id": "e53f2cfe2ff47a1b",
+   "company": "Raymond James",
+   "title": "Investment Banking Analyst II (Leveraged Finance & Debt Advisory)",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4493468334"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": 2,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4493468334",
+   "date_posted": "2026-11-25",
+   "age_days": 0
+  },
+  "5c7b675364c20121": {
+   "id": "5c7b675364c20121",
+   "company": "News Corp",
+   "title": "Sports Capital and Deals Reporter",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "indeed": "https://careers.newscorp.com/new-york-ny/sports-capital-and-deals-reporter/1FFDCF1A2A1A4C2489CC11E28D3AE3F6/job/"
+   },
+   "sources": [
+    "indeed"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://careers.newscorp.com/new-york-ny/sports-capital-and-deals-reporter/1FFDCF1A2A1A4C2489CC11E28D3AE3F6/job/",
+   "date_posted": "2026-11-25",
+   "salary": "120,000-140,000 yearly",
+   "description": "**Job Description:**\n\n**About the Role:**\n\nDow Jones is seeking an investigative reporter who has covered private equity, venture capital, and deal-making, and who brings a genuine passion for sports. You will investigate and report on the transactions behind sports as an investable asset class: team valuations, PE and VC stakes, media rights financing, ownership transitions, and the fund dynamics that drive them. You'll use deal documents, valuation work, and deep sourcing among bankers, fund managers, owners, and league finance executives to show readers how the money actually moves.\n\nThis role is for a reporter who has covered finance and deal-making at a high level and who knows sports well enough to be trusted in a league office, an owner's suite, or a fund's investment committee. A deep interest in sports and the ability to earn access there are essential. Prior coverage of sports deals is a strong plus.\n\nThe job will report to the Executive Editor, Business of Sports and collaborate closely with our Business of Sports reporting team, financial analysts, and cross-newsroom colleagues.\n\n**You Will**\n\n* Report original, deeply sourced stories on private equity, venture, and ownership transactions in professional sports, including minority stake sales, control deals, fund investments, and recapitalizations.\n* Report on team valuations, media rights deals, and financing structures, and explain what each means for investors, owners, and leagues.\n* Bring a distinctive point of view to major industry developments, going beyond the initial news to explain what happened, why it matters, and what comes next.\n* Develop long-form investigations and series with colleagues across the newsroom.\n* Build and maintain a deep network of confidential sources among owners, league and team executives, investors, bankers, and advisors.\n* Use deal documents, SEC filings, fund disclosures, and valuation models to test claims and find original angles.\n\n**You Have**\n\n* Seven or more years of professional journalism experience, including several years covering private equity, venture capital, M&A, or deal-making, with a record of original, deeply reported stories on deals and transactions.\n* A deep, demonstrated interest in sports. You should be able to discuss the business models, ownership structures, and competitive dynamics of leagues and teams, not only their results.\n* Existing relationships, or a credible plan to build them, with sports owners, league and team executives, and their advisors.\n* Fluency in valuation methodology, deal structures (including minority stakes, preferred equity, and leveraged and structured financing), and reading fund and financial statements.\n* Experience with financial and deal data tools such as PitchBook, Preqin, Dealogic, or Factiva, or similar.\n* The ability to explain complex transactions clearly to a sophisticated audience.\n* Comfort working in a fast-paced newsroom while also executing long-term investigative projects.\n* A collaborative approach and experience working alongside analysts, data journalists, and graphics teams.\n\n**Equal Opportunity Employer**\n\nAll qualified applicants will receive consideration for employment without regard to race, color, religion, sex, age, national origin, protected veteran status, disability status or any other protected characteristic under applicable law. EEO/Disabled/Vets\n\n**Reasonable Accommodation**\n\nWe are committed to providing reasonable accommodation for qualified individuals with disabilities in our job application and/or interview process. If you need assistance or accommodation in completing your application or participating in an interview due to a disability, email us at talentresourceteam@dowjones.com. Please put \"Reasonable Accommodation\" in the subject line and provide a brief description of the type of assistance you need. This inbox will not be monitored for application status updates.\n\nPlease refer to the privacy notice at the bottom of this page for submitting any data access, deletion, or other data subject rights requests, where permitted under your local laws and regulations.\n\n**Business Area: Dow Jones - Consumer**\n\n**Job Category: Editorial/Journalism**\n\n**Union Status:**\n\n**Union role**\n\n**Base Pay Range: $120,000 - $140,000**\n\n**We’re committed to offering competitive and flexible compensation to attract top talent. This pay range reflects our good faith estimate for the role and may vary based on a candidate’s experience, skills, location, and other relevant factors.**\n\n**For bonus-eligible roles, targets are determined based on multiple considerations, including market benchmarks and individual contributions.**\n\n**For benefits-eligible roles, we offer a comprehensive and competitive benefits package covering health, retirement, wellbeing, and more, along with optional benefits to meet the diverse needs of our employees.**\n\n**Dow Jones is a global provider of news and business information, delivering content to consumers and organizations around the world across multiple formats, including print, digital, mobile and live events. Dow Jones has produced unrivaled quality content for more than 130 years and today has one of the world’s largest newsgathering operations globally.**\n\n**It is home to leading publications and products including the flagship Wall Street Journal, America’s largest newspaper by paid circulation; Barron’s, MarketWatch, Mansion Global, Financial News, Dow Jones Risk & Compliance and Dow Jones Newswires. Dow Jones is a division of News Corp (Nasdaq: NWS, NWSA; ASX: NWS, NWSLV).**\n\n**Req ID: 56633**",
+   "age_days": 0
+  },
+  "fede9351bc928ea1": {
+   "id": "fede9351bc928ea1",
+   "company": "News Corp",
+   "title": "Reporter, Business of Sports",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "indeed": "https://careers.newscorp.com/new-york-ny/reporter-business-of-sports/04DCCE117BCD4EB680EEFFA11ECFED78/job/"
+   },
+   "sources": [
+    "indeed"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://careers.newscorp.com/new-york-ny/reporter-business-of-sports/04DCCE117BCD4EB680EEFFA11ECFED78/job/",
+   "date_posted": "2026-11-25",
+   "salary": "120,000-160,000 yearly",
+   "description": "**Job Description:**\n\n**About the Role:**\n\nDow Jones is seeking an ambitious, deeply sourced reporter to write enterprise and investigative stories at the center of the sports business. This reporter will reveal how sports organizations, leagues, investors, and power brokers operate behind closed doors—explaining the deals, strategies, and dynamics that drive sports as an investable asset class.\n\nThe ideal candidate will possess an insatiable curiosity about sports business mechanics, investment dynamics, and competitive market structures, alongside a proven ability to bring readers inside high-stakes transactions, capital decisions, and strategic pivots. We are looking for a reporter who can deliver stories that sharpen our audience's understanding of how sports valuations, media rights, private equity entries, ownership disputes, and competitive decisions shape the industry—with the financial rigor, analytical depth, and access that define our coverage.\n\nVital to this job's success is the ability to produce reporting and analysis that everyone in the industry is talking about— investigations that reveal the power dynamics and financial logic beneath major industry moves and interpretations that change how readers see a deal or trend.\n\nThis role will report to the Executive Editor, Business of Sports, and collaborate closely with our Business of Sports reporting team, financial analysts, and cross-newsroom colleagues.\n\n**You Will**\n\n* Develop original enterprise and investigative stories on the business of sports, including how organizations, leagues, and ownership structures operate.\n* Bring a distinctive point of view to major industry developments, going beyond the initial news to explain what happened, why it matters, and what comes next.\n* Build and maintain a network of confidential sources who can provide insider perspective on strategy and decision-making\n* Collaborate with colleagues across the organization to conceive and execute ambitious, large-scale projects and series showing how sports industry capital flows, investment decisions, and ownership changes impact valuations, markets, teams, and the broader business landscape.\n\n**You Have**\n\n* Seven or more years of professional journalism experience, including a record of original reporting on a competitive beat.\n* A deep, demonstrated interest in sports and a working knowledge of how sports organizations make money, including media, sponsorship, ticketing, and merchandise revenue, and how league structures such as revenue sharing and salary caps work.\n* The ability to explain complex business and industry processes clearly to a sophisticated audience.\n* Comfort working in a fast-paced newsroom while also executing long-term investigative projects.\n* A collaborative approach and experience working with analysts, data journalists, and graphics teams.\n\n**Nice to Have**\n\n* Experience at a business, financial, or sports news organization.\n* Experience building a beat or coverage area from the ground up.\n\n**Equal Opportunity Employer**\n\nAll qualified applicants will receive consideration for employment without regard to race, color, religion, sex, age, national origin, protected veteran status, disability status or any other protected characteristic under applicable law. EEO/Disabled/Vets\n\n**Reasonable Accommodation**\n\nWe are committed to providing reasonable accommodation for qualified individuals with disabilities in our job application and/or interview process. If you need assistance or accommodation in completing your application or participating in an interview due to a disability, email us at talentresourceteam@dowjones.com. Please put \"Reasonable Accommodation\" in the subject line and provide a brief description of the type of assistance you need. This inbox will not be monitored for application status updates.\n\nPlease refer to the privacy notice at the bottom of this page for submitting any data access, deletion, or other data subject rights requests, where permitted under your local laws and regulations.\n\n**Business Area: Dow Jones - Consumer**\n\n**Job Category: Editorial/Journalism**\n\n**Union Status:**\n\n**Union role**\n\n**Base Pay Range: $120,000 - $160,000**\n\n**We’re committed to offering competitive and flexible compensation to attract top talent. This pay range reflects our good faith estimate for the role and may vary based on a candidate’s experience, skills, location, and other relevant factors.**\n\n**For bonus-eligible roles, targets are determined based on multiple considerations, including market benchmarks and individual contributions.**\n\n**For benefits-eligible roles, we offer a comprehensive and competitive benefits package covering health, retirement, wellbeing, and more, along with optional benefits to meet the diverse needs of our employees.**\n\n**Dow Jones is a global provider of news and business information, delivering content to consumers and organizations around the world across multiple formats, including print, digital, mobile and live events. Dow Jones has produced unrivaled quality content for more than 130 years and today has one of the world’s largest newsgathering operations globally.**\n\n**It is home to leading publications and products including the flagship Wall Street Journal, America’s largest newspaper by paid circulation; Barron’s, MarketWatch, Mansion Global, Financial News, Dow Jones Risk & Compliance and Dow Jones Newswires. Dow Jones is a division of News Corp (Nasdaq: NWS, NWSA; ASX: NWS, NWSLV).**\n\n**Req ID: 56569**",
+   "age_days": 0
+  },
+  "049f10d326311c2a": {
+   "id": "049f10d326311c2a",
+   "company": "Citi",
+   "title": "Markets In-business Market Risk - C14 - NEW YORK",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4494337463"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "absent-from-company-site"
+   ],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": 1,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4494337463",
+   "date_posted": "2026-11-24",
+   "age_days": 1
+  },
+  "b1f16b3c97dbf65c": {
+   "id": "b1f16b3c97dbf65c",
+   "company": "LevelUP HCS",
+   "title": "Corporate Banking Intern",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4494934822"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "internship-not-summer"
+   ],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "internship",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4494934822",
+   "date_posted": "2026-11-25",
+   "age_days": 0
+  },
+  "cc24ec69233db74b": {
+   "id": "cc24ec69233db74b",
+   "company": "IMA Financial Group, Inc.",
+   "title": "Sales Management Intern - Summer 2027",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4484389344"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "internship",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4484389344",
+   "date_posted": "2026-11-24",
+   "age_days": 1
+  },
+  "66a686ddd2a0affa": {
+   "id": "66a686ddd2a0affa",
+   "company": "Playfly Sports",
+   "title": "National Sales Intern",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4494016764"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "internship-not-summer"
+   ],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "internship",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4494016764",
+   "date_posted": "2026-11-23",
+   "age_days": 2
+  },
+  "87fe1d41de926752": {
+   "id": "87fe1d41de926752",
+   "company": "Playfly Sports",
+   "title": "Integrated Sales Intern (NYC)",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4494023479"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "internship-not-summer"
+   ],
+   "location": "New York, NY, USA",
+   "loc_bucket": "NYC",
+   "track": "internship",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4494023479",
+   "date_posted": "2026-11-23",
+   "age_days": 2
+  },
+  "0e07d983e4eed066": {
+   "id": "0e07d983e4eed066",
+   "company": "Selby Jennings",
+   "title": "Quantitative Trader | Intraday / HFT",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4494691360"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "recruiter-or-gig-posting"
+   ],
+   "location": "Chicago, IL, USA",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4494691360",
+   "date_posted": "2026-11-25",
+   "age_days": 0
+  },
+  "a3b12642a2a2452c": {
+   "id": "a3b12642a2a2452c",
+   "company": "Irving Knight Group",
+   "title": "Commodity Trader",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4494633332"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "Greater Chicago Area",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4494633332",
+   "date_posted": "2026-11-25",
+   "age_days": 0
+  },
+  "c2f22c59c38a1843": {
+   "id": "c2f22c59c38a1843",
+   "company": "Virtusa",
+   "title": "E-Trading Support Analyst",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4493469265"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "Chicago, IL, USA",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4493469265",
+   "date_posted": "2026-11-25",
+   "age_days": 0
+  },
+  "68e48bf9b02ed1b8": {
+   "id": "68e48bf9b02ed1b8",
+   "company": "Macquarie",
+   "title": "Associate, Electronic Trading Solutions",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4476474037"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "Chicago, IL, USA",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": 1,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4476474037",
+   "date_posted": "2026-11-25",
+   "age_days": 0
+  },
+  "0e4b9eb41437ca68": {
+   "id": "0e4b9eb41437ca68",
+   "company": "BMO Capital Markets",
+   "title": "Analyst, Industrials - Investment Banking",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4470626381"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "absent-from-company-site"
+   ],
+   "location": "Chicago, IL, USA",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": 1,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4470626381",
+   "date_posted": "2026-11-25",
+   "age_days": 0
+  },
+  "412c4618ab22e1c0": {
+   "id": "412c4618ab22e1c0",
+   "company": "Invenergy",
+   "title": "Associate, Finance and Capital Markets",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4494678083"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "associate-title"
+   ],
+   "location": "Chicago, IL, USA",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4494678083",
+   "date_posted": "2026-11-25",
+   "age_days": 0
+  },
+  "946c8bf59914553d": {
+   "id": "946c8bf59914553d",
+   "company": "Enova International",
+   "title": "Capital Markets Analyst (Hybrid)",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4494689437"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "Chicago, IL, USA",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4494689437",
+   "date_posted": "2026-11-25",
+   "age_days": 0
+  },
+  "80cb2ab204cb33de": {
+   "id": "80cb2ab204cb33de",
+   "company": "Baker Tilly Canada",
+   "title": "Office Services Assistant, Temporary",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "indeed": "https://bakertilly.wd5.myworkdayjobs.com/BTCareers/job/USA-IL-Chicago-800-W-Fulton/Office-Services-Assistant--Temporary-_JR109126"
+   },
+   "sources": [
+    "indeed"
+   ],
+   "flags": [],
+   "location": "Chicago, IL, USA",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://bakertilly.wd5.myworkdayjobs.com/BTCareers/job/USA-IL-Chicago-800-W-Fulton/Office-Services-Assistant--Temporary-_JR109126",
+   "date_posted": "2026-11-25",
+   "salary": "18-29 hourly",
+   "description": "**Overview**\n============\n\nBaker Tilly is a leading advisory, tax and assurance firm, providing clients with a genuine coast-to-coast and global advantage in major regions of the U.S. and in many of the world’s leading financial centers – New York, London, San Francisco, Los Angeles, Chicago and Boston. Baker Tilly Advisory Group, LP and Baker Tilly US, LLP (Baker Tilly) provide professional services through an alternative practice structure in accordance with the AICPA Code of Professional Conduct and applicable laws, regulations and professional standards. Baker Tilly US, LLP is a licensed independent CPA firm that provides attest services to its clients. Baker Tilly Advisory Group, LP and its subsidiary entities provide tax and business advisory services to their clients. Baker Tilly Advisory Group, LP and its subsidiary entities are not licensed CPA firms.\n\nBaker Tilly Advisory Group, LP and Baker Tilly US, LLP, trading as Baker Tilly, are independent members of Baker Tilly International, a worldwide network of independent accounting and business advisory firms in 141 territories, with 43,000 professionals and a combined worldwide revenue of $5.2 billion. Visit bakertilly.com or join the conversation on LinkedIn, Facebook and Instagram.\n\nPlease discuss the work location status with your Baker Tilly talent acquisition professional to understand the requirements for an opportunity you are exploring.\n\n*Baker Tilly is an equal* *opportunity/affirmative* *action employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, disability or protected veteran status, gender identity, sexual orientation, or any other legally protected basis, in accordance with applicable federal, state or local law.*\n\n*Any unsolicited resumes submitted through our website or to Baker Tilly Advisory Group, LP, employee e-mail accounts are considered property of Baker Tilly Advisory Group, LP, and are not subject to payment of agency fees. In order to be an authorized recruitment agency (\"search firm\") for Baker Tilly Advisory Group, LP, there must be a formal written agreement in place and the agency must be invited, by Baker Tilly's Talent Attraction team, to submit candidates for review via our applicant tracking system.*\n\n**Job Description:**\n====================\n\nThe Office Services Assistant provides clerical, administrative, and operational support to ensure the office runs smoothly and efficiently. Working closely with the Office Services Core Manager, this position helps maintain an organized, welcoming, and well-functioning office environment while supporting the daily needs of associates.\n\nThe ideal candidate is dependable, organized, detail-oriented, and willing to assist with a variety of tasks in a fast-paced, team-oriented environment.\n\n**Assignment Dates:** February 15, 2027 – April 16, 2027\n\n**Key Responsibilities**\n\nOffice Operations & Administrative Support\n\n* Sort, distribute, and process incoming and outgoing mail and packages, including FedEx, UPS, and courier services.\n* Assist with accounts receivable bank deposits and related deliveries, as needed.\n* Provide general administrative support, including filing, scanning, printing, copying, faxing, and assembling documents.\n* Assist with scheduling meetings and appointments, as requested.\n* Provide reception and telephone coverage, greeting visitors and directing inquiries in a professional and welcoming manner.\n\nOffice Organization & Maintenance\n\n* Maintain the cleanliness, organization, and overall appearance of common office areas, including conference rooms, training rooms, workrooms, kitchens, and breakrooms.\n* Assist with setting up and resetting conference and training rooms, including arranging tables, chairs, and other materials for meetings and events.\n* Monitor office supply inventory, place orders as needed, and ensure workrooms and supply areas remain organized and fully stocked.\n* Order and replenish coffee, beverages, snacks, and other kitchen and breakroom supplies.\n\nMeeting & Hospitality Support\n\n* Assist with coordinating, receiving, setting up, and distributing daily and weekly office food orders.\n* Support meeting preparations, office events, and other hospitality needs to ensure a positive experience for associates and visitors.\n\nAdditional Support\n\n* Assist the Office Services Core Manager and other team members with additional administrative and operational tasks as assigned.\n* Demonstrate flexibility and a team-first approach when responding to changing office needs and priorities.\n\n**Qualifications**\n\n  \n\n* High School Diploma required\n* 1 to 3 years relevant experience required (OFFICE SERVICES, FRONT DESK)\n* Proficiency in Microsoft Office suite\n* Experience with office machines, including facsimile, high speed copier, multi-line phone and 10 key calculator preferred\n* Excellent customer service and client focused skills\n* Excellent organizational skills and ability to manage through competing priorities\n* Detail orientated and ability follow directions/procedures required, as well as prioritize calls and visitors\n* Ability to work independently to follow directions and procedures\n* Ability to work overtime and weekends as needed\n\n*The pay range for this position is* ***$18.75 to $29.00*** *per hour. This range represents a good-faith and reasonable estimate of the compensation the firm expects to pay for this position at the time of posting. Actual compensation will depend on a variety of relevant factors, including an applicant’s skills, experience, qualifications, professional certifications, work arrangements, geographic location, and other business and organizational needs. It is not typical for an individual to be hired at or near the top of the range, and compensation decisions depend on the facts and circumstances of each case. Baker Tilly offers a compensation and benefits package to eligible employees.*",
+   "min_years": 1,
+   "age_days": 0
+  },
+  "e49b09f0da670ee5": {
+   "id": "e49b09f0da670ee5",
+   "company": "Northern Trust",
+   "title": "Trader",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "indeed": "https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Chicago-IL/Trader_R164512",
+    "linkedin": "https://www.linkedin.com/jobs/view/4493464373"
+   },
+   "sources": [
+    "indeed",
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "Chicago, IL, USA",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": 2,
+   "on_watchlist": true,
+   "primary_url": "https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Chicago-IL/Trader_R164512",
+   "date_posted": "2026-11-25",
+   "salary": "116,100-197,300 yearly",
+   "description": "**About Northern Trust**\n\nAs a global leader in innovative wealth management, asset servicing, asset management and banking services, Northern Trust (Nasdaq: NTRS) is proud to guide the world’s most successful individuals, families, corporations and institutions.\n\n  \n\nSince 1889, we have aligned our efforts with our three guiding Principles That Endure: Service, Expertise, and Integrity. Together, they reflect the three cornerstones of business conduct which we strive to instill in our employees, whom we call partners, and to provide to our clients and the communities we serve worldwide.\n\n  \n\nWith more than 135 years of financial experience and over 24,000 partners, we serve the world’s most sophisticated clients using leading technology and exceptional service.\n\n  \n  \n\n**Major Duties**\n\n  \n\n* Execute institutional equity orders across market conditions while adhering to client instructions and best execution standards.\n* Determine appropriate execution strategies, broker selection, and algorithm usage based on liquidity, market conditions, and trading objectives.\n* Partner with portfolio managers, investment teams, and regional trading desks to ensure seamless trade flow and clear communication throughout the trading lifecycle.\n* Monitor execution quality, identify risks, market developments, and operational issues, and escalate concerns as appropriate.\n* Operate within established trading limits, entitlements, and control frameworks while maintaining compliance with firm policies and regulatory requirements.\n* Support audit, compliance, and regulatory reviews through accurate documentation of trading decisions, execution rationale, and outcomes.\n* Utilize pre trade and post-trade transaction cost analysis, along with other execution analytics, to inform trading decisions and evaluate execution performance.\n* Improve trading workflows, controls, processes, and technology that support execution quality and operational effectiveness.\n* Maintain productive relationships with brokers, counterparties, and internal stakeholders to support execution and market intelligence gathering.\n* Communicate execution strategies, market insights, and trading outcomes to internal and external stakeholders.\n\nSalary Range:\n\n$116,100 - 197,300 USD\n\n*Salary range is a good faith estimate of base pay. Northern Trust provides a comprehensive benefits package including retirement benefits (401k and pension), health and welfare benefits (medical, dental, vision, spending accounts and disability), paid time off, parental and caregiver leave, life & accident insurance, and other voluntary and well-being benefits. Northern Trust also provides a discretionary bonus program that may include an equity component.*\n\n**Work Authorization**\n\nApplicants must be authorized to work in the U.S. without the need for employment-based visa sponsorship now or in the future. Northern Trust will not sponsor applicants for U.S. work visa status for this opportunity (no sponsorship is available for H-1B, L-1, TN, O-1, E-3, H-1B1, F-1, J-1, OPT, CPT or any other employment-based visa).\n\n  \n\n**Working with Us**\n\nAs a Northern Trust partner, you will be part of a flexible and collaborative work culture, which has a strong history of financial strength and stability. Movement within the organization is encouraged, senior leaders are accessible, and you can take pride in working for a company committed to an inclusive workplace and assisting the communities we serve.\n\nPhilanthropy is deeply rooted in Northern Trust’s history and is an essential element of our culture. Employees around the world give their time and talent to work for the greater good of their communities.\n\n  \n\n**Reasonable Accommodation**\n\n  \n\nNorthern Trust is committed to working with and providing adjustments to individuals with health conditions and disabilities. If you need a reasonable accommodation for any part of the employment process, please email our HR Service Center at MyHRHelp@ntrs.com, or alternatively you can discuss your individual requirements with the recruiter you are working with.",
+   "age_days": 0
+  },
+  "446fc741fed74ec8": {
+   "id": "446fc741fed74ec8",
+   "company": "DV Trading LLC",
+   "title": "Relative Value Trader",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4414636218"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "Chicago, IL, USA",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4414636218",
+   "date_posted": "2026-11-25",
+   "age_days": 0
+  },
+  "dfc8806af866cd87": {
+   "id": "dfc8806af866cd87",
+   "company": "lululemon",
+   "title": "Educator | Fulton Market",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4469984153"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "Chicago, IL, USA",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4469984153",
+   "date_posted": "2026-11-25",
+   "age_days": 0
+  },
+  "57aecb7a7febf77e": {
+   "id": "57aecb7a7febf77e",
+   "company": "Salesforce",
+   "title": "Global Integrated Campaigns Analyst",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "indeed": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/Illinois---Chicago/Global-Integrated-Campaigns-Analyst_JR369467"
+   },
+   "sources": [
+    "indeed"
+   ],
+   "flags": [],
+   "location": "Chicago, IL, USA",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/Illinois---Chicago/Global-Integrated-Campaigns-Analyst_JR369467",
+   "date_posted": "2026-11-25",
+   "salary": "75,000-113,500 yearly",
+   "description": "*To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts.*\n\nJob Category\n\nMarketing & Communications\n\nJob Details\n\n**About Salesforce**\n\nSalesforce is the #1 AI CRM, where humans with agents drive customer success together. Here, ambition meets action. Tech meets trust. And innovation isn’t a buzzword — it’s a way of life. The world of work as we know it is changing and we're looking for Trailblazers who are passionate about bettering business and the world through AI, driving innovation, and keeping Salesforce's core values at the heart of it all.\n\nReady to level-up your career at the company leading workforce transformation in the agentic era? You’re in the right place! Agentforce is the future of AI, and you are the future of Salesforce.\n\n**Campaign Analyst, Email Activation Focus: Campaign Readiness & Activation Team (Global Campaigns)**  \n  \nWe’re looking for an organized, detail-oriented Campaign Analyst to join the Campaign Readiness & Activation Team within Global Campaigns. Our team is the operational backbone that makes campaign execution possible at scale.\n  \n  \nWe partner closely with Global Campaigns Strategy Leads and Strategy & Operations partners to make sure what is planned can be executed. In this role, you’ll partner with our Strategy Leads to manage campaigns end to end, with a particular focus on email activation.\n  \n  \nYou’ll keep our sources of truth accurate, turn strategy into field-ready activation kits, and spot gaps before they become problems. You’ll also work closely with cross-functional planning stakeholders and channel partners (paid media, email, webinar), creative, and localization teams.\n  \n  \nWe also continuously test and pilot new AI tools, automation, and ways of working, and you’ll help us find smarter, faster ways to deliver campaigns. The role calls for strong operational expertise, but it isn’t purely operational. We want someone who will grow their stakeholder management skills, build a real understanding of how our campaign systems and processes connect end to end, and bring a strategic mindset to how work gets prioritized and executed.\n  \n  \n**What You’ll Actually Be Doing**\n\n* Campaign Management & Readiness\n  + Partner with Campaign Strategy Leads to manage campaigns from briefing through launch.\n  + Maintain accurate, version-controlled campaign sources of truth, including the repository, trackers, and campaign IDs.\n  + Package final deliverables and keep campaign documentation current.\n* Creative, Briefing & Localization\n  + Prepare and submit creative briefs and Unified Brief inputs, making sure specs, timelines, and dependencies are accurate.\n  + Track creative requests and localization status, and quality-check final deliverables before packaging.\n  + Make sure email copy, creative, and localized assets are complete and match the brief before they go to email build.\n* Email Activation (new)\n  + Own email activation for assigned campaigns, from handoff to send. This includes submitting email requests, confirming audiences, offers, and tracking, and managing cycle and send timelines.\n  + Partner with email production, trafficking, and cloud marketing teams to coordinate email assembly, QA, approvals, and scheduling.\n  + Check that emails are accurate before launch. This covers links, UTMs, offer and campaign IDs, segmentation, localization, and legal and compliance requirements.\n  + Track email go-live status in the activation trackers, and flag risks or delays early with recommended actions.\n  + Help improve the email handoff process to cut speed-to-market, using templates, standard inputs, and clear intake.\n  + Support email automation pilots by testing AI-assisted email assembly and activation workflows, tracking time and quality against baselines, and documenting what works.\n* Activation & Stakeholder Communication\n  + Lead readiness and launch communications, including Hive meetings and quarterly and cycle updates.\n  + Coordinate with paid media, email, and webinar partners, track go-live status, and flag risks early with recommended actions.\n* Reporting & Insights\n  + Report activation status and summarize performance takeaways for Strategy Leads and the Hive.\n  + Share email performance results (such as opens, clicks, and conversions) and recommend improvements.\n  + Build audience journey walk-throughs.\n* AI, Automation & Continuous Optimization\n  + Test and pilot new AI and automation tools and workflows to make repository, audit, briefing, email activation, and reporting work faster and more accurate.\n  Document what works, share learnings with the team, and help roll out improved ways of working.\n\n**You’re Our Person If...**\n\n* You have a Bachelor’s degree in Marketing, Business, Communications, or a related field, or equivalent experience.\n* You have strong organization and attention to detail, with the ability to manage multiple workstreams and deadlines accurately.\n* You communicate clearly in writing and speech, including concise updates to cross-functional partners.\n* You’re proficient with Google Workspace (Sheets, Slides, Docs).\n* You have hands-on experience with email campaigns, such as intake, QA, or send coordination.\nYou can work independently, raise risks early, and partner closely with Campaign Strategy Leads. You’re curious about AI and automation, and willing to test, pilot, and continuously improve how work gets done.  \n\n**Even Better If...**\n\n* You’re familiar with Salesforce, campaign operations, or marketing automation.\n* You’ve used email platforms such as Marketing Cloud or Pardot (Account Engagement), or similar tools.\n* You understand email best practices, including deliverability, segmentation, and personalization.\nYou’ve used project tools such as Slack or Asana.  \n\n**What We Offer**\n\n* A collaborative and supportive work environment.\n* Exposure to various aspects of marketing, demand generation, and project mana",
+   "age_days": 0
+  },
+  "9a428b3a6f1fef70": {
+   "id": "9a428b3a6f1fef70",
+   "company": "U.S. Bank",
+   "title": "Derivative Counterparty Risk Analyst",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4483137651"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [
+    "absent-from-company-site"
+   ],
+   "location": "Chicago, IL, USA",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": 2,
+   "on_watchlist": true,
+   "primary_url": "https://www.linkedin.com/jobs/view/4483137651",
+   "date_posted": "2026-11-23",
+   "age_days": 2
+  },
+  "7b213610666fd345": {
+   "id": "7b213610666fd345",
+   "company": "Radiant Systems Inc",
+   "title": "Treasury Analyst",
+   "first_seen": "2026-11-25",
+   "urls": {
+    "linkedin": "https://www.linkedin.com/jobs/view/4494748112"
+   },
+   "sources": [
+    "linkedin"
+   ],
+   "flags": [],
+   "location": "Chicago, IL, USA",
+   "loc_bucket": "Chicago",
+   "track": "fulltime",
+   "last_seen": "2026-11-25",
+   "status": "live",
+   "tier": null,
+   "on_watchlist": false,
+   "primary_url": "https://www.linkedin.com/jobs/view/4494748112",
+   "date_posted": "2026-11-24",
+   "age_days": 1
   }
  },
- "last_run": "2026-11-25T11:06:09.664673+00:00",
+ "last_run": "2026-11-25T23:10:27.074460+00:00",
  "programs": {
   "Goldman Sachs - New Analyst Program (Americas)": {
    "company": "Goldman Sachs",
@@ -16694,10 +18003,10 @@
    "company": "Barclays",
    "url": "https://search.jobs.barclays/early-careers",
    "status": "unclear",
-   "hash": "cea540093b87",
+   "hash": "f7dea72feaa4",
    "changed": true,
    "status_changed": false,
-   "chars": 7036,
+   "chars": 6918,
    "ok": true,
    "snippet": ""
   },
