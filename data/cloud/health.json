@@ -1,34 +1,34 @@
 {
  "runner": "cloud",
- "run_at": "2026-11-25T23:10:27.074460+00:00",
- "minutes": 20.4,
- "raw": 5178,
- "kept": 881,
- "live": 683,
- "new_today": 105,
+ "run_at": "2026-11-26T11:04:41.627477+00:00",
+ "minutes": 12.5,
+ "raw": 4172,
+ "kept": 482,
+ "live": 689,
+ "new_today": 8,
  "filter_reasons": {
-  "function": 1549,
-  "internship-wrong-year": 68,
-  "ok": 881,
-  "seniority": 305,
-  "experience": 57,
-  "location": 2318
+  "function": 1052,
+  "internship-wrong-year": 19,
+  "ok": 482,
+  "seniority": 249,
+  "experience": 60,
+  "location": 2310
  },
  "boards": {
   "indeed": {
    "ok": 51,
    "errors": 0,
-   "rows": 499,
+   "rows": 515,
    "last_error": "",
    "skipped": 0,
    "company_searches": 158
   },
   "linkedin": {
-   "ok": 41,
-   "errors": 10,
-   "rows": 1230,
+   "ok": 7,
+   "errors": 7,
+   "rows": 210,
    "last_error": "response status code 429 (blocked: use a proxy)",
-   "skipped": 0
+   "skipped": 37
   }
  },
  "ats_ok": 54,
@@ -48,13 +48,13 @@
    "ok": null,
    "open_roles_read": null,
    "error": "",
-   "live_in_pool": 11
+   "live_in_pool": 12
   },
   "J.P. Morgan": {
    "tier": 1,
    "method": "oracle",
    "ok": true,
-   "open_roles_read": 413,
+   "open_roles_read": 409,
    "error": "",
    "live_in_pool": 35
   },
@@ -62,7 +62,7 @@
    "tier": 1,
    "method": "sitemap",
    "ok": true,
-   "open_roles_read": 2114,
+   "open_roles_read": 2115,
    "error": "",
    "live_in_pool": 22
   },
@@ -70,9 +70,9 @@
    "tier": 1,
    "method": "sitemap",
    "ok": true,
-   "open_roles_read": 3196,
+   "open_roles_read": 3171,
    "error": "",
-   "live_in_pool": 31
+   "live_in_pool": 30
   },
   "Wells Fargo": {
    "tier": 1,
@@ -94,7 +94,7 @@
    "tier": 2,
    "method": "sitemap",
    "ok": true,
-   "open_roles_read": 1167,
+   "open_roles_read": 1091,
    "error": "",
    "live_in_pool": 0
   },
@@ -104,7 +104,7 @@
    "ok": true,
    "open_roles_read": 650,
    "error": "",
-   "live_in_pool": 6
+   "live_in_pool": 5
   },
   "Deutsche Bank": {
    "tier": 1,
@@ -182,7 +182,7 @@
    "tier": 2,
    "method": "sitemap",
    "ok": true,
-   "open_roles_read": 612,
+   "open_roles_read": 616,
    "error": "",
    "live_in_pool": 0
   },
@@ -238,7 +238,7 @@
    "tier": 1,
    "method": "sitemap",
    "ok": true,
-   "open_roles_read": 794,
+   "open_roles_read": 788,
    "error": "",
    "live_in_pool": 5
   },
@@ -254,7 +254,7 @@
    "tier": 1,
    "method": "sitemap",
    "ok": true,
-   "open_roles_read": 486,
+   "open_roles_read": 478,
    "error": "",
    "live_in_pool": 6
   },
@@ -286,7 +286,7 @@
    "tier": 2,
    "method": "sitemap",
    "ok": true,
-   "open_roles_read": 1095,
+   "open_roles_read": 1136,
    "error": "",
    "live_in_pool": 5
   },
@@ -326,7 +326,7 @@
    "tier": 2,
    "method": "sitemap",
    "ok": true,
-   "open_roles_read": 1232,
+   "open_roles_read": 1236,
    "error": "",
    "live_in_pool": 3
   },
@@ -334,7 +334,7 @@
    "tier": 1,
    "method": "sitemap",
    "ok": true,
-   "open_roles_read": 1358,
+   "open_roles_read": 1457,
    "error": "",
    "live_in_pool": 3
   },
@@ -342,7 +342,7 @@
    "tier": 2,
    "method": "sitemap",
    "ok": true,
-   "open_roles_read": 1312,
+   "open_roles_read": 1308,
    "error": "",
    "live_in_pool": 4
   },
@@ -358,7 +358,7 @@
    "tier": 2,
    "method": "sitemap",
    "ok": true,
-   "open_roles_read": 1936,
+   "open_roles_read": 1932,
    "error": "",
    "live_in_pool": 0
   },
@@ -736,7 +736,7 @@
    "ok": null,
    "open_roles_read": null,
    "error": "",
-   "live_in_pool": 4
+   "live_in_pool": 5
   },
   "BGC Group": {
    "tier": 2,
@@ -864,7 +864,7 @@
    "ok": true,
    "open_roles_read": 113,
    "error": "",
-   "live_in_pool": 3
+   "live_in_pool": 4
   },
   "Optiver": {
    "tier": 1,
@@ -872,13 +872,13 @@
    "ok": true,
    "open_roles_read": 146,
    "error": "",
-   "live_in_pool": 5
+   "live_in_pool": 6
   },
   "IMC Trading": {
    "tier": 2,
    "method": "greenhouse",
    "ok": true,
-   "open_roles_read": 151,
+   "open_roles_read": 150,
    "error": "",
    "live_in_pool": 9
   },
@@ -902,7 +902,7 @@
    "tier": 2,
    "method": "greenhouse",
    "ok": true,
-   "open_roles_read": 81,
+   "open_roles_read": 83,
    "error": "",
    "live_in_pool": 2
   },
@@ -910,7 +910,7 @@
    "tier": 2,
    "method": "greenhouse",
    "ok": true,
-   "open_roles_read": 93,
+   "open_roles_read": 94,
    "error": "",
    "live_in_pool": 1
   },
@@ -966,7 +966,7 @@
    "tier": 2,
    "method": "greenhouse",
    "ok": true,
-   "open_roles_read": 44,
+   "open_roles_read": 43,
    "error": "",
    "live_in_pool": 3
   },
@@ -1062,7 +1062,7 @@
    "tier": 2,
    "method": "eightfold",
    "ok": true,
-   "open_roles_read": 168,
+   "open_roles_read": 167,
    "error": "",
    "live_in_pool": 3
   },
@@ -1150,7 +1150,7 @@
    "tier": 2,
    "method": "greenhouse",
    "ok": true,
-   "open_roles_read": 87,
+   "open_roles_read": 88,
    "error": "",
    "live_in_pool": 5
   },
@@ -1412,10 +1412,10 @@
    "company": "Barclays",
    "url": "https://search.jobs.barclays/early-careers",
    "status": "unclear",
-   "hash": "f7dea72feaa4",
+   "hash": "117a7bb0567f",
    "changed": true,
    "status_changed": false,
-   "chars": 6918,
+   "chars": 7065,
    "ok": true,
    "snippet": ""
   },
