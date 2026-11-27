@@ -1,40 +1,38 @@
 {
  "runner": "cloud",
- "run_at": "2026-11-27T11:00:25.556520+00:00",
- "minutes": 12.9,
- "raw": 4004,
- "kept": 485,
- "live": 711,
- "new_today": 3,
+ "run_at": "2026-11-27T23:12:44.850846+00:00",
+ "minutes": 9.3,
+ "raw": 3808,
+ "kept": 299,
+ "live": 714,
+ "new_today": 7,
  "filter_reasons": {
-  "function": 1023,
-  "internship-wrong-year": 20,
-  "ok": 485,
-  "seniority": 230,
-  "experience": 54,
-  "location": 2192
+  "function": 917,
+  "internship-wrong-year": 46,
+  "ok": 299,
+  "seniority": 189,
+  "location": 2305,
+  "experience": 52
  },
  "boards": {
   "indeed": {
    "ok": 51,
    "errors": 0,
-   "rows": 398,
+   "rows": 369,
    "last_error": "",
    "skipped": 0,
    "company_searches": 158
   },
   "linkedin": {
-   "ok": 11,
-   "errors": 7,
-   "rows": 330,
+   "ok": 0,
+   "errors": 3,
+   "rows": 0,
    "last_error": "response status code 429 (blocked: use a proxy)",
-   "skipped": 33
+   "skipped": 48
   }
  },
- "ats_ok": 53,
- "ats_failed": {
-  "Millennium": "sequence item 0: expected str instance, NoneType found"
- },
+ "ats_ok": 54,
+ "ats_failed": {},
  "coverage": {
   "Goldman Sachs": {
    "tier": 1,
@@ -56,7 +54,7 @@
    "tier": 1,
    "method": "oracle",
    "ok": true,
-   "open_roles_read": 409,
+   "open_roles_read": 407,
    "error": "",
    "live_in_pool": 37
   },
@@ -72,7 +70,7 @@
    "tier": 1,
    "method": "sitemap",
    "ok": true,
-   "open_roles_read": 3138,
+   "open_roles_read": 3150,
    "error": "",
    "live_in_pool": 30
   },
@@ -96,7 +94,7 @@
    "tier": 2,
    "method": "sitemap",
    "ok": true,
-   "open_roles_read": 1135,
+   "open_roles_read": 1063,
    "error": "",
    "live_in_pool": 1
   },
@@ -104,7 +102,7 @@
    "tier": 1,
    "method": "sitemap",
    "ok": true,
-   "open_roles_read": 652,
+   "open_roles_read": 657,
    "error": "",
    "live_in_pool": 5
   },
@@ -184,7 +182,7 @@
    "tier": 2,
    "method": "sitemap",
    "ok": true,
-   "open_roles_read": 604,
+   "open_roles_read": 612,
    "error": "",
    "live_in_pool": 0
   },
@@ -240,7 +238,7 @@
    "tier": 1,
    "method": "sitemap",
    "ok": true,
-   "open_roles_read": 778,
+   "open_roles_read": 811,
    "error": "",
    "live_in_pool": 4
   },
@@ -256,9 +254,9 @@
    "tier": 1,
    "method": "sitemap",
    "ok": true,
-   "open_roles_read": 464,
+   "open_roles_read": 458,
    "error": "",
-   "live_in_pool": 6
+   "live_in_pool": 7
   },
   "Scotiabank": {
    "tier": 2,
@@ -288,9 +286,9 @@
    "tier": 2,
    "method": "sitemap",
    "ok": true,
-   "open_roles_read": 1167,
+   "open_roles_read": 1129,
    "error": "",
-   "live_in_pool": 5
+   "live_in_pool": 4
   },
   "Itau BBA": {
    "tier": 2,
@@ -328,7 +326,7 @@
    "tier": 2,
    "method": "sitemap",
    "ok": true,
-   "open_roles_read": 1164,
+   "open_roles_read": 1302,
    "error": "",
    "live_in_pool": 3
   },
@@ -336,7 +334,7 @@
    "tier": 1,
    "method": "sitemap",
    "ok": true,
-   "open_roles_read": 1421,
+   "open_roles_read": 1508,
    "error": "",
    "live_in_pool": 3
   },
@@ -344,7 +342,7 @@
    "tier": 2,
    "method": "sitemap",
    "ok": true,
-   "open_roles_read": 1265,
+   "open_roles_read": 1248,
    "error": "",
    "live_in_pool": 4
   },
@@ -360,7 +358,7 @@
    "tier": 2,
    "method": "sitemap",
    "ok": true,
-   "open_roles_read": 1928,
+   "open_roles_read": 1930,
    "error": "",
    "live_in_pool": 0
   },
@@ -712,7 +710,7 @@
    "tier": 1,
    "method": "greenhouse",
    "ok": true,
-   "open_roles_read": 32,
+   "open_roles_read": 31,
    "error": "",
    "live_in_pool": 1
   },
@@ -808,7 +806,7 @@
    "tier": 2,
    "method": "sitemap",
    "ok": true,
-   "open_roles_read": 109,
+   "open_roles_read": 108,
    "error": "",
    "live_in_pool": 3
   },
@@ -880,7 +878,7 @@
    "tier": 2,
    "method": "greenhouse",
    "ok": true,
-   "open_roles_read": 150,
+   "open_roles_read": 151,
    "error": "",
    "live_in_pool": 9
   },
@@ -888,7 +886,7 @@
    "tier": 1,
    "method": "greenhouse",
    "ok": true,
-   "open_roles_read": 149,
+   "open_roles_read": 148,
    "error": "",
    "live_in_pool": 4
   },
@@ -1063,9 +1061,9 @@
   "Millennium": {
    "tier": 2,
    "method": "eightfold",
-   "ok": false,
-   "open_roles_read": null,
-   "error": "sequence item 0: expected str instance, NoneType found",
+   "ok": true,
+   "open_roles_read": 169,
+   "error": "",
    "live_in_pool": 3
   },
   "Balyasny": {
@@ -1080,7 +1078,7 @@
    "tier": 2,
    "method": "greenhouse",
    "ok": true,
-   "open_roles_read": 67,
+   "open_roles_read": 66,
    "error": "",
    "live_in_pool": 2
   },
@@ -1360,9 +1358,9 @@
    "tier": 2,
    "method": "greenhouse",
    "ok": true,
-   "open_roles_read": 40,
+   "open_roles_read": 42,
    "error": "",
-   "live_in_pool": 3
+   "live_in_pool": 6
   }
  },
  "program_pages": {
@@ -1414,10 +1412,10 @@
    "company": "Barclays",
    "url": "https://search.jobs.barclays/early-careers",
    "status": "unclear",
-   "hash": "9d403cccc5cb",
+   "hash": "ea8ae935fd23",
    "changed": true,
    "status_changed": false,
-   "chars": 7206,
+   "chars": 7215,
    "ok": true,
    "snippet": ""
   },
